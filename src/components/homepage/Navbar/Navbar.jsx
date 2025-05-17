@@ -5,6 +5,7 @@ import { useState } from "react";
 import { TbPhoneCall } from "react-icons/tb";
 import { FaHeartbeat, FaMicroscope, FaBrain, FaStethoscope, FaBone, FaTint } from 'react-icons/fa';
 import { FaUserMd } from 'react-icons/fa';
+import Dropdown from "./Dropdown";
 
 
 const navLinks = [
@@ -12,64 +13,7 @@ const navLinks = [
   { label: "About Tvameva Clinic", href: "/about-clinic" },
   {
   label: (
-    <div className="group relative inline-block text-left w-full">
-      {/* Trigger */}
-      <div className="cursor-pointer text-gray-700 rounded hover:bg-gray-100">
-        Men/Women
-      </div>
-
-      {/* Dropdown */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 w-[80vw] rounded-lg hidden group-hover:flex z-20  p-4 justify-between">
-        
-        <div className="absolute left-1/2 transform -translate-x-1/2  w-[80vw] bg-white rounded-lg shadow-[0px_0px_20px_#e6e6e6] hidden group-hover:flex z-20  p-4 justify-between">
-          {/* Men */}
-        <div className="w-1/2 pr-6 border-r border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-700 mb-3">Men</h3>
-          <ul className="grid grid-cols-1 gap-4">
-            <li className="flex border-b border-gray-300  pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaHeartbeat className="text-[#1AAEBC]" />
-              <span>Hair</span>
-            </li>
-            <li className="flex border-b border-gray-300 pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaBrain className="text-[#1AAEBC]" />
-              <span>Skin</span>
-            </li>
-            <li className="flex border-b border-gray-300 pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaMicroscope className="text-[#1AAEBC]" />
-              <span>Body</span>
-            </li>
-            <li className="flex pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaTint className="text-[#1AAEBC]" />
-              <span>Face</span>
-            </li>
-          </ul>
-        </div>
-
-        {/* Women */}
-        <div className="w-1/2 pl-6">
-          <h3 className="text-lg font-semibold text-gray-700 mb-3">Women</h3>
-          <ul className="grid grid-cols-1 gap-4">
-            <li className="flex border-b border-gray-300  pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaHeartbeat className="text-[#1AAEBC]" />
-              <span>Hair</span>
-            </li>
-            <li className="flex border-b border-gray-300 pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaBrain className="text-[#1AAEBC]" />
-              <span>Skin</span>
-            </li>
-            <li className="flex border-b border-gray-300 pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaMicroscope className="text-[#1AAEBC]" />
-              <span>Body</span>
-            </li>
-            <li className="flex pb-3 items-center gap-2 cursor-pointer hover:text-blue-600">
-              <FaTint className="text-[#1AAEBC]" />
-              <span>Face</span>
-            </li>
-          </ul>
-        </div>
-        </div>
-      </div>
-    </div>
+    <Dropdown/>
   ),
   href: "#",
 },
