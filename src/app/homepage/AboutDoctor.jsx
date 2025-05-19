@@ -1,24 +1,30 @@
 "use client";
 import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import { MdRadioButtonChecked } from "react-icons/md";
 import { Great_Vibes } from "next/font/google";
+
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
   weight: ["400"], // Only 400 is available for Great Vibes
 });
 
 export default function About() {
+  const imageRef = useRef(null);
+  const textRef = useRef(null);
+  const isImageInView = useInView(imageRef, { once: true });
+  const isTextInView = useInView(textRef, { once: true });
+
   return (
     <section className="px-4 py-10 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Image Section */}
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          ref={imageRef}
+          initial={{ opacity: 0, x: -50, scale: 0.95 }}
+          animate={isImageInView ? { opacity: 1, x: 0, scale: 1 } : {}}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
           className="relative w-full md:w-[500px] h-[400px] md:h-[500px] shadow-xl rounded-2xl overflow-hidden"
         >
           <Image
@@ -32,10 +38,10 @@ export default function About() {
 
         {/* Text Section */}
         <motion.div
+          ref={textRef}
           initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={isTextInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
           className="w-full md:w-[60%]"
         >
           <p className="text-sm w-32 flex items-center gap-1 bg-green-100 tracking-wide mb-1 px-2 py-1 rounded-full">
@@ -65,11 +71,9 @@ export default function About() {
             Doctorate of National board (DrNB) from New Delhi.
           </p>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            He's one of the few plastic surgeons with double degrees (Mch &
-            DrNB), including National Board certification
+            He's one of the few plastic surgeons with double degrees (Mch & DrNB),
+            including National Board certification.
           </p>
-
-          {/* <h1 className={`${greatVibes.className} text-2xl mb-5`}>Kunal Sayani</h1> */}
 
           <div className="flex items-center gap-4">
             <motion.button

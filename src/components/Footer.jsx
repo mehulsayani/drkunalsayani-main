@@ -1,68 +1,78 @@
-import React from "react";
-import Link from "next/link";
+// components/Footer.js
 import Image from "next/image";
+import {
+  FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaPinterest
+} from "react-icons/fa";
+import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white pt-12 pb-8">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Logo + Description */}
+    <footer className="bg-[#1e1e1e] text-[#ffffff] px-8 py-10 text-sm">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+        {/* Logo and About */}
         <div>
-          <Link href="/">
-            <Image
-              src="/images/logo-white.png" // Replace with your white logo
-              alt="Logo"
-              width={150}
-              height={40}
-              className="mb-4"
-            />
-          </Link>
-          <p className="text-gray-400 text-sm">
-            Tvameva – Personalized aesthetic care with advanced technology & a holistic approach to beauty. Your journey starts here.
+          <Image src="/components/navbar/logo.png" alt="Auro Skin" width={100} height={100} className="w-20 mb-4" />
+          <p className="mb-4">
+            Auro Skin Clinic is a comprehensive <strong>skin care clinic</strong> in Vile Parle, Mumbai.
           </p>
+          {/* <button className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700">
+            READ MORE
+          </button> */}
+        </div>
+
+        {/* About Us */}
+        <div>
+          <h4 className="font-semibold mb-2">About Us</h4>
+          <ul className="space-y-1">
+            <li>Auro Skin Clinic</li>
+            <li>Dr. Avina</li>
+            <li>Our Team</li>
+            <li>Social Initiatives</li>
+          </ul>
         </div>
 
         {/* Services */}
         <div>
-          <h4 className="font-semibold text-lg mb-4">Services</h4>
-          <ul className="space-y-2 text-sm text-gray-300">
-            <li><Link href="/services/hair-transplant" className="hover:text-white">Hair Transplant</Link></li>
-            <li><Link href="/services/gynecomastia" className="hover:text-white">Gynecomastia Surgery</Link></li>
-            <li><Link href="/services/aesthetic-surgery" className="hover:text-white">Aesthetic Surgery</Link></li>
-            <li><Link href="/services/facial-rejuvenation" className="hover:text-white">Facial Rejuvenation</Link></li>
+          <h4 className="font-semibold mb-2">Services</h4>
+          <ul className="space-y-1">
+            <li>Skin Treatment</li>
+            <li>Hair Treatment</li>
+            <li>Nail Treatment</li>
+            <li>Diagnostics</li>
+            <li>Dermatosurgery</li>
+            <li>Laser Treatments</li>
+            <li>Aesthetics</li>
           </ul>
         </div>
 
-        {/* Company */}
+        {/* Quick Links */}
         <div>
-          <h4 className="font-semibold text-lg mb-4">Company</h4>
-          <ul className="space-y-2 text-sm text-gray-300">
-            <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-            <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
-            <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
-            <li><Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link></li>
+          <h4 className="font-semibold mb-2">Quick Links</h4>
+          <ul className="space-y-1">
+            <li>Patient Reviews</li>
+            <li>Blogs</li>
+            <li>Appointments</li>
+            <li>FAQs</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
           </ul>
         </div>
 
-        {/* Contact Info */}
+        {/* Contact Us */}
         <div>
-          <h4 className="font-semibold text-lg mb-4">Contact</h4>
-          <ul className="space-y-2 text-sm text-gray-300">
-            <li>📍 123 Aesthetic Ave, Mumbai, India</li>
-            <li>📞 +91 98765 43210</li>
-            <li>✉️ support@tvameva.com</li>
-            <li className="flex space-x-3 mt-3">
-              <a href="#" className="hover:text-white">🌐</a>
-              <a href="#" className="hover:text-white">📘</a>
-              <a href="#" className="hover:text-white">📸</a>
+          <h4 className="font-semibold mb-2">Contact Us</h4>
+          <ul className="space-y-2">
+            <li className="flex items-center gap-2"><MdPhone /> +91 23465 45644</li>
+            <li className="flex items-center gap-2"><MdEmail /> info@example.in</li>
+            <li className="flex items-start gap-2"><MdLocationOn />
+              <span> Mumbai</span>
             </li>
+            <li className="flex items-center gap-2"><MdAccessTime /> Mon–Sat: 10 AM to 6 PM<br />Wed: 10 AM to 8 PM</li>
           </ul>
+          <div className="flex gap-3 mt-4 text-xl text-teal-700">
+            <FaInstagram /><FaFacebook /><FaTwitter /><FaLinkedin /><FaYoutube /><FaPinterest />
+          </div>
         </div>
-      </div>
-
-      {/* Bottom Bar */}
-      <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Tvameva. All rights reserved.
       </div>
     </footer>
   );
