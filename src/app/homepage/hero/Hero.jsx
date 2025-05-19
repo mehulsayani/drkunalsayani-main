@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Slider from 'react-slick';
 import Slide1 from './Slide1';
 import Slide2 from './Slide2';
@@ -6,13 +7,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-const slides = [
-  { component: <Slide1 /> },
-  { component: <Slide2 /> },
-  { component: <Slide3 /> },
-];
+const slides = [Slide1, Slide2, Slide3];
 
-// Custom Left Arrow (outside)
 function PrevArrow({ onClick }) {
   return (
     <div
@@ -24,7 +20,6 @@ function PrevArrow({ onClick }) {
   );
 }
 
-// Custom Right Arrow (outside)
 function NextArrow({ onClick }) {
   return (
     <div
@@ -37,27 +32,29 @@ function NextArrow({ onClick }) {
 }
 
 export default function ImageSlider() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
     arrows: true,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+    beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
   };
 
   return (
     <div className="relative w-full max-w-[1400px] mx-auto px-16">
-      {/* ⬅️ Adjust px-16 for space around arrows */}
       <Slider {...settings}>
-        {slides.map((slide, index) => (
+        {slides.map((SlideComponent, index) => (
           <div key={index} className="px-2">
-            {slide.component}
+            <SlideComponent isActive={currentSlide === index} />
           </div>
         ))}
       </Slider>

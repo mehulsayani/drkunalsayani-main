@@ -56,87 +56,99 @@ export default function Dropdown() {
       { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Chin Augmentation", link: "/" },
       { icon: <FaTint className="text-[#1AAEBC]" />, label: "Facelift for Women", link: "/" },
     ],
+    "Mommy Makeover": [
+      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Tummy Tuck after Pregnancy", link: "/" },
+      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Breast Lift and Augmentation", link: "/" },
+      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Custom Mommy Makeover", link: "/" },
+    ],
   };
 
-  const categories = ["Hair", "Skin", "Body", "Face"];
+  const categoriesMen = ["Hair", "Skin", "Body", "Face"];
+  const categoriesWomen = ["Hair", "Skin", "Body", "Face", "Mommy Makeover"];
 
   return (
     <div className="group relative inline-block w-full text-left">
-      <div className="text-gray-700 font-semibold cursor-pointer">Men / Women</div>
-
-      <div className="absolute left-1/2 transform -translate-x-1/2 w-[90vw] rounded-xl shadow-xl z-30 bg-white hidden group-hover:flex p-6 transition-all duration-300">
+      <div className="text-gray-700 cursor-pointer">Men / Women</div>
+<div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 ">
+<div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 shadow-[0px_0px_30px_#DCDCDC] bg-white">
         <div className="flex w-full gap-10">
-          {/* Men */}
-          <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedMenCategory(category)}
-                className={`text-left text-sm font-medium px-2 py-1 rounded-md transition-all duration-150 ${
-                  selectedMenCategory === category
-                    ? "text-white bg-[#1AAEBC]"
-                    : "text-gray-700 hover:text-[#1AAEBC]"
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
+          {/* Men Section */}
           <div className="flex-1">
             <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
               {selectedMenCategory} - Men
             </h3>
-            <ul className="gap-4">
-              {men[selectedMenCategory].map((item, index) => (
-                <li key={index}>
-                  <Link
-                    href={item.link}
-                    className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+            <div className="flex">
+              <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
+                {categoriesMen.map((category) => (
+                  <button
+                    key={category}
+                    onClick={() => setSelectedMenCategory(category)}
+                    className={`text-left text-sm font-medium px-1 py-1 rounded-md transition-all duration-150 ${
+                      selectedMenCategory === category
+                        ? "text-white bg-[#1AAEBC]"
+                        : "text-gray-700 hover:text-[#1AAEBC]"
+                    }`}
                   >
-                    {item.icon}
-                    <span className="text-sm font-medium">{item.label}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+                    {category}
+                  </button>
+                ))}
+              </div>
+              <ul className="gap-4">
+                {men[selectedMenCategory].map((item, index) => (
+                  <li key={index}>
+                    <Link
+                      href={item.link}
+                      className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+                    >
+                      {item.icon}
+                      <span className="text-sm font-medium">{item.label}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
-          {/* Women */}
-          <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedWomenCategory(category)}
-                className={`text-left text-sm font-medium px-2 py-1 rounded-md transition-all duration-150 ${
-                  selectedWomenCategory === category
-                    ? "text-white bg-[#1AAEBC]"
-                    : "text-gray-700 hover:text-[#1AAEBC]"
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
+          {/* Women Section */}
           <div className="flex-1">
             <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
               {selectedWomenCategory} - Women
             </h3>
-            <ul className="gap-4">
-              {women[selectedWomenCategory].map((item, index) => (
-                <li key={index}>
-                  <Link
-                    href={item.link}
-                    className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+            <div className="flex">
+              <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
+                {categoriesWomen.map((category) => (
+                  <button
+                    key={category}
+                    onClick={() => setSelectedWomenCategory(category)}
+                    className={`text-left text-sm font-medium px-1 py-1 rounded-md transition-all duration-150 ${
+                      selectedWomenCategory === category
+                        ? "text-white bg-[#1AAEBC]"
+                        : "text-gray-700 hover:text-[#1AAEBC]"
+                    }`}
                   >
-                    {item.icon}
-                    <span className="text-sm font-medium">{item.label}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+                    {category}
+                  </button>
+                ))}
+              </div>
+              <ul className="gap-4">
+                {women[selectedWomenCategory].map((item, index) => (
+                  <li key={index}>
+                    <Link
+                      href={item.link}
+                      className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+                    >
+                      {item.icon}
+                      <span className="text-sm font-medium">{item.label}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+</div>
+      
     </div>
   );
 }
