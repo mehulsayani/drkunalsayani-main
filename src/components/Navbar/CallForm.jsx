@@ -28,7 +28,7 @@ export default function CallForm() {
     <div className="relative z-10 flex ">
       <button
         onClick={() => setIsOpen(true)}
-        className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-[#1AAEBC] px-4 py-2 text-lg rounded-lg hover:border-[#189eaa] transition"
+        className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-[#1AAEBC] px-3 py-2 text-lg rounded-lg hover:border-[#189eaa] transition"
       >
     <FiPhoneCall/>
       </button>

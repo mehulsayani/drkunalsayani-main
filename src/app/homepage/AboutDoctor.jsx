@@ -79,9 +79,9 @@ export default function About() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#1A7DBC] hover:bg-[#1561a5] transition-colors text-white font-semibold px-6 py-2 rounded-md shadow-md"
+              className="bg-[#1BA9B5] hover:bg-[#1561a5] transition-colors text-white font-semibold px-6 py-2 rounded-md shadow-md"
             >
-              Learn More
+              Read More
             </motion.button>
           </div>
         </motion.div>

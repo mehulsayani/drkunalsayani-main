@@ -366,7 +366,7 @@ export default function Dropdown() {
         link: "/",
       },
     ],
-    mommymakeover: [
+    Mommy_Makeover: [
       {
         icon: (
           <Image
@@ -410,7 +410,7 @@ export default function Dropdown() {
   };
 
   const categoriesMen = ["Hair", "Skin", "Body", "Face"];
-  const categoriesWomen = ["Hair", "Skin", "Body", "Face", "Mommy Makeover"];
+  const categoriesWomen = ["Hair", "Skin", "Body", "Face", "Mommy_Makeover"];
 
   return (
     <div className="group relative inline-block w-full text-left">
@@ -425,7 +425,7 @@ export default function Dropdown() {
       </div>
 
       <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 ">
-        <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 shadow-[0px_0px_30px_#DCDCDC] bg-white">
+        <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[80vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 shadow-[0px_0px_30px_#DCDCDC] bg-white">
           <div className="flex w-full gap-10">
             {/* Men Section */}
             <div className="flex-1">
@@ -438,7 +438,7 @@ export default function Dropdown() {
                     <button
                       key={category}
                       onClick={() => setSelectedMenCategory(category)}
-                      className={`text-left text-md font-medium px-1 py-1 rounded-md transition-all duration-150 ${
+                      className={`text-left text-base font-medium px-1 py-1 rounded-md transition-all duration-150 ${
                         selectedMenCategory === category
                           ? "text-white bg-[#1AAEBC]"
                           : "text-gray-700 hover:text-[#1AAEBC]"
@@ -477,7 +477,7 @@ export default function Dropdown() {
                     <button
                       key={category}
                       onClick={() => setSelectedWomenCategory(category)}
-                      className={`text-left text-sm font-medium px-1 py-1 rounded-md transition-all duration-150 ${
+                      className={`text-left text-base font-medium px-1 py-1 rounded-md transition-all duration-150 ${
                         selectedWomenCategory === category
                           ? "text-white bg-[#1AAEBC]"
                           : "text-gray-700 hover:text-[#1AAEBC]"

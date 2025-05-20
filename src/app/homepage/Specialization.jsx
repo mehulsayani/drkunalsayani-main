@@ -97,12 +97,12 @@ export default function Services() {
           <span>Our Services</span>
         </p>
 
-        <div className="flex justify-between items-center mb-6 flex-wrap gap-4 px-3">
+        <div className="flex justify-between items-center mb-6 flex-wrap gap-4 ">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-left">
             Expert Aesthetic Enhancements <br className="hidden sm:block" />
             for Confidence & Wellness
           </h2>
-          <div className="flex gap-3">
+          <div className="flex gap-3 pr-5">
             <button
               aria-label="Previous"
               className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition"
