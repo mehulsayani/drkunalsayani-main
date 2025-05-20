@@ -4,6 +4,8 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Dropdown from "./Dropdown";
 import { FiPhoneCall } from "react-icons/fi";
+import CallForm from "./CallForm";
+
 
 
 export default function Navbar() {
@@ -54,16 +56,11 @@ export default function Navbar() {
           </Link>
         </nav>
         <div className="flex gap-4">
-          <Link
-          href="/call"
-          className="text-[#1AAEBC] border border-[#1AAEBC] px-4 py-2 rounded-md flex justify-center items-center"
-        >
-          <FiPhoneCall/>
-        </Link>
+          <CallForm/>
         {/* Appointment Button */}
         <Link
           href="/book-appointment"
-          className="bg-[#1AAEBC] text-white px-4 py-2 rounded-md"
+          className="bg-[#1AAEBC] text-white px-4 py-2 rounded-lg"
         >
           Book Appointment
         </Link>

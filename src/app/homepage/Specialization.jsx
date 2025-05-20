@@ -1,102 +1,154 @@
-import React from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
-import {
-  FaProcedures,
-  FaMale,
-  FaWeight,
-  FaStethoscope,
-  FaUserNurse,
-  FaSmile,
-  FaSyringe,
-  FaRegGrinStars,
-} from "react-icons/fa";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { MdRadioButtonChecked } from "react-icons/md";
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const specializations = [
   {
     title: "Breast Augmentation",
-    description:
-      "Enhance breast size and shape with natural-looking implants tailored to your body. Restore symmetry and boost confidence through advanced surgical techniques.",
+    description1:
+      "Enhance breast size and shape with natural-looking implants tailored to your body.",
+    image: "/images/specialization/breast-reduction.jpg",
     link: "/services/breast-augmentation",
-    icon: <FaProcedures className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Breast Reduction",
-    description:
-      "Relieve discomfort and achieve proportion with expertly performed breast reduction surgery. Enjoy improved posture, mobility, and self-esteem.",
+    description1:
+      "Relieve discomfort and achieve proportion with expertly performed breast reduction surgery.",
+    image: "/images/specialization/b14.jpg",
     link: "/services/breast-reduction",
-    icon: <FaUserNurse className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Gynecomastia",
-    description:
-      "Sculpt a more masculine chest by removing excess glandular or fatty tissue. A discreet, effective procedure tailored for natural, lasting results.",
+    description1:
+      "Sculpt a more masculine chest by removing excess glandular or fatty tissue.",
+    image: "/images/specialization/Gynecomastia-min.jpg",
     link: "/services/gynecomastia",
-    icon: <FaMale className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Liposuction",
-    description:
-      "Eliminate stubborn fat deposits resistant to diet and exercise. Define your body contours with this safe and targeted fat removal technique.",
+    description1:
+      "Eliminate stubborn fat deposits resistant to diet and exercise.",
+    image: "/images/specialization/liposuction-min.jpg",
     link: "/services/liposuction",
-    icon: <FaWeight className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Tummy Tuck",
-    description:
-      "Tighten loose abdominal muscles and remove excess skin for a firmer, flatter stomach. Ideal after pregnancy or significant weight loss.",
+    description1:
+      "Tighten loose abdominal muscles and remove excess skin for a firmer, flatter stomach.",
+    image: "/images/specialization/tummy-tuck.jpg",
     link: "/services/tummy-tuck",
-    icon: <FaStethoscope className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Face Lift",
-    description:
-      "Reverse signs of aging by lifting and tightening sagging facial skin and muscles. Achieve a rejuvenated, youthful appearance with subtle, natural results.",
+    description1:
+      "Reverse signs of aging by lifting and tightening sagging facial skin and muscles.",
+    image: "/images/specialization/face-lift.jpg",
     link: "/services/face-lift",
-    icon: <FaSmile className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Botox | Derma Fillers",
-    description:
-      "Smooth fine lines, enhance facial volume, and restore youthful contours non-surgically. Quick, effective treatments with minimal downtime.",
+    description1:
+      "Smooth fine lines, enhance facial volume, and restore youthful contours non-surgically.",
+    image: "/images/specialization/botox.jpg",
     link: "/services/botox-fillers",
-    icon: <FaSyringe className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
   {
     title: "Hair Transplant",
-    description:
-      "Restore a fuller hairline using advanced FUE or FUT techniques. Natural-looking, permanent results with minimal recovery time.",
+    description1:
+      "Restore a fuller hairline using advanced FUE or FUT techniques.",
+    image: "/images/specialization/hair-transplant.jpg",
     link: "/services/hair-transplant",
-    icon: <FaRegGrinStars className="text-[#1AAEBC] text-3xl mb-3 mx-auto" />,
   },
 ];
 
-export default function Specialization() {
+const sliderSettings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  pauseOnHover:false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: { slidesToShow: 2 },
+    },
+    {
+      breakpoint: 768,
+      settings: { slidesToShow: 1 },
+    },
+  ],
+};
+
+export default function Services() {
+  const sliderRef = useRef(null);
+
   return (
-    <section className="bg-white py-16" id="specializations">
+    <section className="bg-[#f9fbfc] py-16" id="services">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-          Areas of Specialization
-        </h2>
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-          {specializations.map((item, index) => (
-            <div
-              key={index}
-              className="bg-gray-50 rounded-xl p-6 shadow hover:shadow-lg transition-all"
+        <p className="text-sm w-32 flex items-center gap-1 bg-green-100 tracking-wide mb-4 px-2 py-1 rounded-full">
+          <MdRadioButtonChecked />
+          <span>Our Services</span>
+        </p>
+
+        <div className="flex justify-between items-center mb-6 flex-wrap gap-4 px-3">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-left">
+            Expert Aesthetic Enhancements <br className="hidden sm:block" />
+            for Confidence & Wellness
+          </h2>
+          <div className="flex gap-3">
+            <button
+              aria-label="Previous"
+              className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition"
+              onClick={() => sliderRef.current?.slickPrev()}
             >
-              <div className="flex justify-center">{item.icon}</div>
-              <h3 className="text-lg font-semibold text-[#1AAEBC] mb-2">
-                {item.title}
-              </h3>
-              <p className="text-sm text-gray-600 mb-4">{item.description}</p>
-              <Link
-                href={item.link}
-                className="text-sm font-semibold text-[#1AAEBC] hover:underline"
-              >
-                Know More →
-              </Link>
+              <GoArrowLeft className="text-3xl text-[#1AAEBC]" />
+            </button>
+            <button
+              aria-label="Next"
+              className="p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition"
+              onClick={() => sliderRef.current?.slickNext()}
+            >
+              <GoArrowRight className="text-3xl text-[#1AAEBC]" />
+            </button>
+          </div>
+        </div>
+
+        <Slider {...sliderSettings} ref={sliderRef}>
+          {specializations.map((service, index) => (
+            <div key={index} className="px-3">
+              <div className="bg-white rounded-xl shadow hover:shadow-lg transition-all overflow-hidden">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-56 object-cover"
+                />
+                <div className="p-6 text-left">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-4">
+                    {service.description1}
+                  </p>
+                  <Link
+                    href={service.link}
+                    className="text-sm font-semibold text-[#1AAEBC] hover:underline"
+                  >
+                    Read More →
+                  </Link>
+                </div>
+              </div>
             </div>
           ))}
-        </div>
+        </Slider>
+
+      
       </div>
     </section>
   );

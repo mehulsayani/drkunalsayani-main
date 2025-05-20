@@ -1,6 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaHeartbeat, FaMicroscope, FaBrain, FaTint } from "react-icons/fa";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 export default function Dropdown() {
   const [selectedMenCategory, setSelectedMenCategory] = useState("Hair");
@@ -8,58 +10,402 @@ export default function Dropdown() {
 
   const men = {
     Hair: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Hair Transplant", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "FUE Hair Restoration for Men", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "PRP Hair Growth Treatment", link: "/" },
-      { icon: <FaTint className="text-[#1AAEBC]" />, label: "Nano Fat Injection (SVF) for Hair Growth", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/hair/hair.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Hair Transplant",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/men/hair/hair-transplant.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "FUE Hair Restoration for Men",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/hair/prp.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "PRP Hair Growth Treatment",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/hair/syringe.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Nano Fat Injection (SVF) for Hair Growth",
+        link: "/",
+      },
     ],
     Skin: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Botox for Men", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Dermal Fillers for Men", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Laser Skin Resurfacing for Men", link: "/" },
-      { icon: <FaTint className="text-[#1AAEBC]" />, label: "Scar Removal", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/skin/botox.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Botox for Men",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/skin/face.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Dermal Fillers for Men",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/skin/facial-care.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Laser Skin Resurfacing for Men",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/skin/scar.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Scar Removal",
+        link: "/",
+      },
     ],
     Body: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Male Liposuction", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Male Tummy Tuck", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Gynecomastia Correction", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/body/liposuction.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Male Liposuction",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/body/tummy-tuck.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Male Tummy Tuck",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/body/gynecomastia.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Gynecomastia Correction",
+        link: "/",
+      },
     ],
     Face: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Male Rhinoplasty", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Male Jawline Contouring", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Chin Augmentation", link: "/" },
-      { icon: <FaTint className="text-[#1AAEBC]" />, label: "Male Facelift", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/face/beauty.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Male Rhinoplasty",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/face/jaw-contouring.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Male Jawline Contouring",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/face/chin.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Chin Augmentation",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/men/face/facelift.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Male Facelift",
+        link: "/",
+      },
     ],
   };
 
   const women = {
     Hair: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Hair Transplant for Women", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "FUE Hair Restoration for Women", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "PRP Hair Growth Treatment", link: "/" },
-      { icon: <FaTint className="text-[#1AAEBC]" />, label: "Nano Fat Injection (SVF) for Hair Growth", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/hair/hair-loss.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Hair Transplant for Women",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/women/hair/hair-transplant.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "FUE Hair Restoration for Women",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/hair/prp.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "PRP Hair Growth Treatment",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/hair/syringe.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Nano Fat Injection (SVF) for Hair Growth",
+        link: "/",
+      },
     ],
     Skin: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Botox for Women", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Dermal Fillers for Women", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Laser Skin Resurfacing", link: "/" },
-      { icon: <FaTint className="text-[#1AAEBC]" />, label: "Scar Removal", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/skin/botox.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Botox for Women",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/women/skin/dermal-filler.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Dermal Fillers for Women",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/skin/woman.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Laser Skin Resurfacing",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/skin/scar.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Scar Removal",
+        link: "/",
+      },
     ],
     Body: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Female Liposuction", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Tummy Tuck for Women", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Body Contouring", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/body/liposuction.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Female Liposuction",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/body/scissors.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Tummy Tuck for Women",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/women/body/body-contouring.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Body Contouring",
+        link: "/",
+      },
     ],
     Face: [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Female Rhinoplasty", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Jawline Contouring for Women", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Chin Augmentation", link: "/" },
-      { icon: <FaTint className="text-[#1AAEBC]" />, label: "Facelift for Women", link: "/" },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/face/rhinoplasty.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Female Rhinoplasty",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/face/jaw.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Jawline Contouring for Women",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/face/chin.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Chin Augmentation",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={"/images/homepage/navbar/dropdown/women/face/facial.png"}
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Facelift for Women",
+        link: "/",
+      },
     ],
-    "Mommy Makeover": [
-      { icon: <FaHeartbeat className="text-[#1AAEBC]" />, label: "Tummy Tuck after Pregnancy", link: "/" },
-      { icon: <FaBrain className="text-[#1AAEBC]" />, label: "Breast Lift and Augmentation", link: "/" },
-      { icon: <FaMicroscope className="text-[#1AAEBC]" />, label: "Custom Mommy Makeover", link: "/" },
+    mommymakeover: [
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/women/mommymakeover/scissors.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Tummy Tuck after Pregnancy",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/women/mommymakeover/mastopexy.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Breast Lift and Augmentation",
+        link: "/",
+      },
+      {
+        icon: (
+          <Image
+            src={
+              "/images/homepage/navbar/dropdown/women/mommymakeover/body-contouring.png"
+            }
+            width={40}
+            height={40}
+          />
+        ),
+        label: "Custom Mommy Makeover",
+        link: "/",
+      },
     ],
   };
 
@@ -68,87 +414,99 @@ export default function Dropdown() {
 
   return (
     <div className="group relative inline-block w-full text-left">
-      <div className="text-gray-700 cursor-pointer">Men / Women</div>
-<div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 ">
-<div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 shadow-[0px_0px_30px_#DCDCDC] bg-white">
-        <div className="flex w-full gap-10">
-          {/* Men Section */}
-          <div className="flex-1">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
-              {selectedMenCategory} - Men
-            </h3>
-            <div className="flex">
-              <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
-                {categoriesMen.map((category) => (
-                  <button
-                    key={category}
-                    onClick={() => setSelectedMenCategory(category)}
-                    className={`text-left text-sm font-medium px-1 py-1 rounded-md transition-all duration-150 ${
-                      selectedMenCategory === category
-                        ? "text-white bg-[#1AAEBC]"
-                        : "text-gray-700 hover:text-[#1AAEBC]"
-                    }`}
-                  >
-                    {category}
-                  </button>
-                ))}
-              </div>
-              <ul className="gap-4">
-                {men[selectedMenCategory].map((item, index) => (
-                  <li key={index}>
-                    <Link
-                      href={item.link}
-                      className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
-                    >
-                      {item.icon}
-                      <span className="text-sm font-medium">{item.label}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+      <div
+        className="text-gray-800 cursor-pointer group relative inline-flex items-center space-x-1 hover:text-gray-900 transition-colors"
+        role="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span>Men / Women</span>
+        <MdKeyboardArrowDown className="transform transition-transform duration-300 group-hover:rotate-180" />
+      </div>
 
-          {/* Women Section */}
-          <div className="flex-1">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
-              {selectedWomenCategory} - Women
-            </h3>
-            <div className="flex">
-              <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
-                {categoriesWomen.map((category) => (
-                  <button
-                    key={category}
-                    onClick={() => setSelectedWomenCategory(category)}
-                    className={`text-left text-sm font-medium px-1 py-1 rounded-md transition-all duration-150 ${
-                      selectedWomenCategory === category
-                        ? "text-white bg-[#1AAEBC]"
-                        : "text-gray-700 hover:text-[#1AAEBC]"
-                    }`}
-                  >
-                    {category}
-                  </button>
-                ))}
-              </div>
-              <ul className="gap-4">
-                {women[selectedWomenCategory].map((item, index) => (
-                  <li key={index}>
-                    <Link
-                      href={item.link}
-                      className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+      <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 ">
+        <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 shadow-[0px_0px_30px_#DCDCDC] bg-white">
+          <div className="flex w-full gap-10">
+            {/* Men Section */}
+            <div className="flex-1">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+                Men
+              </h3>
+              <div className="flex">
+                <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
+                  {categoriesMen.map((category) => (
+                    <button
+                      key={category}
+                      onClick={() => setSelectedMenCategory(category)}
+                      className={`text-left text-md font-medium px-1 py-1 rounded-md transition-all duration-150 ${
+                        selectedMenCategory === category
+                          ? "text-white bg-[#1AAEBC]"
+                          : "text-gray-700 hover:text-[#1AAEBC]"
+                      }`}
                     >
-                      {item.icon}
-                      <span className="text-sm font-medium">{item.label}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+                      {category}
+                    </button>
+                  ))}
+                </div>
+                <ul className="gap-4">
+                  {men[selectedMenCategory].map((item, index) => (
+                    <li key={index}>
+                      <Link
+                        href={item.link}
+                        className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+                      >
+                        {item.icon}
+                        <span className="text-sm font-medium">
+                          {item.label}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Women Section */}
+            <div className="flex-1">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+                Women
+              </h3>
+              <div className="flex">
+                <div className="flex flex-col gap-4 min-w-[120px] border-r pr-6 border-gray-200">
+                  {categoriesWomen.map((category) => (
+                    <button
+                      key={category}
+                      onClick={() => setSelectedWomenCategory(category)}
+                      className={`text-left text-sm font-medium px-1 py-1 rounded-md transition-all duration-150 ${
+                        selectedWomenCategory === category
+                          ? "text-white bg-[#1AAEBC]"
+                          : "text-gray-700 hover:text-[#1AAEBC]"
+                      }`}
+                    >
+                      {category}
+                    </button>
+                  ))}
+                </div>
+                <ul className="gap-4">
+                  {women[selectedWomenCategory].map((item, index) => (
+                    <li key={index}>
+                      <Link
+                        href={item.link}
+                        className="flex items-center gap-3 p-3 rounded-md hover:bg-gray-100 transition-all text-gray-700 hover:text-[#1AAEBC]"
+                      >
+                        {item.icon}
+                        <span className="text-sm font-medium">
+                          {item.label}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-</div>
-      
     </div>
   );
 }

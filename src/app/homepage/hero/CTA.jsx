@@ -1,49 +1,39 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { FaWhatsapp, FaFacebookF, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { IoMdShare } from "react-icons/io";
 
 export default function CTA() {
-  const [showShare, setShowShare] = useState(false);
-  const toggleShare = () => setShowShare(!showShare);
-
-  const shareUrl = encodeURIComponent(typeof window !== "undefined" ? window.location.href : "");
+  const shareUrl = encodeURIComponent(
+    typeof window !== "undefined" ? window.location.href : ""
+  );
 
   return (
     <div>
-      <div className="fixed bg-[#1AAEBC] top-40 right-0 z-50 flex flex-col items-center space-y-1">
+      <div className="fixed rounded-tl-lg bg-[#1AAEBC] top-60 right-0 z-50 flex flex-col items-center space-y-1">
         {/* WhatsApp Appointment Button */}
         <a
           href="https://wa.me/919136095925"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#25D366] text-white p-3 shadow-md rounded-full hover:bg-[#1ebe5d] transition duration-200 flex items-center justify-center"
+          className="bg-[#25D366] rounded-tl-lg text-white p-3 shadow-md hover:bg-[#1ebe5d] transition duration-200 flex items-center justify-center"
           aria-label="Book appointment via WhatsApp"
         >
-          <FaWhatsapp size={20} />
+          <FaWhatsapp size={22} />
         </a>
 
-        {/* Share Button */}
-        <button
-          onClick={toggleShare}
-          className="bg-[#1AAEBC] text-white p-3 rounded-full hover:bg-[#1597a4] transition duration-200 flex items-center justify-center"
-          aria-label="Share this page"
-        >
-          <IoMdShare size={20} />
-        </button>
+        {/* Hover-based Share Button */}
+        <div className="relative group">
+          <div
+            className=" text-white p-3 rounded-full transition duration-200 flex items-center justify-center"
+            aria-label="Share this page"
+          >
+            <IoMdShare size={20} />
+          </div>
 
-        {/* Icon-Only Share Options */}
-        {showShare && (
-          <div className="bg-white w-full shadow-md p-2 flex flex-col items-center space-y-2">
-            <a
-              href={`https://wa.me/?text=${shareUrl}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#25D366] hover:scale-110 transition"
-              aria-label="Share on WhatsApp"
-            >
-              <FaWhatsapp size={20} />
-            </a>
+          {/* Share Options on Hover */}
+          <div className="absolute right-0 top-[44px] rounded-bl-lg hidden group-hover:flex flex-col items-center space-y-2 bg-white shadow-md p-3 -z-10">
+            
             <a
               href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`}
               target="_blank"
@@ -81,7 +71,7 @@ export default function CTA() {
               <FaInstagram size={20} />
             </a>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
