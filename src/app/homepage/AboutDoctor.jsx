@@ -28,7 +28,7 @@ export default function About() {
           className="relative w-full md:w-[500px] h-[400px] md:h-[500px] shadow-xl rounded-2xl overflow-hidden"
         >
           <Image
-            src="/images/about/kunal_sayani.jpg"
+            src="/images/aboutdoctors/kunal_sayani.jpg"
             alt="Kunal Sayani"
             fill
             className="object-cover"

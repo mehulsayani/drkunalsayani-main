@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-black">
           <Image
-            src="/components/navbar/logo.png"
+            src="/images/components/navbar/logo.png"
             alt="Gynecomastia"
             width={75}
             height={75}
