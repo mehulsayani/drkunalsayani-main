@@ -6,27 +6,26 @@ import AboutDoctor from "./homepage/AboutDoctor";
 import AboutCompany from "./homepage/AboutCompany";
 import Testimonials from "./homepage/Testimonials";
 import Gallery from "./homepage/Gallery";
-import Pricing from "./homepage/Pricing";
 import Blog from "./homepage/Blog";
 import Footer from "@/components/Footer";
 import Specialization from "./homepage/Specialization";
-import CTA from "./homepage/hero/CTA";
-
+import CTA from "../components/CTA";
+import ScrollTop from "@/components/ScrollTop";
+import Aesthetics from "./homepage/Aesthetics";
 
 export default function page() {
   return (
     <div>
-      <CTA/>
-      <Navbar />
+      <CTA />
       <Hero />
       <AboutDoctor />
       <Specialization />
       <AboutCompany />
+      <Aesthetics />
       <Testimonials />
       <Gallery />
-      {/* <Pricing /> */}
       <Blog />
-      <Footer />
+      <ScrollTop />
     </div>
   );
 }

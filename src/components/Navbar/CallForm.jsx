@@ -1,37 +1,46 @@
-import React, { useState } from 'react';
+"use client";
+
+import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 
 export default function CallForm() {
   const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    number: '',
-    email: '',
+    name: "",
+    number: "",
+    email: "",
   });
 
   const handleChange = (e) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
+    console.log("Form Data:", formData);
     setIsOpen(false);
-    setFormData({ name: '', number: '', email: '' });
+    setFormData({ name: "", number: "", email: "" });
   };
 
   return (
     <div className="relative z-10 flex ">
-      <button
-        onClick={() => setIsOpen(true)}
-        className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-[#1AAEBC] px-3 py-2 text-lg rounded-lg hover:border-[#189eaa] transition"
-      >
-    <FiPhoneCall/>
-      </button>
+      <div className="flex justify-center items-center flex-col group">
+        <button
+          onClick={() => setIsOpen(true)}
+          className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-white hover:bg-[#1AAEBC] px-3 py-2 text-lg rounded-lg transition"
+        >
+          <FiPhoneCall />
+        </button>
+        <div className="group-hover:block top-12 hidden absolute">
+          <p className="w-40 text-center rounded-full bg-white py-2 px-4 shadow-[0px_0px_10px_lightgray] z-20">
+            Get a call request
+          </p>
+        </div>
+      </div>
 
       {isOpen && (
         <div className="fixed inset-0 bg-[#136f7783] bg-opacity-40 flex items-center justify-center p-4 z-50">
@@ -40,7 +49,7 @@ export default function CallForm() {
               onClick={() => setIsOpen(false)}
               className="absolute top-3 right-4 text-3xl bg-gray-200 rounded hover:bg-gray-300 flex justify-center items-center"
             >
-             <MdClose/>
+              <MdClose />
             </button>
             <h2 className="text-center text-2xl font-bold text-[#1A1A1A] mb-6">
               Request Call Back

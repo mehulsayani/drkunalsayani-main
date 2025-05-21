@@ -13,7 +13,7 @@ const slides = [Slide1, Slide2, Slide3];
 function PrevArrow({ onClick }) {
   return (
     <div
-      className="absolute top-1/2 -left-12 transform -translate-y-1/2 z-10 cursor-pointer bg-white p-3 rounded-full shadow-md hover:bg-gray-100"
+      className="absolute top-1/2 -left-12 transform -translate-y-1/2  z-10 cursor-pointer text-white bg-[#00e1ff75] p-3 rounded-lg shadow-md "
       onClick={onClick}
     >
       <FaChevronLeft />
@@ -24,7 +24,7 @@ function PrevArrow({ onClick }) {
 function NextArrow({ onClick }) {
   return (
     <div
-      className="absolute top-1/2 -right-12 transform -translate-y-1/2 z-10 cursor-pointer bg-white p-3 rounded-full shadow-md hover:bg-gray-100"
+      className="absolute top-1/2 -right-12 transform -translate-y-1/2 z-10 cursor-pointer text-white bg-[#00e1ff75] p-3 rounded-lg shadow-md "
       onClick={onClick}
     >
       <FaChevronRight />
@@ -38,33 +38,33 @@ export default function ImageSlider() {
   const settings = {
     dots: false,
     infinite: true,
-    // speed: 500,
+    // speed: 1000,
     // autoplay: true,
-    // autoplaySpeed: 40000,
+    // autoplaySpeed: 5000,
     // slidesToShow: 1,
     // slidesToScroll: 1,
-    pauseOnHover: false,
-    arrows: true,
+    // pauseOnHover: false,
+    arrows: false,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
     beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
   };
 
   return (
-    <div className="relative w-full h-[84vh] max-w-[1400px] mx-auto px-18">
-      <div className="absolute inset-0 z-0">
+    <div className="relative w-full h-[90vh] max-w-[1400px] mx-auto px-18 ">
+      <div className="absolute inset-0 z-0 ">
         <Image
-          src="/images/homepage/hero/bg_trust_hands.jpg"
+          src="/images/homepage/hero/close-up-doctor-with-mask-checking-patient.jpg"
           alt="Background Trust Hands"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1AAEBC]/80 to-blue-900/80 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 to-[#1AAEBC]/80  z-10"></div>
       </div>
       <Slider {...settings}>
         {slides.map((SlideComponent, index) => (
-          <div key={index} className="px-2">
+          <div key={index} className="px-2 ">
             <SlideComponent isActive={currentSlide === index} />
           </div>
         ))}

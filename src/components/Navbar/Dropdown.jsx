@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -425,7 +427,7 @@ export default function Dropdown() {
       </div>
 
       <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[75vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 ">
-        <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[80vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 shadow-[0px_0px_30px_#DCDCDC] bg-white">
+        <div className="absolute left-1/2 transform pt-6 -translate-x-1/2 w-[80vw] rounded-xl z-30 hidden group-hover:flex p-6 transition-all duration-300 border border-gray-300 bg-white">
           <div className="flex w-full gap-10">
             {/* Men Section */}
             <div className="flex-1">

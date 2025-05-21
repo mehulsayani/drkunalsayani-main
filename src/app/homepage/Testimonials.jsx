@@ -54,7 +54,7 @@ export default function Testimonials() {
                     <span>Our Testimonials</span>
                   </p>
         <h2 className="text-3xl md:text-4xl font-bold mb-10">
-          Customers Say About Our Services
+          What Patients Say About Us
         </h2>
 
         <div className="flex bg-[#1AAEBC] rounded-xl md:flex-row items-center justify-center">

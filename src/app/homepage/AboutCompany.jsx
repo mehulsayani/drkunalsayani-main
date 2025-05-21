@@ -10,7 +10,7 @@ export default function AboutCompany() {
       <div className="relative flex flex-col lg:flex-row gap-10 items-center">
         <div className="w-full lg:w-1/2">
           <Image
-            src="/images/aboutcompany/about_company.jpg"
+            src="/images/gallery/gallery3.png"
             alt="Tvameva Clinic"
             width={600}
             height={400}
