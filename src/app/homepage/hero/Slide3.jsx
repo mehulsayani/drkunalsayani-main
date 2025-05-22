@@ -44,7 +44,7 @@ export default function Slide3({ isActive }) {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <Image
-            src="/homepage/hero/body3.png"
+            src="/images/homepage/hero/body3.png"
             alt="Hair Transplant"
             fill
             className="object-contain"

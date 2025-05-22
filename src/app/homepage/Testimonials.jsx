@@ -57,7 +57,7 @@ export default function Testimonials() {
           What Patients Say About Us
         </h2>
 
-        <div className="flex bg-[#1AAEBC] rounded-xl md:flex-row items-center justify-center">
+        <div className="flex bg-[#1AAEBC] max-lg:flex-col max-lg:justify-center max-lg:items-center rounded-xl md:flex-row items-center justify-center">
           {/* Reviewer Image Section */}
           <div className="relative w-full">
             <Image

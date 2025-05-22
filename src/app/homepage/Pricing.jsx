@@ -62,7 +62,7 @@ export default function Pricing() {
               <div className="mb-2 text-sm text-gray-500 flex items-center gap-2">
                 <Image
                   src="/images/doctors/default-avatar.jpg"
-                  
+                  alt=""
                   width={30}
                   height={30}
                   className="rounded-full"

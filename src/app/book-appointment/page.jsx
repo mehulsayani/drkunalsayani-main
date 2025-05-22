@@ -39,13 +39,15 @@ Notes: ${notes}`);
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
-      <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-4xl">
-        <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Make an Appointment</h1>
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-8">
+      <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg w-full max-w-5xl">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8 text-gray-900">
+          Make an Appointment
+        </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Date Picker */}
-          <div className="inline-block origin-top-left scale-100 sm:scale-125 lg:scale-150">
+          <div className="w-full max-w-sm mx-auto lg:mx-0">
             <DatePicker
               selected={selectedDate}
               onChange={(date) => setSelectedDate(date)}
@@ -54,9 +56,8 @@ Notes: ${notes}`);
             />
           </div>
 
-          {/* Right Side */}
+          {/* Form Inputs */}
           <div>
-            {/* Name Input */}
             <input
               type="text"
               placeholder="Enter your name"
@@ -65,7 +66,6 @@ Notes: ${notes}`);
               className="w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
             />
 
-            {/* Email Input */}
             <input
               type="email"
               placeholder="Enter your email"
@@ -74,7 +74,6 @@ Notes: ${notes}`);
               className="w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
             />
 
-            {/* Phone Number */}
             <input
               type="tel"
               placeholder="Enter your phone number"
@@ -83,7 +82,6 @@ Notes: ${notes}`);
               className="w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
             />
 
-            {/* Purpose Dropdown */}
             <label className="block text-sm font-semibold text-gray-700 mb-2">Purpose</label>
             <select
               value={purpose}
@@ -97,8 +95,8 @@ Notes: ${notes}`);
               ))}
             </select>
 
-            {/* Visit Type Toggle */}
-            <div className="flex items-center gap-4 mb-4">
+            {/* Visit Type */}
+            <div className="flex flex-wrap gap-4 mb-4">
               <label className="flex items-center gap-2">
                 <input
                   type="radio"
@@ -119,12 +117,12 @@ Notes: ${notes}`);
               </label>
             </div>
 
-            {/* Grouped Time Slots */}
+            {/* Time Slot Selector */}
             <label className="block text-sm font-semibold text-gray-700 mb-2">Select Time</label>
             {Object.entries(groupedTimeSlots).map(([period, slots]) => (
               <div key={period} className="mb-2">
                 <h4 className="text-gray-600 font-medium mb-1">{period}</h4>
-                <div className="grid grid-cols-3 gap-2">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                   {slots.map((time) => (
                     <button
                       key={time}
@@ -142,7 +140,6 @@ Notes: ${notes}`);
               </div>
             ))}
 
-            {/* Notes Field */}
             <textarea
               placeholder="Additional notes or concerns (optional)"
               value={notes}
@@ -153,9 +150,9 @@ Notes: ${notes}`);
           </div>
         </div>
 
-        {/* Get Appointment Button */}
+        {/* Submit Button */}
         <button
-          className="mt-8 w-full bg-blue-600 text-white font-semibold py-3 rounded-md hover:bg-blue-700 transition"
+          className="mt-6 sm:mt-8 w-full bg-blue-600 text-white font-semibold py-3 rounded-md hover:bg-blue-700 transition"
           onClick={handleSubmit}
           disabled={!email || !name || !phone}
         >

@@ -43,7 +43,7 @@ export default function Slide2({ isActive }) {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <Image
-            src="/homepage/hero/body2.png"
+            src="/images/homepage/hero/body2.png"
             alt="Rhinoplasty"
             fill
             className="object-contain"

@@ -13,7 +13,7 @@ import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 export default function Footer() {
   return (
     <footer className="bg-[#1e1e1e] flex flex-col justify-center items-center text-white py-12 text-sm">
-      <div className="max-w-6xl grid grid-cols-1 md:grid-cols-5 gap-10">
+      <div className="max-w-6xl grid grid-cols-1 md:grid-cols-5 gap-10 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center">
         {/* Logo & Tagline */}
         <div className="space-y-4">
           <Image
@@ -135,7 +135,7 @@ export default function Footer() {
         </div>
 
         {/* Contact Us */}
-        <div>
+        <div className="">
           <h4 className="text-base font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-3 text-gray-300">
             <li className="flex items-center gap-2">

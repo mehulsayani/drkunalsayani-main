@@ -3,14 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import CustomControls from "./CustomControls";
-import { Inter, Poppins } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-poppins",
-});
 
 export default function Slide1() {
   const stats = [
@@ -24,8 +17,9 @@ export default function Slide1() {
         {/* Left Content */}
         <div className="max-w-2xl mb-10 md:mb-0 mt-8">
           <h1 className="text-4xl font-[inter] md:text-[40px] mb-4 font-bold text-white leading-tight">
-            When in Doubt, Trust Experience <br /> You're in Safe Hands with <br /> 
-             <span className="text-[#00ffff]">Dr. Kunal Sayani</span>
+            When in Doubt, Trust Experience <br /> You're in Safe Hands with{" "}
+            <br />
+            <span className="text-[#00ffff]">Dr. Kunal Sayani</span>
           </h1>
 
           <p className="text-white mb-6 text-lg">
@@ -34,12 +28,13 @@ export default function Slide1() {
             satisfaction at the Venkat Center.
           </p>
 
-          <button
-  className="group relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-semibold text-black transition-all duration-300 rounded-full shadow-md bg-[#FEDF18] hover:bg-[#00ffff]"
->
-  <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-black opacity-10 group-hover:w-full group-hover:h-full group-hover:rounded-full"></span>
-  <span className="relative z-10">Book Appointment</span>
-</button>
+          <button className="group relative inline-flex items-center justify-center px-6 py-3 
+          overflow-hidden font-semibold text-black transition-all duration-300 rounded-full 
+          shadow-md bg-[#FEDF18] hover:bg-[#00ffff]">
+            <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-black 
+            opacity-10 group-hover:w-full group-hover:h-full group-hover:rounded-full"></span>
+            <span className="relative z-10 text-gray-800">Book Appointment</span>
+          </button>
 
           <CustomControls />
           <section className="mt-6">
@@ -60,7 +55,7 @@ export default function Slide1() {
         </div>
 
         {/* Right Image */}
-        <div className="relative w-full md:w-[500px] h-[400px] md:h-[500px]">
+        <div className="relative  md:w-[600px]  md:h-[500px]">
           <Image
             src="/images/homepage/hero/kunal.png"
             alt="Gynecomastia"

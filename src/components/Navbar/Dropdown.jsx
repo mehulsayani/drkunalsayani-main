@@ -14,7 +14,7 @@ export default function Dropdown() {
     Hair: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/hair/hair.png"}
             width={40}
             height={40}
@@ -25,7 +25,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/men/hair/hair-transplant.png"
             }
@@ -38,7 +38,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/hair/prp.png"}
             width={40}
             height={40}
@@ -49,7 +49,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/hair/syringe.png"}
             width={40}
             height={40}
@@ -62,7 +62,7 @@ export default function Dropdown() {
     Skin: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/skin/botox.png"}
             width={40}
             height={40}
@@ -73,7 +73,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/skin/face.png"}
             width={40}
             height={40}
@@ -84,7 +84,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/skin/facial-care.png"}
             width={40}
             height={40}
@@ -95,7 +95,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/skin/scar.png"}
             width={40}
             height={40}
@@ -108,7 +108,7 @@ export default function Dropdown() {
     Body: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/body/liposuction.png"}
             width={40}
             height={40}
@@ -119,7 +119,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/body/tummy-tuck.png"}
             width={40}
             height={40}
@@ -130,7 +130,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/body/gynecomastia.png"}
             width={40}
             height={40}
@@ -143,7 +143,7 @@ export default function Dropdown() {
     Face: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/face/beauty.png"}
             width={40}
             height={40}
@@ -154,7 +154,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/face/jaw-contouring.png"}
             width={40}
             height={40}
@@ -165,7 +165,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/face/chin.png"}
             width={40}
             height={40}
@@ -176,7 +176,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/face/facelift.png"}
             width={40}
             height={40}
@@ -192,7 +192,7 @@ export default function Dropdown() {
     Hair: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/hair/hair-loss.png"}
             width={40}
             height={40}
@@ -203,7 +203,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/women/hair/hair-transplant.png"
             }
@@ -216,7 +216,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/hair/prp.png"}
             width={40}
             height={40}
@@ -227,7 +227,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/hair/syringe.png"}
             width={40}
             height={40}
@@ -240,7 +240,7 @@ export default function Dropdown() {
     Skin: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/skin/botox.png"}
             width={40}
             height={40}
@@ -251,7 +251,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/women/skin/dermal-filler.png"
             }
@@ -264,7 +264,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/skin/woman.png"}
             width={40}
             height={40}
@@ -275,7 +275,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/skin/scar.png"}
             width={40}
             height={40}
@@ -288,7 +288,7 @@ export default function Dropdown() {
     Body: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/body/liposuction.png"}
             width={40}
             height={40}
@@ -299,7 +299,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/body/scissors.png"}
             width={40}
             height={40}
@@ -310,7 +310,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/women/body/body-contouring.png"
             }
@@ -325,7 +325,7 @@ export default function Dropdown() {
     Face: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/face/rhinoplasty.png"}
             width={40}
             height={40}
@@ -336,7 +336,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/face/jaw.png"}
             width={40}
             height={40}
@@ -347,7 +347,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/face/chin.png"}
             width={40}
             height={40}
@@ -358,7 +358,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/face/facial.png"}
             width={40}
             height={40}
@@ -371,7 +371,7 @@ export default function Dropdown() {
     Mommy_Makeover: [
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/women/mommymakeover/scissors.png"
             }
@@ -384,7 +384,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/women/mommymakeover/mastopexy.png"
             }
@@ -397,7 +397,7 @@ export default function Dropdown() {
       },
       {
         icon: (
-          <Image
+          <Image alt="" 
             src={
               "/images/homepage/navbar/dropdown/women/mommymakeover/body-contouring.png"
             }
