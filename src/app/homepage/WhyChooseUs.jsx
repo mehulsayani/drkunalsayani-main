@@ -65,7 +65,7 @@ export default function WhyChooseUs() {
         cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]">
           <p
             className={`${
-              currentImageIndex === 0 ? "text-blue-500" : "text-black"
+              currentImageIndex === 0 ? "text-[#00737e]" : "text-black"
             }`}
           >
             Cutting Edge <br /> Technologies  And Facilities
@@ -73,18 +73,18 @@ export default function WhyChooseUs() {
 
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 0 ? "bg-blue-500" : "border bg-white"
+              currentImageIndex === 0 ? "bg-[#1AAEBC]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
         </div>
         {/* Dot2 on the circle */}
-        <div className="flex text-center justify-around gap-2 max-lg:gap-2 items-start absolute top-[24%] -left-[10%]
+        <div className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[6.5%]
          max-lg:top-[20%] max-lg:-left-[10%]
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`${
-              currentImageIndex === 4 ? "text-blue-500" : "text-black"
+              currentImageIndex === 4 ? "text-[#00737e]" : "text-black"
             }`}
           >
             <p className="font-bold text-right">
@@ -93,7 +93,7 @@ export default function WhyChooseUs() {
           </div>
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 4 ? "bg-blue-500" : "border bg-white"
+              currentImageIndex === 4 ? "bg-[#1AAEBC]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
@@ -103,13 +103,13 @@ export default function WhyChooseUs() {
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 1 ? "bg-blue-500" : "border bg-white"
+              currentImageIndex === 1 ? "bg-[#1AAEBC]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
           <div
             className={`${
-              currentImageIndex === 1 ? "text-blue-500" : "text-black"
+              currentImageIndex === 1 ? "text-[#00737e]" : "text-black"
             }`}
           >
             <p className="font-bold text-left w-28">
@@ -118,11 +118,11 @@ export default function WhyChooseUs() {
           </div>
         </div>
         {/* Dot4 on the circle */}
-        <div className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[4%] max-lg:top-[78%] max-lg:-left-[4%] 
+        <div className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[3%] max-lg:top-[78%] max-lg:-left-[4%] 
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`${
-              currentImageIndex === 3 ? "text-blue-500" : "text-black"
+              currentImageIndex === 3 ? "text-[#00737e]" : "text-black"
             }`}
           >
             <p className="font-bold text-right">
@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
           </div>
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 3 ? "bg-blue-500" : "border bg-white"
+              currentImageIndex === 3 ? "bg-[#1AAEBC]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
@@ -141,13 +141,13 @@ export default function WhyChooseUs() {
          max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 font-[inter]">
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 2 ? "bg-blue-500" : "border bg-white"
+              currentImageIndex === 2 ? "bg-[#1AAEBC]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
           <div
             className={`${
-              currentImageIndex === 2 ? "text-blue-500" : "text-black"
+              currentImageIndex === 2 ? "text-[#00737e]" : "text-black"
             }`}
           >
             <p className="font-bold text-left w-28">

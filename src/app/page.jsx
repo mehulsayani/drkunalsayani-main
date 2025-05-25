@@ -23,8 +23,8 @@ export default function page() {
       <Hero />
       <AboutDoctor />
       <Specialization />
-      <WhyChooseUs />
       <AboutCompany />
+      <WhyChooseUs />
       <Aesthetics />
       <Testimonials />
       <Gallery />

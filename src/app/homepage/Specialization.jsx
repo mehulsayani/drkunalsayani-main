@@ -114,9 +114,9 @@ export default function Services() {
             <img
               src={service.image}
               alt={service.title || 'Service image'}
-              className="w-full h-56 object-cover"
+              className="w-full h-40 object-cover"
             />
-            <div className="p-6 text-left">
+            <div className="p-4 text-left">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
                 {service.title}
               </h3>
@@ -125,7 +125,7 @@ export default function Services() {
               </p>
               <Link
                 href={service.link}
-                className="text-sm font-semibold text-[#1AAEBC] hover:underline"
+                className="text-sm font-semibold text-[#1AAEBC] hover:text-blue-600"
               >
                 Read More →
               </Link>
