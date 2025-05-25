@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Aesthetics() {
   return (
-    <div className="bg-gradient-to-r max-lg:flex-col-reverse from-[#1BA9B5]/70 to-pink-30 flex flex-col-reverse md:flex-row justify-between items-center  gap-10">
-      <div className="text-center md:text-left pl-18">
+    <div className="bg-gradient-to-r max-lg:flex-col-reverse pb-10 from-[#1BA9B5]/70 to-pink-30 flex flex-col-reverse md:flex-row justify-between items-center  gap-10">
+      <div className="text-center md:text-left pl-18 max-lg:p-4">
         <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
           Transform How You Feel Not Just How You Look
         </h2>
@@ -23,7 +23,7 @@ export default function Aesthetics() {
           alt="Aesthetic Banner"
           width={2000}
           height={2000}
-          className="w-[90vw]"
+          className="w-[90vw] max-lg:w-[100vw]"
         />
       </div>
     </div>

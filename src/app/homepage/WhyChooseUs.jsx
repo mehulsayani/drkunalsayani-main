@@ -38,14 +38,18 @@ export default function WhyChooseUs() {
   }, []); // Empty dependency array to run once on mount
 
   return (
-    <div className="flex flex-col justify-center items-center py-38">
+    <div className="flex flex-col justify-center items-center overflow-hidden py-18 relative">
       <h2 className="text-2xl font-bold text-blue-800 mb-28">
         — Why Choose Us? —
       </h2>
 
-      <div className="relative max-lg:text-sm w-[30rem] max-lg:w-[14rem] h-[30rem] max-lg:h-[14rem] mx-auto group">
+      <div className="w-full absolute h-screen max-lg:w-[100%] max-lg:h-full">
+        <Image src={'/images/homepage/WhyChooseUs/dr15.png'} fill alt=""/>
+      </div>
+
+      <div className="relative max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">
         {/* Main Circle */}
-        <div className="w-full h-full rounded-full border-1  border-dashed flex justify-center items-center">
+        <div className="w-full h-full rounded-full border-1  border-dashed flex justify-center items-center ">
           <div className="w-[90%] h-[90%] rounded-full relative overflow-hidden shadow-[0px_0px_5px_lightgray]">
             <Image
               src={images[currentImageIndex]}
@@ -57,14 +61,14 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Dot1 on the circle */}
-        <div className="flex text-center font-bold justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[41%]
+        <div className="flex text-center font-bold  justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
         cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]">
           <p
             className={`${
               currentImageIndex === 0 ? "text-blue-500" : "text-black"
             }`}
           >
-            Cutting Edge Technologies <br /> And Facilities
+            Cutting Edge <br /> Technologies  And Facilities
           </p>
 
           <div
@@ -75,7 +79,8 @@ export default function WhyChooseUs() {
           />
         </div>
         {/* Dot2 on the circle */}
-        <div className="flex text-center justify-around gap-6 items-start absolute top-[24%] -left-[10%] max-lg:top-[20%] max-lg:-left-[28%]
+        <div className="flex text-center justify-around gap-2 max-lg:gap-2 items-start absolute top-[24%] -left-[10%]
+         max-lg:top-[20%] max-lg:-left-[10%]
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`${
@@ -83,7 +88,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-right">
-              98% Patient <br /> Satisfaction Rate
+              Best Doctors <br /> in Hospital
             </p>
           </div>
           <div
@@ -94,7 +99,7 @@ export default function WhyChooseUs() {
           />
         </div>
         {/* Dot3 on the circle */}
-        <div className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[122%] 
+        <div className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[123%] 
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`w-6 h-6 rounded-full ${
@@ -113,7 +118,7 @@ export default function WhyChooseUs() {
           </div>
         </div>
         {/* Dot4 on the circle */}
-        <div className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[4%] max-lg:-left-[13%] 
+        <div className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[4%] max-lg:top-[78%] max-lg:-left-[4%] 
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`${
@@ -132,8 +137,8 @@ export default function WhyChooseUs() {
           />
         </div>
         {/* Dot5 on the circle */}
-        <div className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%] max-lg:left-[116%] 
-        transform -translate-x-1/2 font-[inter]">
+        <div className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%]
+         max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 font-[inter]">
           <div
             className={`w-6 h-6 rounded-full ${
               currentImageIndex === 2 ? "bg-blue-500" : "border bg-white"
@@ -146,7 +151,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-left w-28">
-              Best Doctors <br /> in Hospital
+               98% Patient <br /> Satisfaction Rate
             </p>
           </div>
         </div>

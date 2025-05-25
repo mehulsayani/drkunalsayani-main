@@ -23,14 +23,14 @@ export default function page() {
       <Hero />
       <AboutDoctor />
       <Specialization />
+      <WhyChooseUs />
       <AboutCompany />
-       <WhyChooseUs/>
       <Aesthetics />
       <Testimonials />
       <Gallery />
-      <VideoSection/>
+      <VideoSection />
       <Blog />
-      <FAQ/>
+      <FAQ />
       <ScrollTop />
     </div>
   );
