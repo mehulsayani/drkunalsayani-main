@@ -8,7 +8,7 @@ const blogPosts = [
     summary:
       "Discover how a modern hair transplant can restore confidence and natural appearance with minimal downtime.",
     author: "Dr. Kunal Sayani",
-    image: "/images/specialization/hair-transplant.jpg",
+    image: "/images/homepage/specialization/hair-transplant.jpg",
     date: "May 10, 2025",
     avatar: <FaUserDoctor />,
   },
@@ -17,7 +17,7 @@ const blogPosts = [
     summary:
       "Gynecomastia can impact men both physically and emotionally. Learn about safe and effective surgical options.",
     author: "Dr. Arjun Mehta",
-    image: "/images/specialization/Gynecomastia-min.jpg",
+    image: "/images/homepage/specialization/Gynecomastia-min.jpg",
     date: "May 14, 2025",
     avatar: <FaUserDoctor />,
   },
@@ -26,7 +26,7 @@ const blogPosts = [
     summary:
       "From personalized planning to cutting-edge tools, aesthetic surgery is evolving into a more holistic practice.",
     author: "Dr. Kunal Sayani",
-    image: "/images/specialization/Surgery-after-Weight-Loss-min.jpg",
+    image: "/images/homepage/specialization/Surgery-after-Weight-Loss-min.jpg",
     date: "May 16, 2025",
     avatar: <FaUserDoctor />,
   },

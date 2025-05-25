@@ -13,16 +13,16 @@ export default function Slide1() {
   ];
   return (
     <section className="w-full min-h-[400px] transition-opacity duration-700 ease-in-out">
-      <div className="flex flex-col md:flex-row items-center justify-between ">
+      <div className="flex items-center justify-between max-lg:flex-col-reverse">
         {/* Left Content */}
-        <div className="max-w-2xl mb-10 md:mb-0 mt-8">
-          <h1 className="text-4xl font-[inter] md:text-[40px] mb-4 font-bold text-white leading-tight">
+        <div className="max-w-2xl w-full  mb-10 md:mb-0 mt-8 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
+          <h1 className="text-4xl max-lg:text-xl font-[inter] md:text-[40px] max-lg:text-center mb-4 font-bold text-white leading-tight">
             When in Doubt, Trust Experience <br /> You're in Safe Hands with{" "}
             <br />
             <span className="text-[#00ffff]">Dr. Kunal Sayani</span>
           </h1>
 
-          <p className="text-white mb-6 text-lg">
+          <p className="text-white mb-6 text-lg max-lg:text-base max-lg:text-center">
             Are you tired of hiding your chest behind baggy t-shirts? Experience
             safe and effective gynecomastia treatment with the utmost care and
             satisfaction at the Venkat Center.
@@ -55,7 +55,7 @@ export default function Slide1() {
         </div>
 
         {/* Right Image */}
-        <div className="relative  md:w-[600px]  md:h-[500px]">
+        <div className="relative  w-[33.58rem] h-[33.58rem] max-lg:w-[19rem] max-lg:h-[19rem]">
           <Image
             src="/images/homepage/hero/kunal.png"
             alt="Gynecomastia"

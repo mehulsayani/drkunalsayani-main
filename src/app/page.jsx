@@ -12,6 +12,9 @@ import Specialization from "./homepage/Specialization";
 import CTA from "../components/CTA";
 import ScrollTop from "@/components/ScrollTop";
 import Aesthetics from "./homepage/Aesthetics";
+import WhyChooseUs from "./homepage/WhyChooseUs";
+import VideoSection from "./homepage/VideoSection";
+import FAQ from "./homepage/FAQ";
 
 export default function page() {
   return (
@@ -21,10 +24,13 @@ export default function page() {
       <AboutDoctor />
       <Specialization />
       <AboutCompany />
+       <WhyChooseUs/>
       <Aesthetics />
       <Testimonials />
       <Gallery />
+      <VideoSection/>
       <Blog />
+      <FAQ/>
       <ScrollTop />
     </div>
   );

@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
-import { FiPhoneCall } from "react-icons/fi";
+import { IoIosCall } from "react-icons/io";
+
 
 export default function CallForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,9 +32,9 @@ export default function CallForm() {
       <div className="flex justify-center items-center flex-col group">
         <button
           onClick={() => setIsOpen(true)}
-          className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-white hover:bg-[#1AAEBC] px-3 py-2 text-lg rounded-lg transition"
+          className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-white hover:bg-[#1AAEBC] px-3 py-2 text-2xl rounded-lg transition"
         >
-          <FiPhoneCall />
+          <IoIosCall />
         </button>
         <div className="group-hover:block top-12 hidden absolute">
           <p className="w-40 text-center rounded-full bg-white py-2 px-4 shadow-[0px_0px_10px_lightgray] z-20">

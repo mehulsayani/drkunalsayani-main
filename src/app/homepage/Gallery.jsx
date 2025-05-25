@@ -7,11 +7,11 @@ import Image from "next/image";
 
 export default function Gallery() {
   const galleryImages = [
-    "/images/gallery/gallery1.png",
-    "/images/gallery/gallery2.png",
-    "/images/gallery/gallery3.png",
-    "/images/gallery/gallery4.png",
-    "/images/gallery/gallery5.png",
+    "/images/homepage/gallery/gallery1.png",
+    "/images/homepage/gallery/gallery2.png",
+    "/images/homepage/gallery/gallery3.png",
+    "/images/homepage/gallery/gallery4.png",
+    "/images/homepage/gallery/gallery5.png",
   ];
 
   const settings = {

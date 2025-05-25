@@ -11,7 +11,7 @@ const services = [
     rating: 4.8,
     duration: "03 hrs",
     sessions: "2 Sessions",
-    image: "/images/pricing/hair-transplant.jpg",
+    image: "/images/homepage/pricing/hair-transplant.jpg",
   },
   {
     title: "Gynecomastia / Breast Reduction",
@@ -22,7 +22,7 @@ const services = [
     rating: 4.9,
     duration: "04 hrs",
     sessions: "1 Session",
-    image: "/images/pricing/boobs-surgery.jpg",
+    image: "/images/homepage/pricing/boobs-surgery.jpg",
   },
   {
     title: "Advanced Aesthetic Surgery",
@@ -33,7 +33,7 @@ const services = [
     rating: 5.0,
     duration: "Full Day",
     sessions: "3 Procedures",
-    image: "/images/pricing/aesthetic-surgery.jpg",
+    image: "/images/homepage/pricing/aesthetic-surgery.jpg",
   },
 ];
 
@@ -61,7 +61,7 @@ export default function Pricing() {
               </div>
               <div className="mb-2 text-sm text-gray-500 flex items-center gap-2">
                 <Image
-                  src="/images/doctors/default-avatar.jpg"
+                  src="/images/homepage/doctors/default-avatar.jpg"
                   alt=""
                   width={30}
                   height={30}

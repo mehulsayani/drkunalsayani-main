@@ -61,7 +61,7 @@ export default function Testimonials() {
           {/* Reviewer Image Section */}
           <div className="relative w-full">
             <Image
-              src="/images/testimonials/reviews.jpg"
+              src="/images/homepage/testimonials/reviews.jpg"
               alt="Reviewer"
               width={400}
               height={400}
