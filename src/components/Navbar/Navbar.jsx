@@ -157,7 +157,7 @@ export default function Navbar() {
       {/* Overlay for mobile menu */}
       {isMobileMenuOpen && (
         <div
-          className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
+          className="lg:hidden fixed inset-0 bg-[#1aaebc5b] bg-opacity-50 z-40"
           onClick={toggleMobileMenu}
         ></div>
       )}

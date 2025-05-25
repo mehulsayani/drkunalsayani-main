@@ -14,7 +14,8 @@ export default function Aesthetics() {
         </p>
         <button className="bg-yellow-300 hover:bg-[#1561a5] transition-colors
          text-black font-semibold px-8 py-3 max-lg:px-2 max-lg:py-1 rounded-xl max-lg:rounded shadow-md max-lg:text-sm">
-          Schedule a Consultation
+         
+          Book Appointment
         </button>
       </div>
 
