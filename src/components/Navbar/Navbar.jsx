@@ -19,15 +19,15 @@ export default function Navbar() {
   };
 
   return (
-    <header className="w-full bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-[1300px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+    <header className="w-full bg-white shadow-md sticky top-0 z-50 flex items-center justify-center">
+      <div className="max-w-[1200px] w-full py-1 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="text-xl font-bold text-black flex-shrink-0">
           <Image
             src="/images/components/navbar/logo.png"
             alt="Gynecomastia"
-            width={75}
-            height={75}
+            width={60}
+            height={60}
             className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
           />
         </a>

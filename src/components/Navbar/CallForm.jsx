@@ -32,7 +32,7 @@ export default function CallForm() {
       <div className="flex justify-center items-center flex-col group">
         <button
           onClick={() => setIsOpen(true)}
-          className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-white hover:bg-[#1AAEBC] px-3 py-2 text-2xl rounded-lg transition"
+          className="border-[1.5px] border-[#1AAEBC] text-[#1AAEBC] hover:text-white hover:bg-[#1AAEBC] p-1 text-2xl rounded-lg transition"
         >
           <IoIosCall />
         </button>
