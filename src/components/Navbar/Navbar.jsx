@@ -26,9 +26,9 @@ export default function Navbar() {
           <Image
             src="/images/components/navbar/logo.png"
             alt="Gynecomastia"
-            width={60}
-            height={60}
-            className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
+            width={200}
+            height={200}
+            className="w-20 h-20 object-contain"
           />
         </a>
 
