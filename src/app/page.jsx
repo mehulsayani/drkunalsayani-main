@@ -25,8 +25,8 @@ export default function page() {
       <Specialization />
       <AboutCompany />
       <WhyChooseUs />
-      <Aesthetics />
       <Testimonials />
+      <Aesthetics />
       <Gallery />
       <VideoSection />
       <Blog />

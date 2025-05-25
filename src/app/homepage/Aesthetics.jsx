@@ -19,13 +19,13 @@ export default function Aesthetics() {
         </button>
       </div>
 
-      <div className="relative max-lg:w-[100vw]">
+      <div className="relative ">
         <Image
           src="/images/homepage/aesthetics/girl_image.png"
           alt="Aesthetic Banner"
           width={2000}
           height={2000}
-          className="w-[40vw] "
+          className="w-[40vw] max-lg:w-[60rem]"
         />
       </div>
     </div>

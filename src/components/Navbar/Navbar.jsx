@@ -80,7 +80,7 @@ export default function Navbar() {
           {/* Hamburger Icon */}
           <button
             onClick={toggleMobileMenu}
-            className="lg:hidden text-2xl text-[#1AAEBC] p-2 focus:outline-none"
+            className="lg:hidden text-3xl p-2 focus:outline-none"
             aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
             {isMobileMenuOpen ? <FiX /> : <FiMenu />}
@@ -97,7 +97,7 @@ export default function Navbar() {
         <div className="px-4 py-4 space-y-3 flex flex-col h-full">
           <button
             onClick={toggleMobileMenu}
-            className="self-end text-2xl text-[#1AAEBC] p-2"
+            className="self-end text-2xl p-2"
             aria-label="Close menu"
           >
             <FiX />
