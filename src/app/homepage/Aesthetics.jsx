@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Aesthetics() {
   return (
-    <div className="bg-gradient-to-r max-lg:flex-col from-[#1BA9B5]/70 to-pink-30 flex flex-col-reverse md:flex-row justify-between items-center  gap-10">
+    <div className="bg-gradient-to-r max-lg:flex-col-reverse from-[#1BA9B5]/70 to-pink-30 flex flex-col-reverse md:flex-row justify-between items-center  gap-10">
       <div className="text-center md:text-left pl-18">
         <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
           Transform How You Feel Not Just How You Look

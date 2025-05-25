@@ -42,7 +42,7 @@ export default function About() {
           initial={{ opacity: 0, y: 40 }}
           animate={isTextInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="w-full md:w-[60%]"
+          className="w-full md:w-[60%] max-lg:text-center max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col"
         >
           <p className="text-sm w-32 flex items-center gap-1 bg-green-100 tracking-wide mb-1 px-2 py-1 rounded-full">
             <MdRadioButtonChecked />

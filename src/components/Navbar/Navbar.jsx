@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full bg-white shadow-md sticky top-0 z-50 flex items-center justify-center">
-      <div className="max-w-[1200px] w-full py-1 flex items-center justify-between">
+      <div className="max-w-[1200px] w-full max-lg:w-[90%] py-1 flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="text-xl font-bold text-black flex-shrink-0">
           <Image
@@ -28,7 +28,7 @@ export default function Navbar() {
             alt="Gynecomastia"
             width={200}
             height={200}
-            className="w-20 h-20 object-contain"
+            className="w-20 h-20 max-lg:w-16 max-lg:h-16 object-contain"
           />
         </a>
 

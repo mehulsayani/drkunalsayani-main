@@ -3,12 +3,11 @@ import React, { useState, useEffect } from "react";
 
 // Define five images for cycling
 const images = [
-  
   "/images/homepage/WhyChooseUs/equipment.jpg",
-  "/images/homepage/WhyChooseUs/satisfaction.jpg",
   "/images/homepage/WhyChooseUs/save_money.jpg",
-  "/images/homepage/WhyChooseUs/safety.jpg",
   "/images/homepage/WhyChooseUs/doctors.jpg",
+  "/images/homepage/WhyChooseUs/safety.jpg",
+  "/images/homepage/WhyChooseUs/satisfaction.jpg",
 ];
 
 // Corresponding labels for dots (for accessibility)
@@ -44,7 +43,7 @@ export default function WhyChooseUs() {
         — Why Choose Us? —
       </h2>
 
-      <div className="relative w-[30rem] h-[30rem] mx-auto group">
+      <div className="relative max-lg:text-sm w-[30rem] max-lg:w-[14rem] h-[30rem] max-lg:h-[14rem] mx-auto group">
         {/* Main Circle */}
         <div className="w-full h-full rounded-full border-1  border-dashed flex justify-center items-center">
           <div className="w-[90%] h-[90%] rounded-full relative overflow-hidden shadow-[0px_0px_5px_lightgray]">
@@ -57,77 +56,98 @@ export default function WhyChooseUs() {
           </div>
         </div>
 
-        {/* Dots on the circle */}
-        <div
-          className="flex text-center justify-around gap-2 items-center flex-col absolute -top-[14%] cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]"
-        >
-          <p className={`${currentImageIndex === 0 ? "text-blue-500" : "text-black"}`}>
+        {/* Dot1 on the circle */}
+        <div className="flex text-center font-bold justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[41%]
+        cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]">
+          <p
+            className={`${
+              currentImageIndex === 0 ? "text-blue-500" : "text-black"
+            }`}
+          >
             Cutting Edge Technologies <br /> And Facilities
           </p>
-          
+
           <div
-            className={`w-6 h-6 rounded-full ${currentImageIndex === 0 ? "bg-blue-500" : "bg-gray-500"}`}
+            className={`w-6 h-6 rounded-full ${
+              currentImageIndex === 0 ? "bg-blue-500" : "border bg-white"
+            }`}
             onClick={handleDotClick}
           />
         </div>
-
-        <div
-          className="flex text-center justify-around gap-6 items-start absolute top-[19%] -left-[7%] transform -translate-x-1/2 font-[inter]"
-        >
-          <div className={`${currentImageIndex === 1 ? "text-blue-500" : "text-black"}`}>
+        {/* Dot2 on the circle */}
+        <div className="flex text-center justify-around gap-6 items-start absolute top-[24%] -left-[10%] max-lg:top-[20%] max-lg:-left-[28%]
+        transform -translate-x-1/2 font-[inter]">
+          <div
+            className={`${
+              currentImageIndex === 4 ? "text-blue-500" : "text-black"
+            }`}
+          >
             <p className="font-bold text-right">
               98% Patient <br /> Satisfaction Rate
             </p>
-            
           </div>
           <div
-            className={`w-6 h-6 rounded-full ${currentImageIndex === 1 ? "bg-blue-500" : "bg-gray-500"}`}
+            className={`w-6 h-6 rounded-full ${
+              currentImageIndex === 4 ? "bg-blue-500" : "border bg-white"
+            }`}
             onClick={handleDotClick}
           />
         </div>
-
-        <div
-          className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] transform -translate-x-1/2 font-[inter]"
-        >
+        {/* Dot3 on the circle */}
+        <div className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[122%] 
+        transform -translate-x-1/2 font-[inter]">
           <div
-            className={`w-6 h-6 rounded-full ${currentImageIndex === 2 ? "bg-blue-500" : "bg-gray-500"}`}
+            className={`w-6 h-6 rounded-full ${
+              currentImageIndex === 1 ? "bg-blue-500" : "border bg-white"
+            }`}
             onClick={handleDotClick}
           />
-          <div className={`${currentImageIndex === 2 ? "text-blue-500" : "text-black"}`}>
+          <div
+            className={`${
+              currentImageIndex === 1 ? "text-blue-500" : "text-black"
+            }`}
+          >
             <p className="font-bold text-left w-28">
               Value For <br /> Money
             </p>
-            
           </div>
         </div>
-
-        <div
-          className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[4%] transform -translate-x-1/2 font-[inter]"
-        >
-          <div className={`${currentImageIndex === 3 ? "text-blue-500" : "text-black"}`}>
+        {/* Dot4 on the circle */}
+        <div className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[4%] max-lg:-left-[13%] 
+        transform -translate-x-1/2 font-[inter]">
+          <div
+            className={`${
+              currentImageIndex === 3 ? "text-blue-500" : "text-black"
+            }`}
+          >
             <p className="font-bold text-right">
               Safety And <br /> Ethics
             </p>
-            
           </div>
           <div
-            className={`w-6 h-6 rounded-full ${currentImageIndex === 3 ? "bg-blue-500" : "bg-gray-500"}`}
+            className={`w-6 h-6 rounded-full ${
+              currentImageIndex === 3 ? "bg-blue-500" : "border bg-white"
+            }`}
             onClick={handleDotClick}
           />
         </div>
-
-        <div
-          className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%] transform -translate-x-1/2 font-[inter]"
-        >
+        {/* Dot5 on the circle */}
+        <div className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%] max-lg:left-[116%] 
+        transform -translate-x-1/2 font-[inter]">
           <div
-            className={`w-6 h-6 rounded-full ${currentImageIndex === 4 ? "bg-blue-500" : "bg-gray-500"}`}
+            className={`w-6 h-6 rounded-full ${
+              currentImageIndex === 2 ? "bg-blue-500" : "border bg-white"
+            }`}
             onClick={handleDotClick}
           />
-          <div className={`${currentImageIndex === 4 ? "text-blue-500" : "text-black"}`}>
+          <div
+            className={`${
+              currentImageIndex === 2 ? "text-blue-500" : "text-black"
+            }`}
+          >
             <p className="font-bold text-left w-28">
               Best Doctors <br /> in Hospital
             </p>
-            
           </div>
         </div>
       </div>

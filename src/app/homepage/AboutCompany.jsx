@@ -17,7 +17,7 @@ export default function AboutCompany() {
             className="rounded-2xl shadow-lg object-cover w-full h-auto"
           />
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2  max-lg:text-center max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
         
 
      

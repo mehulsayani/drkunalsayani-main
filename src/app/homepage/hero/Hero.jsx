@@ -51,7 +51,7 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="relative w-full h-[90vh] max-w-[1400px] mx-auto px-18 max-lg:px-0 ">
+    <div className="relative w-full h-[90vh] max-lg:h-[85vh] max-w-[1400px] mx-auto px-18 max-lg:px-0 ">
       <div className="absolute inset-0 z-0 ">
         <Image
           src="/images/homepage/hero/close-up-doctor-with-mask-checking-patient.jpg"
