@@ -35,7 +35,7 @@ function NextArrow({ onClick }) {
 export default function ImageSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const settings = {
+  const settings = { 
     dots: false,
     infinite: true,
     // speed: 1000,

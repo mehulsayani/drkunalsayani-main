@@ -1,106 +1,137 @@
 import Image from "next/image";
-import React from "react";
-import { MdRadioButtonChecked } from "react-icons/md";
+import React, { useRef } from "react";
 import Slider from "react-slick";
-import { LuQuote } from "react-icons/lu";
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
+import { MdStar } from "react-icons/md";
+import { FcGoogle } from "react-icons/fc";
 
+// Custom Arrows
+const PrevArrow = ({ onClick }) => (
+  <button
+    className="border border-[#40AEB9] text-[#40AEB9] rounded-full mr-4"
+    onClick={onClick}
+  >
+    <IoIosArrowRoundBack size={50} />
+  </button>
+);
+
+const NextArrow = ({ onClick }) => (
+  <button
+    className="border border-[#40AEB9] text-[#40AEB9] rounded-full"
+    onClick={onClick}
+  >
+    <IoIosArrowRoundForward size={50} />
+  </button>
+);
+
+// Testimonial data
 const testimonials = [
   {
-    quote:
-      "In this ever-evolving digital era, understand the significance of staying ahead. Through our blog, we invite you to explore the dynamic world of IT with us — decoding algorithms and unraveling innovations.",
-    name: "Matthew Lansberry",
-    role: "CEO & Founder",
-    stars: 5,
+    name: "Geeta Rijhwani",
+    date: "15-05-2025",
+    image: "/images/homepage/testimonials/dp1.png",
+    rating: 5,
+    review:
+      "I had a surgery done recently by Dr Kunal Sayani for removal of trichilemmal cysts on my scalp. He made the whole process very smooth and easy for me, right from consultation to the actual procedure to post-op care and follow-ups. Thank you so much Dr Kunal Sayani for the stress-free experience and a great job done.",
   },
   {
-    quote:
-      "Their service is outstanding! The team guided us through every step and delivered top-notch solutions tailored to our needs.",
-    name: "Samantha Riggs",
-    role: "Product Manager",
-    stars: 5,
+    name: "Geeta Rijhwani",
+    date: "15-05-2025",
+    image: "/images/homepage/testimonials/dp1.png",
+    rating: 5,
+    review:
+      "I had a surgery done recently by Dr Kunal Sayani for removal of trichilemmal cysts on my scalp. He made the whole process very smooth and easy for me...",
   },
   {
-    quote:
-      "Highly recommend this company for their expertise and professionalism. We've seen tremendous growth since partnering with them.",
-    name: "Derek Smith",
-    role: "Tech Lead",
-    stars: 4,
+    name: "Geeta Rijhwani",
+    date: "15-05-2025",
+    image: "/images/homepage/testimonials/dp1.png",
+    rating: 5,
+    review:
+      "Thank you so much Dr Kunal Sayani for the stress-free experience and a great job done.",
+  },
+  {
+    name: "Geeta Rijhwani",
+    date: "15-05-2025",
+    image: "/images/homepage/testimonials/dp1.png",
+    rating: 5,
+    review:
+      "From consultation to surgery, everything was handled with great care. I truly appreciate it.",
+  },
+  {
+    name: "Geeta Rijhwani",
+    date: "15-05-2025",
+    image: "/images/homepage/testimonials/dp1.png",
+    rating: 5,
+    review: "The process was smooth and professional. Dr. Kunal is amazing!",
   },
 ];
 
 export default function Testimonials() {
+  const sliderRef = useRef(null);
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     autoplay: true,
     autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    pauseOnHover: false,
-    arrows: true,
+    pauseOnHover: true,
+    arrows: false, // Keep arrows false to use custom controls
   };
 
   return (
-    <section className="w-full py-16 px-4">
-      <div className="max-w-6xl mx-auto text-center flex flex-col items-center">
-        <p className="text-sm flex items-center gap-1 bg-green-100 tracking-wide mb-2 px-3 py-1 rounded-full">
-          <MdRadioButtonChecked />
-          <span>Our Testimonials</span>
-        </p>
+    <section className="w-full flex flex-col items-center justify-center py-20">
+      <div className="flex justify-between w-full max-w-[1200px] max-lg:flex-col">
+        {/* Left Section */}
+        <div className="w-full flex justify-center flex-col items-start">
+          <h2 className="text-4xl text-left mb-6">
+            See What Our <br /> <span className="text-[#1AAEBC]">Patients</span> Have To Say!
+          </h2>
 
-        <h2 className="text-3xl md:text-4xl font-bold mb-10">
-          What Patients Say About Us
-        </h2>
+          {/* External Arrow Controls */}
+          <div className="text-lg text-center mb-8 flex">
+            <PrevArrow onClick={() => sliderRef.current?.slickPrev()} />
+            <NextArrow onClick={() => sliderRef.current?.slickNext()} />
+          </div>
+        </div>
 
-        <div className="flex flex-col-reverse md:flex-row bg-[#1AAEBC] rounded-xl overflow-hidden w-full">
-          {/* Testimonial Text Slider */}
-          <div className="w-full md:w-1/2 px-6 py-8 flex items-center justify-center">
-            <div className="w-full max-w-xl">
-              <Slider {...settings}>
+        {/* Right Section with Slider */}
+        <div className="w-full flex justify-start items-center">
+          <div className="w-full h-48 max-lg:h-auto max-lg:p-4 bg-[#40AEB9] flex justify-start items-center rounded-lg">
+            <div className="w-[30rem] max-lg:w-[24rem] ml-8 max-lg:ml-0 shadow-[0px_0px_10px_lightgray] rounded-2xl bg-white">
+              <Slider ref={sliderRef} {...settings}>
                 {testimonials.map((testimonial, index) => (
-                  <div
-                    key={index}
-                    className="text-white p-4 md:p-6 rounded-2xl text-left"
-                  >
-                    <div className="text-3xl mb-4 text-white">
-                      <LuQuote />
-                    </div>
-                    <p className="text-lg leading-relaxed mb-6">
-                      {testimonial.quote}
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <p className="font-semibold">{testimonial.name}</p>
-                        <p className="text-sm text-purple-200">
-                          {testimonial.role}
-                        </p>
+                  <div key={index}>
+                    <div className="h-[18rem] flex flex-col p-4  ">
+                      <div className="flex justify-between items-start">
+                        <div className="flex justify-center items-end gap-4">
+                          <Image
+                            src={testimonial.image}
+                            alt={testimonial.name}
+                            width={100}
+                            height={100}
+                            className="rounded-full"
+                          />
+                          <div className="flex flex-col">
+                            <h1 className="text-[#10217D] font-bold text-lg">{testimonial.name}</h1>
+                            <p className="text-gray-500">{testimonial.date}</p>
+                            <div className="text-yellow-400 flex text-2xl">
+                              {[...Array(testimonial.rating)].map((_, i) => (
+                                <MdStar key={i} />
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                        <FcGoogle size={30} />
                       </div>
-                      <div className="flex gap-1 text-yellow-400">
-                        {"★★★★★"
-                          .slice(0, testimonial.stars)
-                          .split("")
-                          .map((star, idx) => (
-                            <span key={idx}>{star}</span>
-                          ))}
-                      </div>
+                      <p className="mt-4 text-base text-gray-700">{testimonial.review}</p>
                     </div>
                   </div>
                 ))}
               </Slider>
-            </div>
-          </div>
-
-          {/* Image Section */}
-          <div className="w-full md:w-1/2 flex items-center justify-center p-4">
-            <div className="relative w-full max-w-md h-auto">
-              <Image
-                src="/images/homepage/testimonials/reviews.jpg"
-                alt="Reviewer"
-                width={400}
-                height={400}
-                className="rounded-xl w-full h-auto object-cover"
-              />
             </div>
           </div>
         </div>
