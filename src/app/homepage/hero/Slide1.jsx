@@ -6,9 +6,9 @@ import CustomControls from "./CustomControls";
 
 export default function Slide1() {
   const stats = [
-    { label: "Years of Experience", value: "8+" },
-    { label: "Happy Patients", value: "1000+" },
-    { label: "5-Star Reviews", value: "200+" },
+     { label: "Surgical Procedure", value: "1000+" },
+    { label: "Years of Experience", value: "8" },
+    { label: "Happy  Patient", value: "98%" },
   ];
   return (
     <section className="w-full min-h-[400px] transition-opacity duration-700 ease-in-out">

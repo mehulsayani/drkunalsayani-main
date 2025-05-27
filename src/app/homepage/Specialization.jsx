@@ -95,7 +95,7 @@ export default function Services() {
        <div className=" flex items-center justify-center">
          <p className="text-sm w-32 flex justify-center items-center gap-1 bg-green-100 tracking-wide mb-4 px-2 py-1 rounded-full">
           <MdRadioButtonChecked />
-          <span>Our Services</span>
+          <span>Areas of Specialization</span>
         </p>
        </div>
 

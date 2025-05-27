@@ -28,7 +28,7 @@ export default function Footer() {
             className="object-contain"
           />
           <p className="text-gray-400">
-            Transform How You Feel — Not Just How You Look
+            Transform How You Feel <br /> Not Just How You Look
           </p>
         </div>
 
