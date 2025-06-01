@@ -51,7 +51,7 @@ export default function FAQSection() {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-4 py-4 bg-white flex justify-between items-center text-left hover:bg-gray-50 focus:outline-none "
               >
-                <span className="text-lg font-semibold text-[#10217D]">
+                <span className="text-lg font-semibold text-[#000000]">
                   {faq.question}
                 </span>
                 <motion.span

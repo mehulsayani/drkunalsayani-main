@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Virsace Bigiora';
+    src: url('VirsaceBigiora-Regular.eot');
+    src: local('Virsace Bigiora Regular'), local('VirsaceBigiora-Regular'),
+        url('VirsaceBigiora-Regular.eot?#iefix') format('embedded-opentype'),
+        url('VirsaceBigiora-Regular.woff2') format('woff2'),
+        url('VirsaceBigiora-Regular.woff') format('woff'),
+        url('VirsaceBigiora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

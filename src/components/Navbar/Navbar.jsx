@@ -18,8 +18,93 @@ export default function Navbar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const submenus = [
+    {
+      title: "Body",
+      items: [
+        "Tummy Tuck (Abdominoplasty)",
+        "Liposuction",
+        "Buttock Augmentation (BBL)",
+        "Fat Grafting",
+      ],
+    },
+    {
+      title: "Breast",
+      items: [
+        "Breast Augmentation",
+        "Breast Lift (mastopexy) with Shaping",
+        "Breast Reduction & Axillary Breasts Excision",
+      ],
+    },
+    {
+      title: "Hair",
+      items: [
+        "Hair Transplant",
+        "Hair Restoration – PRP/GFC/Exosomes",
+        "Nano fat injection (SVC) for Hair Growth",
+      ],
+    },
+    {
+      title: "Face",
+      items: [
+        {
+          name: "Rhinoplasty (Nose job)",
+          submenu: [
+            "Eyelid Surgery (Blepharoplasty)",
+            "Prominent Ear Surgery (Otoplasty)",
+            "Facelift",
+            "Thread Lift Treatment",
+            "Chin Augmentation",
+            "Jawline Contouring",
+            "Lip Lift (Lip job)",
+            "Lipoma/Cysts/Scars",
+          ],
+        },
+        // You can add other face items here if needed as separate items,
+        // but since the rest are in submenu, we keep only Rhinoplasty top-level.
+      ],
+    },
+    {
+      title: "Non Surgical",
+      items: [
+        "Botox (wrinkles/anti-ageing)",
+        "Dermal Fillers",
+        "Laser Skin Rejuvenation",
+        "Microneedling & PRP for Skin Rejuvenation",
+        "Skin Tightening",
+      ],
+    },
+    {
+      title: "Mommy Makeover",
+      items: [
+        "Post-Pregnancy Tummy Tuck (moms)",
+        "Breast Lift & Augmentation after Pregnancy",
+        "Genital Cosmetic Surgeries",
+        "Mommy Makeover Package (custom combination of procedures)",
+      ],
+    },
+    {
+      title: "Men",
+      items: [
+        "Gynaecomastia",
+        "Liposuction",
+        "Hair Loss Treatment",
+        "Hair Transplant",
+        "Face > Rhinoplasty (Nose job)",
+        "Eyelid Surgery (Blepharoplasty)",
+        "Prominent Ear Surgery (Otoplasty)",
+        "Facelift",
+        "Thread Lift Treatment",
+        "Chin Augmentation",
+        "Jawline Contouring",
+        "Lip Lift (Lip job)",
+        "Lipoma/Cysts/Scars",
+      ],
+    },
+  ];
+
   return (
-    <header className="w-full bg-white shadow-md sticky top-0 z-50 flex items-center justify-center">
+    <header className="w-full bg-white shadow-md z-50 flex items-center justify-center">
       <div className=" w-full max-lg:w-[90%] flex items-center justify-between flex-col">
         <div className="max-w-[1200px] w-full max-lg:w-[90%] py-1 flex items-center justify-between">
           {/* Logo */}
@@ -36,50 +121,50 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           {/* Top Navigation */}
           <nav className="space-x-6 hidden md:flex">
-            <divnk
-              href="/about-doctor"
+            <Link
+              href="/about-dr-kunal-sayani"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
               About Dr Kunal Sayani
-            </divnk>
-            <divnk
+            </Link>
+            <Link
               href="/about-clinic"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
               About Tvameva Clinic
-            </divnk>
+            </Link>
 
-            <div className="inline-block align-middle ">
-              {/* hover:text-[#1AAEBC] duration-500 text-gray-700 
+            {/* <div className="inline-block align-middle ">
+              hover:text-[#1AAEBC] duration-500 text-gray-700 
           relative cursor-pointer  after:content-[''] after:absolute after:bottom-0 after:left-0 
           after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right 
-          after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left */}
+          after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left
               <Dropdown />
-            </div>
-            <divnk
+            </div> */}
+            <Link
               href="/reviews"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
               Reviews
-            </divnk>
-            <divnk
+            </Link>
+            <Link
               href="/gallery"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
               Gallery
-            </divnk>
-            <divnk
+            </Link>
+            <Link
               href="/pricing"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
               Pricing
-            </divnk>
-            <divnk
+            </Link>
+            <Link
               href="/blog"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
               Blog
-            </divnk>
+            </Link>
           </nav>
 
           {/* Right-side controls */}
@@ -103,59 +188,8 @@ export default function Navbar() {
             </button>
           </div>
         </div>
-      <div className="w-full bg-gray-100 border-t text-sm font-medium text-gray-700">
-  <div className="max-w-7xl mx-auto flex justify-evenly items-center h-10">
-    {/* Dropdown Menu Item */}
-    {[
-      {
-        title: "Body",
-        items: ["Tummy Tuck (Abdominoplasty)", "Liposuction", "Body Contouring", "Arm Lift"],
-      },
-      {
-        title: "Breast",
-        items: ["Breast Augmentation", "Breast Lift", "Breast Reduction", "Gynecomastia"],
-      },
-      {
-        title: "Hair",
-        items: ["Hair Transplant", "PRP Therapy", "Hair Restoration"],
-      },
-      {
-        title: "Face",
-        items: ["Rhinoplasty", "Facelift", "Blepharoplasty", "Chin Augmentation"],
-      },
-      {
-        title: "Non Surgical",
-        items: ["Botox", "Fillers", "Laser Treatments", "Skin Rejuvenation"],
-      },
-      {
-        title: "Mommy Makeover",
-        items: ["Tummy Tuck", "Breast Lift", "Stretch Mark Removal"],
-      },
-      {
-        title: "Men",
-        items: ["Hair Transplant", "Gynecomastia", "Body Sculpting"],
-      },
-    ].map((section, index) => (
-      <div key={index} className="relative group cursor-pointer">
-        <span className="hover:text-[#40AEB9] transition-colors">{section.title}</span>
-
-        <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 hidden group-hover:block bg-white shadow-lg rounded-lg w-56 z-10">
-          <div className="flex flex-col py-2 px-4 space-y-2">
-            {section.items.map((item, i) => (
-              <div
-                key={i}
-                className="hover:text-[#40AEB9] transition-colors cursor-pointer"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    ))}
-  </div>
-</div>
-
+        {/* second level menus */}
+      
       </div>
       {/* Mobile Navigation */}
       <div

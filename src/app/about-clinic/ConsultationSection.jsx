@@ -1,0 +1,67 @@
+// components/ConsultationSection.jsx
+import Image from "next/image";
+
+export default function ConsultationSection() {
+  return (
+    <section className="py-16 px-4 md:px-6 bg-[#e2fdff] text-gray-800 flex justify-center items-center">
+      <div className="max-w-[1200px] w-full flex flex-col max-lg:flex-col-reverse lg:flex-row gap-10">
+        {/* Left Content */}
+        <div className="w-full lg:w-1/2">
+          <h2 className="text-3xl md:text-4xl mb-4 text-[#1AAEBC] font-semibold max-lg:font-bold">
+            Ready to Begin Your Transformation?
+          </h2>
+          <p className="text-base md:text-lg mb-6">
+            At Tvameva, we tailor every consultation to your unique goals—offering expert care with honesty and compassion. Let’s take the first step together.
+          </p>
+          <form className="space-y-4">
+            <div className="grid md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="border border-gray-300 p-3 rounded-full w-full bg-white"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="border border-gray-300 p-3 rounded-full w-full bg-white"
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                className="border border-gray-300 p-3 rounded-full w-full bg-white"
+              />
+              <select className="border border-gray-300 p-3 rounded-full w-full bg-white">
+                <option>Choose an Option</option>
+                <option>Skin Care</option>
+                <option>Hair Treatment</option>
+                <option>Body Wellness</option>
+              </select>
+            </div>
+            <textarea
+              rows="4"
+              placeholder="Your Message"
+              className="border border-gray-300 p-3 rounded w-full bg-white"
+            ></textarea>
+            <button
+              type="submit"
+              className="bg-[#1AAEBC] text-white px-6 py-3 rounded-full hover:bg-blue-500 transition"
+            >
+              Book Consultation
+            </button>
+          </form>
+        </div>
+
+        {/* Right Content */}
+        <div className="w-full lg:w-1/2 flex justify-center items-center">
+          <Image
+            src="/images/services/body/tummytuck/consultation2.jpg"
+            alt="Satisfied client"
+            width={400}
+            height={400}
+            className="rounded-2xl w-full max-w-[500px] h-auto"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}

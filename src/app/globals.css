@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Virsace Bigiora";
+  src: url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.ttf"); /* IE9 compat */
+  /* Add other formats if available for broader support */
+  /* Example:
+  src: url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.woff2") format("woff2"),
+       url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.woff") format("woff"),
+       url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.ttf") format("truetype");
+  */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-virsace {
+  font-family: "Virsace Bigiora", serif;
+}

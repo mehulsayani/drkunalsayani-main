@@ -86,7 +86,7 @@ export default function Testimonials() {
     <section className="w-full flex flex-col items-center justify-center py-20">
       <div className="flex justify-between w-full max-w-[1200px] max-lg:flex-col">
         {/* Left Section */}
-        <div className="w-full flex justify-center flex-col items-start">
+        <div className="w-full flex justify-center px-4 flex-col items-start">
           <h2 className="text-4xl text-left mb-6">
             See What Our <br /> <span className="text-[#1AAEBC]">Patients</span> Have To Say!
           </h2>
@@ -101,7 +101,7 @@ export default function Testimonials() {
         {/* Right Section with Slider */}
         <div className="w-full flex justify-start items-center">
           <div className="w-full h-48 max-lg:h-auto max-lg:p-4 bg-[#40AEB9] flex justify-start items-center rounded-lg">
-            <div className="w-[30rem] max-lg:w-[24rem] ml-8 max-lg:ml-0 shadow-[0px_0px_10px_lightgray] rounded-2xl bg-white">
+            <div className="w-[30rem] max-lg:w-[22rem] ml-8 max-lg:ml-0 shadow-[0px_0px_10px_lightgray] rounded-2xl bg-white">
               <Slider ref={sliderRef} {...settings}>
                 {testimonials.map((testimonial, index) => (
                   <div key={index}>
@@ -127,7 +127,7 @@ export default function Testimonials() {
                         </div>
                         <FcGoogle size={30} />
                       </div>
-                      <p className="mt-4 text-base text-gray-700">{testimonial.review}</p>
+                      <p className="mt-4 text-base max-lg:text-sm text-gray-700">{testimonial.review}</p>
                     </div>
                   </div>
                 ))}

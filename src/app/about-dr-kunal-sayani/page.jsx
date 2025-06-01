@@ -1,0 +1,55 @@
+import Image from "next/image";
+import React from "react";
+import Membership from "./Membership";
+import Quote from "./Quote";
+import Affiliations from "./Affiliations";
+
+export default function DrKunalSayani() {
+  return (
+    <div>
+      <section className=" px-4 inset-0 bg-gradient-to-br from-blue-900 to-[#1AAEBC]">
+        <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
+          <div className="flex-1 max-lg:text-center">
+            <h1 className="text-4xl font-bold mb-4 text-[#00E6FF]">
+              Dr. Kunal Sayani
+            </h1>
+            <p className="text-lg mb-6 text-[#FFC107] font-bold">
+              MCh in Plastic & Reconstructive Surgery from the prestigious Grant
+              Medical College and Sir J.J. Hospital, Mumbai.
+            </p>
+            <p className="text-md mb-4 text-[#F0F0F0] max-w-2xl">
+              Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
+              based in Andheri, Mumbai, with over 8 years of experience in
+              aesthetic and reconstructive surgery. Known for his
+              patient-centric approach and surgical precision, he blends
+              advanced medical expertise with a refined aesthetic sense —
+              delivering results that are both natural and transformative.
+            </p>
+            <p className="text-md mb-2 text-[#F0F0F0] max-w-2xl">
+              He completed his MCh in Plastic & Reconstructive Surgery and MS in
+              General Surgery at the esteemed Grant Medical College and Sir J.J.
+              Hospital, Mumbai. He also holds a Doctorate of National Board
+              (DrNB) from New Delhi.
+            </p>
+            <p className="text-md text-[#F0F0F0] max-w-2xl">
+              Dr. Sayani is among the few plastic surgeons in India with dual
+              degrees (MCh & DrNB), including National Board certification.
+            </p>
+          </div>
+          <div className="flex-shrink-0">
+            <Image
+              src="/images/homepage/hero/kunal.png"
+              width={376} // 23.5rem * 16 (Tailwind base unit)
+              height={500}
+              alt="Dr. Kunal Sayani"
+              className="rounded-2xl w-[23.5rem] h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+      <Membership/>
+      <Quote/>
+      <Affiliations/>
+    </div>
+  );
+}

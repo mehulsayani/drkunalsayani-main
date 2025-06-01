@@ -108,9 +108,7 @@ export default function ToggleSubMenu({ isMobile = false }) {
                           {services[category].map((service) => (
                             <Link
                               key={service}
-                              href={`/${gender.toLowerCase()}/${category.toLowerCase()}/${service
-                                .toLowerCase()
-                                .replace(/\s+/g, "-")}`}
+                              href={`http://192.168.142.197:3000/services/body/tummy-tuck-(abdominoplasty)`}
                               className="block text-gray-600 hover:text-[#1AAEBC] px-4 py-2 text-sm hover:bg-gray-100"
                               onClick={() => isMobile && toggleGenderDropdown()}
                             >
