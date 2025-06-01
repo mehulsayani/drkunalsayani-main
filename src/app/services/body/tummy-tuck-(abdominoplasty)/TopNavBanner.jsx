@@ -41,14 +41,12 @@ export default function TopNavBanner() {
       {/* Breadcrumbs */}
       <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white">
         <Link href={'/'}><span className="hover:underline cursor-pointer">Home</span></Link>
+        <span className="mx-2">/</span>
         <Link href={'/services'}><span className="hover:underline cursor-pointer">Services</span></Link>
+        <span className="mx-2">/</span>
         <Link href={'/services/body'}><span className="hover:underline cursor-pointer">Body</span></Link>
-        
-        <span className="mx-2">/</span>
-        <span className="hover:underline cursor-pointer">Services</span>
-        <span className="mx-2">/</span>
-        <span className="hover:underline cursor-pointer">Body</span>
-        <span className="mx-2">/</span>
+         <span className="mx-2">/</span>
+       
         <span className=" font-medium">Tummy Tuck</span>
       </div>
     </div>
