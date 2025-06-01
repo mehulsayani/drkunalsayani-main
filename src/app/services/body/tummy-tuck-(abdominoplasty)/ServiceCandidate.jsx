@@ -59,25 +59,31 @@ export default function ServiceCandidate() {
           </ul>
 
           {/* Contact Button */}
-         <div
-  className="mt-8 w-[70%] max-lg:w-full bg-[#e2fdff] p-4 rounded-2xl 
-             flex max-lg:flex-col items-center max-lg:items-start justify-between max-lg:gap-4 shadow-md"
->
-  <div className="flex items-center gap-3">
-    <FaWhatsapp className="text-[#1AAEBC] text-4xl" />
-    <div>
-      <p className="text-sm text-gray-600">Get Ready For Consultation?</p>
-      <p className="text-md font-medium text-gray-800">+91 08048034415</p>
-    </div>
-  </div>
-  <button
-    className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-full 
+          <div
+            className="mt-8 w-[70%] max-lg:w-full bg-[#e2fdff] p-4 rounded-2xl 
+             flex max-lg:flex-col items-center max-lg:items-center justify-between max-lg:gap-4 shadow-md"
+          >
+            <div className="flex items-center gap-3">
+              <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
+              <div>
+                <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-gray-600 max-lg:text-center">
+                  Get Ready For Consultation?
+                </p>
+                <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
+                  <span>
+                    <FaWhatsapp className="text-[#1AAEBC] text-xl hidden" />
+                  </span>
+                  +91 08048034415
+                </p>
+              </div>
+            </div>
+            <button
+              className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-full 
                font-medium hover:bg-blue-500 transition"
-  >
-    Contact Us <ArrowUpRight size={18} />
-  </button>
-</div>
-
+            >
+              Contact Us <ArrowUpRight size={18} />
+            </button>
+          </div>
         </div>
       </div>
     </section>

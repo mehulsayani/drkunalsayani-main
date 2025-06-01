@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function ConsultationSection() {
   return (
-    <section className="py-16 px-4 md:px-6 bg-[#e2fdff] text-gray-800 flex justify-center items-center">
+    <section className="py-16 px-4 md:px-6 bg-[#1AAEBC] text-gray-800 flex justify-center items-center">
       <div className="max-w-[1200px] w-full flex flex-col max-lg:flex-col-reverse lg:flex-row gap-10">
         {/* Left Content */}
         <div className="w-full lg:w-1/2">
-          <h2 className="text-3xl md:text-4xl mb-4 text-[#1AAEBC] font-semibold max-lg:font-bold">
+          <h2 className="text-5xl mb-4 text-white font-bold">
             Ready to Begin Your Transformation?
           </h2>
-          <p className="text-base md:text-lg mb-6">
+          <p className="text-base md:text-lg mb-6 text-white">
             At Tvameva, we tailor every consultation to your unique goals—offering expert care with honesty and compassion. Let’s take the first step together.
           </p>
           <form className="space-y-4">
@@ -18,19 +18,19 @@ export default function ConsultationSection() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="border border-gray-300 p-3 rounded-full w-full bg-white"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="border border-gray-300 p-3 rounded-full w-full bg-white"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
               />
               <input
                 type="tel"
                 placeholder="Phone Number"
-                className="border border-gray-300 p-3 rounded-full w-full bg-white"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
               />
-              <select className="border border-gray-300 p-3 rounded-full w-full bg-white">
+              <select className="border border-gray-300 p-3 rounded-lg w-full bg-white">
                 <option>Choose an Option</option>
                 <option>Skin Care</option>
                 <option>Hair Treatment</option>
@@ -44,7 +44,7 @@ export default function ConsultationSection() {
             ></textarea>
             <button
               type="submit"
-              className="bg-[#1AAEBC] text-white px-6 py-3 rounded-full hover:bg-blue-500 transition"
+              className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-blue-500 transition"
             >
               Book Consultation
             </button>

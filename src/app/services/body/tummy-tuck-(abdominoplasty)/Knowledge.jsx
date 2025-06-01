@@ -17,12 +17,48 @@ const Knowledge = () => {
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
-          <div className="w-[28%]  max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-[1.5rem] overflow-hidden shadow-lg">
+          <div className="w-[28%]  max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg">
             {/* Header */}
             <div className="bg-[#1AAEBC] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 CONSULT US
               </h1>
+              <form className="space-y-4 py-8">
+            <div className="grid md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+              />
+              <select className="border border-gray-300 p-3 rounded-lg w-full bg-white">
+                <option>Choose an Option</option>
+                <option>Skin Care</option>
+                <option>Hair Treatment</option>
+                <option>Body Wellness</option>
+              </select>
+            </div>
+            <textarea
+              rows="4"
+              placeholder="Your Message"
+              className="border border-gray-300 p-3 rounded w-full bg-white"
+            ></textarea>
+            <button
+              type="submit"
+              className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-blue-500 transition"
+            >
+              Book Consultation
+            </button>
+          </form>
             </div>
 
            
