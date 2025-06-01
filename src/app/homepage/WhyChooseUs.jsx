@@ -79,8 +79,8 @@ export default function WhyChooseUs() {
           />
         </div>
         {/* Dot2 on the circle */}
-        <div className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[6.5%]
-         max-lg:top-[20%] max-lg:-left-[10%]
+        <div className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[9.5%]
+         max-lg:top-[20%] max-lg:-left-[13%]
         transform -translate-x-1/2 font-[inter]">
           <div
             className={`${
@@ -88,7 +88,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-right">
-              Best Doctors <br /> in Hospital
+              98% Patient <br /> Satisfaction Rate
             </p>
           </div>
           <div
@@ -151,7 +151,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-left w-28">
-               98% Patient <br /> Satisfaction Rate
+                Best Doctors <br /> in Hospital
             </p>
           </div>
         </div>
