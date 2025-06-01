@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function TopNavBanner() {
@@ -39,7 +40,10 @@ export default function TopNavBanner() {
 
       {/* Breadcrumbs */}
       <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white">
-        <span className="hover:underline cursor-pointer">Home</span>
+        <Link href={'/'}><span className="hover:underline cursor-pointer">Home</span></Link>
+        <Link href={'/services'}><span className="hover:underline cursor-pointer">Services</span></Link>
+        <Link href={'/services/body'}><span className="hover:underline cursor-pointer">Body</span></Link>
+        
         <span className="mx-2">/</span>
         <span className="hover:underline cursor-pointer">Services</span>
         <span className="mx-2">/</span>

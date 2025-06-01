@@ -19,10 +19,11 @@ export default function page() {
       
       <BeforeAfter />
       <Testimonials />
+      <Knowledge/>
       <FAQSection />
       <ConsultationSection />
       
-      <Knowledge/>
+      
       
       
     </div>
