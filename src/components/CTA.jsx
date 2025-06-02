@@ -22,15 +22,14 @@ export default function CTA() {
 
   return (
     <div>
-      <div className="fixed rounded-tl-lg bg-[#0084ff] rounded-bl-lg top-50 
-       right-0 
+      <div className="fixed rounded-tl-lg bg-[#0084ff] rounded-bl-lg top-50 right-0
+      max-lg:bottom-0 max-lg:top-[88vh] max-lg:flex max-lg:w-full max-lg:flex-row-reverse
        z-50">
         <a
           href="tel://918048034415"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 max-lg:w-full rounded-tl-lg text-white p-3 shadow-md hover:bg-gray-700 
-          transition duration-200 flex items-center justify-center"
+          className="bg-gray-800 max-lg:w-full rounded-tl-lg text-white p-3 shadow-md hover:bg-gray-700 transition duration-200 flex items-center justify-center"
           aria-label="Book appointment via WhatsApp"
         >
           <FiPhoneCall size={22} />
@@ -40,8 +39,7 @@ export default function CTA() {
           href="https://wa.me/919970939063"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#25D366] max-lg:w-full text-white p-3 shadow-md hover:bg-[#1ebe5d] transition 
-          duration-200 flex items-center justify-center"
+          className="bg-[#25D366] max-lg:w-full text-white p-3 shadow-md hover:bg-[#1ebe5d] transition duration-200 flex items-center justify-center"
           aria-label="Book appointment via WhatsApp"
         >
           <FaWhatsapp size={22} />
@@ -50,8 +48,7 @@ export default function CTA() {
           href="mailto:drkunalsayani.professional@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className=" text-white max-lg:w-full bg-[#1AAEBC] hover:bg-[#5fc1ca] p-3 shadow-md 
-          transition duration-200 flex items-center justify-center"
+          className=" text-white max-lg:w-full bg-[#1AAEBC] hover:bg-[#5fc1ca] p-3 shadow-md transition duration-200 flex items-center justify-center"
           aria-label="Book appointment via email"
         >
           <MdOutlineMailOutline size={22} />
@@ -67,8 +64,10 @@ export default function CTA() {
           </div>
 
           {/* Share Options on Hover */}
-          <div className="bg-white  group-hover:inset-shadow-gray-500 transition-all duration-500 flex 
-          flex-col items-center justify-center gap-2 py-0 overflow-hidden h-0 group-hover:h-30 max-lg:group-hover:-h-30 
+          <div className="bg-white shadow-[0px_0px_10px_lightgray] transition-all duration-500 flex flex-col items-center
+           justify-center gap-2 max-lg:gap-5 py-0 overflow-hidden h-0 relative max-lg:bottom-0
+            max-lg:group-hover:bottom-60 max-lg:rounded-xl
+           group-hover:h-30 max-lg:group-hover:h-48
           group-hover:py-2 rounded-bl-lg ">
             {shareUrl && (
               <>

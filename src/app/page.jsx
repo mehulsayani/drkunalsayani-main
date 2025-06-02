@@ -19,6 +19,7 @@ import VideoSection from "./homepage/VideoSection";
 import FAQ from "./homepage/FAQ";
 
 import Banner from "./homepage/Banner";
+import CTA from "@/components/CTA";
 
 export default function page() {
   const pathname = usePathname();
@@ -32,20 +33,17 @@ export default function page() {
     <div>
       <Hero />
       <AboutDoctor />
-
       <Specialization />
       <Aesthetics />
       <AboutCompany />
-
       <WhyChooseUs />
-
-      <Gallery />
+      {/* <Gallery />
       <Banner />
-      <VideoSection />
+      <VideoSection /> */}
       <Testimonials />
       <Blog />
       <FAQ />
-      
+     
     </div>
   );
 }
