@@ -103,7 +103,7 @@ export default function Navbar() {
   return (
     <header className="w-full bg-white shadow-md z-50 flex items-center justify-center">
       <div className=" w-full max-lg:w-[90%] flex items-center justify-between flex-col">
-        <div className="max-w-[1200px] w-full max-lg:w-[90%] py-1 flex items-center justify-between">
+        <div className="max-w-[1200px] w-full py-1 flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="text-xl font-bold text-black flex-shrink-0">
             <Image
@@ -166,7 +166,7 @@ export default function Navbar() {
 
           {/* Right-side controls */}
           <div className="flex items-center gap-2 sm:gap-4">
-            <div className="flex items-center gap-2 sm:gap-4 max-lg:hidden">
+            <div className="flex items-center gap-2 sm:gap-4 ">
               {/* <CallForm /> */}
               <a
                 href="/book-appointment"

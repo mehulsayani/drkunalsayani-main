@@ -43,7 +43,7 @@ export default function ServiceLayout() {
               ))}
             </ul>
           </div>
-          <div className="w-[70%] min-h-[70rem] max-lg:w-[90%]">
+          <div className="w-[68%] min-h-[70rem] max-lg:w-[90%]">
             <Overview />
             {/* <Knowledge/> */}
             <ServiceCandidate />
