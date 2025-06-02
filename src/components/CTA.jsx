@@ -62,7 +62,7 @@ export default function CTA() {
           </div>
 
           {/* Share Options on Hover */}
-          <div className="bg-white  group-hover:shadow-[0px_0px_3px_gray] transition-all duration-500 flex flex-col items-center justify-center gap-2 py-0 overflow-hidden h-0 group-hover:h-30 group-hover:py-2 rounded-bl-lg ">
+          <div className="bg-white  group-hover:inset-shadow-gray-500 transition-all duration-500 flex flex-col items-center justify-center gap-2 py-0 overflow-hidden h-0 group-hover:h-30 group-hover:py-2 rounded-bl-lg ">
             {shareUrl && (
               <>
                 <a
