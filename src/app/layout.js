@@ -216,10 +216,12 @@ export default function RootLayout({ children }) {
           ))}
         </div>
       </div>
-        <CTA />
+        
         <main>{children}</main>
         <ScrollTop />
+        
         <Footer />
+        <CTA />
       </body>
     </html>
   );
