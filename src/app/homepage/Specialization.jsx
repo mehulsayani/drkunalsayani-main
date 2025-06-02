@@ -31,7 +31,7 @@ const specializations = [
   {
     title: "Liposuction",
     description1:
-      "Eliminate stubborn fat deposits resistant to diet and exercise.",
+      `Eliminate stubborn fat deposits resistant to diet and exercise. ${<br/>}`,
     image: "/images/homepage/specialization/liposuction-min.jpg",
     link: "/services/liposuction",
   },
@@ -93,7 +93,7 @@ export default function Services() {
     <section className="bg-[#f9fbfc] py-16" id="services">
       <div className="max-w-7xl mx-auto px-4 text-center">
        <div className=" flex items-center justify-center">
-         <p className="text-sm w-32 flex justify-center items-center gap-1 bg-green-100 tracking-wide mb-4 px-2 py-1 rounded-full">
+         <p className="text-sm w-50 flex justify-center items-center gap-1 bg-green-100 tracking-wide mb-4 px-2 py-1 rounded-full">
           <MdRadioButtonChecked />
           <span>Areas of Specialization</span>
         </p>

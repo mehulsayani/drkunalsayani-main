@@ -72,7 +72,7 @@ export default function Blog() {
                     <p className="text-xs text-gray-500">{post.date}</p>
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-[#1AAEBC] mb-2">
+                <h3 className="text-xl font-semibold text-[#10217D] mb-2">
                   {post.title}
                 </h3>
                 <p className="text-gray-600  text-sm mb-4">{post.summary}</p>

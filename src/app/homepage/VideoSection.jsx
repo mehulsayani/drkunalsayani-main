@@ -72,6 +72,28 @@ export default function VideoSection() {
       <h1 className="text-3xl font-bold mb-5 text-center">
         Explore Our Videos
       </h1>
+      <div className="flex gap-5 tems-center max-w-[1200px] p-4 rounded-lg w-full mb-4">
+      {/* Profile Picture */}
+      <div className="w-16 h-16 relative rounded-full overflow-hidden">
+        <Image
+          src="/images/homepage/hero/image4.png" // Replace with your actual image path
+          alt="Dr. Kunal Sayani"
+          fill
+          className="object-cover border"
+        />
+      </div>
+
+      {/* Text Content */}
+      <div>
+        <h2 className="text-xl font-semibold text-gray-800">
+          Dr.Kunal Sayani <span className="font-normal">(MS MCh DrNB)</span>{' '}
+          <span className="text-lg text-gray-600">@drkunalsayani</span>
+        </h2>
+        <p className="text-lg text-blue-600 font-medium">
+          Board certified Plastic & Aesthetic Surgeon
+        </p>
+      </div>
+    </div>
 
       {/* Mobile/Tablet View: Slick Slider */}
       {isMobile ? (

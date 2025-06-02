@@ -1,75 +1,83 @@
 import { ArrowUpRight } from "lucide-react";
-import React, { useEffect } from "react";
-import {
-  FaCheckCircle,
-  FaStethoscope,
-  FaHeartbeat,
-  FaUserMd,
-  FaShieldAlt,
-} from "react-icons/fa";
+import React, { useEffect, useState } from "react";
 
 const Knowledge = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const [readMore, setReadClose] = useState(false);
+  const toggleReadMore = () => {
+    setReadClose(!readMore);
+  };
+
   return (
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
-          <div className="w-[28%] max-lg:hidden  max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg">
+          <div
+            className="w-[28%] max-lg:hidden  max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden 
+          shadow-lg"
+          >
             {/* Header */}
             <div className="bg-[#1AAEBC] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
               </h1>
               <form className="space-y-4 py-8">
-            <div className="grid md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
-              />
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
-              />
-              <input
-                type="tel"
-                placeholder="Phone Number"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
-              />
-              <select className="border border-gray-300 p-3 rounded-lg w-full bg-white">
-                <option>Choose an Option</option>
-                <option>Skin Care</option>
-                <option>Hair Treatment</option>
-                <option>Body Wellness</option>
-              </select>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                  />
+                  <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                  />
+                  <select className="border border-gray-300 text-gray-500 p-3 rounded-lg w-full bg-white">
+                    <option className="text-black">Services</option>
+                    <option className="text-black">Skin Care</option>
+                    <option className="text-black">Hair Treatment</option>
+                    <option className="text-black">Body Wellness</option>
+                  </select>
+                </div>
+                <textarea
+                  rows="4"
+                  placeholder="Your Message"
+                  className="border border-gray-300 p-3 rounded w-full bg-white"
+                ></textarea>
+                <button
+                  type="submit"
+                  className="bg-yellow-300 w-full text-black font-semibold px-6 py-3 rounded-lg hover:bg-blue-500 transition"
+                >
+                  Book Consultation
+                </button>
+              </form>
             </div>
-            <textarea
-              rows="4"
-              placeholder="Your Message"
-              className="border border-gray-300 p-3 rounded w-full bg-white"
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-blue-500 transition"
-            >
-              Book Consultation
-            </button>
-          </form>
-            </div>
-
-           
           </div>
-          <div className="w-[70%] min-h-[70rem] max-lg:w-[90%] ">
-            <div className=" text-gray-800">
+          <div
+            className={`w-[70%] ${
+              readMore ? "min-h-[7rem]" : "min-h-[70rem]"
+            }  max-lg:w-[90%] `}
+          >
+            <div
+              className={`text-gray-800 ${
+                readMore ? "h-98 overflow-hidden" : "text-blue-500"
+              }`}
+            >
               <section className=" text-gray-800 space-y-4 mb-8">
                 <h2 className="text-2xl font-bold mb-2 flex items-center text-[#1AAEBC]">
                   {/* <FaCheckCircle className="text-blue-600 mr-2" /> */}
                   What a Tummy Tuck Can Achieve:
                 </h2>
+                
                 <p>
                   A tummy tuck can offer a range of aesthetic improvements,
                   including:
@@ -408,7 +416,12 @@ const Knowledge = () => {
                 Sayani will discuss these risks in detail and answer any
                 questions you may have, ensuring you make an informed decision.
               </p>
-            </div>
+             
+            </div> 
+            {/* <div className="w-full h-10 shadow-[0_0px_20px_red]"></div> */}
+            <button onClick={toggleReadMore}>
+              <p className="pt-4 text-lg font-semibold text-blue-500 hover:text-blue-800">{`${readMore ? "Read More" : "Read Less"}`}</p>
+            </button>
           </div>
         </div>
       </div>

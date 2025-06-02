@@ -13,12 +13,12 @@ import Testimonials from "./homepage/Testimonials";
 import Gallery from "./homepage/Gallery";
 import Blog from "./homepage/Blog";
 import Specialization from "./homepage/Specialization";
-import ScrollTop from "@/components/ScrollTop";
 import Aesthetics from "./homepage/Aesthetics";
 import WhyChooseUs from "./homepage/WhyChooseUs";
 import VideoSection from "./homepage/VideoSection";
 import FAQ from "./homepage/FAQ";
-import { MdKeyboardArrowDown } from "react-icons/md";
+
+import Banner from "./homepage/Banner";
 
 export default function page() {
   const pathname = usePathname();
@@ -27,22 +27,25 @@ export default function page() {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
- 
+
   return (
     <div>
-     
       <Hero />
       <AboutDoctor />
+
       <Specialization />
-      <AboutCompany />
-      <WhyChooseUs />
-      <Testimonials />
       <Aesthetics />
+      <AboutCompany />
+
+      <WhyChooseUs />
+
       <Gallery />
+      <Banner />
       <VideoSection />
+      <Testimonials />
       <Blog />
       <FAQ />
-      <ScrollTop />
+      
     </div>
   );
 }

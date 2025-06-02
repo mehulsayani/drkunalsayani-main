@@ -20,12 +20,25 @@ export default function Navbar() {
 
   const submenus = [
     {
-      title: "Body",
+      title: "Hair",
       items: [
-        "Tummy Tuck (Abdominoplasty)",
-        "Liposuction",
-        "Buttock Augmentation (BBL)",
-        "Fat Grafting",
+        "Hair Transplant",
+        "Hair Restoration – PRP/GFC/Exosomes",
+        "Nano fat injection (SVC) for Hair Growth",
+      ],
+    },
+    {
+      title: "Face",
+      items: [
+        "Rhinoplasty (Nose job)",
+        "Eyelid Surgery (Blepharoplasty)",
+        "Prominent Ear Surgery (Otoplasty)",
+        "Facelift",
+        "Thread Lift Treatment",
+        "Chin Augmentation",
+        "Jawline Contouring",
+        "Lip Lift (Lip job)",
+        "Lipoma/Cysts/Scars",
       ],
     },
     {
@@ -37,33 +50,25 @@ export default function Navbar() {
       ],
     },
     {
-      title: "Hair",
+      title: "Body",
       items: [
-        "Hair Transplant",
-        "Hair Restoration – PRP/GFC/Exosomes",
-        "Nano fat injection (SVC) for Hair Growth",
+        "Tummy Tuck (Abdominoplasty)",
+        "Liposuction",
+        "Buttock Augmentation (BBL)",
+        "Fat Grafting",
       ],
     },
+
     {
-      title: "Face",
+      title: "Mommy Makeover",
       items: [
-        {
-          name: "Rhinoplasty (Nose job)",
-          submenu: [
-            "Eyelid Surgery (Blepharoplasty)",
-            "Prominent Ear Surgery (Otoplasty)",
-            "Facelift",
-            "Thread Lift Treatment",
-            "Chin Augmentation",
-            "Jawline Contouring",
-            "Lip Lift (Lip job)",
-            "Lipoma/Cysts/Scars",
-          ],
-        },
-        // You can add other face items here if needed as separate items,
-        // but since the rest are in submenu, we keep only Rhinoplasty top-level.
+        "Post-Pregnancy Tummy Tuck (moms)",
+        "Breast Lift & Augmentation after Pregnancy",
+        "Genital Cosmetic Surgeries",
+        "Mommy Makeover Package (custom combination of procedures)",
       ],
     },
+
     {
       title: "Non Surgical",
       items: [
@@ -74,15 +79,7 @@ export default function Navbar() {
         "Skin Tightening",
       ],
     },
-    {
-      title: "Mommy Makeover",
-      items: [
-        "Post-Pregnancy Tummy Tuck (moms)",
-        "Breast Lift & Augmentation after Pregnancy",
-        "Genital Cosmetic Surgeries",
-        "Mommy Makeover Package (custom combination of procedures)",
-      ],
-    },
+
     {
       title: "Men",
       items: [
@@ -189,7 +186,6 @@ export default function Navbar() {
           </div>
         </div>
         {/* second level menus */}
-      
       </div>
       {/* Mobile Navigation */}
       <div
