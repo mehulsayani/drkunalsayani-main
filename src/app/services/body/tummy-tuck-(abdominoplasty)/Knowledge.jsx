@@ -6,7 +6,7 @@ const Knowledge = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const [readMore, setReadClose] = useState(false);
+  const [readMore, setReadClose] = useState(true);
   const toggleReadMore = () => {
     setReadClose(!readMore);
   };

@@ -31,7 +31,7 @@ const specializations = [
   {
     title: "Liposuction",
     description1:
-      `Eliminate stubborn fat deposits resistant to diet and exercise. ${<br/>}`,
+      `Avoid stubborn fat deposits that don’t respond to diet or exercise with targeted aesthetic solutions.`,
     image: "/images/homepage/specialization/liposuction-min.jpg",
     link: "/services/liposuction",
   },
@@ -59,7 +59,7 @@ const specializations = [
   {
     title: "Hair Transplant",
     description1:
-      "Restore a fuller hairline using advanced FUE or FUT techniques.",
+      "Restore a naturally fuller hairline with advanced FUE or FUT hair transplant techniques for lasting results.",
     image: "/images/homepage/specialization/hair-transplant.jpg",
     link: "/services/hair-transplant",
   },
