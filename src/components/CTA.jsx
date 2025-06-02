@@ -24,7 +24,7 @@ export default function CTA() {
     <div>
       <div className="fixed rounded-tl-lg bg-[#0084ff] rounded-bl-lg top-50 right-0 z-50 flex flex-col">
         <a
-          href="tel://919136095925"
+          href="tel://918048034415"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-800 rounded-tl-lg text-white p-3 shadow-md hover:bg-gray-700 transition duration-200 flex items-center justify-center"
@@ -34,7 +34,7 @@ export default function CTA() {
         </a>
         {/* WhatsApp Appointment Button */}
         <a
-          href="https://wa.me/919136095925"
+          href="https://wa.me/918048034415"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#25D366] text-white p-3 shadow-md hover:bg-[#1ebe5d] transition duration-200 flex items-center justify-center"

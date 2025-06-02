@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 
 const ratings = [
-  { stars: 5, percent: 100 },
+  { stars: 5, percent: 98.1 },
   { stars: 4, percent: 1.9 },
   { stars: 3, percent: 0 },
   { stars: 2, percent: 0 },
