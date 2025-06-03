@@ -32,7 +32,7 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          <h2 className="text-4xl font-semibold max-lg:font-bold max-lg:text-3xl text-[#1AAEBC] leading-tight mb-4">
+          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
             Who is a Good Candidate <br /> for a Tummy Tuck?
           </h2>
           <p className="text-gray-700 mb-6">
@@ -66,7 +66,7 @@ export default function ServiceCandidate() {
             <div className="flex items-center gap-3">
               <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
               <div>
-                <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-gray-600 max-lg:text-center">
+                <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-[#10217D] max-lg:text-center">
                   Get Ready For Consultation?
                 </p>
                 <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
@@ -78,7 +78,7 @@ export default function ServiceCandidate() {
               </div>
             </div>
             <button
-              className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-full 
+              className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-lg 
                font-medium hover:bg-blue-500 transition"
             >
               Contact Us <ArrowUpRight size={18} />

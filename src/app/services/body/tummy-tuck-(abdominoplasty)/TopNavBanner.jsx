@@ -34,12 +34,12 @@ export default function TopNavBanner() {
       />
 
       {/* Main heading */}
-      <h1 className="text-5xl max-lg:text-xl font-bold font-[dm-serif-display-regular]">
+      <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
         TUMMY TUCK SURGERY
       </h1>
 
       {/* Breadcrumbs */}
-      <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white">
+      <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white font-roboto">
         <Link href={'/'}><span className="hover:underline cursor-pointer">Home</span></Link>
         <span className="mx-2">/</span>
         <Link href={'/services'}><span className="hover:underline cursor-pointer">Services</span></Link>

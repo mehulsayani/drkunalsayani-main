@@ -93,14 +93,15 @@ export default function Services() {
     <section className="bg-[#f9fbfc] py-16" id="services">
       <div className="max-w-7xl mx-auto px-4 text-center">
        <div className=" flex items-center justify-center">
-         <p className="text-sm w-50 flex justify-center items-center gap-1 bg-green-100 tracking-wide mb-4 px-2 py-1 rounded-full">
+         <p className="text-sm w-50 flex text-[#10217D] justify-center items-center gap-1 bg-green-100 tracking-wide
+          mb-4 px-2 py-1 rounded-full">
           <MdRadioButtonChecked />
           <span>Areas of Specialization</span>
         </p>
        </div>
 
         <div className="flex justify-center items-center mb-6 flex-wrap gap-4 ">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#10217D] text-center">
             Expert Aesthetic Enhancements <br className="hidden sm:block" />
             for Confidence & Wellness
           </h2>

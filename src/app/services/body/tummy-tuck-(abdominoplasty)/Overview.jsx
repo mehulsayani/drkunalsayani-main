@@ -12,7 +12,7 @@ export default function Overview() {
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-       <div className="text-gray-600 leading-relaxed text-lg max-lg:text-base">
+       <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
          <p className="mb-3">
           Dreaming of a smoother, firmer abdomen? Do you find excess skin and
           stubborn fat deposits around your midsection resistant to diet and

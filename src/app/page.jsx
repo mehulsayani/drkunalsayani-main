@@ -33,17 +33,16 @@ export default function page() {
     <div>
       <Hero />
       <AboutDoctor />
-      <Specialization />
       <Aesthetics />
+      <Specialization />
       <AboutCompany />
       <WhyChooseUs />
       <Gallery />
-      <Banner />
-      {/* <VideoSection /> */}
       <Testimonials />
+      <Banner />
+      <VideoSection />
       <Blog />
       <FAQ />
-     
     </div>
   );
 }

@@ -11,6 +11,8 @@ import { Marcellus } from 'next/font/google'
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Link from "next/link";
 import ScrollTop from "@/components/ScrollTop";
+import { Noto_Sans } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 
 const marcellus = Marcellus({
   subsets: ['latin'],
@@ -18,6 +20,19 @@ const marcellus = Marcellus({
   display: 'swap',
    variable: '--font-marcellus',
 })
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  variable: '--font-roboto',
+  weight: ['100', '300', '400', '500', '700', '900'],
+  style: ['normal', 'italic'],
+});
+
+const notoSans = Noto_Sans({
+  subsets: ['latin'],
+  variable: '--font-noto',
+  weight: ['400', '700'], // Add more weights if needed
+});
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const poppins = Poppins({
@@ -134,7 +149,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}
       >
         {/* ✅ Microsoft Clarity Script */}
         <Script id="clarity-script" strategy="afterInteractive">

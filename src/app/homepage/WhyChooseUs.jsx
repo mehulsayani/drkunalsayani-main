@@ -38,13 +38,19 @@ export default function WhyChooseUs() {
   }, []); // Empty dependency array to run once on mount
 
   return (
-    <div className="flex flex-col justify-center items-center overflow-hidden py-18 relative">
+    <div className="flex flex-col justify-center items-center overflow-hidden relative">
       <h2 className="text-2xl font-bold text-blue-800 mb-28">
         — Why Choose Us? —
       </h2>
-
+      <Image
+        src={"/images/homepage/hero/logoimage.png"}
+        alt=""
+        width={1000}
+        height={1000}
+        className="absolute opacity-20 top-0"
+      />
       <div className="w-full absolute h-screen max-lg:w-[100%] max-lg:h-full">
-        <Image src={'/images/homepage/WhyChooseUs/dr15.png'} fill alt=""/>
+        <Image src={"/images/homepage/WhyChooseUs/dr15.png"} fill alt="" />
       </div>
 
       <div className="relative max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">
@@ -61,30 +67,34 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Dot1 on the circle */}
-        <div className="flex text-center font-bold  justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
-        cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]">
+        <div
+          className="flex text-center font-bold  justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
+        cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]"
+        >
           <p
             className={`${
-              currentImageIndex === 0 ? "text-[#00737e]" : "text-black"
+              currentImageIndex === 0 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            Cutting Edge <br /> Technologies  And Facilities
+            Cutting Edge <br /> Technologies And Facilities
           </p>
 
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 0 ? "bg-[#1AAEBC]" : "border bg-white"
+              currentImageIndex === 0 ? "bg-[#10217D]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
         </div>
         {/* Dot2 on the circle */}
-        <div className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[9.5%]
+        <div
+          className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[9.5%]
          max-lg:top-[20%] max-lg:-left-[13%]
-        transform -translate-x-1/2 font-[inter]">
+        transform -translate-x-1/2 font-[inter]"
+        >
           <div
             className={`${
-              currentImageIndex === 4 ? "text-[#00737e]" : "text-black"
+              currentImageIndex === 4 ? "text-[#10217D]" : "text-black"
             }`}
           >
             <p className="font-bold text-right">
@@ -93,23 +103,25 @@ export default function WhyChooseUs() {
           </div>
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 4 ? "bg-[#1AAEBC]" : "border bg-white"
+              currentImageIndex === 4 ? "bg-[#10217D]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
         </div>
         {/* Dot3 on the circle */}
-        <div className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[123%] 
-        transform -translate-x-1/2 font-[inter]">
+        <div
+          className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[123%] 
+        transform -translate-x-1/2 font-[inter]"
+        >
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 1 ? "bg-[#1AAEBC]" : "border bg-white"
+              currentImageIndex === 1 ? "bg-[#10217D]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
           <div
             className={`${
-              currentImageIndex === 1 ? "text-[#00737e]" : "text-black"
+              currentImageIndex === 1 ? "text-[#10217D]" : "text-black"
             }`}
           >
             <p className="font-bold text-left w-28">
@@ -118,11 +130,13 @@ export default function WhyChooseUs() {
           </div>
         </div>
         {/* Dot4 on the circle */}
-        <div className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[3%] max-lg:top-[78%] max-lg:-left-[4%] 
-        transform -translate-x-1/2 font-[inter]">
+        <div
+          className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[3%] max-lg:top-[78%] max-lg:-left-[4%] 
+        transform -translate-x-1/2 font-[inter]"
+        >
           <div
             className={`${
-              currentImageIndex === 3 ? "text-[#00737e]" : "text-black"
+              currentImageIndex === 3 ? "text-[#10217D]" : "text-black"
             }`}
           >
             <p className="font-bold text-right">
@@ -131,27 +145,29 @@ export default function WhyChooseUs() {
           </div>
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 3 ? "bg-[#1AAEBC]" : "border bg-white"
+              currentImageIndex === 3 ? "bg-[#10217D]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
         </div>
         {/* Dot5 on the circle */}
-        <div className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%]
-         max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 font-[inter]">
+        <div
+          className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%]
+         max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 font-[inter]"
+        >
           <div
             className={`w-6 h-6 rounded-full ${
-              currentImageIndex === 2 ? "bg-[#1AAEBC]" : "border bg-white"
+              currentImageIndex === 2 ? "bg-[#10217D]" : "border bg-white"
             }`}
             onClick={handleDotClick}
           />
           <div
             className={`${
-              currentImageIndex === 2 ? "text-[#00737e]" : "text-black"
+              currentImageIndex === 2 ? "text-[#10217D]" : "text-black"
             }`}
           >
             <p className="font-bold text-left w-28">
-                Best Doctors <br /> in Hospital
+              Best Doctors <br /> in Hospital
             </p>
           </div>
         </div>

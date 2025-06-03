@@ -37,7 +37,7 @@ export default function Gallery() {
   return (
     <section className="w-full py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Hospital Gallery</h2>
+        <h2 className="text-3xl font-bold text-[#10217D] mb-4">Hospital Gallery</h2>
         <p className="text-gray-500 mb-10">Discover our modern, patient-focused facilities designed to support comfort, <br />care, and healing.</p>
 
         <Slider {...settings} className="gallery-slider">

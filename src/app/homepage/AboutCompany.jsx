@@ -23,7 +23,7 @@ export default function AboutCompany() {
             <MdRadioButtonChecked />
             <span>About Company</span>
           </p>
-          <h1 className="text-3xl lg:text-4xl font-bold  text-gray-800 mb-6">
+          <h1 className="text-3xl lg:text-4xl font-bold  text-[#10217D] mb-6">
             Tvameva: Where Precision Meets Personalization in Aesthetic Care
           </h1>
           <p className="text-gray-600 leading-relaxed space-y-4">
@@ -46,7 +46,8 @@ export default function AboutCompany() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#1BA9B5] hover:bg-[#1561a5] transition-colors text-white font-semibold px-6 py-2 rounded-md shadow-md"
+              className="bg-[#1BA9B5] hover:bg-[#1561a5] transition-colors text-white font-semibold
+              px-8 py-2 rounded-md shadow-md"
             >
               Read More
             </motion.button>

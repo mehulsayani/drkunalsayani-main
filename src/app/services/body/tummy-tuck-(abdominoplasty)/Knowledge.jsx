@@ -68,12 +68,12 @@ const Knowledge = () => {
             }  max-lg:w-[90%] `}
           >
             <div
-              className={`text-gray-800 ${
+              className={`text-gray-800 relative ${
                 readMore ? "h-98 overflow-hidden" : "text-blue-500"
               }`}
             >
-              <section className=" text-gray-800 space-y-4 mb-8">
-                <h2 className="text-2xl font-bold mb-2 flex items-center text-[#1AAEBC]">
+             
+                <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
                   {/* <FaCheckCircle className="text-blue-600 mr-2" /> */}
                   What a Tummy Tuck Can Achieve:
                 </h2>
@@ -82,7 +82,7 @@ const Knowledge = () => {
                   A tummy tuck can offer a range of aesthetic improvements,
                   including:
                 </p>
-                <ul className="list-disc ml-6 space-y-2">
+                <ul className="list-disc ml-6 space-y-2 mb-3">
                   <li>Removal of excess skin and fat from the abdomen.</li>
                   <li>
                     Tightening of weakened or separated abdominal muscles
@@ -97,7 +97,8 @@ const Knowledge = () => {
                   <li>A more proportionate and balanced physique.</li>
                   <li>Enhanced confidence and self-esteem.</li>
                 </ul>
-                <p>
+                <div className={`${readMore?"blur-[3px]":"blur-[0px]"}`}>
+                  <p>
                   Dr. Kunal Sayani understands that each patient's anatomy and
                   aesthetic goals are unique. During your personalized
                   consultation with him, he will thoroughly assess your
@@ -108,8 +109,8 @@ const Knowledge = () => {
                   extended tummy tuck, and recommend the most suitable approach
                   for you.
                 </p>
-              </section>
-              <h1 className="text-3xl font-bold mb-4 text-[#1AAEBC]">
+        
+              <h1 className="text-3xl font-bold mb-4 text-[#10217D] font-notoSans">
                 Tummy Tuck Procedure with Dr. Kunal Sayani
               </h1>
               <p>
@@ -187,7 +188,7 @@ const Knowledge = () => {
                 natural-looking contour.
               </p>
 
-              <h2 className="text-2xl font-semibold mt-4 text-[#1AAEBC]">
+              <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
                 {/* <FaCheckCircle className="inline mr-2 text-blue-600" /> */}
                 Recovery & Aftercare (Post-Op Instructions)
               </h2>
@@ -338,7 +339,7 @@ const Knowledge = () => {
                 achieve the best possible aesthetic outcome.
               </p>
 
-              <h2 className="text-2xl font-semibold mt-4 text-[#1AAEBC]">
+              <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
                 {/* <FaShieldAlt className="inline mr-2 text-blue-600" /> */}
                 Risks & Safety
               </h2>
@@ -416,11 +417,12 @@ const Knowledge = () => {
                 Sayani will discuss these risks in detail and answer any
                 questions you may have, ensuring you make an informed decision.
               </p>
-             
+                </div>
+              
             </div> 
-            {/* <div className="w-full h-10 shadow-[0_0px_20px_red]"></div> */}
+          
             <button onClick={toggleReadMore}>
-              <p className="pt-4 text-lg font-semibold text-blue-500 hover:text-blue-800">{`${readMore ? "Read More" : "Read Less"}`}</p>
+              <p className="pt-4 text-base font-semibold text-blue-500 hover:text-blue-800">{`${readMore ? "Read More" : "Read Less"}`}</p>
             </button>
           </div>
         </div>

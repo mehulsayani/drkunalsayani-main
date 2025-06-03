@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import { BsPlayCircle } from "react-icons/bs";
 import { useMediaQuery } from "@react-hook/media-query";
+import { IoLogoInstagram } from "react-icons/io5";
 
 const videos = [
   {
@@ -69,31 +70,29 @@ export default function VideoSection() {
 
   return (
     <div className="flex justify-center items-center flex-col py-10 px-4">
-      <h1 className="text-3xl font-bold mb-5 text-center">
+      {/* <h1 className="text-3xl font-bold mb-5 text-center text-[#10217D]">
         Explore Our Videos
-      </h1>
+      </h1> */}
       <div className="flex gap-5 tems-center max-w-[1200px] p-4 rounded-lg w-full mb-4">
-  
-      <div className="w-16 h-16 relative rounded-full overflow-hidden">
-        <Image
-          src="/images/homepage/hero/image4.png" 
-          alt="Dr. Kunal Sayani"
-          fill
-          className="object-cover border"
-        />
-      </div>
+        <div className="w-16 h-16 relative rounded-full overflow-hidden">
+          <Image
+            src="/images/homepage/hero/image4.png"
+            alt="Dr. Kunal Sayani"
+            fill
+            className="object-cover border"
+          />
+        </div>
 
-
-      <div>
-        <h2 className="text-xl font-semibold text-gray-800">
-          Dr.Kunal Sayani <span className="font-normal">(MS MCh DrNB)</span>{' '}
-          <span className="text-lg text-gray-600">@drkunalsayani</span>
-        </h2>
-        <p className="text-lg text-blue-600 font-medium">
-          Board certified Plastic & Aesthetic Surgeon
-        </p>
+        <div>
+          <h2 className="text-xl font-semibold text-gray-800">
+            Dr.Kunal Sayani <span className="font-normal">(MS MCh DrNB)</span>{" "}
+            <span className="text-lg text-gray-600">@drkunalsayani</span>
+          </h2>
+          <p className="text-lg text-[#10217D] font-medium">
+            Board certified Plastic & Aesthetic Surgeon
+          </p>
+        </div>
       </div>
-    </div>
 
       {/* Mobile/Tablet View: Slick Slider */}
       {isMobile ? (
@@ -150,6 +149,17 @@ export default function VideoSection() {
           </div>
         </div>
       )}
+      <button
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="bg-[#1BA9B5] flex justify-center mt-8 items-center gap-2 hover:bg-[#1561a5] transition-colors
+               text-white font-semibold px-8 py-4 rounded-md shadow-md"
+      >
+        <div className="text-2xl">
+          <IoLogoInstagram />
+        </div>{" "}
+        Follow on Instagram
+      </button>
     </div>
   );
 }
