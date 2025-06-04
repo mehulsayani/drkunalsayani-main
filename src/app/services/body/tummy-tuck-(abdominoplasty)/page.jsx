@@ -15,17 +15,12 @@ export default function page() {
     <div>
       <TopNavBanner />
       <Overview />
-      {/* <ServiceCandidate /> */}
-      
+      {/* <ServiceCandidate />
       <BeforeAfter />
-      <Testimonials />
-      <Knowledge/>
+      <Testimonials /> */}
+      <Knowledge />
       <FAQSection />
       <ConsultationSection />
-      
-      
-      
-      
     </div>
   );
 }

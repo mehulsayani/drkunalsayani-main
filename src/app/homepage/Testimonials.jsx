@@ -83,7 +83,8 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="w-full flex flex-col items-center justify-center py-20">
+    <section className="w-full flex flex-col items-center justify-center py-20 relative">
+        <Image src={'/images/homepage/hero/abstract1.png'} width={300} height={300} alt="" className="absolute top-0 left-0"/>
       <div className="flex justify-between w-full max-w-[1200px] max-lg:flex-col">
         {/* Left Section */}
         <div className="w-full flex justify-center px-4 flex-col items-start">

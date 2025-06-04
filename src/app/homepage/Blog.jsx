@@ -16,7 +16,7 @@ const blogPosts = [
     title: "Understanding Gynecomastia: Causes and Treatment Options",
     summary:
       "Gynecomastia can impact men both physically and emotionally. Learn about safe and effective surgical options.",
-    author: "Dr. Arjun Mehta",
+    author: "Dr. Mehul",
     image: "/images/homepage/specialization/Gynecomastia-min.jpg",
     date: "May 14, 2025",
     avatar: <FaUserDoctor />,
@@ -35,12 +35,13 @@ const blogPosts = [
 export default function Blog() {
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center">
         <h2 className="text-3xl font-bold text-center text-[#10217D] mb-4">
           From Our Blog
         </h2>
         <p className="text-gray-500 mb-10 text-xl text-center">
-          Stay informed with the latest health tips, hospital news, and expert <br />
+          Stay informed with the latest health tips, hospital news, and expert{" "}
+          <br />
           insights from our medical team.
         </p>
 
@@ -84,6 +85,14 @@ export default function Blog() {
             </div>
           ))}
         </div>
+        <button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="bg-[#1BA9B5] flex justify-center mt-8 items-center gap-2 hover:bg-[#1561a5] transition-colors
+                     text-white font-semibold px-8 py-2 rounded-md shadow-md"
+        >
+          View All
+        </button>
       </div>
     </section>
   );

@@ -51,20 +51,20 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="relative w-full h-[90vh] max-lg:h-[85vh] max-w-[1400px] mx-auto px-18 max-lg:px-0 ">
+    <div className="relative bg-[#40AEB921] w-full h-[90vh] max-lg:h-[85vh] max-w-[1400px] mx-auto max-lg:px-0 ">
       <div className="absolute inset-0 z-0 ">
         <Image
-          src="/images/homepage/hero/close-up-doctor-with-mask-checking-patient.jpg"
+          src="/images/homepage/hero/bg_trust_hands.jpg"
           alt="Background Trust Hands"
           fill
-          className="object-cover"
+          className="object-cover opacity-10"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 to-[#1AAEBC]/80  z-10"></div>
+        <div className="absolute  z-10"></div>
       </div>
       <Slider {...settings}>
         {slides.map((SlideComponent, index) => (
-          <div key={index} className="px-2 ">
+          <div key={index} className="">
             <SlideComponent isActive={currentSlide === index} />
           </div>
         ))}

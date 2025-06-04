@@ -119,6 +119,12 @@ export default function Navbar() {
           {/* Top Navigation */}
           <nav className="space-x-6 hidden md:flex">
             <Link
+              href="/"
+              className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
+            >
+             Home
+            </Link>
+            <Link
               href="/about-dr-kunal-sayani"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >

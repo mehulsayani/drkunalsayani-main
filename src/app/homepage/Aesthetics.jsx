@@ -3,7 +3,9 @@ import React from "react";
 
 export default function Aesthetics() {
   return (
-    <div className="bg-gradient-to-r max-lg:pb-0 from-[#1BA9B5]/70 to-pink-30 flex justify-between items-center w-full ">
+    <div className=" flex justify-between items-center w-full relative">
+      <Image src={'/images/homepage/hero/abstract1.png'} width={300} height={300} alt="" className="absolute top-0 left-0"/>
+      <Image src={'/images/homepage/hero/logoimage.png'} width={500} height={500} alt="" className="absolute top-0 right-0 opacity-10"/>
       <div className="text-center w-2xl md:text-left pl-18 max-lg:p-0 flex flex-col items-start max-lg:pl-4">
         <h2 className="text-5xl max-lg:text-lg font-bold text-blue-900 mb-6 max-lg:mb-2 max-lg:text-left">
           Transform How You Feel Not Just How You Look

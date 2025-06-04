@@ -15,13 +15,13 @@ export default function Slide2({ isActive }) {
           animate={isActive ? { x: 0, opacity: 1 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-semibold text-[#ffffff] leading-tight">
+          <h1 className="text-4xl md:text-5xl font-semibold text-[#10217D] leading-tight">
             Accessible Aesthetics. Authentic Results.
           </h1>
 
-          <div className="h-1 w-24 bg-[#ffffff] my-4"></div>
+          <div className="h-1 w-24 bg-[#10217D] my-4"></div>
 
-          <p className="text-white mb-6 text-lg">
+          <p className="text-black mb-6 text-lg">
             Dr. Kunal Sayani believes aesthetic surgery isn’t a luxury—it’s a
             path to restored confidence and improved quality of life.
           </p>
@@ -29,7 +29,7 @@ export default function Slide2({ isActive }) {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#1AAEBC] hover:bg-red-700 text-white font-medium py-3 px-6 rounded-full shadow-md transition"
+            className="bg-[#1AAEBC] hover:bg-red-700 text-white font-medium py-3 px-6 rounded-lg shadow-md transition"
           >
             Book Appointment
           </motion.button>
@@ -37,7 +37,7 @@ export default function Slide2({ isActive }) {
 
         {/* Right Image */}
         <motion.div
-          className="relative w-full md:w-[500px] h-[400px] md:h-[500px]"
+          className="relative "
           initial={{ x: 100, opacity: 0 }}
           animate={isActive ? { x: 0, opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.3 }}
@@ -45,7 +45,8 @@ export default function Slide2({ isActive }) {
           <Image
             src="/images/homepage/hero/body2.png"
             alt="Rhinoplasty"
-            fill
+            width={1000}
+            height={1000}
             className="object-contain"
             priority
           />

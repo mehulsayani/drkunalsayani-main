@@ -35,10 +35,10 @@ export default function Gallery() {
   };
 
   return (
-    <section className="w-full py-16 bg-gray-50">
+    <section className="w-full py-16 bg-[#ddeef2]">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-[#10217D] mb-4">Hospital Gallery</h2>
-        <p className="text-gray-500 mb-10">Discover our modern, patient-focused facilities designed to support comfort, <br />care, and healing.</p>
+        <h2 className="text-3xl font-bold text-[#10217D] mb-4">Tvameva Aesthetics Gallery</h2>
+        <p className="text-black mb-10">Step inside our thoughtfully crafted environment where <br /> comfort, care, and healing come together.</p>
 
         <Slider {...settings} className="gallery-slider">
           {galleryImages.map((src, index) => (

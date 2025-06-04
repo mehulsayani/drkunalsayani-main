@@ -54,7 +54,7 @@ export default function VideoSection() {
       href={video.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-full h-54 bg-[#1AAEBC] rounded-xl relative block"
+      className="w-full h-54 bg-[#464646] rounded-xl relative block"
     >
       <Image
         src={video.src}
@@ -69,7 +69,7 @@ export default function VideoSection() {
   );
 
   return (
-    <div className="flex justify-center items-center flex-col py-10 px-4">
+    <div className="flex justify-center bg-[#f2f3f483] items-center flex-col py-10 px-4">
       {/* <h1 className="text-3xl font-bold mb-5 text-center text-[#10217D]">
         Explore Our Videos
       </h1> */}
@@ -124,7 +124,7 @@ export default function VideoSection() {
             href={"https://www.instagram.com/drkunalsayani/reel/C_Qi9MlIyqR/"}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full h-100 bg-[#1AAEBC] rounded-xl relative block"
+            className="w-full h-100 bg-[#464646] rounded-xl relative block"
           >
             <Image
               src={"/images/homepage/VideoSection/video3.png"}
