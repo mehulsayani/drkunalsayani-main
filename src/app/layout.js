@@ -14,32 +14,32 @@ import ScrollTop from "@/components/ScrollTop";
 import { Noto_Sans } from 'next/font/google';
 import { Roboto } from 'next/font/google';
 
-const marcellus = Marcellus({
-  subsets: ['latin'],
-  weight: '400', // Marcellus has only one weight
-  display: 'swap',
-   variable: '--font-marcellus',
-})
+// const marcellus = Marcellus({
+//   subsets: ['latin'],
+//   weight: '400', // Marcellus has only one weight
+//   display: 'swap',
+//    variable: '--font-marcellus',
+// })
 
-const roboto = Roboto({
-  subsets: ['latin'],
-  variable: '--font-roboto',
-  weight: ['100', '300', '400', '500', '700', '900'],
-  style: ['normal', 'italic'],
-});
+// const roboto = Roboto({
+//   subsets: ['latin'],
+//   variable: '--font-roboto',
+//   weight: ['100', '300', '400', '500', '700', '900'],
+//   style: ['normal', 'italic'],
+// });
 
-const notoSans = Noto_Sans({
-  subsets: ['latin'],
-  variable: '--font-noto',
-  weight: ['400', '700'], // Add more weights if needed
-});
+// const notoSans = Noto_Sans({
+//   subsets: ['latin'],
+//   variable: '--font-noto',
+//   weight: ['400', '700'], // Add more weights if needed
+// });
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-poppins",
-});
+// const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+// const poppins = Poppins({
+//   subsets: ["latin"],
+//   weight: ["400", "600", "700"],
+//   variable: "--font-poppins",
+// });
 // export const dmSerifDisplay = DM_Serif_Display({
 //   subsets: ["latin"],
 //   weight: "400", // only one weight is available
@@ -47,15 +47,15 @@ const poppins = Poppins({
 //   display: "swap",
 // });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata = {
   title: "drkunalsayani",
@@ -149,18 +149,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}
       >
-        {/* ✅ Microsoft Clarity Script */}
-        <Script id="clarity-script" strategy="afterInteractive">
-          {`
-            (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "rnj6hajak3");
-          `}
-        </Script>
+      
 
         <Navbar />
          {/* second level menus */}
