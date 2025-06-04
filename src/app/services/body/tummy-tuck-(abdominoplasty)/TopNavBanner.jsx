@@ -15,7 +15,7 @@ export default function TopNavBanner() {
 
       {/* Optional decorative elements */}
 
-      <Image
+      {/* <Image
         src={"/images/services/body/tummytuck/lotus.png"}
         alt=""
         width={100}
@@ -31,7 +31,7 @@ export default function TopNavBanner() {
         height={100}
         className="absolute top-4 right-5 opacity-40 text-white text-xl max-lg:w-12 max-lg:h-10 
         max-lg:right-2 max-lg:top-2"
-      />
+      /> */}
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
