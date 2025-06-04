@@ -75,11 +75,11 @@ export default function Footer() {
           <h4 className="text-base font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-3 text-gray-300">
             <li className="flex items-center gap-2">
-              <MdPhone className="text-teal-500" />
+              {/* <MdPhone className="text-teal-500" /> */}
               <a href="tel:+9108048034415" className="hover:text-white">+91 08048034415</a>
             </li>
             <li className="flex items-start gap-2">
-              <MdEmail className="text-teal-500" />
+              {/* <MdEmail className="text-teal-500" /> */}
               <a
                 href="mailto:drkunalsayani.professional@gmail.com"
                 className="hover:text-white break-all"
@@ -88,14 +88,14 @@ export default function Footer() {
               </a>
             </li>
             <li className="flex items-start gap-2">
-              <MdLocationOn className="text-teal-500 mt-1" />
+              {/* <MdLocationOn className="text-teal-500 mt-1" /> */}
               <span className="leading-snug">
                 TVAMEVA AESTHETICS - 501/502 Sapphire Plaza, Dadabhai Road,
                 Swami Vivekananda Rd, Vile Parle West, Mumbai, Maharashtra
               </span>
             </li>
             <li className="flex items-start gap-2">
-              <MdAccessTime className="text-teal-500 mt-1" />
+              {/* <MdAccessTime className="text-teal-500 mt-1" /> */}
               <span>
                 Mon–Sat: 11 AM – 8 PM <br />
                 Sunday: Closed

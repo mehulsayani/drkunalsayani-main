@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
         alt=""
         width={1000}
         height={1000}
-        className="absolute opacity-15 top-0"
+        className="absolute opacity-10 top-0"
       />
       <div className="w-full absolute h-screen max-lg:w-[100%] max-lg:h-full">
         <Image src={"/images/homepage/WhyChooseUs/dr15.png"} fill alt="" />
