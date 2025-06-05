@@ -16,7 +16,7 @@ const blogPosts = [
     title: "Understanding Gynecomastia: Causes and Treatment Options",
     summary:
       "Gynecomastia can impact men both physically and emotionally. Learn about safe and effective surgical options.",
-    author: "Dr. Mehul",
+    author: "Dr. Kunal Sayani",
     image: "/images/homepage/specialization/Gynecomastia-min.jpg",
     date: "May 14, 2025",
     avatar: <FaUserDoctor />,

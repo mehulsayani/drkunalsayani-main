@@ -90,7 +90,7 @@ export default function SecondNavbar() {
   return (
     <div>
       {/* second level menus */}
-      <div className="w-full border-t sticky top-0 z-100 bg-white text-md max-lg:hidden">
+   
         <div className="max-w-7xl mx-auto flex justify-evenly items-center h-10">
           {/* Dropdown Menu Item */}
           {submenus.map((section, index) => (
@@ -149,7 +149,7 @@ export default function SecondNavbar() {
             </div>
           ))}
         </div>
-      </div>
+
     </div>
   );
 }
