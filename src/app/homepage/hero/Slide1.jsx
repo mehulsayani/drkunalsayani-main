@@ -11,8 +11,8 @@ export default function Slide1() {
     { label: "Happy  Patient", value: "98%" },
   ];
   return (
-    <section className="w-full min-h-[400px] transition-opacity px-18 duration-700 ease-in-out">
-      <div className="flex items-center justify-between max-lg:flex-col-reverse">
+    <section className="w-full min-h-[400px] flex justify-center items-center transition-opacity px-18 duration-700 ease-in-out">
+      <div className="flex items-center  max-w-[1200px] justify-between max-lg:flex-col-reverse">
         {/* Left Content */}
         <div className="max-w-2xl w-full   mb-10 md:mb-0 mt-8 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
           <h1 className="text-4xl max-lg:text-2xl font-[inter] md:text-[40px] max-lg:text-center 

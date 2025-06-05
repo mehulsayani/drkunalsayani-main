@@ -51,8 +51,8 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="relative bg-[#40AEB921] w-full h-[90vh] max-lg:h-[85vh] max-w-[1400px] mx-auto max-lg:px-0 ">
-      <div className="absolute inset-0 z-0 ">
+    <div className="relative bg-[#40AEB921] w-full h-[33rem] max-lg:h-[85vh]  max-lg:px-0 ">
+      <div className="absolute inset-0 z-0">
         <Image
           src="/images/homepage/hero/bg_trust_hands.jpg"
           alt="Background Trust Hands"

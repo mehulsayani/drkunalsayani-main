@@ -27,7 +27,7 @@ export default function Aesthetics() {
           alt="Aesthetic Banner"
           width={2000}
           height={2000}
-          className="w-[40vw] max-lg:w-[60rem]"
+          className="w-[40rem] max-lg:w-[60rem]"
         />
       </div>
     </div>

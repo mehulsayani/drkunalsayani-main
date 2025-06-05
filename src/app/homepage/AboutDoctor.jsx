@@ -3,6 +3,9 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { PT_Serif } from "next/font/google";
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ptSerif = PT_Serif({
   subsets: ["latin"],
@@ -16,8 +19,41 @@ export default function About() {
   const isImageInView = useInView(imageRef, { once: true });
   const isTextInView = useInView(textRef, { once: true });
 
+    const settings = {
+    dots: false,
+    infinite: true,
+    arrows: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  };
+
+   const images = ['image1', 'image2', 'image3', 'image4'];
+
   return (
-    <section className="relative bg-white px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-10">
+    <section className="relative pt-12 sm:pt-16 md:pt-20 ">
       <div className="max-w-[1250px] mx-auto flex flex-col md:flex-row items-start gap-4 sm:gap-6 md:gap-0">
         {/* Left: Doctor Image with Background Circle */}
         <motion.div
@@ -28,14 +64,14 @@ export default function About() {
           className="relative w-full md:w-[45%] flex justify-center"
         >
           <div
-            className="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[520px] md:h-[520px] rounded-full z-0 top-0 left-0 md:top-10 md:-left-10"
+            className="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[520px] md:h-[520px] rounded-full top-0 left-0 md:top-10 md:-left-10"
           >
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
               width={1000}
               height={1000}
               alt=""
-              className="relative left-4 sm:left-8 md:left-10 max-w-full h-auto"
+              className="relative -z-10 left-4 sm:left-8 md:left-10 max-w-full h-auto "
             />
           </div>
           <Image
@@ -49,7 +85,7 @@ export default function About() {
           />
         </motion.div>
           {/* Membership Banner Section */}
-      <div className="bg-gradient-to-r min-lg:hidden from-blue-900 to-cyan-800 text-white py-6 sm:py-8
+      <div className="relative z-40 bg-gradient-to-r min-lg:hidden  from-blue-900 to-cyan-800 text-white py-6 sm:py-8
        px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem]">
         <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row gap-6 sm:gap-14">
           <h4 className="text-base max-lg:text-center sm:text-lg md:text-2xl font-semibold w-full sm:w-[40%]">
@@ -57,19 +93,23 @@ export default function About() {
             international professional bodies, including:
           </h4>
 
-          <div className="flex  flex-nowrap overflow-x-auto snap-x snap-mandatory scroll-smooth 
-          gap-4 sm:gap-10 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
-            {["image1", "image2", "image3", "image4"].map((img, i) => (
+           <div className="w-full px-4 py-6">
+      <Slider {...settings}>
+        {images.map((img, i) => (
+          <div key={i} className="px-2">
+            <div className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-24 sm:h-24 mx-auto">
               <Image
-                key={i}
                 src={`/images/homepage/aboutdoctor/${img}.png`}
                 alt={`Membership ${i + 1}`}
                 width={80}
                 height={60}
-                className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-24 sm:h-24 object-contain"
+                className="w-full h-full object-contain"
               />
-            ))}
+            </div>
           </div>
+        ))}
+      </Slider>
+    </div>
         </div>
       </div>
 
@@ -134,18 +174,22 @@ export default function About() {
             international professional bodies, including:
           </h4>
 
-          <div className="flex  flex-nowrap overflow-x-auto snap-x snap-mandatory scroll-smooth 
-          gap-4 sm:gap-10 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
-            {["image1", "image2", "image3", "image4"].map((img, i) => (
-              <Image
-                key={i}
-                src={`/images/homepage/aboutdoctor/${img}.png`}
-                alt={`Membership ${i + 1}`}
-                width={80}
-                height={60}
-                className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-24 sm:h-24 object-contain"
-              />
-            ))}
+          <div className="w-full sm:w-[60%]">
+            <Slider {...settings}>
+              {images.map((img, i) => (
+                <div key={i} className="px-2">
+                  <div className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-24 sm:h-24 mx-auto">
+                    <Image
+                      src={`/images/homepage/aboutdoctor/${img}.png`}
+                      alt={`Membership ${i + 1}`}
+                      width={80}
+                      height={60}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </div>
+              ))}
+            </Slider>
           </div>
         </div>
       </div>

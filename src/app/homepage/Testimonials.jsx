@@ -102,7 +102,7 @@ export default function Testimonials() {
         {/* Right Section with Slider */}
         <div className="w-full flex justify-start items-center">
           <div className="w-full h-48 max-lg:h-auto max-lg:p-4 bg-[#40AEB9] flex justify-start items-center rounded-lg">
-            <div className="w-[30rem] max-lg:w-[22rem] ml-8 max-lg:ml-0 shadow-[0px_0px_10px_lightgray] rounded-2xl bg-white">
+            <div className="w-[30rem] max-lg:w-[22rem] ml-8 max-lg:ml-0 shadow-[0px_0px_10px_lightgray] rounded-2xl bg-gradient-to-l from-[#FFFFF0] to-[#E9F6FF]">
               <Slider ref={sliderRef} {...settings}>
                 {testimonials.map((testimonial, index) => (
                   <div key={index}>
