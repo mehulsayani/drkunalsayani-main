@@ -3,14 +3,18 @@
 import Image from "next/image";
 
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Dropdown from "./Dropdown";
 import { FiPhoneCall, FiMenu, FiX } from "react-icons/fi";
 import CallForm from "./CallForm";
 import ToggleSubMenu from "./ToggleSubMenu";
 import Link from "next/link";
+import SecondNavbar from "./SecondNavbar";
+
 
 export default function Navbar() {
+
+
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -18,90 +22,34 @@ export default function Navbar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const submenus = [
-    {
-      title: "Hair",
-      items: [
-        "Hair Transplant",
-        "Hair Restoration – PRP/GFC/Exosomes",
-        "Nano fat injection (SVC) for Hair Growth",
-      ],
-    },
-    {
-      title: "Face",
-      items: [
-        "Rhinoplasty (Nose job)",
-        "Eyelid Surgery (Blepharoplasty)",
-        "Prominent Ear Surgery (Otoplasty)",
-        "Facelift",
-        "Thread Lift Treatment",
-        "Chin Augmentation",
-        "Jawline Contouring",
-        "Lip Lift (Lip job)",
-        "Lipoma/Cysts/Scars",
-      ],
-    },
-    {
-      title: "Breast",
-      items: [
-        "Breast Augmentation",
-        "Breast Lift (mastopexy) with Shaping",
-        "Breast Reduction & Axillary Breasts Excision",
-      ],
-    },
-    {
-      title: "Body",
-      items: [
-        "Tummy Tuck (Abdominoplasty)",
-        "Liposuction",
-        "Buttock Augmentation (BBL)",
-        "Fat Grafting",
-      ],
-    },
+  const [showNavbar, setShowNavbar] = useState(true);
+const [lastScrollY, setLastScrollY] = useState(0);
 
-    {
-      title: "Mommy Makeover",
-      items: [
-        "Post-Pregnancy Tummy Tuck (moms)",
-        "Breast Lift & Augmentation after Pregnancy",
-        "Genital Cosmetic Surgeries",
-        "Mommy Makeover Package (custom combination of procedures)",
-      ],
-    },
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY < lastScrollY || window.scrollY < 100) {
+        setShowNavbar(true);
+      } else {
+        setShowNavbar(false);
+      }
+      setLastScrollY(window.scrollY);
+    };
 
-    {
-      title: "Non Surgical",
-      items: [
-        "Botox (wrinkles/anti-ageing)",
-        "Dermal Fillers",
-        "Laser Skin Rejuvenation",
-        "Microneedling & PRP for Skin Rejuvenation",
-        "Skin Tightening",
-      ],
-    },
+    window.addEventListener("scroll", handleScroll);
 
-    {
-      title: "Men",
-      items: [
-        "Gynaecomastia",
-        "Liposuction",
-        "Hair Loss Treatment",
-        "Hair Transplant",
-        "Face > Rhinoplasty (Nose job)",
-        "Eyelid Surgery (Blepharoplasty)",
-        "Prominent Ear Surgery (Otoplasty)",
-        "Facelift",
-        "Thread Lift Treatment",
-        "Chin Augmentation",
-        "Jawline Contouring",
-        "Lip Lift (Lip job)",
-        "Lipoma/Cysts/Scars",
-      ],
-    },
-  ];
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
 
   return (
-    <header className="w-full bg-white shadow-md z-50 flex items-center justify-center">
+    <div className="">
+      <header
+      className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-0 ${
+        showNavbar ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className=" w-full max-lg:w-[90%] flex items-center justify-between flex-col">
         <div className="max-w-[1200px] w-full py-1 flex items-center justify-between">
           {/* Logo */}
@@ -122,7 +70,7 @@ export default function Navbar() {
               href="/"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
             >
-             Home
+              Home
             </Link>
             <Link
               href="/about-dr-kunal-sayani"
@@ -138,12 +86,12 @@ export default function Navbar() {
             </Link>
 
             {/* <div className="inline-block align-middle ">
-              hover:text-[#1AAEBC] duration-500 text-gray-700 
-          relative cursor-pointer  after:content-[''] after:absolute after:bottom-0 after:left-0 
-          after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right 
-          after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left
-              <Dropdown />
-            </div> */}
+                hover:text-[#1AAEBC] duration-500 text-gray-700 
+            relative cursor-pointer  after:content-[''] after:absolute after:bottom-0 after:left-0 
+            after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right 
+            after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left
+                <Dropdown />
+              </div> */}
             <Link
               href="/reviews"
               className="hover:text-[#1AAEBC] duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
@@ -267,5 +215,7 @@ export default function Navbar() {
         ></div>
       )}
     </header>
+    {/* <SecondNavbar/> */}
+    </div>
   );
 }

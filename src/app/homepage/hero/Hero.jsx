@@ -51,13 +51,13 @@ export default function ImageSlider() {
   };
 
   return (
-    <div className="relative bg-[#40AEB921] w-full h-[33rem] max-lg:h-[85vh]  max-lg:px-0 ">
-      <div className="absolute inset-0 z-0">
+    <div className="relative bg-[#40AEB921] w-full  h-[41rem] max-lg:h-[48rem]  max-lg:px-0 ">
+      <div className="absolute inset-0 z-0 ">
         <Image
           src="/images/homepage/hero/bg_trust_hands.jpg"
           alt="Background Trust Hands"
           fill
-          className="object-cover opacity-10"
+          className="object-cover opacity-10 "
           priority
         />
         <div className="absolute  z-10"></div>

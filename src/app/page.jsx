@@ -30,7 +30,7 @@ export default function page() {
   };
 
   return (
-    <div>
+    <div className="">
       <Hero />
       <AboutDoctor />
       <Aesthetics />

@@ -7,18 +7,25 @@ export default function ServicesSection() {
     "Gynecomastia",
     "Liposuction",
     "Tummy Tuck",
-    "Face Lift",
-    "Botox / Derma Fillers",
-    "Hair Transplant",
+    // "Face Lift",
+    // "Botox / Derma Fillers",
+    // "Hair Transplant",
   ];
 
   return (
-    <section className="w-full flex justify-center items-center bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white">
-      <div className="w-5xl flex justify-between gap-12 items-center">
+    <section
+      className="w-full h-full flex justify-center mt-[8rem] max-lg:mt-[2rem] pt-[4rem] items-center 
+      bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white"
+    >
+      <div
+        className="w-6xl flex flex-col-reverse lg:flex-row justify-between gap-12 items-center px-6"
+      >
         {/* Left Content */}
-        <div>
-          <h2 className="text-6xl font-bold mb-3">Services we offer</h2>
-          <ul className="space-y-4 text-lg">
+        <div className="text-center lg:text-left">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+            Services we offer
+          </h2>
+          <ul className="space-y-4 text-base sm:text-lg">
             {services.map((service, index) => (
               <li
                 key={index}
@@ -35,13 +42,12 @@ export default function ServicesSection() {
         </div>
 
         {/* Right Image */}
-
         <Image
           src="/images/homepage/hero/servicegirl.png"
           alt="Aesthetic Model"
           width={500}
           height={600}
-          className="object-cover h-auto -scale-x-100 w-[20rem]"
+          className="object-cover h-auto -scale-x-100 w-[16rem] sm:w-[20rem]"
         />
       </div>
     </section>

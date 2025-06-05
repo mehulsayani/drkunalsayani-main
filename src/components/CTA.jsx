@@ -23,7 +23,7 @@ export default function CTA() {
   return (
     <div>
       <div
-        className="fixed rounded-tl-lg max-lg:rounded-tl-none max-lg:rounded-bl-none bg-[#0084ff] rounded-bl-lg top-50 right-0
+        className="fixed rounded-tl-lg max-lg:rounded-tl-none max-lg:rounded-bl-none bg-[#0084ff] rounded-bl-lg top-[30vh] right-0
       max-lg:bottom-0 max-lg:top-[95vh] max-lg:flex max-lg:w-full max-lg:flex-row-reverse
        z-50"
       >

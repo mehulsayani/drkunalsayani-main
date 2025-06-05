@@ -39,8 +39,10 @@ export default function WhyChooseUs() {
 
   return (
     <div className="flex flex-col justify-center items-center overflow-hidden relative">
-        <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" className="absolute top-0 left-0 opacity-50"/>
-          <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" className="absolute top-0 right-0 -scale-x-100 opacity-50"/>
+        <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" 
+        className="absolute top-0 left-0 opacity-50 max-lg:w-40"/>
+          <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" 
+          className="absolute top-0 right-0 -scale-x-100 opacity-50 max-lg:w-40"/>
       <h2 className="text-2xl font-bold text-blue-800 mb-28">
         — Why Choose Us? —
       </h2>
