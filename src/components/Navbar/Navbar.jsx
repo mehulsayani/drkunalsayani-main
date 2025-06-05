@@ -47,7 +47,7 @@ const [lastScrollY, setLastScrollY] = useState(0);
     <div className="">
       <header
       className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-0 ${
-        showNavbar ? "translate-y-0" : "-translate-y-full"
+        showNavbar ? "translate-y-0 max-lg:translate-none" : "-translate-y-full"
       }`}
     >
       <div className=" w-full max-lg:w-[90%] flex items-center justify-between flex-col">
@@ -143,11 +143,11 @@ const [lastScrollY, setLastScrollY] = useState(0);
       </div>
       {/* Mobile Navigation */}
       <div
-        className={`lg:hidden bg-white shadow-md overflow-hidden transition-transform duration-300 ease-in-out ${
+        className={`hidden bg-white shadow-md max-lg:block transition-transform duration-300 ease-in-out ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } fixed top-0 right-0 h-full w-3/4 sm:w-1/2 z-50`}
       >
-        <div className="px-4 py-4 space-y-3 flex flex-col h-full">
+        <div className="px-4 py-4 space-y-3 flex flex-col h-full ">
           <button
             onClick={toggleMobileMenu}
             className="self-end text-2xl p-2"
@@ -158,7 +158,7 @@ const [lastScrollY, setLastScrollY] = useState(0);
           <a
             href="/about-doctor"
             onClick={toggleMobileMenu}
-            className="text-gray-700 hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
+            className="text-gray-700  hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
           >
             About Dr Kunal Sayani
           </a>
