@@ -6,14 +6,14 @@ import { Noto_Sans } from "next/font/google";
 import { Roboto } from "next/font/google";
 import ClientLayout from "./ClientLayout";
 
-// const marcellus = Marcellus({ subsets: ["latin"], weight: "400", display: "swap", variable: "--font-marcellus" });
-// const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto", weight: ["100", "300", "400", "500", "700", "900"], style: ["normal", "italic"] });
-// const notoSans = Noto_Sans({ subsets: ["latin"], variable: "--font-noto", weight: ["400", "700"] });
-// const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-// const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"], variable: "--font-poppins" });
-// const dmSerifDisplay = DM_Serif_Display({ subsets: ["latin"], weight: "400", variable: "--font-dm-serif-display", display: "swap" });
-// const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-// const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const marcellus = Marcellus({ subsets: ["latin"], weight: "400", display: "swap", variable: "--font-marcellus" });
+const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto", weight: ["100", "300", "400", "500", "700", "900"], style: ["normal", "italic"] });
+const notoSans = Noto_Sans({ subsets: ["latin"], variable: "--font-noto", weight: ["400", "700"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"], variable: "--font-poppins" });
+const dmSerifDisplay = DM_Serif_Display({ subsets: ["latin"], weight: "400", variable: "--font-dm-serif-display", display: "swap" });
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata = {
   title: "drkunalsayani",
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body 
-      // className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased font-roboto`}
       >
         <ClientLayout>
           {children}
