@@ -1,46 +1,30 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { ArrowUp } from "lucide-react";
+import { IoIosArrowUp } from "react-icons/io";
 
 export default function SecondNavbar() {
-
-    const [showNavbar, setShowNavbar] = useState(true);
+  const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  
-    useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY < lastScrollY || window.scrollY < 100) {
-          setShowNavbar(true);
-        } else {
-          setShowNavbar(false);
-        }
-        setLastScrollY(window.scrollY);
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, [lastScrollY]);
-     
-    const submenus = [
-    {
-      title: "Body",
-      items: [
-        "Tummy Tuck (Abdominoplasty)",
-        "Liposuction",
-        "Buttock Augmentation (BBL)",
-        "Fat Grafting",
-      ],
-    },
-    {
-      title: "Breast",
-      items: [
-        "Breast Augmentation",
-        "Breast Lift (mastopexy) with Shaping",
-        "Breast Reduction & Axillary Breasts Excision",
-      ],
-    },
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY < lastScrollY || window.scrollY < 100) {
+        setShowNavbar(true);
+      } else {
+        setShowNavbar(false);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
+  const submenus = [
     {
       title: "Hair",
       items: [
@@ -52,21 +36,41 @@ export default function SecondNavbar() {
     {
       title: "Face",
       items: [
-        {
-          name: "Rhinoplasty (Nose job)",
-          submenu: [
-            "Eyelid Surgery (Blepharoplasty)",
-            "Prominent Ear Surgery (Otoplasty)",
-            "Facelift",
-            "Thread Lift Treatment",
-            "Chin Augmentation",
-            "Jawline Contouring",
-            "Lip Lift (Lip job)",
-            "Lipoma/Cysts/Scars",
-          ],
-        },
-        // You can add other face items here if needed as separate items,
-        // but since the rest are in submenu, we keep only Rhinoplasty top-level.
+        "Rhinoplasty (Nose job)",
+        "Eyelid Surgery (Blepharoplasty)",
+        "Prominent Ear Surgery (Otoplasty)",
+        "Facelift",
+        "Thread Lift Treatment",
+        "Chin Augmentation",
+        "Jawline Contouring",
+        "Lip Lift (Lip job)",
+        "Lipoma/Cysts/Scars",
+      ],
+    },
+    {
+      title: "Breast",
+      items: [
+        "Breast Augmentation",
+        "Breast Lift (mastopexy) with Shaping",
+        "Breast Reduction & Axillary Breasts Excision",
+      ],
+    },
+    {
+      title: "Body",
+      items: [
+        "Tummy Tuck (Abdominoplasty)",
+        "Liposuction",
+        "Buttock Augmentation (BBL)",
+        "Fat Grafting",
+      ],
+    },
+    {
+      title: "Mommy Makeover",
+      items: [
+        "Post-Pregnancy Tummy Tuck (moms)",
+        "Breast Lift & Augmentation after Pregnancy",
+        "Genital Cosmetic Surgeries",
+        "Mommy Makeover Package (custom combination of procedures)",
       ],
     },
     {
@@ -79,15 +83,7 @@ export default function SecondNavbar() {
         "Skin Tightening",
       ],
     },
-    {
-      title: "Mommy Makeover",
-      items: [
-        "Post-Pregnancy Tummy Tuck (moms)",
-        "Breast Lift & Augmentation after Pregnancy",
-        "Genital Cosmetic Surgeries",
-        "Mommy Makeover Package (custom combination of procedures)",
-      ],
-    },
+
     {
       title: "Men",
       items: [
@@ -108,17 +104,22 @@ export default function SecondNavbar() {
     },
   ];
   return (
-    <div className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-22 ${
+    <div
+      className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-22 ${
         showNavbar ? "translate-y-0" : "-translate-y-22"
-      }`}>
+      }`}
+    >
       {/* second level menus */}
       <div className="w-full border-t z-100 text-md max-lg:hidden">
         <div className="max-w-7xl mx-auto flex justify-evenly items-center h-10">
           {/* Dropdown Menu Item */}
           {submenus.map((section, index) => (
             <div key={index} className="relative group cursor-pointer">
-              <span className="hover:text-[#40AEB9] transition-colors">
-                {section.title}
+              <span className="hover:text-[#40AEB9] transition-colors flex justify-center items-center gap-2">
+                {section.title}{" "}
+                <div className="group-hover:rotate-180 duration-300">
+                  <IoIosArrowUp />
+                </div>
               </span>
 
               <div className="absolute left-1/2 transform -translate-x-1/2 hidden group-hover:block bg-white shadow-lg rounded-lg w-72 z-10">

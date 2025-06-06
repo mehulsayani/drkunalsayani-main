@@ -19,13 +19,13 @@ export default function Affiliations() {
       <div className="w-full mx-auto px-4 max-w-[1100px]">
         <div className="flex flex-col lg:flex-row gap-10 items-start">
           {/* Doctor Image */}
-          <div className="flex justify-center w-full lg:w-[400px] flex-shrink-0">
+          <div className="">
             <Image
               src="/images/aboutdrkunalsayani/affiliation.jpg"
               alt="Dr. Kunal Sayani"
               width={400}
               height={500}
-              className="rounded-xl shadow-xl w-full h-auto object-cover"
+              className="rounded-xl shadow-xl w-[70rem] object-cover"
               priority // optional, for faster loading if important image
             />
           </div>
