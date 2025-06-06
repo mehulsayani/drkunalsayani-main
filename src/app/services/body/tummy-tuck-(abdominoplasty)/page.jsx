@@ -12,7 +12,7 @@ import Knowledge from "./Knowledge";
 
 export default function page() {
   return (
-    <div>
+    <div className="pt-[8rem]">
       <TopNavBanner />
       <Overview />
       {/* <ServiceCandidate />

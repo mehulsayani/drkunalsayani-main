@@ -115,7 +115,7 @@ export default function SecondNavbar() {
           {/* Dropdown Menu Item */}
           {submenus.map((section, index) => (
             <div key={index} className="relative group cursor-pointer">
-              <span className="hover:text-[#40AEB9] transition-colors flex justify-center items-center gap-2">
+              <span className="hover:text-[#40AEB9] transition-colors text-base font-semibold flex justify-center items-center gap-2">
                 {section.title}{" "}
                 <div className="group-hover:rotate-180 duration-300">
                   <IoIosArrowUp />

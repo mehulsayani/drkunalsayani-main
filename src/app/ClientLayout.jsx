@@ -15,7 +15,7 @@ export default function ClientLayout({ children }) {
       <main>{children}</main>
       <ScrollTop />
       <Footer />
-      {/* <CTA /> */}
+      <CTA />
     </>
   );
 }
