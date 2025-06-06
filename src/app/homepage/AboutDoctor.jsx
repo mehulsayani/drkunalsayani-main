@@ -63,6 +63,8 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="relative w-full md:w-[45%] flex justify-center "
         >
+          <Image src={'/images/homepage/hero/logoimage.png'} width={500} height={500} alt="" 
+                className="absolute top-0 -left-50 opacity-10 max-lg:w-54 w-[20rem] h-[40rem] -z-10"/>
           <div
             className="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[520px] md:h-[520px] rounded-full top-0 left-0 md:top-10 md:-left-10"
           >

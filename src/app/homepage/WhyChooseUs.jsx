@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
         className="absolute opacity-10 top-0"
       />
       <div className="w-full absolute h-screen max-lg:w-[100%] max-lg:h-full">
-        <Image src={"/images/homepage/WhyChooseUs/dr15.png"} fill alt="" />
+        <Image src={"/images/homepage/WhyChooseUs/dr15.png"} fill alt="" className="opacity-60" />
       </div>
 
       <div className="relative max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">

@@ -14,7 +14,7 @@ export default function ClientLayout({ children }) {
       <SecondNavbar/>
       <main>{children}</main>
       <ScrollTop />
-      {/* <Footer /> */}
+      <Footer />
       {/* <CTA /> */}
     </>
   );
