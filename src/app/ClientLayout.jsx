@@ -10,7 +10,7 @@ import SecondNavbar from "@/components/Navbar/SecondNavbar";
 export default function ClientLayout({ children }) {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <SecondNavbar/>
       <main>{children}</main>
       <ScrollTop />

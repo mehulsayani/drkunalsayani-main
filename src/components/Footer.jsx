@@ -162,7 +162,7 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               {/* <MdAccessTime className="text-teal-500 mt-1" /> */}
               <span>
-                Mon–Sat: 11 AM – 8 PM <br />
+                Mon–Sat: 10 AM – 8 PM <br />
                 Sunday: Closed
               </span>
             </li>

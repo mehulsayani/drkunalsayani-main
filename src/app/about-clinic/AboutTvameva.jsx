@@ -3,24 +3,29 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-10 bg-white">
+    <div className="flex justify-center items-center">
+      <section className="flex w-full max-w-[1200px] flex-col md:flex-row items-start gap-10 justify-start px-6 md:px-16 py-10 ">
       {/* Left Image */}
-      <div className="relative md:w-1/2 w-full mb-8 md:mb-0">
-        <img
-          src="" // replace with actual image path
+      <div className="relative ">
+        <Image
+        width={1000}
+        height={1000}
+          src="/images/homepage/gallery/gallery3.png" // replace with actual image path
           alt="Clinic Process"
-          className="rounded-xl w-full h-auto object-cover"
+          className="rounded-xl w-[32rem]"
         />
        
       </div>
 
       {/* Right Content */}
       <div className="md:w-1/2 w-full space-y-4">
-        <button className="font-bold flex flex-col gap-2 justify-center items-start rounded-full text-gray-600">
-          <div className="flex gap-4 justify-center items-center">
-            <Image src={'/images/components/navbar/logo.png'} width={30} height={30} alt=""/>Welcome to Tvameva
+        <button className="font-bold flex flex-col gap-1 justify-center items-start rounded-full text-gray-600">
+          <div className="flex gap-4 justify-center items-center ">
+            {/* <Image src={'/images/homepage/aboutcompany/sayanilogo.png'} width={40} height={40} alt=""
+            className="bg-gray-950 p-1 rounded"/> */}
+            Welcome to Tvameva
           </div>
-          <div className="w-40 h-[3px] bg-blue-300 rounded-full"></div>
+          <div className="w-40 h-[2px] bg-blue-500 rounded-full"></div>
         </button>
 
         <h2 className="text-3xl md:text-4xl font-semibold leading-snug">
@@ -42,6 +47,7 @@ const AboutSection = () => {
         </p>
       </div>
     </section>
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ import ConsultationSection from "./ConsultationSection";
 
 export default function page() {
   return (
-    <section className="flex justify-center items-center flex-col">
+    <section className="">
       <AboutTvameva />
       <EnvironmentTechnology />
       <Procedures />

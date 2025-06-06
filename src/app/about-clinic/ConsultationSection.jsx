@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ConsultationSection() {
   return (
-    <section className="py-16 px-4 md:px-6 bg-[#1AAEBC] text-gray-800 flex justify-center items-center">
+    <section className="py-16 px-4 w-full md:px-6 bg-[#1AAEBC] text-gray-800 flex justify-center items-center">
       <div className="max-w-[1200px] w-full flex flex-col max-lg:flex-col-reverse lg:flex-row gap-10">
         {/* Left Content */}
         <div className="w-full lg:w-1/2">

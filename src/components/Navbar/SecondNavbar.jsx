@@ -110,7 +110,7 @@ export default function SecondNavbar() {
       }`}
     >
       {/* second level menus */}
-      <div className="w-full border-t z-100 text-md max-lg:hidden">
+      <div className="w-full border-t border-gray-400 z-100 text-md max-lg:hidden">
         <div className="max-w-7xl mx-auto flex justify-evenly items-center h-10">
           {/* Dropdown Menu Item */}
           {submenus.map((section, index) => (

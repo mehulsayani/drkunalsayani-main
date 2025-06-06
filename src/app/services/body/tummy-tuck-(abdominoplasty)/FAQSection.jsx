@@ -41,7 +41,7 @@ export default function FAQSection() {
 
   return (
     <section className="flex justify-center px-4 md:px-8 my-16">
-      <div className="flex flex-col lg:flex-row w-full max-w-[1200px] gap-8">
+      <div className="flex flex-col lg:flex-row w-full max-w-[1300px] gap-8">
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
@@ -69,7 +69,7 @@ export default function FAQSection() {
               </svg>
               <span className="text-lg font-semibold">Opening Hours:</span>
             </div>
-            <p className="text-sm">Mon - Sat : 11.00 AM - 8.00PM</p>
+            <p className="text-sm">Mon - Sat : 10.00 AM - 8.00PM</p>
             <p className="text-sm">Sunday : Closed</p>
           </div>
         </div>
