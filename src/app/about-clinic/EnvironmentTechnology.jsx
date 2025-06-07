@@ -47,11 +47,11 @@ const EnvironmentTechnology = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center flex-wrap mb-10 gap-4">
           <div>
-            <span className="text-sm text-orange-600 font-semibold uppercase">
+            {/* <span className="text-sm text-orange-600 font-semibold uppercase">
               Our Focus
-            </span>
+            </span> */}
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mt-2">
-              Blend of modern tech with serene patient care
+              Blend of modern tech with <br /> serene patient care
             </h2>
             <p className="text-gray-600 mt-2 max-w-xl text-sm sm:text-base">
               At Tvameva, we understand that no two individuals are alike. That’s why every consultation
@@ -62,8 +62,8 @@ const EnvironmentTechnology = () => {
           </div>
           <div className="md:mt-0">
             <a
-              href="#"
-              className="text-sm font-semibold text-gray-800 flex items-center gap-1 hover:text-blue-600 transition"
+              href="/gellary"
+              className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500"
             >
               View All <span>→</span>
             </a>

@@ -22,7 +22,7 @@ export default function TopNavBanner() {
 
       {/* Breadcrumbs */}
       <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white font-roboto">
-        <p className="text-xl">"Real stories, real results <br />see what our patients are saying."</p>
+        <p className="text-xl">Insights & Advice from Dental Experts</p>
       </div>
     </div>
   );

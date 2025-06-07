@@ -18,7 +18,7 @@ const AboutSection = () => {
       </div>
 
       {/* Right Content */}
-      <div className="md:w-1/2 w-full space-y-4">
+      <div className="md:w-1/2 w-full space-y-4 ">
         <button className="font-bold flex flex-col gap-1 justify-center items-start rounded-full text-gray-600">
           <div className="flex gap-4 justify-center items-center ">
             {/* <Image src={'/images/homepage/aboutcompany/sayanilogo.png'} width={40} height={40} alt=""

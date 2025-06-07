@@ -8,7 +8,7 @@ import ConsultationSection from "./ConsultationSection";
 
 export default function page() {
   return (
-    <section className="">
+    <section className="pt-[8rem]">
       <AboutTvameva />
       <EnvironmentTechnology />
       <Procedures />

@@ -6,7 +6,7 @@ import Affiliations from "./Affiliations";
 
 export default function DrKunalSayani() {
   return (
-    <div>
+    <div className="pt-[8rem]">
       <section className=" px-4 inset-0 bg-gradient-to-br from-blue-900 to-[#1AAEBC]">
         <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
           <div className="flex-1 max-lg:text-center">

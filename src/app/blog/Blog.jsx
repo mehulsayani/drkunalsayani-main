@@ -133,7 +133,7 @@ export default function Blog() {
             {/* Search Results */}
             <div>
               <h4 className="text-lg font-semibold mt-4 mb-2">
-                Search Results
+                Top Searches
               </h4>
               {filteredPosts.length > 0 ? (
                 <ul className="list-disc pl-5 space-y-2">
