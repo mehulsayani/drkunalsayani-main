@@ -32,7 +32,7 @@ export default function Affiliations() {
 
           {/* Affiliations Content */}
           <div className="w-full">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 max-lg:text-center">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-[#10217D] mb-4 max-lg:text-center font-[Noto_Sans]">
               Affiliated with Leading Hospitals Across Mumbai
             </h2>
             <p className="text-gray-600 mb-6 text-sm sm:text-base max-lg:text-center">

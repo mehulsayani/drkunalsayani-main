@@ -6,14 +6,14 @@ import Affiliations from "./Affiliations";
 
 export default function DrKunalSayani() {
   return (
-    <div className="pt-[8rem]">
+    <div className="pt-[8rem] font-[roboto]">
       <section className=" px-4 inset-0 bg-gradient-to-br from-blue-900 to-[#1AAEBC]">
         <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
           <div className="flex-1 max-lg:text-center">
-            <h1 className="text-4xl font-bold mb-4 text-[#00E6FF]">
+            <h1 className="text-4xl font-bold mb-4 text-[#00E6FF] font-[Noto_Sans]">
               Dr. Kunal Sayani
             </h1>
-            <p className="text-lg mb-6 text-[#FFC107] font-bold">
+            <p className="text-lg mb-6 text-[#FFC107] font-bold font-[Noto_Sans]">
               MCh in Plastic & Reconstructive Surgery from the prestigious Grant
               Medical College and Sir J.J. Hospital, Mumbai.
             </p>

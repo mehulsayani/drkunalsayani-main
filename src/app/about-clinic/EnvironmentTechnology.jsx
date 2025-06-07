@@ -50,7 +50,7 @@ const EnvironmentTechnology = () => {
             {/* <span className="text-sm text-orange-600 font-semibold uppercase">
               Our Focus
             </span> */}
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mt-2">
+            <h2 className="text-3xl sm:text-4xl font-bold  mt-2 text-[#10217D]">
               Blend of modern tech with <br /> serene patient care
             </h2>
             <p className="text-gray-600 mt-2 max-w-xl text-sm sm:text-base">

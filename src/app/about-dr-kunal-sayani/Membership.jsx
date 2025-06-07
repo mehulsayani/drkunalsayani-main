@@ -31,7 +31,7 @@ export default function Membership() {
             <span>Your Trust, Our Triumphs</span>
           </p> */}
           <div className="max-lg:px-4">
-            <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-6 max-lg:text-center">
+            <h1 className="text-3xl lg:text-4xl font-bold text-[#10217D] mb-6 max-lg:text-center font-[Noto_Sans]">
               Member of Renowned National and International Surgical Societies
             </h1>
             <p className="text-gray-600 mb-3 leading-relaxed max-lg:text-center">

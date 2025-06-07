@@ -1,24 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Marcellus&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Marcellus&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Marcellus&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
-
-@font-face {
-  font-family: "Virsace Bigiora";
-  src: url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.ttf"); /* IE9 compat */
-  /* Add other formats if available for broader support */
-  /* Example:
-  src: url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.woff2") format("woff2"),
-       url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.woff") format("woff"),
-       url("/fonts/VirsaceBigiora/VirsaceBigiora-Regular.ttf") format("truetype");
-  */
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-.font-virsace {
-  font-family: "Virsace Bigiora", serif;
-}

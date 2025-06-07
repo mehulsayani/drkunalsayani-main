@@ -28,7 +28,7 @@ const AboutSection = () => {
           <div className="w-40 h-[2px] bg-blue-500 rounded-full"></div>
         </button>
 
-        <h2 className="text-3xl md:text-4xl font-semibold leading-snug">
+        <h2 className="text-3xl md:text-4xl font-semibold leading-snug text-[#10217D]">
           At Tvameva, It’s All About You
         </h2>
 
