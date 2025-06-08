@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function page() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-6 text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen p-6 text-center pt-[8rem]">
       <div className="relative w-[320px] sm:w-[400px] md:w-[500px] h-[300px] md:h-[350px] mb-8">
         <Image 
           src="/images/pagenotfound/pagenotfound.png"
