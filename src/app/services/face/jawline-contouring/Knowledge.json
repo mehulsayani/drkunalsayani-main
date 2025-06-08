@@ -1,0 +1,159 @@
+{
+  "title": "Recovery & Aftercare for Jawline Contouring with Dr. Kunal Sayani",
+  "introduction": "The recovery period for jawline contouring varies significantly depending on the specific procedures performed. Dr. Kunal Sayani will provide you with detailed, personalized instructions to ensure optimal healing and results.",
+  "recovery": {
+    "title": "Recovery & Aftercare (Post-Op Instructions)",
+    "description": "The recovery process for jawline contouring depends on whether non-surgical or surgical procedures were performed. Below is a general guide for what to expect, tailored to each approach.",
+    "nonSurgical": {
+      "title": "Non-Surgical Procedures (Fillers, Neuromodulators, Kybella)",
+      "phases": [
+        {
+          "phase": "Immediately After Procedure",
+          "points": [
+            "Mild swelling, bruising, redness, or tenderness at the injection sites, typically resolving within a few hours to a few days.",
+            "Over-the-counter pain relievers like acetaminophen can manage discomfort.",
+            "Resume most normal activities immediately, but avoid strenuous exercise for 24-48 hours.",
+            "Avoid touching or massaging the treated area for a few hours. For Kybella, expect significant swelling and potential numbness for several days to weeks. Cold compresses can help."
+          ]
+        }
+      ]
+    },
+    "surgical": {
+      "title": "Surgical Procedures (Liposuction, Chin Augmentation, Thread Lifts, Facelift/Neck Lift)",
+      "phases": [
+        {
+          "phase": "Immediately After Surgery",
+          "points": [
+            "Significant swelling and bruising, most prominent in the first few days, subsiding over weeks.",
+            "Wear a compression garment for 1-2 weeks continuously, then nightly for additional weeks to reduce swelling and promote healing.",
+            "Small drains may be placed to remove excess fluid, typically removed within 1-3 days.",
+            "Prescription pain medication will manage discomfort."
+          ]
+        },
+        {
+          "phase": "First Week",
+          "points": [
+            "Prioritize rest and avoid strenuous activities. Keep head elevated, even while sleeping, to minimize swelling.",
+            "Stick to soft foods if chin augmentation was performed.",
+            "Follow Dr. Kunal Sayani's instructions for showering and wound care.",
+            "Attend a follow-up appointment to monitor progress."
+          ]
+        },
+        {
+          "phase": "Weeks 2-4",
+          "points": [
+            "Swelling continues to decrease, revealing more refined contours.",
+            "Gradually reintroduce light activities. Avoid heavy lifting and intense exercise.",
+            "Follow scar care instructions to promote healing and minimize visibility of incisions."
+          ]
+        },
+        {
+          "phase": "Months 1-6+",
+          "points": [
+            "Final results become apparent as swelling fully subsides, which may take several months.",
+            "Protect incision sites from direct sun exposure to prevent hyperpigmentation.",
+            "Maintain a healthy lifestyle and follow Dr. Kunal Sayani's recommendations for ongoing skin care."
+          ]
+        }
+      ]
+    },
+    "generalTips": {
+      "title": "General Post-Operative Tips",
+      "points": [
+        "Drink plenty of water to stay hydrated.",
+        "Eat a healthy, balanced diet to aid healing.",
+        "Avoid smoking, as it significantly impairs healing and increases complications.",
+        "Contact Dr. Kunal Sayani's office immediately if you have concerns or experience unusual symptoms."
+      ]
+    }
+  },
+  "risks": {
+    "title": "Risks & Safety",
+    "description": "As with any medical procedure, jawline contouring carries potential risks, though serious complications are rare when performed by a qualified and experienced surgeon like Dr. Kunal Sayani. During your consultation, Dr. Sayani will thoroughly discuss these risks with you.",
+    "generalRisks": {
+      "title": "General Risks for All Procedures",
+      "points": [
+        "Swelling and bruising, common and usually temporary.",
+        "Infection, rare but possible, prevented with sterile techniques and antibiotics.",
+        "Pain and discomfort, managed with medication.",
+        "Allergic reaction to anesthetics or materials used.",
+        "Unsatisfactory aesthetic result, though Dr. Kunal Sayani strives for optimal outcomes. Revision surgery may be considered in some cases."
+      ]
+    },
+    "specificRisks": {
+      "title": "Specific Risks by Procedure Type",
+      "procedures": [
+        {
+          "name": "Dermal Fillers",
+          "risks": [
+            "Lumps or irregularities (can often be massaged or dissolved).",
+            "Vascular occlusion (very rare, but serious if filler is injected into a blood vessel).",
+            "Granulomas (rare, inflammatory reactions)."
+          ]
+        },
+        {
+          "name": "Neuromodulators",
+          "risks": [
+            "Temporary weakness of adjacent muscles (e.g., smile asymmetry).",
+            "Headache."
+          ]
+        },
+        {
+          "name": "Submental Liposuction",
+          "risks": [
+            "Numbness (usually temporary).",
+            "Contour irregularities or asymmetries.",
+            "Seroma (fluid collection).",
+            "Nerve damage (very rare)."
+          ]
+        },
+        {
+          "name": "Kybella/Deoxycholic Acid",
+          "risks": [
+            "Significant swelling and numbness (expected).",
+            "Nerve injury (rare, leading to temporary smile asymmetry).",
+            "Ulceration or skin necrosis (extremely rare)."
+          ]
+        },
+        {
+          "name": "Thread Lifts",
+          "risks": [
+            "Dimpling or puckering of the skin.",
+            "Thread extrusion.",
+            "Asymmetry."
+          ]
+        },
+        {
+          "name": "Chin Augmentation",
+          "risks": [
+            "Numbness of the lower lip or chin (usually temporary).",
+            "Implant displacement or infection.",
+            "Bone erosion (rare, long-term complication with some implants)."
+          ]
+        },
+        {
+          "name": "Facelift/Neck Lift",
+          "risks": [
+            "Hematoma (blood collection).",
+            "Nerve injury (temporary or permanent facial weakness).",
+            "Skin necrosis.",
+            "Hair loss around incisions."
+          ]
+        }
+      ]
+    },
+    "safetyMeasures": {
+      "title": "Safety Measures by Dr. Kunal Sayani",
+      "points": [
+        "Thorough medical history and examination to identify any contraindications or potential risks.",
+        "Procedures performed in state-of-the-art, accredited surgical facilities with stringent safety protocols.",
+        "Strict adherence to sterile techniques to minimize infection risk.",
+        "Qualified anesthesiologist for surgical procedures to ensure comfort and safety.",
+        "Personalized treatment plan tailored to your unique anatomy and health status.",
+        "Detailed pre- and post-operative instructions to optimize healing and reduce risks.",
+        "Continuous monitoring during and after procedures.",
+        "Choosing a board-certified and highly experienced aesthetic surgeon like Dr. Kunal Sayani ensures the highest standards of safety and results."
+      ]
+    }
+  }
+}

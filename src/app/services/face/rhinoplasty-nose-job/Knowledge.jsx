@@ -8,6 +8,7 @@ const Knowledge = () => {
   }, []);
 
   const [readMore, setReadClose] = useState(true);
+
   const toggleReadMore = () => {
     setReadClose(!readMore);
   };
@@ -19,6 +20,7 @@ const Knowledge = () => {
           <div
             className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg"
           >
+            {/* Header */}
             <div className="bg-[#1AAEBC] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
@@ -77,36 +79,17 @@ const Knowledge = () => {
 
               <p className="mb-4">{data.introduction}</p>
 
-              <h2 className="text-2xl font-semibold mt-4">{data.procedure.title}</h2>
-              <h3 className="font-semibold mt-4">{data.procedure.steps[0].step}</h3>
-              <p className="mb-2">{data.procedure.steps[0].description}</p>
+              <h2 className="text-2xl font-semibold mt-4">
+                {data.recovery.title}
+              </h2>
+              <h3 className="font-semibold mt-4">{data.recovery.phases[0].phase}</h3>
               <ul className="list-disc ml-6 space-y-2 mb-3">
-                {data.procedure.steps[0].points.map((point, index) => (
+                {data.recovery.phases[0].points.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}
               </ul>
 
               <div className={`${readMore ? "blur-[3px]" : "blur-[0px]"}`}>
-                {data.procedure.steps.slice(1).map((step, index) => (
-                  <div key={index}>
-                    <h3 className="font-semibold mt-4">{step.step}</h3>
-                    <p className="mb-2">{step.description}</p>
-                    <ul className="list-disc ml-6 space-y-2 mb-3">
-                      {step.points.map((point, idx) => (
-                        <li key={idx}>{point}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-
-                <h2 className="text-2xl font-semibold mt-4">{data.recovery.title}</h2>
-                <p className="mb-4">{data.recovery.introduction}</p>
-                <h3 className="font-semibold mt-4">{data.recovery.phases[0].phase}</h3>
-                <ul className="list-disc ml-6 space-y-2 mb-3">
-                  {data.recovery.phases[0].points.map((point, index) => (
-                    <li key={index}>{point}</li>
-                  ))}
-                </ul>
                 {data.recovery.phases.slice(1).map((phase, index) => (
                   <div key={index}>
                     <h3 className="font-semibold mt-4">{phase.phase}</h3>
@@ -117,29 +100,25 @@ const Knowledge = () => {
                     </ul>
                   </div>
                 ))}
-                <h3 className="font-semibold mt-4">{data.recovery.contactInstructions.title}</h3>
-                <ul className="list-disc ml-6 space-y-2 mb-3">
-                  {data.recovery.contactInstructions.points.map((point, index) => (
-                    <li key={index}>{point}</li>
-                  ))}
-                </ul>
-                <p className="mb-4">{data.recovery.contactInstructions.note}</p>
+                <p className="mb-4">{data.recovery.conclusion}</p>
 
-                <h2 className="text-2xl font-semibold mt-4">{data.risks.title}</h2>
-                <p className="mb-4">{data.risks.introduction}</p>
-                <h3 className="font-semibold mt-4">General Safety Measures</h3>
+                <h2 className="text-2xl font-semibold mt-4">
+                  {data.risks.title}
+                </h2>
+                <p className="mb-4">{data.risks.description}</p>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
-                  {data.risks.safetyMeasures.map((item, index) => (
-                    <li key={index}>{item}</li>
+                  {data.risks.specificRisks.map((risk, index) => (
+                    <li key={index}>{risk}</li>
                   ))}
                 </ul>
-                <h3 className="font-semibold mt-4">Potential Risks</h3>
+                <h3 className="font-semibold mt-4">
+                  {data.risks.safetyMeasures.title}
+                </h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
-                  {data.risks.potentialRisks.map((item, index) => (
-                    <li key={index}>{item}</li>
+                  {data.risks.safetyMeasures.points.map((measure, index) => (
+                    <li key={index}>{measure}</li>
                   ))}
                 </ul>
-                <p className="mb-4">{data.risks.conclusion}</p>
               </div>
             </div>
 

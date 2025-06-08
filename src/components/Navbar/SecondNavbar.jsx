@@ -44,7 +44,7 @@ export default function SecondNavbar() {
         "Chin Augmentation",
         "Jawline Contouring",
         "Lip Lift (Lip job)",
-        "Lipoma/Cysts/Scars",
+        "Lipoma-Cysts-Scars",
       ],
     },
     {
@@ -76,7 +76,7 @@ export default function SecondNavbar() {
     {
       title: "Non Surgical",
       items: [
-        "Botox (wrinkles/anti-ageing)",
+        "Botox (wrinkles-anti-ageing)",
         "Dermal Fillers",
         "Laser Skin Rejuvenation",
         "Microneedling & PRP for Skin Rejuvenation",
@@ -213,8 +213,7 @@ const submenus2 = [
                           href={`/services/${section.title
                             .toLowerCase()
                             .replace(/ /g, "-")}/${item
-                            .toLowerCase()
-                            .replace(/ /g, "-")}`}
+                            .toLowerCase().replace(/ /g, "-").replace(/[(),]/g, "")}`}
                           className="hover:text-[#40AEB9] transition-colors cursor-pointer"
                         >
                           {item}
