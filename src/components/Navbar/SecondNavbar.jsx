@@ -103,6 +103,86 @@ export default function SecondNavbar() {
       ],
     },
   ];
+const submenus2 = [
+  {
+    title: "hair",
+    items: [
+      "hair-transplant",
+      "hair-restoration–prp-gfc-exosomes",
+      "nano-fat-injection-svc-for-hair-growth",
+    ],
+  },
+  {
+    title: "face",
+    items: [
+      "rhinoplasty-(nose-job)",
+      "eyelid-surgery-(blepharoplasty)",
+      "prominent-ear-surgery-(otoplasty)",
+      "facelift",
+      "thread-lift-treatment",
+      "chin-augmentation",
+      "jawline-contouring",
+      "lip-lift-(lip-job)",
+      "lipoma-cysts-scars",
+    ],
+  },
+  {
+    title: "breast",
+    items: [
+      "breast-augmentation",
+      "breast-lift-(mastopexy)-with-shaping",
+      "breast-reduction-&-axillary-breasts-excision",
+    ],
+  },
+  {
+    title: "body",
+    items: [
+      "tummy-tuck-(abdominoplasty)",
+      "liposuction",
+      "buttock-augmentation-(bbl)",
+      "fat-grafting",
+    ],
+  },
+  {
+    title: "mommy-makeover",
+    items: [
+      "post-pregnancy-tummy-tuck-(moms)",
+      "breast-lift-&-augmentation-after-pregnancy",
+      "genital-cosmetic-surgeries",
+      "mommy-makeover-package-(custom-combination-of-procedures)",
+    ],
+  },
+  {
+    title: "non-surgical",
+    items: [
+      "botox-(wrinkles-anti-ageing)",
+      "dermal-fillers",
+      "laser-skin-rejuvenation",
+      "microneedling-&-prp-for-skin-rejuvenation",
+      "skin-tightening",
+    ],
+  },
+  {
+    title: "men",
+    items: [
+      "gynaecomastia",
+      "liposuction",
+      "hair-loss-treatment",
+      "hair-transplant",
+      "face->-rhinoplasty-(nose-job)",
+      "eyelid-surgery-(blepharoplasty)",
+      "prominent-ear-surgery-(otoplasty)",
+      "facelift",
+      "thread-lift-treatment",
+      "chin-augmentation",
+      "jawline-contouring",
+      "lip-lift-(lip-job)",
+      "lipoma-cysts-scars",
+    ],
+  },
+];
+
+
   return (
     <div
       className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-22 ${

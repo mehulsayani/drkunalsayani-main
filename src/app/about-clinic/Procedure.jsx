@@ -49,14 +49,14 @@ const Procedures = () => {
   const currentItem = procedures.find((item) => item.id === openId);
 
   return (
-    <section className="flex bg-[#F5F0E8] justify-center items-center w-full">
+    <section className="flex  justify-center items-center w-full">
       <div className=" max-w-[1300px] px-6 w-full md:px-20 py-16 flex flex-col md:flex-row gap-10">
       {/* Left: Text + Accordion */}
       <div className="md:w-1/2 space-y-6">
-        <span className="bg-[#EFE4D9] text-sm px-4 py-1 rounded-full font-medium inline-block">
+        <span className="bg-[#EFE4D9] text-sm px-4 py-1 rounded-full font-medium inline-block ">
           Beauty In Every Leaf
         </span>
-        <h2 className="text-4xl font-semibold">
+        <h2 className="text-4xl font-semibold text-[#10217D]">
           Aesthetic treatments & procedures offered
         </h2>
         <p className="text-gray-600">
