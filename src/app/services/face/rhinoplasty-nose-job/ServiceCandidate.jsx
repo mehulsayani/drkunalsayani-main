@@ -33,21 +33,20 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Who is a Good Candidate <br /> for a Rhinoplasty?
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            Rhinoplasty can address a wide range of concerns, including:
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              "Size of the nose in relation to other facial features",
+              "Nasal width at the bridge or in the size and position of the nostrils",
+              "Nose profile with visible humps or depressions on the bridge",
+              "Tip of the nose that is enlarged, bulbous, drooping, or hooked",
+              "Nostrils that are large, wide, or upturned",
+              "Nasal asymmetry or deviation",
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

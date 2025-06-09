@@ -33,21 +33,38 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Non-Surgical Hair <br /> Restoration – PRP, GFC, and Exosomes
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            Welcome to the future of hair restoration with Dr. Kunal Sayani. We
+            specialize in a suite of advanced non-surgical treatments –
+            Platelet-Rich Plasma (PRP), Growth Factor Concentrate (GFC), and
+            Exosomes – each designed to target the root causes of hair loss and
+            promote robust hair regrowth. These innovative therapies are ideal
+            for individuals experiencing hair thinning, receding hairlines,
+            pattern baldness (androgenetic alopecia), and general hair loss,
+            offering a safe and effective alternative or complement to surgical
+            procedures. Dr. Kunal Sayani's expertise ensures you receive the
+            most appropriate and effective treatment plan tailored to your
+            unique needs.
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              `Platelet-Rich Plasma (PRP): A revolutionary treatment utilizing your body's own growth
+factors derived from your blood. PRP is rich in proteins that stimulate hair follicle activity
+and promote new hair growth.
+
+`,
+              `Growth Factor Concentrate (GFC): An advanced form of PRP, GFC delivers an even higher
+concentration of growth factors directly to the hair follicles, maximizing their
+regenerative potential.
+`,
+              `Exosomes: The pinnacle of regenerative medicine, exosomes are powerful signaling
+molecules that carry growth factors and regenerative proteins. They are instrumental in
+cellular communication, tissue repair, and regeneration, offering profound benefits for
+hair follicle rejuvenation.
+`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

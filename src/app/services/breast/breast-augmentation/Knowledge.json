@@ -1,0 +1,150 @@
+{
+  "title": "Your Journey to Breast Augmentation with Dr. Kunal Sayani",
+  "consultation": {
+    "title": "Consultation & Evaluation",
+    "description": "Your journey begins with a personalized consultation where Dr. Sayani evaluates your medical history, current breast size, skin elasticity, and overall body proportions. Together, you’ll discuss your goals, and Dr. Sayani will explain the realistic outcomes and surgical plan. You will also explore whether saline or silicone implants, or fat transfer augmentation is the best option for you."
+  },
+  "implantChoices": {
+    "title": "Implant Choices",
+    "description": "Dr. Kunal Sayani offers a range of high-quality, FDA-approved breast implants:",
+    "options": [
+      "Silicone Implants: Provide a more natural feel, ideal for women with minimal natural breast tissue.",
+      "Saline Implants: Filled with sterile saltwater; adjustable and inserted via a smaller incision.",
+      "Gummy Bear Implants: Cohesive silicone gel implants that maintain their shape and resist leakage.",
+      "Fat Transfer Augmentation: Uses liposuctioned fat from other areas of the body to subtly enhance breast volume without implants."
+    ]
+  },
+  "procedure": {
+    "title": "Breast Augmentation Procedure with Dr. Kunal Sayani",
+    "description": "The breast augmentation procedure is usually done on an outpatient basis, takes around 1.5 hours, and involves several key steps:",
+    "steps": [
+      {
+        "step": "Anesthesia",
+        "description": "The surgery is performed under anesthesia for patient comfort. Options include intravenous sedation or general anesthesia, tailored to the patient’s health and surgeon’s recommendation."
+      },
+      {
+        "step": "Incision",
+        "description": "The surgeon makes an incision in a discreet location to minimize visible scarring. Common incision sites include:",
+        "points": [
+          "Along the edge of the areola (peri-areolar)",
+          "In the fold beneath the breast (inframammary fold)",
+          "In the armpit (axillary)"
+        ],
+        "note": "The incision choice depends on implant type, desired breast size, anatomy, and patient preference. A transumbilical (belly button) approach is less common and associated with higher complication rates."
+      },
+      {
+        "step": "Implant Placement",
+        "description": "After the incision, the implant is inserted into a pocket either:",
+        "points": [
+          "Underneath the pectoral muscle (submuscular placement)",
+          "Directly behind the breast tissue but above the muscle (subglandular or submammary placement)"
+        ],
+        "note": "The placement method depends on the implant type, body type, and surgeon’s recommendation."
+      },
+      {
+        "step": "Implant Types",
+        "description": "Implants are typically filled with either sterile saline or silicone gel. Both have distinct characteristics affecting feel, risk of rupture, and appearance. Fat transfer is an alternative technique using the patient’s own fat to augment breast volume."
+      }
+    ]
+  },
+  "recovery": {
+    "title": "Recovery & Aftercare (Post-Op Instructions)",
+    "introduction": "Proper recovery and aftercare are essential for achieving optimal results and minimizing complications after breast augmentation. Here’s what you can expect:",
+    "phases": [
+      {
+        "phase": "Immediate Post-Op Care",
+        "points": [
+          "Arrange for someone to drive you home and assist for 1-2 days post-surgery.",
+          "Rest well and maintain a balanced diet; increase fluids and fiber to prevent constipation.",
+          "Avoid aspirin or blood-thinning medications unless approved by your surgeon.",
+          "No alcohol for at least 3 weeks to avoid fluid retention.",
+          "Smoking is strongly discouraged as it delays healing and increases complications."
+        ]
+      },
+      {
+        "phase": "Activity Restrictions",
+        "points": [
+          "Begin gentle walking soon after surgery to reduce swelling and risk of blood clots.",
+          "Avoid driving until full arm mobility returns.",
+          "Refrain from vigorous physical activity and heavy lifting for 6 weeks.",
+          "No lifting arms above the head for 2 weeks.",
+          "Avoid physical contact with breasts and body contact sports for 6-8 weeks.",
+          "Most patients can return to work within 2 weeks, depending on job demands."
+        ]
+      },
+      {
+        "phase": "Incision Care",
+        "points": [
+          "Keep incisions clean and dry; monitor for signs of infection.",
+          "Steri-strips or skin glue used for closure will naturally fall off over 1-2 weeks.",
+          "Avoid soaking in tubs or swimming until sutures/drains are removed.",
+          "Wear supportive garments as directed; avoid underwire bras initially.",
+          "Avoid sleeping on the stomach for 8 weeks.",
+          "Protect scars from sun exposure for at least 12 months using SPF 30+ sunscreen."
+        ]
+      },
+      {
+        "phase": "Pain and Sensations",
+        "points": [
+          "Expect some discomfort, tightness, swelling, bruising, and numbness around nipples and breasts.",
+          "Pain peaks in the first few days and gradually improves.",
+          "Burning sensations or sensitivity may last for a couple of weeks.",
+          "Pain medication will be prescribed and adjusted during follow-up visits."
+        ]
+      },
+      {
+        "phase": "Immediate Recovery (First 1–7 Days)",
+        "points": [
+          "Mild swelling, bruising, and discomfort are expected.",
+          "Pain is managed with prescribed medications.",
+          "Wear a post-surgical bra or compression garment to support healing.",
+          "Avoid lifting, reaching overhead, or strenuous movement."
+        ]
+      },
+      {
+        "phase": "Short-Term Recovery (Weeks 2–4)",
+        "points": [
+          "Resume light daily activities after 3–5 days.",
+          "Most patients return to work within 1 week, depending on their occupation.",
+          "No gym or high-impact activities until cleared by Dr. Sayani."
+        ]
+      },
+      {
+        "phase": "Mid-Term Recovery (Weeks 4–8)",
+        "points": [
+          "Gradually return to exercise after 4 weeks, excluding chest-focused workouts.",
+          "Continue wearing support bras and following scar-care recommendations.",
+          "Swelling continues to decrease, and implants begin to 'settle.'"
+        ]
+      },
+      {
+        "phase": "Long-Term Recovery (3+ Months)",
+        "points": [
+          "Full results are typically visible after 3–6 months.",
+          "Scars fade significantly and become nearly invisible with proper care.",
+          "Regular follow-ups with Dr. Sayani to monitor implant positioning and overall results."
+        ]
+      }
+    ]
+  },
+  "risks": {
+    "title": "Risks & Safety",
+    "introduction": "Breast augmentation is generally safe but carries risks common to all surgeries and specific implant-related complications. Choosing a board-certified, experienced plastic surgeon like Dr. Kunal Sayani and following all pre- and post-operative instructions can significantly reduce risks but not eliminate them entirely.",
+    "generalSurgicalRisks": [
+      "Adverse reactions to anesthesia (nausea, dizziness, rare severe complications)",
+      "Infection at the incision site",
+      "Bleeding or hematoma formation",
+      "Blood clots",
+      "Delayed wound healing"
+    ],
+    "implantRelatedRisks": [
+      "Capsular Contracture: Scar tissue hardens around the implant, causing pain, firmness, and breast distortion. Treatment may require surgery.",
+      "Implant Rupture or Deflation: Saline implants deflate visibly; silicone ruptures may be silent or cause swelling and shape changes. Surgical replacement is necessary.",
+      "Implant Displacement or Migration: Implants may shift position, causing asymmetry; may require corrective surgery.",
+      "Changes in nipple and breast sensation, sometimes permanent.",
+      "Additional surgeries may be needed for complications or implant replacement.",
+      "Rare but serious risks include breast implant-associated anaplastic large cell lymphoma (BIA-ALCL) and other cancers.",
+      "Potential impact on breastfeeding ability and mammogram imaging."
+    ]
+  }
+}

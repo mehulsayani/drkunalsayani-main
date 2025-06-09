@@ -33,7 +33,8 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Why Choose Dr. Kunal Sayani for <br /> Lipoma/Cyst Removal & Scar
+            Revision in Mumbai?
           </h2>
           <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
@@ -43,11 +44,13 @@ export default function ServiceCandidate() {
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              "Precise Diagnosis & Treatment: Dr. Kunal Sayani accurately diagnoses your condition and tailors the most effective removal or revision strategy.",
+              "Minimally Invasive Techniques: Procedures are performed with meticulous care to minimize tissue disruption and reduce scarring.",
+              "Optimal Aesthetic Outcomes: With a keen artistic eye, Dr. Kunal Sayani focuses on placing incisions strategically and utilizing advanced suturing techniques to achieve the most cosmetically favorable results.",
+              "Reduced Recurrence: For cysts and lipomas, Dr. Kunal Sayani emphasizes complete removal of the sac or tumor to minimize the chance of recurrence.",
+              "Comprehensive Scar Solutions: From surgical revision to adjunctive therapies, Dr. Kunal Sayani offers a multi-faceted approach to improve various types of scars.",
+              "Patient Comfort & Safety: All procedures are performed in a sterile, comfortable environment with local anesthesia, prioritizing your well-being.",
+              "Personalized Care: Dr. Kunal Sayani provides a thorough consultation, discussing your concerns and crafting a treatment plan unique to your needs and goals.",
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

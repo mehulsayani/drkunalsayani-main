@@ -14,42 +14,31 @@ export default function Overview() {
         />
        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
          <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
+         Are you noticing the persistent presence of frown lines, crow's feet, or forehead wrinkles that
+make you appear tired, angry, or older than you feel? At Dr. Kunal Sayani's state-of-the-art
+aesthetic clinic in Mumbai, we offer expertly administered Botox treatments designed to soften
+these dynamic wrinkles, restoring a smoother, more refreshed, and naturally youthful
+appearance. Dr. Kunal Sayani, a highly respected aesthetic surgeon, combines his in-depth
+knowledge of facial anatomy with a keen artistic eye to deliver beautiful, natural-looking results
+that enhance your unique expressions.
+
         </p>
         <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
+          Botox (Botulinum Toxin Type A) is the world's most popular non-surgical cosmetic treatment,
+renowned for its ability to reduce the appearance of dynamic wrinkles. These are the lines that
+form due to repetitive facial muscle movements, such as smiling, frowning, squinting, and
+raising eyebrows. When you make these expressions, your muscles contract, and over time,
+these contractions create lines and creases in the overlying skin.
+
         </p>
         <p className="mb-3">
-          Abdominoplasty is not a weight-loss procedure but rather a body
-          contouring solution that addresses aesthetic concerns that diet and
-          exercise alone cannot resolve. Whether it’s restoring a pre-pregnancy
-          figure or achieving a sculpted abdomen, Dr. Kunal Sayani employs
-          state-of-theart methods to ensure optimal outcomes with minimal
-          scarring and downtime. The procedure can be combined with liposuction
-          for enhanced contouring or customized as a mini tummy tuck for
-          patients with less extensive needs.
+         Botox works by temporarily relaxing these specific facial muscles. By blocking nerve signals to
+the targeted muscles, Botox prevents them from contracting, thereby smoothing out the
+wrinkles. The result is a more relaxed and rejuvenated complexion, while still allowing for
+natural facial expressions when administered by a skilled practitioner.
+
         </p>
-        <p className="mb-3">
-          Dr. Kunal Sayani, one of the top plastic surgeon in Mumbai for tummy
-          tuck, performs tummy tuck surgeries tailored to individual goals,
-          ensuring natural-looking results with minimal scarring. The surgery
-          typically involves an incision above the pubic area, muscle
-          tightening, removal of excess fat and skin, and repositioning of the
-          belly button to maintain a natural contour.
-        </p>
+       
        </div>
       </div>
     </section>

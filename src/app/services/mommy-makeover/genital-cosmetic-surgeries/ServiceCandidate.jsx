@@ -32,22 +32,21 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
+          {/* <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
             Who is a Good Candidate <br /> for a Tummy Tuck?
-          </h2>
+          </h2> */}
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            At our clinic, under the expert care of Dr. Kunal Sayani, we offer
+            specialized procedures including:
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              "Labiaplasty: Reshaping or reducing the size of the labia minora (inner vaginal lips) or labia majora (outer vaginal lips) to alleviate discomfort, improve aesthetics, or address asymmetry.",
+              "Clitoral Hood Reduction: Reducing excess tissue surrounding the clitoris to improve its exposure, reduce irritation, and enhance aesthetic balance. Often performed in conjunction with labiaplasty.",
+              "Vaginoplasty: A surgical procedure aimed at tightening the vaginal canal, often sought by women experiencing vaginal laxity due to childbirth or aging, which can impact sexual satisfaction.",
+              "Perineoplasty: Reshaping and reinforcing the perineum (the area between the vagina and anus), often to repair damage from childbirth or improve aesthetic appearance.",
+              "Monsplasty (Mons Pubis Reduction): Reducing excess fatty tissue or skin on the mons pubis (the area above the pubic bone) to create a flatter, more contoured appearance.",
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

@@ -33,21 +33,31 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Why Choose a Thread Lift with <br /> Dr. Kunal Sayani in Mumbai?
+
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+          Experience the transformative power of a Thread Lift at Dr. Kunal Sayani's clinic, and rediscover
+a more youthful, confident you.
+
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              `Minimally Invasive: A non-surgical alternative to a traditional facelift, requiring only local
+anesthesia and small incisions.`,
+              `Immediate Lift: Provides an immediate visible lift to sagging skin, offering instant
+rejuvenation.
+`,
+              `Natural Collagen Stimulation: The threads stimulate your body's own collagen,
+improving skin elasticity, texture, and firmness over several months.`,
+              `Natural-Looking Results: Dr. Kunal Sayani meticulously places the threads to create
+subtle yet effective lifting, enhancing your natural contours without an "over-pulled"
+look.
+`,
+              `Minimal Downtime: Recovery is significantly faster than surgical options, allowing you to
+return to your routine quickly.
+`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

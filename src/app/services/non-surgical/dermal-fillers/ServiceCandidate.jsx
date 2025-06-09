@@ -33,21 +33,35 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Why Choose Dermal Fillers with <br /> Dr. Kunal Sayani in Mumbai?
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            Experience the transformative power of dermal fillers at Dr. Kunal
+            Sayani's clinic, and rediscover a more youthful, vibrant, and
+            confident you.
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              `Volume Restoration: Effectively replenishes lost volume in areas like cheeks, temples,
+and under-eye hollows, reversing a tired or gaunt appearance.`,
+              `Wrinkle Smoothing: Fills and softens static lines and creases, such as nasolabial folds
+(smile lines) and marionette lines (lines from the corners of the mouth to the chin).`,
+              `Facial Contouring & Enhancement: Adds definition to features like lips, chin, and jawline,
+enhancing overall facial harmony and balance.`,
+              `Non-Surgical & Minimally Invasive: Achieve significant aesthetic improvements without
+the need for surgery, incisions, or extensive downtime.`,
+              `Immediate Results: See a noticeable improvement in volume and smoothness
+immediately after your treatment.
+`,
+              `Natural-Looking Outcomes: Dr. Kunal Sayani possesses a meticulous eye for detail and
+artistry, ensuring that your results are subtle, balanced, and enhance your natural
+beauty, avoiding an "overdone" look.
+`,
+              `Personalized Treatment: Dr. Kunal Sayani offers a comprehensive consultation to
+understand your unique facial structure and aesthetic goals, tailoring a customized filler
+plan specifically for you.`,
+              `Advanced Techniques: Utilizes the latest injection techniques, including cannulas (blunttipped needles), to enhance safety and minimize bruising.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

@@ -35,7 +35,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-        TUMMY TUCK SURGERY
+        Lip Lift (Lip job)
       </h1>
 
       {/* Breadcrumbs */}
@@ -47,7 +47,7 @@ export default function TopNavBanner() {
         <Link href={'/services/body'}><span className="hover:underline cursor-pointer">Body</span></Link>
          <span className="mx-2">/</span>
        
-        <span className=" font-medium">Tummy Tuck</span>
+        <span className=" font-medium">Lip Lift (Lip job)</span>
       </div>
     </div>
   );

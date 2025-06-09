@@ -43,11 +43,11 @@ export default function ServiceCandidate() {
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
+              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
+              `People with naturally lax skin due to aging or genetics.`,
+              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
+              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>

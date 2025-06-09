@@ -33,21 +33,33 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Why Choose Botox with <br /> Dr. Kunal Sayani in Mumbai?
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            Discover how Botox, expertly administered by Dr. Kunal Sayani, can
+            help you achieve a smoother, more rested, and confident appearance.
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Individuals who have experienced significant weight loss and are left with excess, hanging skin.",
-              "Women who have had multiple pregnancies and have stretched abdominal skin and muscles.",
-              "People with naturally lax skin due to aging or genetics.",
-              "Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.",
-              "Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.",
+              `Targeted Wrinkle Reduction: Effectively treats frown lines, crow's feet, forehead lines,
+and other dynamic wrinkles.`,
+              `Non-Surgical & Minimally Invasive: Achieve significant aesthetic improvements without
+incisions, scars, or prolonged downtime.`,
+              `Natural-Looking Results: Dr. Kunal Sayani meticulously plans and executes each
+treatment to ensure your results are subtle, refreshed, and never "frozen." Your natural
+expressions are preserved.`,
+              `Quick & Convenient: Most Botox treatments are completed within 10-15 minutes,
+making it an ideal "lunchtime procedure" for busy individuals.`,
+              `Preventative Benefits: When started early, Botox can also prevent dynamic wrinkles from
+becoming deep, static lines, slowing down the aging process.
+`,
+              `Expert Administration: Dr. Kunal Sayani is a board-certified aesthetic surgeon with
+extensive experience and a profound understanding of facial anatomy, ensuring precise
+and safe injections.`,
+              `Personalized Treatment Plan: During your consultation, Dr. Kunal Sayani will assess your
+unique facial structure and aesthetic goals to create a customized Botox treatment plan
+specifically for you.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
