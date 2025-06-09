@@ -29,7 +29,7 @@ export default function Slide2({ isActive }) {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#1AAEBC] hover:bg-[#148d98] text-white font-medium py-3 px-6 rounded-lg shadow-md transition"
+            className="bg-[#1aaebcaf] hover:bg-[#148d98] text-white font-medium py-3 px-6 rounded-lg shadow-md transition"
           >
             Book Appointment
           </motion.button>

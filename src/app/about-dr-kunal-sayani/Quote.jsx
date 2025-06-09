@@ -22,7 +22,7 @@ export default function Quote() {
           {/* <CallForm /> */}
           <a
             href="/book-appointment"
-            className="bg-[#1AAEBC] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"
+            className="bg-[#1aaebcaf] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"
           >
             Book Appointment
           </a>

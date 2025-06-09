@@ -16,10 +16,8 @@ const Knowledge = () => {
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
-          <div
-            className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg"
-          >
-            <div className="bg-[#1AAEBC] py-4 px-6">
+          <div className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
               </h1>
@@ -77,8 +75,12 @@ const Knowledge = () => {
 
               <p className="mb-4">{data.introduction}</p>
 
-              <h2 className="text-2xl font-semibold mt-4">{data.procedure.title}</h2>
-              <h3 className="font-semibold mt-4">{data.procedure.steps[0].step}</h3>
+              <h2 className="text-2xl font-semibold mt-4">
+                {data.procedure.title}
+              </h2>
+              <h3 className="font-semibold mt-4">
+                {data.procedure.steps[0].step}
+              </h3>
               <p className="mb-2">{data.procedure.steps[0].description}</p>
               <ul className="list-disc ml-6 space-y-2 mb-3">
                 {data.procedure.steps[0].points.map((point, index) => (
@@ -99,9 +101,13 @@ const Knowledge = () => {
                   </div>
                 ))}
 
-                <h2 className="text-2xl font-semibold mt-4">{data.recovery.title}</h2>
+                <h2 className="text-2xl font-semibold mt-4">
+                  {data.recovery.title}
+                </h2>
                 <p className="mb-4">{data.recovery.introduction}</p>
-                <h3 className="font-semibold mt-4">{data.recovery.phases[0].phase}</h3>
+                <h3 className="font-semibold mt-4">
+                  {data.recovery.phases[0].phase}
+                </h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
                   {data.recovery.phases[0].points.map((point, index) => (
                     <li key={index}>{point}</li>
@@ -117,15 +123,21 @@ const Knowledge = () => {
                     </ul>
                   </div>
                 ))}
-                <h3 className="font-semibold mt-4">{data.recovery.contactInstructions.title}</h3>
+                <h3 className="font-semibold mt-4">
+                  {data.recovery.contactInstructions.title}
+                </h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
-                  {data.recovery.contactInstructions.points.map((point, index) => (
-                    <li key={index}>{point}</li>
-                  ))}
+                  {data.recovery.contactInstructions.points.map(
+                    (point, index) => (
+                      <li key={index}>{point}</li>
+                    )
+                  )}
                 </ul>
                 <p className="mb-4">{data.recovery.contactInstructions.note}</p>
 
-                <h2 className="text-2xl font-semibold mt-4">{data.risks.title}</h2>
+                <h2 className="text-2xl font-semibold mt-4">
+                  {data.risks.title}
+                </h2>
                 <p className="mb-4">{data.risks.introduction}</p>
                 <h3 className="font-semibold mt-4">General Safety Measures</h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">

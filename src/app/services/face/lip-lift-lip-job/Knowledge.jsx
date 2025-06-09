@@ -20,7 +20,7 @@ const Knowledge = () => {
           shadow-lg"
           >
             {/* Header */}
-            <div className="bg-[#1AAEBC] py-4 px-6">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
               </h1>

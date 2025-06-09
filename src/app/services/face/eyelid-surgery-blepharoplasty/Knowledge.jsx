@@ -17,11 +17,9 @@ const Knowledge = () => {
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
-          <div
-            className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg"
-          >
+          <div className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg">
             {/* Header */}
-            <div className="bg-[#1AAEBC] py-4 px-6">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
               </h1>
@@ -82,7 +80,9 @@ const Knowledge = () => {
               <h2 className="text-2xl font-semibold mt-4">
                 {data.recovery.title}
               </h2>
-              <h3 className="font-semibold mt-4">{data.recovery.phases[0].phase}</h3>
+              <h3 className="font-semibold mt-4">
+                {data.recovery.phases[0].phase}
+              </h3>
               <ul className="list-disc ml-6 space-y-2 mb-3">
                 {data.recovery.phases[0].points.map((point, index) => (
                   <li key={index}>{point}</li>

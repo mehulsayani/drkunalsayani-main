@@ -13,8 +13,6 @@ const Knowledge = () => {
     setReadClose(!readMore);
   };
 
- 
-
   if (!data) {
     return <div>Error loading data</div>;
   }
@@ -23,11 +21,9 @@ const Knowledge = () => {
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
-          <div
-            className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg"
-          >
+          <div className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg">
             {/* Header */}
-            <div className="bg-[#1AAEBC] py-4 px-6">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
               </h1>
@@ -161,13 +157,17 @@ const Knowledge = () => {
                     <li key={index}>{risk}</li>
                   ))}
                 </ul>
-                <h3 className="font-semibold mt-4">Specific Hair Transplant Risks:</h3>
+                <h3 className="font-semibold mt-4">
+                  Specific Hair Transplant Risks:
+                </h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
                   {data.risks.specificRisks.map((risk, index) => (
                     <li key={index}>{risk}</li>
                   ))}
                 </ul>
-                <h3 className="font-semibold mt-4">Minimizing Risks with Dr. Kunal Sayani:</h3>
+                <h3 className="font-semibold mt-4">
+                  Minimizing Risks with Dr. Kunal Sayani:
+                </h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
                   {data.risks.minimizingRisks.map((measure, index) => (
                     <li key={index}>{measure}</li>

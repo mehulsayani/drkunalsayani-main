@@ -21,7 +21,7 @@ export default function ServiceLayout() {
         <div className="flex w-full max-w-[1300px] max-lg:flex-col-reverse max-lg:justify-center max-lg:items-center">
           <div className="w-[28%] h-[28rem] max-lg:w-[90%] sticky top-[5rem] mr-8 max-lg:mr-0 rounded-[1.5rem] overflow-hidden shadow-lg">
             {/* Header */}
-            <div className="bg-[#1AAEBC] py-4 px-6">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white font-notoSans text-center font-bold text-2xl">
                 PROFESSIONAL SERVICES
               </h1>

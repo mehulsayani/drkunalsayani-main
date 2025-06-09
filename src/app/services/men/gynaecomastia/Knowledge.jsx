@@ -16,10 +16,8 @@ const Knowledge = () => {
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
-          <div
-            className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg"
-          >
-            <div className="bg-[#1AAEBC] py-4 px-6">
+          <div className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mr-8 rounded-lg overflow-hidden shadow-lg">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white text-center font-bold text-2xl">
                 BOOK CONSULTATION
               </h1>
@@ -62,16 +60,22 @@ const Knowledge = () => {
             </div>
           </div>
           <div
-            className={`w-[70%] ${readMore ? "min-h-[7rem]" : "min-h-[70rem]"} max-lg:w-[90%]`}
+            className={`w-[70%] ${
+              readMore ? "min-h-[7rem]" : "min-h-[70rem]"
+            } max-lg:w-[90%]`}
           >
             <div
-              className={`text-gray-800 relative ${readMore ? "h-98 overflow-hidden" : "text-blue-500"}`}
+              className={`text-gray-800 relative ${
+                readMore ? "h-98 overflow-hidden" : "text-blue-500"
+              }`}
             >
               <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
                 {data.title}
               </h2>
 
-              <h3 className="text-2xl font-semibold mt-4">{data.content.procedureDetails.title}</h3>
+              <h3 className="text-2xl font-semibold mt-4">
+                {data.content.procedureDetails.title}
+              </h3>
               <ul className="list-disc ml-6 space-y-2 mb-3">
                 {data.content.procedureDetails.steps.map((step, index) => (
                   <li key={index}>
@@ -90,7 +94,9 @@ const Knowledge = () => {
                         ))}
                       </ul>
                     )}
-                    {step.additionalInfo && <p className="mt-2">{step.additionalInfo}</p>}
+                    {step.additionalInfo && (
+                      <p className="mt-2">{step.additionalInfo}</p>
+                    )}
                     {step.steps && (
                       <ul className="list-disc ml-6 space-y-1 mt-2">
                         {step.steps.map((subStep, idx) => (
@@ -104,63 +110,93 @@ const Knowledge = () => {
               </ul>
 
               <div className={`${readMore ? "blur-[3px]" : "blur-[0px]"}`}>
-                <h3 className="text-2xl font-semibold mt-4">{data.content.recoveryAftercare.title}</h3>
-                
-                <h4 className="font-semibold mt-4">{data.content.recoveryAftercare.stages.immediatePostOp.title}</h4>
+                <h3 className="text-2xl font-semibold mt-4">
+                  {data.content.recoveryAftercare.title}
+                </h3>
+
+                <h4 className="font-semibold mt-4">
+                  {data.content.recoveryAftercare.stages.immediatePostOp.title}
+                </h4>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.immediatePostOp.instructions.map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.immediatePostOp.instructions.map(
+                    (instruction, index) => (
+                      <li key={index}>{instruction}</li>
+                    )
+                  )}
                 </ul>
                 <h5 className="font-semibold mt-4">Pain Management:</h5>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.immediatePostOp.painManagement.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.immediatePostOp.painManagement.map(
+                    (item, index) => (
+                      <li key={index}>{item}</li>
+                    )
+                  )}
                 </ul>
                 <h5 className="font-semibold mt-4">Activity Restrictions:</h5>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.immediatePostOp.activityRestrictions.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.immediatePostOp.activityRestrictions.map(
+                    (item, index) => (
+                      <li key={index}>{item}</li>
+                    )
+                  )}
                 </ul>
                 <h5 className="font-semibold mt-4">Follow-Up:</h5>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.immediatePostOp.followUp.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.immediatePostOp.followUp.map(
+                    (item, index) => (
+                      <li key={index}>{item}</li>
+                    )
+                  )}
                 </ul>
 
-                <h4 className="font-semibold mt-4">{data.content.recoveryAftercare.stages.firstWeek.title}</h4>
+                <h4 className="font-semibold mt-4">
+                  {data.content.recoveryAftercare.stages.firstWeek.title}
+                </h4>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.firstWeek.instructions.map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.firstWeek.instructions.map(
+                    (instruction, index) => (
+                      <li key={index}>{instruction}</li>
+                    )
+                  )}
                 </ul>
 
-                <h4 className="font-semibold mt-4">{data.content.recoveryAftercare.stages.weeksTwoToFour.title}</h4>
+                <h4 className="font-semibold mt-4">
+                  {data.content.recoveryAftercare.stages.weeksTwoToFour.title}
+                </h4>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.weeksTwoToFour.instructions.map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.weeksTwoToFour.instructions.map(
+                    (instruction, index) => (
+                      <li key={index}>{instruction}</li>
+                    )
+                  )}
                 </ul>
 
-                <h4 className="font-semibold mt-4">{data.content.recoveryAftercare.stages.weeksFourToSix.title}</h4>
+                <h4 className="font-semibold mt-4">
+                  {data.content.recoveryAftercare.stages.weeksFourToSix.title}
+                </h4>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.recoveryAftercare.stages.weeksFourToSix.instructions.map((instruction, index) => (
-                    <li key={index}>{instruction}</li>
-                  ))}
+                  {data.content.recoveryAftercare.stages.weeksFourToSix.instructions.map(
+                    (instruction, index) => (
+                      <li key={index}>{instruction}</li>
+                    )
+                  )}
                 </ul>
 
                 <p className="mt-4">{data.content.recoveryAftercare.note}</p>
 
-                <h3 className="text-2xl font-semibold mt-4">{data.content.risksAndSafety.title}</h3>
-                <p className="mb-4">{data.content.risksAndSafety.description}</p>
+                <h3 className="text-2xl font-semibold mt-4">
+                  {data.content.risksAndSafety.title}
+                </h3>
+                <p className="mb-4">
+                  {data.content.risksAndSafety.description}
+                </p>
                 <h4 className="font-semibold mt-4">Common Risks:</h4>
                 <ul className="list-disc ml-6 space-y-2">
-                  {data.content.risksAndSafety.commonRisks.map((risk, index) => (
-                    <li key={index}>{risk}</li>
-                  ))}
+                  {data.content.risksAndSafety.commonRisks.map(
+                    (risk, index) => (
+                      <li key={index}>{risk}</li>
+                    )
+                  )}
                 </ul>
                 <h4 className="font-semibold mt-4">Rare but Serious Risks:</h4>
                 <ul className="list-disc ml-6 space-y-2">
@@ -168,7 +204,9 @@ const Knowledge = () => {
                     <li key={index}>{risk}</li>
                   ))}
                 </ul>
-                <p className="mt-4">{data.content.risksAndSafety.safetyMeasures}</p>
+                <p className="mt-4">
+                  {data.content.risksAndSafety.safetyMeasures}
+                </p>
               </div>
             </div>
 

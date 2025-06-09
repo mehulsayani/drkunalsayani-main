@@ -15,13 +15,15 @@ const Knowledge = () => {
   return (
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
-        <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center 
-        max-lg:items-center">
+        <div
+          className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center 
+        max-lg:items-center"
+        >
           <div
             className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mx-auto 
             rounded-lg overflow-hidden shadow-lg"
           >
-            <div className="bg-[#1AAEBC] py-4 px-6">
+            <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white text-center text-2xl font-bold">
                 BOOK CONSULTATION
               </h1>
@@ -80,7 +82,9 @@ const Knowledge = () => {
               <h3 className="font-semibold mt-4">{data.consultation.title}</h3>
               <p className="mb-4">{data.consultation.description}</p>
 
-              <h3 className="font-semibold mt-4">{data.implantChoices.title}</h3>
+              <h3 className="font-semibold mt-4">
+                {data.implantChoices.title}
+              </h3>
               <p className="mb-2">{data.implantChoices.description}</p>
               <ul className="list-disc ml-6 space-y-2 mb-3">
                 {data.implantChoices.options.map((option, index) => (
@@ -89,7 +93,9 @@ const Knowledge = () => {
               </ul>
 
               <div className={`${readMore ? "blur-[3px]" : "blur-[0px]"}`}>
-                <h2 className="text-2xl font-semibold mt-4">{data.procedure.title}</h2>
+                <h2 className="text-2xl font-semibold mt-4">
+                  {data.procedure.title}
+                </h2>
                 <p className="mb-4">{data.procedure.description}</p>
                 {data.procedure.steps.map((step, index) => (
                   <div key={index}>
@@ -106,7 +112,9 @@ const Knowledge = () => {
                   </div>
                 ))}
 
-                <h2 className="text-2xl font-semibold mt-4">{data.recovery.title}</h2>
+                <h2 className="text-2xl font-semibold mt-4">
+                  {data.recovery.title}
+                </h2>
                 <p className="mb-4">{data.recovery.introduction}</p>
                 {data.recovery.phases.map((phase, index) => (
                   <div key={index}>
@@ -119,7 +127,9 @@ const Knowledge = () => {
                   </div>
                 ))}
 
-                <h2 className="text-2xl font-semibold mt-4">{data.risks.title}</h2>
+                <h2 className="text-2xl font-semibold mt-4">
+                  {data.risks.title}
+                </h2>
                 <p className="mb-4">{data.risks.introduction}</p>
                 <h3 className="font-semibold mt-4">General Surgical Risks</h3>
                 <ul className="list-disc ml-6 space-y-2 mb-3">
