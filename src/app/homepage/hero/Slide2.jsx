@@ -16,7 +16,7 @@ export default function Slide2({ isActive }) {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-5xl font-semibold text-[#10217D] leading-tight max-lg:mb-4">
-            Accessible Aesthetics. Authentic Results.
+            Accessible Aesthetics Authentic Results
           </h1>
 
           <div className="h-1 w-24 bg-[#10217D] my-4 max-lg:hidden"></div>

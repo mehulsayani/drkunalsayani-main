@@ -8,12 +8,12 @@ export default function TopNavBanner() {
       className="bg-[#1aaebcaf] m-2 text-white rounded-[2rem] max-lg:rounded-2xl px-6 py-24 max-lg:py-12 
     relative overflow-hidden text-center"
     >
-      <Image
+      {/* <Image
         fill
         className="w-full object-cover -z-20"
         alt=""
         src={"/images/services/body/tummytuck/topbanner4.jpg"}
-      />
+      /> */}
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">

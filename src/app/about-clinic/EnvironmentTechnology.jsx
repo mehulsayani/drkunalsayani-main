@@ -42,11 +42,11 @@ const items = [
 
 const EnvironmentTechnology = () => {
   return (
-    <section className="w-full bg-[#f7f8fa] py-16 px-6">
+    <section className="w-full bg-[#f7f8fa] py-16 px-6 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
       <div className="max-w-[1200px] mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center flex-wrap mb-10 gap-4">
-          <div>
+          <div className="max-lg:flex max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:text-center">
             {/* <span className="text-sm text-orange-600 font-semibold uppercase">
               Our Focus
             </span> */}
@@ -60,7 +60,7 @@ const EnvironmentTechnology = () => {
               every step of the way.
             </p>
           </div>
-          <div className="md:mt-0">
+          <div className="md:mt-0 max-lg:hidden">
             <a
               href="/gellary"
               className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500"
@@ -91,7 +91,16 @@ const EnvironmentTechnology = () => {
             </div>
           ))}
         </div>
+       
       </div>
+       <div className="mt-10 hidden max-lg:block">
+            <a
+              href="/gellary"
+              className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500"
+            >
+              View All <span>→</span>
+            </a>
+          </div>
     </section>
   );
 };

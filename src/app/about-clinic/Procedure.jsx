@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import { IoIosArrowForward } from "react-icons/io";
 
 const procedures = [
   {
@@ -92,7 +93,7 @@ const Procedures = () => {
                     openId === item.id ? "rotate-90" : ""
                   }`}
                 >
-                  ▸
+                  <IoIosArrowForward/>
                 </span>
               </div>
               <div

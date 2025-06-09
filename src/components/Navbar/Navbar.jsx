@@ -156,7 +156,7 @@ const [lastScrollY, setLastScrollY] = useState(0);
             <FiX />
           </button>
           <a
-            href="/about-doctor"
+            href="/about-dr-kunal-sayani"
             onClick={toggleMobileMenu}
             className="text-gray-700  hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
           >

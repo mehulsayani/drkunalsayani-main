@@ -39,10 +39,10 @@ const feedbacks = [
 export default function Reviews() {
   return (
     <div className=" bg-white pl-6 flex justify-center items-center">
-      <div className=" w-full flex max-w-[1400px] gap-2">
+      <div className=" w-full flex max-w-[1400px] gap-2 max-lg:flex-col">
         {/* Average Rating Section */}
         <div>
-          <h2 className="text-xl w-[20rem] font-semibold mb-4">Average Rating</h2>
+          <h2 className="text-3xl font-bold w-[20rem] mb-2 max-lg:text-center">Average Rating</h2>
           <div className="bg-white rounded-xl p-6 shadow border border-gray-100">
             <div className="text-3xl font-bold flex items-center gap-2 mb-1">
               5.0 <span className="text-yellow-400">★ ★ ★ ★ ★</span>
@@ -64,7 +64,7 @@ export default function Reviews() {
               </div>
             ))}
 
-            <div className="mt-6">
+            <div className="mt-6 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
               <p className="text-sm text-gray-600 mb-2">
                 Write your Review
               </p>
