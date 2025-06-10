@@ -60,7 +60,7 @@ export default function ServiceCandidate() {
 
           {/* Contact Button */}
           <div
-            className="mt-8 w-[100%] max-lg:w-full bg-[#e2fdff] p-4  rounded-2xl 
+            className="mt-8 w-[38rem] max-lg:w-full bg-[#e2fdff] p-4  rounded-2xl 
              flex max-lg:flex-col items-center max-lg:items-center justify-between max-lg:gap-4 shadow-md"
           >
             <div className="flex items-center gap-3">
