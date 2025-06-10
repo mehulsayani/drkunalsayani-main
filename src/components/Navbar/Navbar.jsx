@@ -141,7 +141,7 @@ export default function Navbar() {
         </div>
         {/* Mobile Navigation */}
         <div
-          className={`hidden bg-white shadow-md max-lg:block transition-transform duration-300 ease-in-out ${
+          className={`hidden bg-white shadow-md max-lg:block  duration-300 ease-in-out ${
             isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
           } fixed top-0 right-0 h-full w-3/4 sm:w-1/2 z-50`}
         >
@@ -208,7 +208,7 @@ export default function Navbar() {
         {/* Overlay for mobile menu */}
         {isMobileMenuOpen && (
           <div
-            className="lg:hidden fixed inset-0 bg-[#1aaebc] bg-opacity-50 z-40"
+            className="lg:hidden fixed inset-0 bg-[#1aaebc56] bg-opacity-50 z-40"
             onClick={toggleMobileMenu}
           ></div>
         )}
