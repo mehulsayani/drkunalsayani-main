@@ -89,7 +89,7 @@ export default function Testimonials() {
         {/* Left Section */}
         <div className="w-full flex justify-center px-4 flex-col items-start">
           <h2 className="text-4xl text-left mb-6">
-            See What Our <br /> <span className="text-[#1AAEBC]">Patients</span> Have To Say!
+            See What Our <br /> <span className="text-[#10217D]">Patients</span> Have To Say!
           </h2>
 
           {/* External Arrow Controls */}

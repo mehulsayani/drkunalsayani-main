@@ -124,7 +124,7 @@ export default function Services() {
               </p>
               <Link
                 href={service.link}
-                className="text-sm font-semibold text-[#1AAEBC] hover:text-blue-600"
+                className="text-sm font-semibold text-[#10217D] hover:text-blue-600"
               >
                 Read More →
               </Link>
