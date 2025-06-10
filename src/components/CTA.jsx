@@ -43,7 +43,7 @@ export default function CTA() {
 
         {/* Email Button */}
         <a
-          href="mailto:drkunalsayani.professional@gmail.com"
+          href="drkunalsayani.professional@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#1AAEBC] text-white p-3 shadow-md hover:bg-[#5fc1ca] transition duration-200 flex items-center justify-center max-lg:w-full"
@@ -63,13 +63,13 @@ export default function CTA() {
 
           {/* Share Icons - Desktop */}
           <div
-            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-10
+            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-12
              max-lg:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
             rounded-l-lg shadow-lg py-2 px-3 flex-col 
             gap-3 flex transition-all "
           >
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/drkunalsayani/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#E1306C] hover:scale-110 transition text-xl max-lg:text-3xl"
