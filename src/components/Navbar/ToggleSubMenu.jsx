@@ -107,7 +107,7 @@ export default function ToggleSubMenu({
             <div key={category}>
               <button
                 onClick={() => handleCategoryClick(category)}
-                className="flex items-center justify-between w-full text-gray-700 hover:text-[#1AAEBC] px-4 py-2 text-sm font-medium"
+                className="flex border-b border-gray-400 items-center justify-between w-full text-gray-700 hover:text-[#1AAEBC] px-4 py-2 text-sm font-medium"
               >
                 {category.replace("_", " ").replace(/([A-Z])/g, " $1")}
                 <FiChevronDown
@@ -118,7 +118,7 @@ export default function ToggleSubMenu({
               </button>
 
               {activeCategory === category && (
-                <div className="pl-4" onClick={toggleMobileMenu}>
+                <div className="pl-4 " onClick={toggleMobileMenu}>
                   {services[category].map((service) => (
                     <Link
                       key={service}

@@ -33,12 +33,12 @@ export default function Footer() {
           <ul className="space-y-2 text-gray-300">
             <li>
               <a href="/about/clinic" className="hover:text-white">
-                Skin Clinic
+                About Dr. Kunal Sayani
               </a>
             </li>
             <li>
               <a href="/about/dr-kunal" className="hover:text-white">
-                Dr. Kunal
+                About Clinic
               </a>
             </li>
             <li>
@@ -46,11 +46,7 @@ export default function Footer() {
                 Our Team
               </a>
             </li>
-            <li>
-              <a href="/about/initiatives" className="hover:text-white">
-                Social Initiatives
-              </a>
-            </li>
+            
           </ul>
         </div>
 
@@ -59,38 +55,38 @@ export default function Footer() {
           <h4 className="text-base font-semibold mb-3">Services</h4>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <a href="/services/skin" className="hover:text-white">
-                Skin Treatment
+              <a href="/services/body/tummy-tuck-abdominoplasty" className="hover:text-white">
+                Abdominoplasty
               </a>
             </li>
             <li>
-              <a href="/services/hair" className="hover:text-white">
-                Hair Treatment
+              <a href="/services/breast/breast-augmentation" className="hover:text-white">
+                Breast Augmentation
               </a>
             </li>
             <li>
-              <a href="/services/nail" className="hover:text-white">
-                Nail Treatment
+              <a href="/services/hair/hair-transplant" className="hover:text-white">
+               Hair Transplant
               </a>
             </li>
             <li>
-              <a href="/services/diagnostics" className="hover:text-white">
-                Diagnostics
+              <a href="/services/breast/buttock-augmentation-bbl" className="hover:text-white">
+              Buttock Augmentation
+              </a>
+            </li>
+             <li>
+              <a href="/services/breast/botox-(wrinkles-anti-ageing)" className="hover:text-white">
+                Botox
               </a>
             </li>
             <li>
-              <a href="/services/dermatosurgery" className="hover:text-white">
-                Dermatosurgery
+              <a href="/services/body/liposuction" className="hover:text-white">
+              Liposuction
               </a>
             </li>
             <li>
-              <a href="/services/laser" className="hover:text-white">
-                Laser Treatments
-              </a>
-            </li>
-            <li>
-              <a href="/services/aesthetics" className="hover:text-white">
-                Aesthetics
+              <a href="/services/breast/aesthetics" className="hover:text-white">
+             Mommy Makeover
               </a>
             </li>
           </ul>
@@ -111,13 +107,13 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/appointments" className="hover:text-white">
+              <a href="/book-appointment" className="hover:text-white">
                 Appointments
               </a>
             </li>
             <li>
               <a href="/faqs" className="hover:text-white">
-                FAQs
+                Disclaimer
               </a>
             </li>
             <li>
@@ -127,24 +123,24 @@ export default function Footer() {
             </li>
             <li>
               <a href="/terms" className="hover:text-white">
-                Terms of Use
+                Terms and Condition
               </a>
             </li>
           </ul>
         </div>
 
         {/* Contact Us */}
-        <div className="w-66">
+        <div className="w-66 max-lg:w-72">
           <h4 className="text-base font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-3 text-gray-300">
-            <li className="flex items-center gap-2">
-              {/* <MdPhone className="text-teal-500" /> */}
+            <li className="flex items-start gap-2">
+              <MdPhone className="text-teal-500" />
               <a href="tel:+9108048034415" className="hover:text-white">
-                +91 9967267567 / 02246056767 
+                +91 9967267567, 02246056767
               </a>
             </li>
             <li className="flex items-start gap-2">
-              {/* <MdEmail className="text-teal-500" /> */}
+              <MdEmail className="text-teal-500" />
               <a
                 href="mailto:drkunalsayani.professional@gmail.com"
                 className="hover:text-white break-all"
@@ -153,14 +149,14 @@ export default function Footer() {
               </a>
             </li>
             <li className="flex items-start gap-2">
-              {/* <MdLocationOn className="text-teal-500 mt-1" /> */}
+              <MdLocationOn className="text-teal-500 text-5xl" />
               <span className="leading-snug">
                 TVAMEVA AESTHETICS - 501/502 Sapphire Plaza, Dadabhai Road,
                 Swami Vivekananda Rd, Vile Parle West, Mumbai, Maharashtra
               </span>
             </li>
             <li className="flex items-start gap-2">
-              {/* <MdAccessTime className="text-teal-500 mt-1" /> */}
+              <MdAccessTime className="text-teal-500 mt-1" />
               <span>
                 Mon–Sat: 10 AM – 8 PM <br />
                 Sunday: Closed
@@ -188,7 +184,7 @@ export default function Footer() {
             >
               <FaFacebook />
             </a>
-          
+
             <a
               href="https://linkedin.com"
               aria-label="LinkedIn"
