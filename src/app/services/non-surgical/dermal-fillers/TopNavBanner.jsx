@@ -12,7 +12,7 @@ export default function TopNavBanner() {
         fill
         className="w-full object-cover -z-20"
         alt=""
-        src={"/images/services/body/tummytuck/topbanner4.jpg"}
+        src={"/images/services/nonsurgical.jpg"}
       />
 
       {/* Optional decorative elements */}
