@@ -14,7 +14,7 @@ export default function ServicesSection() {
 
   return (
     <section
-      className="w-full h-full flex justify-center mt-[4rem] max-lg:mt-[2rem] pt-[4rem] items-center 
+      className="w-full flex justify-center mt-[1.3rem] max-lg:mt-[3rem] max-lg:h-[87vh] pt-[4rem] items-center 
       bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white"
     >
       <div
@@ -47,7 +47,7 @@ export default function ServicesSection() {
           alt="Aesthetic Model"
           width={500}
           height={600}
-          className="object-cover h-auto -scale-x-100 w-[36rem]"
+          className=" -scale-x-100 w-[36rem] max-lg:relative max-lg:bottom-[2.89rem]"
         />
       </div>
     </section>

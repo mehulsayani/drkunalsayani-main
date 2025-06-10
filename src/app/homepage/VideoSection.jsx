@@ -69,11 +69,12 @@ export default function VideoSection() {
   );
 
   return (
-    <div className="flex justify-center bg-[#f2f3f483] items-center flex-col py-10 px-4">
+    <div className="bg-[#f2f3f483] w-full max-lg:flex max-lg:items-center max-lg:justify-center max-lg:flex-col">
+      <div className="flex justify-center  items-center  max-lg:w-[95%] flex-col py-10 px-4">
       {/* <h1 className="text-3xl font-bold mb-5 text-center text-[#10217D]">
         Explore Our Videos
       </h1> */}
-      <div className="flex gap-5 tems-center max-w-[1200px] p-4 rounded-lg w-full mb-4">
+      <div className="flex gap-5 tems-center max-w-[1200px]  p-4 rounded-lg w-full mb-4">
         <div className="w-16 h-16 relative rounded-full overflow-hidden">
           <Image
             src="/images/homepage/hero/image4.png"
@@ -96,7 +97,7 @@ export default function VideoSection() {
 
       {/* Mobile/Tablet View: Slick Slider */}
       {isMobile ? (
-        <div className="w-full max-w-screen-md">
+        <div className="w-full">
           <Slider {...settings}>
             {videos.map((video, idx) => (
               <div key={idx} className="px-2">
@@ -160,6 +161,7 @@ export default function VideoSection() {
         </div>{" "}
         Follow on Instagram
       </button>
+    </div>
     </div>
   );
 }

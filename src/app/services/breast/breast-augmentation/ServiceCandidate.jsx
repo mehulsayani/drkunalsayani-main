@@ -60,7 +60,7 @@ export default function ServiceCandidate() {
 
           {/* Contact Button */}
           <div
-            className="mt-8 w-[70%] max-lg:w-full bg-[#e2fdff] p-4 rounded-2xl 
+            className="mt-8 w-[100%] max-lg:w-full bg-[#e2fdff] p-4  rounded-2xl 
              flex max-lg:flex-col items-center max-lg:items-center justify-between max-lg:gap-4 shadow-md"
           >
             <div className="flex items-center gap-3">
@@ -78,7 +78,7 @@ export default function ServiceCandidate() {
               </div>
             </div>
             <button
-              className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-lg 
+              className="flex items-center gap-2 bg-[#1AAEBC] lg:ml-10 text-white px-5 py-2 rounded-lg 
                font-medium hover:bg-blue-500 transition"
             >
               Contact Us <ArrowUpRight size={18} />

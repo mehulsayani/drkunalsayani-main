@@ -6,7 +6,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/body/tummytuck/tummytuck.jpg"}
+          src={"/images/services/breast/Breast Augmentation.jpg"}
           width={1000}
           height={1000}
           alt=""
@@ -14,22 +14,22 @@ export default function Overview() {
         />
         <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
           <p className="mb-3">
-            Breast AugmentaƟon, also known as augmentaƟon mammoplasty, is one of
-            the most popular cosmeƟc procedures worldwide. It involves the use
-            of implants or fat transfer to enhance the size, shape, and symmetry
-            of the breasts. Women choose this procedure for various reasons,
-            including restoring breast volume lost aŌer pregnancy or weight
-            loss, improving body proporƟon, or simply achieving the desired
-            breast size for increased self-confidence.
+            Breast Augmentation, also known as augmentation mammoplasty, is one
+            of the most popular cosmetic procedures worldwide. It involves the
+            use of implants or fat transfer to enhance the size, shape, and
+            symmetry of the breasts. Women choose this procedure for various
+            reasons, including restoring breast volume lost aŌer pregnancy or
+            weight loss, improving body proportion, or simply achieving the
+            desired breast size for increased self-confidence.
           </p>
           <p className="mb-3">
-            At Dr. Kunal Sayani’s AestheƟc Surgery Clinic, breast augmentaƟon is
-            approached with arƟstry, precision, and personalized care. Whether
-            you seek subtle enhancement or a more dramaƟc transformaƟon, Dr.
-            Sayani customizes the procedure to reflect your goals and natural
-            anatomy, delivering beauƟful, balanced, and natural-looking results.
+            At Dr. Kunal Sayani’s Aesthetic Surgery Clinic, breast augmentation
+            is approached with artistry, precision, and personalized care.
+            Whether you seek subtle enhancement or a more dramatic
+            transformation, Dr. Sayani customizes the procedure to reflect your
+            goals and natural anatomy, delivering beautiful, balanced, and
+            natural-looking results.
           </p>
-          
         </div>
       </div>
     </section>

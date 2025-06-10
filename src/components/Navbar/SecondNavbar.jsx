@@ -104,8 +104,6 @@ export default function SecondNavbar() {
     },
   ];
 
-
-
   return (
     <div
       className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-22 ${
@@ -136,7 +134,9 @@ export default function SecondNavbar() {
                           href={`/services/${section.title
                             .toLowerCase()
                             .replace(/ /g, "-")}/${item
-                            .toLowerCase().replace(/ /g, "-").replace(/[(),]/g, "")}`}
+                            .toLowerCase()
+                            .replace(/ /g, "-")
+                            .replace(/[(),]/g, "")}`}
                           className="hover:text-[#40AEB9] transition-colors cursor-pointer"
                         >
                           {item}

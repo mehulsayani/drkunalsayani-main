@@ -6,7 +6,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/body/tummytuck/tummytuck.jpg"}
+          src={"/images/services/breast/Breast Lift (mastopexy) with Shaping.jpg"}
           width={1000}
           height={1000}
           alt=""

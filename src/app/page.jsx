@@ -37,7 +37,7 @@ export default function page() {
       <Specialization />
       <AboutCompany />
       <WhyChooseUs />
-      <Gallery />
+      {/* <Gallery /> */}
       <Testimonials />
       <Banner />
       <VideoSection />
