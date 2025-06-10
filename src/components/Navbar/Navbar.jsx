@@ -167,7 +167,9 @@ export default function Navbar() {
             >
               About Tvameva Clinic
             </a>
-            <ToggleSubMenu isMobile />
+            <ToggleSubMenu  isMobile={true}
+        isMobileMenuOpen={isMobileMenuOpen}
+        toggleMobileMenu={toggleMobileMenu} />
             <a
               href="/reviews"
               onClick={toggleMobileMenu}
