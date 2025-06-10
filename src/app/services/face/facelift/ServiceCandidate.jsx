@@ -28,18 +28,16 @@ export default function ServiceCandidate() {
       </div> */}
 
         {/* Right Side - Text Content */}
-        <div className="flex flex-col ">
+        <div className="flex flex-col w-full">
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
             Why Choose a Thread Lift with <br /> Dr. Kunal Sayani in Mumbai?
-
           </h2>
           <p className="text-gray-700 mb-6">
-          Experience the transformative power of a Thread Lift at Dr. Kunal Sayani's clinic, and rediscover
-a more youthful, confident you.
-
+            Experience the transformative power of a Thread Lift at Dr. Kunal
+            Sayani's clinic, and rediscover a more youthful, confident you.
           </p>
 
           <ul className="space-y-3 text-gray-800">

@@ -28,7 +28,7 @@ export default function ServiceCandidate() {
       </div> */}
 
         {/* Right Side - Text Content */}
-        <div className="flex flex-col ">
+        <div className="flex flex-col w-full">
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
