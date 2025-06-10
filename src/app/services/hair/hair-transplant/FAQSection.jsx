@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is a hair transplant?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "A hair transplant is a surgical procedure that moves healthy hair follicles from a dense donor area (usually the back or sides of the head) to areas of the scalp experiencing thinning or baldness. The goal is to restore natural hair growth and create a fuller, more youthful appearance.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "Who is a good candidate for a hair transplant?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Ideal candidates are individuals with male or female pattern baldness, sufficient healthy donor hair, and realistic expectations about the results. General good health is also important. Dr. Kunal Sayani will assess your suitability during a detailed consultation.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "What are the different types of hair transplant procedures?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "The two primary methods are:\n• FUE (Follicular Unit Extraction): Individual follicular units are extracted directly from the donor area, leaving tiny, almost undetectable dot scars.\n• FUT (Follicular Unit Transplantation) / Strip Method: A strip of scalp tissue is removed from the donor area, from which follicular units are dissected. This leaves a linear scar. Dr. Kunal Sayani will recommend the best technique for your specific needs.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "How long does a hair transplant procedure take?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "The duration varies significantly depending on the number of grafts needed. A smaller procedure might take 4-6 hours, while a larger session could last 8-10 hours, often spread over one or two days.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Is a hair transplant painful?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "During the procedure, you will receive local anesthesia, so you should not feel any pain. After the procedure, you may experience mild discomfort, soreness, and numbness, which can be managed with prescribed pain medication.",
   },
 ];
 
@@ -116,7 +116,7 @@ export default function FAQSection() {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <div className="px-4 pb-4 bg-[#f9fafa]">
+                        <div className="px-4 pb-4 bg-[#f9fafa] whitespace-pre-line">
                           <p className="text-gray-700 text-sm md:text-base">
                             {faq.answer}
                           </p>

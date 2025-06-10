@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is liposuction?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Liposuction is a surgical procedure that removes excess fat deposits from specific areas of the body to reshape and contour the figure. It is not a weight-loss method but rather a body sculpting technique for individuals near their ideal weight.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "Who is a good candidate for liposuction?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Ideal candidates are healthy individuals who are at or near their ideal body weight, have good skin elasticity, and have localized pockets of fat that are resistant to diet and exercise. They should also have realistic expectations about the results. Dr. Kunal Sayani will determine your suitability during a consultation.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "What areas of the body can be treated with liposuction?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Commonly treated areas include the abdomen, flanks (love handles), thighs (inner, outer, front), hips, buttocks, arms, back, chest (for gynecomastia in men), and the chin and neck.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "Is liposuction a weight-loss solution?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "No, liposuction is not a weight-loss solution. It is a body contouring procedure to remove localized fat deposits and improve body shape. For significant weight loss, lifestyle changes and other medical interventions are more appropriate.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "How much fat can be removed during liposuction?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "The amount of fat that can be safely removed depends on several factors, including the patient's size, overall health, and the areas being treated. Dr. Kunal Sayani adheres to strict safety guidelines regarding fat removal to minimize risks.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function FAQSection() {
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
             src="/images/services/body/tummytuck/timing.jpg"
-            alt="Facial treatment"
+            alt="Clinic Timing"
             layout="fill"
             objectFit="cover"
             quality={100}

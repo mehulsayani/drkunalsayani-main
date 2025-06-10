@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What exactly is Botox?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Botox is a brand name for a purified protein derived from Clostridium botulinum bacterium. When injected in very small, controlled amounts, it temporarily blocks nerve signals to specific muscles, causing them to relax. This relaxation reduces the appearance of dynamic wrinkles that form due to repetitive muscle movements.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "How does Botox work to reduce wrinkles?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Botox works by temporarily paralyzing or relaxing the underlying muscles responsible for dynamic wrinkles (e.g., frowning, squinting, raising eyebrows). When these muscles cannot contract, the overlying skin smooths out, reducing the appearance of lines and creases.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "What types of wrinkles does Botox treat?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      'Botox is primarily effective for dynamic wrinkles, which are visible when you make facial expressions. These include: Forehead lines (horizontal lines across the forehead), Frown lines (vertical "11" lines between the eyebrows), Crow\'s feet (lines radiating from the corners of the eyes). Dr. Kunal Sayani also uses Botox for "bunny lines" on the nose, chin dimpling, and neck bands.',
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "Who is a good candidate for Botox injections?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Good candidates are typically healthy adults who are concerned about dynamic wrinkles. They should have realistic expectations about the results. Dr. Kunal Sayani will conduct a thorough medical history and facial assessment during your consultation to determine if Botox is right for you.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Is Botox safe?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Yes, Botox has an excellent safety record and has been FDA-approved for cosmetic use for many years. When administered by a qualified and experienced aesthetic surgeon like Dr. Kunal Sayani, who understands facial anatomy and uses proper technique, the risks are minimal.",
   },
 ];
 

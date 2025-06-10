@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What are Dermal Fillers?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Dermal fillers are injectable gel-like substances used to restore volume to the face, smooth out lines and wrinkles (static wrinkles), enhance facial contours, and rejuvenate various areas of the face and body. Most commonly, they are made of hyaluronic acid (HA), a substance naturally found in the skin.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "How do Dermal Fillers work?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Dermal fillers work by physically adding volume beneath the skin's surface. They fill in hollows, plump up areas that have lost fat, and smooth out lines. Many fillers also stimulate your body's natural collagen production over time, which further contributes to skin rejuvenation.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "What types of concerns can Dermal Fillers address?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Dermal fillers are highly versatile and can address a wide range of aesthetic concerns, including: smoothing nasolabial folds and marionette lines, restoring volume to sunken cheeks and temples, enhancing and plumping lips, minimizing under-eye hollows, defining the jawline and chin, correcting facial asymmetry, and rejuvenating the back of the hands. Dr. Kunal Sayani will recommend the best filler and technique for your specific needs.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "Who is a good candidate for Dermal Fillers?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Ideal candidates are generally healthy adults seeking to address signs of aging such as volume loss, static wrinkles, or those desiring subtle enhancements to their facial features. A comprehensive consultation with Dr. Kunal Sayani is essential to determine your suitability.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "What types of Dermal Fillers does Dr. Kunal Sayani use?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Dr. Kunal Sayani uses a range of premium, FDA-approved dermal fillers, primarily hyaluronic acid (HA) based fillers (e.g., from Juvéderm, Restylane families) due to their versatility and reversibility. Depending on your needs, he may also use other types like Calcium Hydroxylapatite (CaHA) or Poly-L-Lactic Acid (PLLA) which stimulate collagen.",
   },
 ];
 
@@ -133,3 +133,4 @@ export default function FAQSection() {
     </section>
   );
 }
+``
