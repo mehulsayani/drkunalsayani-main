@@ -3,7 +3,6 @@ import React from "react";
 import {
   FaWhatsapp,
   FaFacebookF,
-  FaTwitter,
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
@@ -55,59 +54,56 @@ export default function CTA() {
 
         {/* Share Button */}
         <div className="relative group max-lg:w-full ">
-          <div className="text-white bg-[] p-3 flex items-center justify-center" aria-label="Share this page">
-            <IoMdShare size={20} />
+          <div
+            className="text-white bg-[#0084ff] rounded-bl-lg p-3 flex items-center justify-center"
+            aria-label="Share this page"
+          >
+            <IoMdShare  size={24}/>
           </div>
 
           {/* Share Icons - Desktop */}
           <div
-            className="absolute -top-30 -z-50 right-0 bg-white rounded-l-lg shadow-lg py-2 px-3 flex-col 
-            gap-3 hidden group-hover:flex transition-all duration-300"
+            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-10
+             max-lg:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
+            rounded-l-lg shadow-lg py-2 px-3 flex-col 
+            gap-3 flex transition-all "
           >
             <a
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#E1306C] hover:scale-110 transition"
+              className="text-[#E1306C] hover:scale-110 transition text-xl max-lg:text-3xl"
               aria-label="Share on Instagram"
             >
-              <FaInstagram size={20} />
+              <FaInstagram />
             </a>
+
             <a
               href="https://www.facebook.com/sharer/sharer.php?u="
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#1877F2] hover:scale-110 transition"
+              className="text-[#1877F2] hover:scale-110 transition text-xl max-lg:text-3xl"
               aria-label="Share on Facebook"
             >
-              <FaFacebookF size={20} />
-            </a>
-            <a
-              href="https://twitter.com/intent/tweet?url="
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#1DA1F2] hover:scale-110 transition"
-              aria-label="Share on Twitter"
-            >
-              <FaTwitter size={20} />
-            </a>
-            <a
-              href="https://www.linkedin.com/shareArticle?mini=true&url="
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#0077B5] hover:scale-110 transition"
-              aria-label="Share on LinkedIn"
-            >
-              <FaLinkedin size={20} />
+              <FaFacebookF  />
             </a>
             <a
               href="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#FF0000] hover:scale-110 transition"
+              className="text-[#FF0000] hover:scale-110 transition text-xl max-lg:text-3xl"
               aria-label="Share on YouTube"
             >
-              <BsYoutube size={20} />
+              <BsYoutube  />
+            </a>
+            <a
+              href="https://www.linkedin.com/shareArticle?mini=true&url="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#0077B5] hover:scale-110 transition text-xl max-lg:text-3xl"
+              aria-label="Share on LinkedIn"
+            >
+              <FaLinkedin  />
             </a>
           </div>
         </div>
