@@ -65,7 +65,7 @@ export default function ToggleSubMenu({
       "Liposuction",
       "Hair Loss Treatment",
       "Hair Transplant",
-      "Face > Rhinoplasty (Nose job)",
+      "Face Rhinoplasty (Nose job)",
       "Eyelid Surgery (Blepharoplasty)",
       "Prominent Ear Surgery (Otoplasty)",
       "Facelift",
