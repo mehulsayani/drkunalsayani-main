@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import Link from "next/link";
 import { FiChevronDown } from "react-icons/fi";
@@ -118,20 +116,20 @@ export default function ToggleSubMenu({
               </button>
 
               {activeCategory === category && (
-                <div className="pl-4 " onClick={toggleMobileMenu}>
+                <div className="pl-4" onClick={toggleMobileMenu}>
                   {services[category].map((service) => (
                     <Link
                       key={service}
                       href={`/services/${category
                         .toLowerCase()
-                        .replace(/ /g, "-")}/${service
+                        .replace(/[_ ]/g, "-")}/${service
                         .toLowerCase()
-                        .replace(/ /g, "-")
+                        .replace(/[_ ]/g, "-")
                         .replace(/[(),]/g, "")}`}
                       className="block text-gray-600 hover:text-[#1AAEBC] px-4 py-2 text-sm hover:bg-gray-100"
                       onClick={() => {
-                        if (isMobile) toggleMenu(); // first call (only if mobile)
-                        toggleMobileMenu; // second call (always)
+                        if (isMobile) toggleMenu(); // Close menu on mobile
+                        toggleMobileMenu(); // Call toggleMobileMenu
                       }}
                     >
                       {service}
