@@ -50,7 +50,7 @@ export default function ToggleSubMenu({
       "Fat Grafting",
     ],
     Mommy_Makeover: [
-      "Post-Pregnancy Tummy Tuck (moms)",
+      "Post Pregnancy Tummy Tuck (moms)",
       "Breast Lift & Augmentation after Pregnancy",
       "Genital Cosmetic Surgeries",
       "Mommy Makeover Package (custom combination of procedures)",
