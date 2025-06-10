@@ -150,7 +150,8 @@ export default function VideoSection() {
           </div>
         </div>
       )}
-      <button
+      <a href="https://www.instagram.com/drkunalsayani/">
+        <button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="bg-[#1BA9B5] flex justify-center mt-8 items-center gap-2 hover:bg-[#1561a5] transition-colors
@@ -159,8 +160,9 @@ export default function VideoSection() {
         <div className="text-2xl">
           <IoLogoInstagram />
         </div>{" "}
-        Follow on Instagram
+        Follow on Instagram 
       </button>
+      </a>
     </div>
     </div>
   );

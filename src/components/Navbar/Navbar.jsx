@@ -154,6 +154,13 @@ export default function Navbar() {
               <FiX />
             </button>
             <a
+              href="/"
+              onClick={toggleMobileMenu}
+              className="text-gray-700  hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
+            >
+             Home
+            </a>
+            <a
               href="/about-dr-kunal-sayani"
               onClick={toggleMobileMenu}
               className="text-gray-700  hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
