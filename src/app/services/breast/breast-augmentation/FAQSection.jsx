@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "Am I a good candidate for breast reduction?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "You may be a suitable candidate if you experience physical discomfort due to large breasts, have chronic skin irritation under the breast fold, struggle with finding properly fitting clothes, or have poor posture due to breast weight. A consultation with Dr. Kunal Sayani will determine your candidacy.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "Will breast reduction leave visible scars?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Yes, some scarring is inevitable. However, Dr. Sayani uses advanced techniques to ensure minimal, well-placed scars that fade significantly over time with proper aftercare.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Can I breastfeed after breast reduction?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Some women retain the ability to breastfeed, but it’s not guaranteed. The likelihood depends on the surgical technique used and the amount of tissue removed.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "Is the procedure painful?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "You may experience mild to moderate discomfort post-surgery, which is effectively managed with prescribed medications. Most patients find the recovery easier than expected.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "How long do the results last?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Breast reduction results are long-lasting, especially when paired with a healthy lifestyle. However, significant weight changes or pregnancy may impact breast size and shape.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function FAQSection() {
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
             src="/images/services/body/tummytuck/timing.jpg"
-            alt="Facial treatment"
+            alt="Clinic timing"
             layout="fill"
             objectFit="cover"
             quality={100}

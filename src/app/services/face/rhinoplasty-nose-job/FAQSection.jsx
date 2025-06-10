@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is the primary purpose of rhinoplasty?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "The primary purpose of rhinoplasty is to reshape the nose to improve facial harmony and proportion. It can also correct structural problems that cause breathing difficulties.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "Who is a good candidate for rhinoplasty?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Good candidates are individuals who are physically healthy, have realistic expectations, are at least in their mid-to-late teens (when nasal growth is complete), and are bothered by the appearance or function of their nose.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "How long do the results of rhinoplasty last?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "The results of rhinoplasty are generally considered permanent. While the nose will continue to age along with the rest of your face, the structural changes made during surgery are lasting.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: 'Will my nose look "fake" or "operated on"?',
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      'Myth: Modern rhinoplasty techniques, especially when performed by an experienced surgeon like Dr. Kunal Sayani, aim for natural-looking results that enhance facial harmony rather than creating an obviously "done" appearance. Fact: The goal is to create a nose that blends seamlessly with your other facial features, making it look as if it\'s the nose you were born with.',
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Is rhinoplasty a painful procedure?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Myth: Many people believe rhinoplasty is extremely painful. Fact: While you will experience some discomfort, pressure, and dull aching after surgery, severe pain is uncommon and can be effectively managed with prescribed pain medication. The recovery is generally more uncomfortable than painful.",
   },
 ];
 

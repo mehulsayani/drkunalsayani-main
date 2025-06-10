@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "Is gynecomastia surgery painful?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Some discomfort and swelling are normal after surgery but are typically well-controlled with medications. Most patients describe the pain as mild to moderate and manageable.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "How long does the surgery take?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "The procedure usually lasts 1 to 2 hours, depending on the extent of tissue removal.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Will there be visible scars?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Incisions are made in discreet locations such as around the areola or chest folds to minimize visible scarring. Scars fade significantly over time with proper care.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "Is gynecomastia surgery permanent?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Yes, the removal of glandular tissue and fat is permanent. However, weight gain or hormonal changes can affect chest appearance later.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Can gynecomastia recur after surgery?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "While surgery removes existing excess tissue, maintaining a stable weight and avoiding substances that can cause hormonal imbalances helps prevent recurrence.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function FAQSection() {
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
             src="/images/services/body/tummytuck/timing.jpg"
-            alt="Facial treatment"
+            alt="Clinic Image"
             layout="fill"
             objectFit="cover"
             quality={100}
