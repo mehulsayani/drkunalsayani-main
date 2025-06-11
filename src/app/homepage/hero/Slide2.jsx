@@ -48,7 +48,7 @@ export default function Slide2({ isActive }) {
             alt="Rhinoplasty"
             width={1000}
             height={1000}
-            className=" w-[37rem] "
+            className=" w-[37rem] max-lg:w-[30rem] "
             priority
           />
         </motion.div>
