@@ -11,35 +11,35 @@ const procedures = [
     title: "Breast Augmentation",
     description:
       "Exfoliate and refresh your skin with nourishing scrubs that leave you glowing.",
-    image: "breast/breast-augmentation.png",
+    image: "breast/Breast Augmentation.jpg",
   },
   {
     id: 2,
     title: "Breast Reduction & Axillary Breasts Excision",
     description:
       "Gently remove dead skin and peach fuzz for a smooth, radiant complexion.",
-    image: "breast/breast-reduction-&-axillary-breasts-excision.png",
+    image: "breast/Breast Reduction & Axillary Breasts Excision.jpg",
   },
   {
     id: 3,
     title: "Hydrafacials",
     description:
       "Deep cleanse and hydrate your skin with our advanced facial treatments.",
-    image: "men/gynaecomastia.png",
+    image: "men/Gynaecomastia.jpg",
   },
   {
     id: 4,
     title: "Hair Removal",
     description:
       "Enjoy silky smooth skin with our safe and effective hair removal services.",
-    image: "body/liposuction.png",
+    image: "body/liposuction/liposuction-min.jpg",
   },
   {
     id: 5,
     title: "Sunless Tanning",
     description:
       "Get a natural-looking glow without sun exposure or harmful UV rays.",
-    image: "body/tummy-tuck-abdominoplasty.png",
+    image: "body/tummytuck/tummytuck.jpg",
   },
 ];
 
@@ -50,7 +50,7 @@ const Procedures = () => {
     setOpenId((prev) => (prev === id ? 0 : id));
   };
 
-
+  const currentItem = procedures.find((item) => item.id === openId);
 
   return (
     <section className="flex justify-center items-center w-full">
@@ -64,12 +64,12 @@ const Procedures = () => {
             Aesthetic treatments & procedures offered
           </h2>
           <p className="text-gray-600">
-            Our clinic offers a full spectrum of aesthetic procedures—from
-            advanced facial rejuvenation and body contouring to hair restoration
-            and non-surgical enhancements—performed in a modern, serene, and
-            private environment. We combine the latest techniques and medical
-            innovations with a holistic approach, ensuring that your experience
-            is as empowering as it is effective.
+            Our clinic offers a full spectrum of aesthetic procedures—from advanced
+            facial rejuvenation and body contouring to hair restoration and
+            non-surgical enhancements—performed in a modern, serene, and private
+            environment. We combine the latest techniques and medical innovations
+            with a holistic approach, ensuring that your experience is as
+            empowering as it is effective.
           </p>
 
           {/* Accordion */}
@@ -113,14 +113,17 @@ const Procedures = () => {
 
         {/* Right: Dynamic Image */}
         <div className="md:w-1/2 relative">
-          <Image
-              src={`/images/services/breast/breast-augmentation.png`}
-              alt={''}
+          {currentItem && (
+            <Image
+              src={`/images/services/${currentItem.image}`}
+              alt={currentItem.title}
               width={600}
               height={800}
-              className="rounded-lg w-full object-cover transition duration-500"
-             
+              className="rounded-lg w-full h-full pt-40 max-lg:pt-0 object-cover transition duration-500"
+              key={currentItem.id}
+              priority
             />
+          )}
         </div>
       </div>
     </section>
