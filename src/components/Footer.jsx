@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 
 export default function Footer() {
@@ -149,7 +150,7 @@ export default function Footer() {
               </a>
             </li>
             <li className="flex items-start gap-2">
-              <MdLocationOn className="text-teal-500 text-5xl" />
+              <FaLocationDot className="text-teal-500 w-10 pt-1" />
               <span className="leading-snug">
                 TVAMEVA AESTHETICS - 501/502 Sapphire Plaza, Dadabhai Road,
                 Swami Vivekananda Rd, Vile Parle West, Mumbai, Maharashtra

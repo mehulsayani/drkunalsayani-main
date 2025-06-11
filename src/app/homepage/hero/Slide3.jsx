@@ -1,25 +1,30 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ServicesSection() {
   const services = [
-    "Breast Augmentation",
-    "Breast Reduction",
-    "Gynecomastia",
-    "Liposuction",
-    "Tummy Tuck",
-    "Face Lift",
-    "Botox / Derma Fillers",
-    "Hair Transplant",
+    { name: "Breast Augmentation", slug: "breast/breast-augmentation" },
+    { name: "Breast Reduction", slug: "breast/breast-reduction-&-axillary-breasts-excision" },
+    { name: "Gynecomastia", slug: "men/gynaecomastia" },
+    { name: "Liposuction", slug: "body/liposuction" },
+    { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty" },
+    { name: "Face Lift", slug: "face/facelift" },
+    { name: "Botox / Derma Fillers", slug: "non-surgical/botox-wrinkles-anti-ageing" },
+    { name: "Hair Transplant", slug: "hair/hair-transplant" },
   ];
+
+  // 👇 Default selected is first service
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <section
       className="w-full flex justify-center mt-[1.3rem] max-lg:mt-[3rem] max-lg:h-[87vh] pt-[4rem] items-center 
       bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white"
     >
-      <div
-        className="w-6xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6"
-      >
+      <div className="w-6xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6">
         {/* Left Content */}
         <div className="text-center lg:text-left">
           <h2 className="text-4xl sm:text-4xl lg:text-6xl mb-6">
@@ -29,13 +34,16 @@ export default function ServicesSection() {
             {services.map((service, index) => (
               <li
                 key={index}
-                className={`pl-4 border-l-4 ${
-                  index === 0
-                    ? "border-yellow-400 text-yellow-300"
-                    : "border-white/20"
-                } hover:text-blue-200 transition-colors duration-300`}
+                onClick={() => setActiveIndex(index)}
+                className={`pl-4 border-l-4 transition-colors duration-300 cursor-pointer ${
+                  activeIndex === index
+                    ? "border-yellow-400 text-yellow-300 font-semibold"
+                    : "border-white/20 text-white hover:text-yellow-300"
+                }`}
               >
-                {service}
+                <Link href={`/services/${service.slug}`}>
+                  {service.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -47,7 +55,7 @@ export default function ServicesSection() {
           alt="Aesthetic Model"
           width={500}
           height={600}
-          className=" -scale-x-100 w-[36rem] max-lg:relative max-lg:bottom-[2.89rem]"
+          className="-scale-x-100 w-[36rem] max-lg:relative max-lg:bottom-[2.89rem]"
         />
       </div>
     </section>

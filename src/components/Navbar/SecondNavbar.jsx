@@ -99,7 +99,7 @@ export default function SecondNavbar() {
         "Chin Augmentation",
         "Jawline Contouring",
         "Lip Lift (Lip job)",
-        "Lipoma/Cysts/Scars",
+        "Lipoma Cysts Scars",
       ],
     },
   ];
@@ -124,7 +124,7 @@ export default function SecondNavbar() {
               </span>
 
               <div className="absolute left-1/2 transform -translate-x-1/2 hidden group-hover:block bg-white shadow-lg rounded-lg w-72 z-10">
-                <div className="flex flex-col py-2 px-4 space-y-2 max-h-96 overflow-y-auto">
+                <div className="flex flex-col py-2 px-4 space-y-2 max-h-full overflow-y-auto">
                   {section.items.map((item, i) => {
                     if (typeof item === "string") {
                       // Normal item without submenu

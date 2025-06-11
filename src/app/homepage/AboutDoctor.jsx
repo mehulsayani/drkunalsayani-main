@@ -54,7 +54,7 @@ export default function About() {
 
   return (
     <section className="relative pt-12 sm:pt-16  md:pt-20 ">
-        <div className="max-w-[1250px] mx-auto flex  flex-col md:flex-row items-start gap-4 sm:gap-6 md:gap-0">
+      <div className="max-w-[1250px] mx-auto flex  flex-col md:flex-row items-start gap-4 sm:gap-6 md:gap-0">
         {/* Left: Doctor Image with Background Circle */}
         <motion.div
           ref={imageRef}
@@ -63,11 +63,14 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="relative w-full md:w-[45%] flex justify-center "
         >
-          <Image src={'/images/homepage/hero/logoimage.png'} width={500} height={500} alt="" 
-                className="absolute top-0 -left-50 opacity-10 max-lg:w-54 w-[20rem] h-[40rem] -z-10"/>
-          <div
-            className="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[520px] md:h-[520px] rounded-full top-0 left-0 md:top-10 md:-left-10"
-          >
+          <Image
+            src={"/images/homepage/hero/logoimage.png"}
+            width={500}
+            height={500}
+            alt=""
+            className="absolute top-18 -left-86 opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
+          />
+          <div className="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[520px] md:h-[520px] rounded-full top-0 left-0 md:top-10 md:-left-10">
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
               width={1000}
@@ -86,7 +89,6 @@ export default function About() {
             priority
           />
         </motion.div>
-         
 
         {/* Right: About Content */}
         <motion.div
@@ -135,18 +137,24 @@ export default function About() {
             satisfaction, and aesthetic harmony.
           </p>
 
-          <button className="px-4 sm:px-5 py-2 bg-[#1AAEBC] max-lg:mb-8 text-white text-xs sm:text-sm font-semibold rounded-md shadow hover:bg-[#169eab] transition">
+          <a href="/about-dr-kunal-sayani">
+            <button className="px-4 sm:px-5 py-2 bg-[#1AAEBC] hover:bg-[#148d98] max-lg:mb-8 text-white 
+          text-xs sm:text-sm font-semibold rounded-md shadow  transition">
             Read More
           </button>
+          </a>
         </motion.div>
       </div>
 
       {/* Mobile Membership Banner */}
-      <div className="relative z-40 bg-gradient-to-r min-[1024px]:hidden from-blue-900 to-cyan-800 
-      text-white py-6 sm:py-8 px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem] ">
+      <div
+        className="relative z-40 bg-gradient-to-r min-[1024px]:hidden from-blue-900 to-cyan-800 
+      text-white py-6 sm:py-8 px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem] "
+      >
         <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row gap-6 sm:gap-14">
           <h4 className="text-base text-center sm:text-left sm:text-lg md:text-2xl font-semibold w-full sm:w-[40%]">
-            Dr. Kunal Sayani is a proud member of several esteemed national and international professional bodies:
+            Dr. Kunal Sayani is a proud member of several esteemed national and
+            international professional bodies:
           </h4>
           <div className="w-full px-4 py-6">
             <Slider {...settings}>
@@ -169,17 +177,20 @@ export default function About() {
       </div>
 
       {/* Desktop Membership Banner */}
-      <div className="bg-gradient-to-r max-[1023px]:hidden from-blue-900 to-cyan-800 text-white 
-      py-6 sm:py-8 px-4 sm:px-6  rounded-t-[2rem] sm:rounded-t-[4rem]">
-        <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row gap-6 sm:gap-14">
+      <div
+        className="bg-gradient-to-r max-[1023px]:hidden from-blue-900 to-cyan-800 text-white 
+      py-6 sm:py-8 px-4 sm:px-6  rounded-t-[2rem] sm:rounded-t-[4rem]"
+      >
+        <div className="max-w-[1200px] mx-auto flex flex-col justify-center items-center sm:flex-row gap-6 sm:gap-14">
           <h4 className="text-base sm:text-lg md:text-2xl font-semibold w-full sm:w-[40%]">
-            Dr. Kunal Sayani is a proud member of several esteemed national and international professional bodies:
+            Dr. Kunal Sayani is a proud member of several esteemed national and
+            international professional bodies:
           </h4>
-          <div className="w-full sm:w-[60%]">
+          <div className="w-full sm:w-[50%]">
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className="px-2">
-                  <div className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-24 sm:h-24 mx-auto">
+                  <div className="bg-white p-2 rounded-lg shadow-md w-34 h-34 mx-auto">
                     <Image
                       src={`/images/homepage/aboutdoctor/${img}.png`}
                       alt={`Membership ${i + 1}`}

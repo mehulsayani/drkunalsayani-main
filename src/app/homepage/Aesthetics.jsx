@@ -16,11 +16,12 @@ export default function Aesthetics() {
           Dr. Kunal Sayani believes aesthetic surgery isn’t a luxury—it’s a path
           to restored confidence and improved quality of life.
         </p>
-        <button className="bg-yellow-300 hover:bg-[#1561a5] transition-colors
+        <a href="/book-appointment">
+          <button className="bg-yellow-300 hover:bg-yellow-500 transition-colors
          text-black font-semibold px-8 py-3 max-lg:px-2 max-lg:py-1 rounded-xl max-lg:rounded shadow-md max-lg:text-sm">
-         
           Book Appointment
         </button>
+        </a>
       </div>
 
       <div className="relative ">

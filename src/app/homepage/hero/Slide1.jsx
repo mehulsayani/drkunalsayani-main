@@ -31,7 +31,8 @@ export default function Slide1() {
             care you can count on."
           </p>
 
-          <button
+          <a href="/book-appointment">
+            <button
             className="group relative inline-flex items-center justify-center px-6 py-3 
           overflow-hidden font-semibold text-black transition-all duration-300 rounded-lg 
           shadow-md bg-[#40AEB9]"
@@ -42,6 +43,7 @@ export default function Slide1() {
             ></span>
             <span className="relative z-10 text-white">Book Appointment</span>
           </button>
+          </a>
 
           <CustomControls />
           <section className="mt-6 max-lg:w-[80%] max-lg:hidden">

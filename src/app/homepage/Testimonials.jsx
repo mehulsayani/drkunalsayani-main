@@ -8,7 +8,7 @@ import { FcGoogle } from "react-icons/fc";
 // Custom Arrows
 const PrevArrow = ({ onClick }) => (
   <button
-    className="border border-[#40AEB9] text-[#40AEB9] rounded-full mr-4"
+    className="border border-[#40AEB9] hover:bg-[#40AEB9] text-[#40AEB9] hover:text-[#ffffff] rounded-full mr-4"
     onClick={onClick}
   >
     <IoIosArrowRoundBack size={50} />
@@ -17,7 +17,7 @@ const PrevArrow = ({ onClick }) => (
 
 const NextArrow = ({ onClick }) => (
   <button
-    className="border border-[#40AEB9] text-[#40AEB9] rounded-full"
+    className="border border-[#40AEB9] hover:bg-[#40AEB9] text-[#40AEB9] hover:text-[#ffffff] rounded-full"
     onClick={onClick}
   >
     <IoIosArrowRoundForward size={50} />

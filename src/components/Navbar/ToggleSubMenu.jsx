@@ -73,7 +73,7 @@ export default function ToggleSubMenu({
       "Chin Augmentation",
       "Jawline Contouring",
       "Lip Lift (Lip job)",
-      "Lipoma/Cysts/Scars",
+      "Lipoma Cysts Scars",
     ],
   };
 

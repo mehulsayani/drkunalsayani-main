@@ -7,7 +7,8 @@ import { motion } from "framer-motion";
 export default function Slide2({ isActive }) {
   return (
     <section className="w-full h-[37.5rem] mt-[3.5rem] flex justify-center items-end ">
-      <div className="flex flex-col max-lg:flex-col-reverse max-lg:text-center max-lg:gap-10 w-full max-w-[1200px]  md:flex-row items-center justify-between">
+      <div className="flex flex-col max-lg:flex-col-reverse max-lg:text-center  max-lg:gap-10 
+      w-full max-w-[1200px]  md:flex-row items-center justify-between">
         {/* Left Content */}
         <motion.div
           className="max-w-xl "
@@ -47,7 +48,7 @@ export default function Slide2({ isActive }) {
             alt="Rhinoplasty"
             width={1000}
             height={1000}
-            className=" w-[90rem] "
+            className=" w-[37rem] "
             priority
           />
         </motion.div>
