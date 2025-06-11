@@ -36,7 +36,7 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5x uppercase font-notoSans max-lg:text-xl font-semibold">
+      <h1 className="text-5xl  uppercase font-notoSans max-lg:text-xl font-semibold">
        gynaecomastia
       </h1>
 
