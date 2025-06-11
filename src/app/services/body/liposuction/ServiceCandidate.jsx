@@ -89,7 +89,7 @@ understand your unique goals and tailor a liposuction plan specifically for you.
             </div>
             <button
               className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-lg 
-               font-medium hover:bg-blue-500 transition"
+               font-mediumhover:bg-[#148d98] transition"
             >
               Contact Us <ArrowUpRight size={18} />
             </button>
