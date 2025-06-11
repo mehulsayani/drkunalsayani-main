@@ -7,12 +7,18 @@ import Link from "next/link";
 export default function ServicesSection() {
   const services = [
     { name: "Breast Augmentation", slug: "breast/breast-augmentation" },
-    { name: "Breast Reduction", slug: "breast/breast-reduction-&-axillary-breasts-excision" },
+    {
+      name: "Breast Reduction",
+      slug: "breast/breast-reduction-&-axillary-breasts-excision",
+    },
     { name: "Gynecomastia", slug: "men/gynaecomastia" },
     { name: "Liposuction", slug: "body/liposuction" },
     { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty" },
     { name: "Face Lift", slug: "face/facelift" },
-    { name: "Botox / Derma Fillers", slug: "non-surgical/botox-wrinkles-anti-ageing" },
+    {
+      name: "Botox / Derma Fillers",
+      slug: "non-surgical/botox-wrinkles-anti-ageing",
+    },
     { name: "Hair Transplant", slug: "hair/hair-transplant" },
   ];
 
@@ -21,9 +27,24 @@ export default function ServicesSection() {
 
   return (
     <section
-      className="w-full flex justify-center mt-[1.3rem] max-lg:mt-[3rem] max-lg:h-[87vh] pt-[4rem] items-center 
+      className="w-full flex justify-center relative mt-[1.3rem] max-lg:mt-[3rem] max-lg:h-[87vh] pt-[4rem] items-center 
       bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white"
     >
+      <Image
+        src={"/images/homepage/hero/abstract2.png"}
+        width={1000}
+        height={1000}
+        alt=""
+        className="absolute w-[7rem] top-26 max-lg:top-0 left-0 opacity-90"
+      />
+      <Image
+        src={"/images/homepage/hero/abstract3.png"}
+        width={1000}
+        height={1000}
+        alt=""
+        className="absolute w-[8rem] bottom-5 left-0 opacity-90"
+      />
+
       <div className="w-6xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6">
         {/* Left Content */}
         <div className="text-center lg:text-left">
@@ -41,9 +62,7 @@ export default function ServicesSection() {
                     : "border-white/20 text-white hover:text-yellow-300"
                 }`}
               >
-                <Link href={`/services/${service.slug}`}>
-                  {service.name}
-                </Link>
+                <Link href={`/services/${service.slug}`}>{service.name}</Link>
               </li>
             ))}
           </ul>
