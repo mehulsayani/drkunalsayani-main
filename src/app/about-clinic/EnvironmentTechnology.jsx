@@ -32,7 +32,7 @@ const items = [
     subtitle: "Eco-conscious solutions",
     image: "/images/homepage/gallery/gallery5.png",
   },
-    {
+  {
     id: 5,
     title: "Waste Management",
     subtitle: "Eco-conscious solutions",
@@ -45,30 +45,34 @@ const EnvironmentTechnology = () => {
     <section className="w-full bg-[#f7f8fa] py-16 px-6 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
       <div className="max-w-[1200px] mx-auto">
         {/* Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center flex-wrap mb-10 gap-4">
+       
           <div className="max-lg:flex max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:text-center">
             {/* <span className="text-sm text-orange-600 font-semibold uppercase">
               Our Focus
             </span> */}
-            <h2 className="text-3xl sm:text-4xl font-bold  mt-2 text-[#10217D]">
-              Blend of modern tech with <br /> serene patient care
+            <h2 className="text-3xl flex justify-between mb-6 items-center  sm:text-4xl font-bold text-[#10217D]">
+              <p>
+                {" "}
+                Blend of modern tech with <br /> serene patient care
+              </p>
+              <div className="md:mt-0 max-lg:hidden">
+                <a
+                  href="/gellary"
+                  className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-[#148d98]"
+                >
+                  View All <span>→</span>
+                </a>
+              </div>
             </h2>
-            <p className="text-gray-600 mt-2 max-w-xl text-sm sm:text-base">
-              At Tvameva, we understand that no two individuals are alike. That’s why every consultation
-              begins with listening—to your goals, concerns, and vision. Whether you’re seeking subtle
-              refinement or transformative change, we guide you with honesty, integrity, and expert care
-              every step of the way.
+            <p className="text-gray-600 mb-6 max-w-3xl text-sm sm:text-base">
+              At Tvameva, we understand that no two individuals are alike.
+              That’s why every consultation begins with listening—to your goals,
+              concerns, and vision. Whether you’re seeking subtle refinement or
+              transformative change, we guide you with honesty, integrity, and
+              expert care every step of the way.
             </p>
           </div>
-          <div className="md:mt-0 max-lg:hidden">
-            <a
-              href="/gellary"
-              className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500"
-            >
-              View All <span>→</span>
-            </a>
-          </div>
-        </div>
+     
 
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -91,16 +95,15 @@ const EnvironmentTechnology = () => {
             </div>
           ))}
         </div>
-       
       </div>
-       <div className="mt-10 hidden max-lg:block">
-            <a
-              href="/gellary"
-              className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500"
-            >
-              View All <span>→</span>
-            </a>
-          </div>
+      <div className="mt-10 hidden max-lg:block">
+        <a
+          href="/gellary"
+          className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500"
+        >
+          View All <span>→</span>
+        </a>
+      </div>
     </section>
   );
 };

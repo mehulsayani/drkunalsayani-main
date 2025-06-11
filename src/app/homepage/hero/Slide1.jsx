@@ -20,7 +20,7 @@ export default function Slide1() {
           mb-4 font-bold text-[#10217D] leading-tight"
           >
             When in Doubt, Trust Experience <br /> You're in Safe Hands with{" "}
-            <br />
+            
             <span className="text-[#40AEB9]">Dr. Kunal Sayani</span>
           </h1>
 
