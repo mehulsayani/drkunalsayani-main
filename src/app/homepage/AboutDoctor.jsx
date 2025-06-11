@@ -149,7 +149,7 @@ export default function About() {
       {/* Mobile Membership Banner */}
       <div
         className="relative z-40 bg-gradient-to-r min-[1024px]:hidden from-blue-900 to-cyan-800 
-      text-white py-6 sm:py-8 px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem] "
+      text-white pt-6 sm:py-8 px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem] "
       >
         <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row gap-6 sm:gap-14">
           <h4 className="text-base text-center sm:text-left sm:text-lg md:text-2xl font-semibold w-full sm:w-[40%]">

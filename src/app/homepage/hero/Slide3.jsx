@@ -27,7 +27,7 @@ export default function ServicesSection() {
       <div className="w-6xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6">
         {/* Left Content */}
         <div className="text-center lg:text-left">
-          <h2 className="text-4xl sm:text-4xl lg:text-6xl mb-6">
+          <h2 className="text-4xl max-lg:mt-8 sm:text-4xl lg:text-6xl mb-6">
             Services we offer
           </h2>
           <ul className="space-y-4 text-base sm:text-lg">
@@ -55,7 +55,7 @@ export default function ServicesSection() {
           alt="Aesthetic Model"
           width={500}
           height={600}
-          className="-scale-x-100 w-[36rem] max-lg:relative max-lg:bottom-[2.89rem]"
+          className="-scale-x-100 w-[36rem] max-lg:relative max-lg:bottom-[4rem]"
         />
       </div>
     </section>

@@ -56,7 +56,7 @@ const Procedures = () => {
     <section className="flex justify-center items-center w-full">
       <div className="max-w-[1300px] px-6 w-full md:px-20 py-16 flex flex-col md:flex-row gap-10">
         {/* Left: Text + Accordion */}
-        <div className="md:w-1/2 space-y-6">
+        <div className="md:w-1/2 space-y-6 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
           <span className="bg-[#1aaebc46] text-sm px-4 py-1 rounded-full font-medium inline-block">
             Beauty In Every Leaf
           </span>
