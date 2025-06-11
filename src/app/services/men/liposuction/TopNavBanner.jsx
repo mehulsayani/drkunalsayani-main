@@ -51,11 +51,11 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
         <Link href={"/services/body"}>
-          <span className="hover:underline cursor-pointer">Body</span>
+          <span className="hover:underline cursor-pointer">Men</span>
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium">Tummy Tuck</span>
+        <span className=" font-medium uppercase">liposuction</span>
       </div>
     </div>
   );
