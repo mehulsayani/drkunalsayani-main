@@ -26,7 +26,7 @@ export default function Slide1() {
             <span className="text-[#40AEB9]">Dr. Kunal Sayani</span>
           </h1>
 
-          <p className="text-black mb-2 text-lg max-lg:text-base max-lg:text-center">
+          <p className="text-black mb-6 max-lg:mb-2 text-lg max-lg:text-base max-lg:text-center">
             "It’s Your Body — Trust It Only with Qualified and Experienced
             Plastic Surgeon. With years of surgical expertise and a deep
             understanding of aesthetic balance, Dr. Kunal provides personalized
