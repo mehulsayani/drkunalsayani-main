@@ -72,7 +72,7 @@ export default function ServiceCandidate() {
                   <span>
                     <FaWhatsapp className="text-[#1AAEBC] text-xl hidden" />
                   </span>
-                  +91 08048034415
+                  +91 02246056767
                 </p>
               </div>
             </div>

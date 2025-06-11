@@ -36,8 +36,8 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-        TUMMY TUCK SURGERY
+      <h1 className="text-5x uppercase font-notoSans max-lg:text-xl font-semibold">
+       gynaecomastia
       </h1>
 
       {/* Breadcrumbs */}

@@ -43,7 +43,7 @@ export default function Navbar() {
     <div className="">
       <header
         className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-0 ${
-          showNavbar
+          showNavbar || isMobileMenuOpen
             ? "translate-y-0 max-lg:translate-none"
             : "-translate-y-full"
         }`}
@@ -141,7 +141,7 @@ export default function Navbar() {
         </div>
         {/* Mobile Navigation */}
         <div
-          className={`hidden bg-white shadow-md max-lg:block  duration-300 ease-in-out ${
+          className={`hidden bg-white overflow-scroll shadow-md max-lg:block  duration-300 ease-in-out ${
             isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
           } fixed top-0 right-0 h-full w-3/4 sm:w-1/2 z-50`}
         >
@@ -158,7 +158,7 @@ export default function Navbar() {
               onClick={toggleMobileMenu}
               className="text-gray-700  hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
             >
-             Home
+              Home
             </a>
             <a
               href="/about-dr-kunal-sayani"
@@ -174,9 +174,11 @@ export default function Navbar() {
             >
               About Tvameva Clinic
             </a>
-            <ToggleSubMenu  isMobile={true}
-        isMobileMenuOpen={isMobileMenuOpen}
-        toggleMobileMenu={toggleMobileMenu} />
+            <ToggleSubMenu
+              isMobile={true}
+              isMobileMenuOpen={isMobileMenuOpen}
+              toggleMobileMenu={toggleMobileMenu}
+            />
             <a
               href="/reviews"
               onClick={toggleMobileMenu}
