@@ -28,7 +28,7 @@ export default function ServicesSection() {
   return (
     <section
       className="w-full flex justify-center relative mt-[1.3rem] max-lg:mt-[3rem] max-lg:h-[87vh] pt-[4rem] items-center 
-      bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white"
+      bg-[#E5F4F6] text-[#10217D]"
     >
       <Image
         src={"/images/homepage/hero/abstract2.png"}
@@ -59,7 +59,7 @@ export default function ServicesSection() {
                 className={`pl-4 border-l-4 transition-colors duration-300 cursor-pointer ${
                   activeIndex === index
                     ? "border-yellow-400 text-yellow-300 font-semibold"
-                    : "border-white/20 text-white hover:text-yellow-300"
+                    : "border-white/20 text-black hover:text-yellow-300"
                 }`}
               >
                 <Link href={`/services/${service.slug}`}>{service.name}</Link>
@@ -74,7 +74,7 @@ export default function ServicesSection() {
           alt="Aesthetic Model"
           width={500}
           height={600}
-          className="-scale-x-100 w-[36rem] max-lg:relative max-lg:bottom-[4rem]"
+          className=" w-[36rem] max-lg:relative max-lg:bottom-[4rem]"
         />
       </div>
     </section>
