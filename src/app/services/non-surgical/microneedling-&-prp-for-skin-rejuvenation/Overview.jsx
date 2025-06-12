@@ -1,18 +1,22 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/nonsurgical/Microneedling & PRP for Skin Rejuvenation.jpg"}
+          src={
+            "/images/services/nonsurgical/Microneedling & PRP for Skin Rejuvenation.jpg"
+          }
           width={1000}
           height={1000}
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-       {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+        {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
          <p className="mb-3">
           Dreaming of a smoother, firmer abdomen? Do you find excess skin and
           stubborn fat deposits around your midsection resistant to diet and
@@ -51,6 +55,10 @@ export default function Overview() {
           belly button to maintain a natural contour.
         </p>
        </div> */}
+        <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <ServiceCandidate />
       </div>
     </section>
   );

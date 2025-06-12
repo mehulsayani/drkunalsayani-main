@@ -65,16 +65,8 @@ const Knowledge = () => {
               </form>
             </div>
           </div>
-          <div
-            className={`w-[70%] ${
-              readMore ? "min-h-[7rem]" : "min-h-[70rem]"
-            } max-lg:w-[90%]`}
-          >
-            <div
-              className={`text-gray-800 relative ${
-                readMore ? "h-98 overflow-hidden" : "text-blue-500"
-              }`}
-            >
+          <div>
+            <div>
               <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
                 {data.title}
               </h2>
@@ -92,7 +84,7 @@ const Knowledge = () => {
                 ))}
               </ul>
 
-              <div className={`${readMore ? "blur-[3px]" : "blur-[0px]"}`}>
+              <div>
                 <h2 className="text-2xl font-semibold mt-4">
                   {data.procedure.title}
                 </h2>
@@ -145,12 +137,6 @@ const Knowledge = () => {
                 </ul>
               </div>
             </div>
-
-            <button onClick={toggleReadMore}>
-              <p className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500">
-                {readMore ? "Read More" : "Read Less"}
-              </p>
-            </button>
           </div>
         </div>
       </div>

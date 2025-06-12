@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
@@ -12,7 +14,7 @@ export default function Overview() {
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-       {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+        {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
          <p className="mb-3">
          Are you noticing early signs of facial sagging, such as mild jowls, drooping eyebrows, or a loss of
 definition in your jawline, but aren't ready for a traditional surgical facelift? At Dr. Kunal Sayani's
@@ -34,6 +36,10 @@ texture.
         </p>
       
        </div> */}
+        <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <ServiceCandidate />
       </div>
     </section>
   );

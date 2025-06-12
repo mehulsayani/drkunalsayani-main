@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
@@ -51,6 +53,8 @@ export default function Overview() {
           belly button to maintain a natural contour.
         </p>
        </div>
+       <Knowledge/>
+       <ServiceCandidate/>
       </div>
     </section>
   );

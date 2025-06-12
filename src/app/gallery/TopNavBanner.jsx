@@ -5,7 +5,7 @@ import React from "react";
 export default function TopNavBanner() {
   return (
     <div
-      className="bg-[#1aaebcaf] m-2 text-[#ffffff] rounded-[2rem] max-lg:rounded-2xl px-6 py-24 max-lg:py-12 
+      className="bg-[#1aaebcaf] m-2 text-[#ffffff] rounded-[2rem] max-lg:rounded-2xl px-6 py-18 max-lg:py-12 
     relative overflow-hidden text-center"
     >
       {/* <Image
@@ -24,7 +24,8 @@ export default function TopNavBanner() {
       <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white font-roboto">
         <p className="text-base">
           {" "}
-          Browse our gallery to see the remarkable improvements our patients <br />
+          Browse our gallery to see the remarkable improvements our patients{" "}
+          <br />
           have enjoyed through our specialized skin treatments.
         </p>
       </div>

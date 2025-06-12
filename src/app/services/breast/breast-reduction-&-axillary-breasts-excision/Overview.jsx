@@ -1,12 +1,16 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/breast/Breast Reduction & Axillary Breasts Excision.jpg"}
+          src={
+            "/images/services/breast/Breast Reduction & Axillary Breasts Excision.jpg"
+          }
           width={1000}
           height={1000}
           alt=""
@@ -43,6 +47,10 @@ export default function Overview() {
             a focus on both aesthetics and functionality.
           </p>
         </div>
+        <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <ServiceCandidate />
       </div>
     </section>
   );

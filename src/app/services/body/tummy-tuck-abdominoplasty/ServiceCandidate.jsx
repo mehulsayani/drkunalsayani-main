@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function ServiceCandidate() {
   return (
-    <section className=" flex justify-center items-center my-8">
+    <section id="why-choose-us" className=" flex justify-center items-center my-8">
       <div className="flex w-full max-w-[1200px]">
         {/* Left Side - Image Section */}
         {/* <div className="flex gap-4 w-[50rem]">

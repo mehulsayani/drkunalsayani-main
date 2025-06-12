@@ -40,7 +40,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="flex justify-center px-4 md:px-8 my-16">
+    <section id="faq" className="flex justify-center px-4 md:px-8 my-16">
       <div className="flex flex-col lg:flex-row w-full max-w-[1300px] gap-8">
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">

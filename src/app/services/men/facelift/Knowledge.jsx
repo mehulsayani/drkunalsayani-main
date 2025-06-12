@@ -67,11 +67,7 @@ const Knowledge = () => {
               readMore ? "min-h-[7rem]" : "min-h-[70rem]"
             }  max-lg:w-[90%] `}
           >
-            <div
-              className={`text-gray-800 relative ${
-                readMore ? "h-98 overflow-hidden" : "text-blue-500"
-              }`}
-            >
+            <div>
               <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
                 {/* <FaCheckCircle className="text-blue-600 mr-2" /> */}
                 What a Tummy Tuck Can Achieve:
@@ -96,7 +92,7 @@ const Knowledge = () => {
                 <li>A more proportionate and balanced physique.</li>
                 <li>Enhanced confidence and self-esteem.</li>
               </ul>
-              <div className={`${readMore ? "blur-[3px]" : "blur-[0px]"}`}>
+              <div>
                 <p>
                   Dr. Kunal Sayani understands that each patient's anatomy and
                   aesthetic goals are unique. During your personalized

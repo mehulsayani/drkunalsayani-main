@@ -1,58 +1,68 @@
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link"; // Import Link from Next.js
+
 import React from "react";
 import Overview from "./Overview";
-import Knowledge from "./Knowledge";
 import ServiceCandidate from "./ServiceCandidate";
 
 export default function ServiceLayout() {
   const services = [
-    { name: "Rhinoplasty", slug: "face/rhinoplasty-nose-job" },
-    { name: "Breast Augmentation", slug: "breast/breast-augmentation" },
-    { name: "Breast Lift", slug: "breast/breast-lift-mastopexy-with-shaping" },
-    { name: "Breast Reduction", slug: "breast/breast-reduction-&-axillary-breasts-excision" },
-    { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty" },
-    { name: "Liposuction", slug: "body/liposuction" },
-    { name: "Mommy Makeover", slug: "mommy-makeover/mommymakeover-package-custom-combination-of-procedures" },
+    { name: "Overview", slug: "#overview" },
+    { name: " Procedure Details", slug: "#procedure-details" },
+    { name: "Risks & Safety", slug: "#risks-safety" },
+    { name: " Why Choose Us", slug: "#why-choose-us" },
+    { name: "FAQ", slug: "#faq" },
   ];
+
+  // Smooth scroll handler
+  const handleScroll = (e, id) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section>
       <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-w-[1300px] max-lg:flex-col-reverse max-lg:justify-center max-lg:items-center">
           <div className="w-[28%] h-[28rem] max-lg:w-[90%] sticky top-[5rem] mr-8 max-lg:mr-0 rounded-[1.5rem] overflow-hidden shadow-lg">
-            {/* Header */}
+            {/* Navigation Menu */}
             <div className="bg-[#1aaebcaf] py-4 px-6">
               <h1 className="text-white font-notoSans text-center font-bold text-2xl">
-                PROFESSIONAL SERVICES
+                OUR SERVICES
               </h1>
             </div>
-
-            {/* List */}
             <ul className="px-4 py-4 space-y-3 relative">
               {services.map((service, i) => (
                 <li
                   key={i}
                   className="group flex justify-between items-center text-[#3B3B3B] 
-      hover:text-[#40AEB9] cursor-pointer border-b border-gray-300 pb-2 text-xl"
+                  hover:text-[#40AEB9] cursor-pointer border-b border-gray-300 pb-2 text-xl"
                 >
-                  <Link
-                    href={`/services/${service.slug}`}
+                  <a
+                    href={`${service.slug}`}
                     className="flex justify-between items-center w-full"
+                    onClick={(e) =>
+                      handleScroll(e, `${service.slug.replace("#", "")}`)
+                    }
                   >
                     <span>{service.name}</span>
                     <div className="transition-transform duration-300 group-hover:rotate-45">
                       <ArrowUpRight size={20} />
                     </div>
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
           </div>
           <div className="w-[68%] min-h-[70rem] max-lg:w-[90%]">
-            <Overview />
-            {/* <Knowledge/> */}
+            {/* Sections */}
+            <section id="overview" className="mb-12">
+              <Overview />
+            </section>
+
             <ServiceCandidate />
           </div>
         </div>

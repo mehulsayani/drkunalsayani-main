@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
@@ -37,6 +39,10 @@ export default function Overview() {
             hair growth that blends seamlessly with your existing hair.
           </p>
         </div>
+        <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <ServiceCandidate />
       </div>
     </section>
   );

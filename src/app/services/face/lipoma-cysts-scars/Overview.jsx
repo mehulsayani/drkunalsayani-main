@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
@@ -60,7 +62,6 @@ export default function Overview() {
               techniques to significantly improve scar appearance and texture.
             </li>
           </ul>
-          
         </div>
       </div>
     </section>

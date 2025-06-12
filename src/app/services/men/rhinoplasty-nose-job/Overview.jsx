@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import Knowledge from "./Knowledge";
+import ServiceCandidate from "./ServiceCandidate";
 
 export default function Overview() {
   return (
@@ -26,7 +28,7 @@ export default function Overview() {
           <p className="mb-3">
             Rhinoplasty can address a wide range of concerns, including:
           </p>
-          
+
           <p className="mb-3">
             Dr. Kunal Sayani understands that a successful rhinoplasty is not
             about creating a "perfect" nose, but rather achieving a nose that is
@@ -50,6 +52,10 @@ export default function Overview() {
             important safety information.
           </p>
         </div>
+        <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <ServiceCandidate />
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ export default function page() {
       {/* <ServiceCandidate />
       <BeforeAfter />
       <Testimonials /> */}
-      <Knowledge />
+      {/* <Knowledge /> */}
       <FAQSection />
       <ConsultationSection />
     </div>
