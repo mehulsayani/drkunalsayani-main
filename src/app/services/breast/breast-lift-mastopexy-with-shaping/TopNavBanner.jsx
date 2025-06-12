@@ -55,7 +55,7 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium">Breast Augmentation</span>
+        <span className=" font-medium">Breast Lift</span>
       </div>
     </div>
   );
