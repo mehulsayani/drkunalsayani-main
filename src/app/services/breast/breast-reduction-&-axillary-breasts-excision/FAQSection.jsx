@@ -7,31 +7,32 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is the difference between saline and silicone breast implants?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Saline implants are filled with sterile salt water and can be adjusted during surgery; if they rupture, the saline is safely absorbed by the body. Silicone implants are filled with a gel that feels more like natural breast tissue but may require MRI monitoring for silent ruptures.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "How long do breast implants last?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Implants are not lifetime devices. Most last 10–20 years, but some may need replacement sooner due to rupture, capsular contracture, or personal preference.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Will breast augmentation affect breastfeeding?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Breastfeeding is possible after augmentation, but certain incision types (e.g., around the areola) may increase the risk of breastfeeding difficulties. Discuss this with your surgeon if you plan to breastfeed.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "Are breast implants safe?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Breast implants are generally safe, but they carry risks such as capsular contracture, rupture, and rare cancers like BIA-ALCL. Ongoing research continues to monitor long-term safety.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "What is capsular contracture?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "It is the hardening of scar tissue around the implant, causing firmness, pain, and breast distortion. It may require treatment with medication, massage, or surgery.",
   },
 ];
+
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
