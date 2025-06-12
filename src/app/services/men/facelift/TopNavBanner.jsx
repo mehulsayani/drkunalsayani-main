@@ -12,7 +12,7 @@ export default function TopNavBanner() {
         fill
         className="w-full object-cover -z-20"
         alt=""
-        src={"/images/services/face.jpg"}
+        src={"/images/services/men.jpg"}
       />
 
       {/* Optional decorative elements */}
