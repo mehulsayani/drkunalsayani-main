@@ -43,11 +43,19 @@ export default function ServiceCandidate() {
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
+              `Permanent Hair Restoration: Transplanted hair follicles continue to grow naturally for a
+lifetime, as they retain their genetic resistance to balding.`,
+              `Natural-Looking Results: Dr. Kunal Sayani meticulously places individual hair follicles to
+mimic natural hair growth patterns, ensuring a seamless and undetectable outcome.
+`,
+              `Improved Hair Density: Adds volume and coverage to thinning or bald areas, creating a
+fuller appearance.`,
+              `Enhanced Confidence: Restore your hairline and overall hair density, leading to
+significantly increased self-esteem and a more youthful look.`,
               `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              `Personalized Treatment Plan: Dr. Kunal Sayani provides a thorough consultation to assess
+your hair loss pattern, donor hair availability, and aesthetic goals, tailoring a hair
+transplant plan specifically for you.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
