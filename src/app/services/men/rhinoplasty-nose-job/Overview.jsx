@@ -6,7 +6,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/face/Rhinoplasty (Nose job).jpg"}
+          src={"/images/services/men/face-rhinoplasty-nose-job.jpg"}
           width={1000}
           height={1000}
           alt=""
