@@ -7,29 +7,30 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "Am I a good candidate for breast reduction?",
+    question:
+      "What is the difference between saline and silicone breast implants?",
     answer:
-      "You may be a suitable candidate if you experience physical discomfort due to large breasts, have chronic skin irritation under the breast fold, struggle with finding properly fitting clothes, or have poor posture due to breast weight. A consultation with Dr. Kunal Sayani will determine your candidacy.",
+      "Saline implants are filled with sterile salt water and can be adjusted during surgery; if they rupture, the saline is safely absorbed by the body. Silicone implants are filled with a gel that feels more like natural breast tissue but may require MRI monitoring for silent ruptures.",
   },
   {
-    question: "Will breast reduction leave visible scars?",
+    question: "How long do breast implants last?",
     answer:
-      "Yes, some scarring is inevitable. However, Dr. Sayani uses advanced techniques to ensure minimal, well-placed scars that fade significantly over time with proper aftercare.",
+      "Implants are not lifetime devices. Most last 10–20 years, but some may need replacement sooner due to rupture, capsular contracture, or personal preference.",
   },
   {
-    question: "Can I breastfeed after breast reduction?",
+    question: "Will breast augmentation affect breastfeeding?",
     answer:
-      "Some women retain the ability to breastfeed, but it’s not guaranteed. The likelihood depends on the surgical technique used and the amount of tissue removed.",
+      "Breastfeeding is possible after augmentation, but certain incision types (e.g., around the areola) may increase the risk of breastfeeding difficulties. Discuss this with your surgeon if you plan to breastfeed.",
   },
   {
-    question: "Is the procedure painful?",
+    question: "Are breast implants safe?",
     answer:
-      "You may experience mild to moderate discomfort post-surgery, which is effectively managed with prescribed medications. Most patients find the recovery easier than expected.",
+      "Breast implants are generally safe, but they carry risks such as capsular contracture, rupture, and rare cancers like BIA-ALCL. Ongoing research continues to monitor long-term safety.",
   },
   {
-    question: "How long do the results last?",
+    question: "What is capsular contracture?",
     answer:
-      "Breast reduction results are long-lasting, especially when paired with a healthy lifestyle. However, significant weight changes or pregnancy may impact breast size and shape.",
+      "It is the hardening of scar tissue around the implant, causing firmness, pain, and breast distortion. It may require treatment with medication, massage, or surgery.",
   },
 ];
 
@@ -46,7 +47,7 @@ export default function FAQSection() {
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
             src="/images/services/body/tummytuck/timing.jpg"
-            alt="Clinic timing"
+            alt="Facial treatment"
             layout="fill"
             objectFit="cover"
             quality={100}
