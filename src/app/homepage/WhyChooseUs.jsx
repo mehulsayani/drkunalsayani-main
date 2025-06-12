@@ -73,7 +73,7 @@ export default function WhyChooseUs() {
         {/* Dot1 on the circle */}
         <div
           className="flex text-center font-bold justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
-        cursor-pointer left-[50%] transform -translate-x-1/2 font-[inter]"
+        cursor-pointer left-[50%] transform -translate-x-1/2 "
         >
         
           <p
@@ -95,7 +95,7 @@ export default function WhyChooseUs() {
         <div
           className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[9.5%]
          max-lg:top-[20%] max-lg:-left-[13%]
-        transform -translate-x-1/2 font-[inter]"
+        transform -translate-x-1/2 "
         >
           <div
             className={`${
@@ -116,7 +116,7 @@ export default function WhyChooseUs() {
         {/* Dot3 on the circle */}
         <div
           className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[123%] 
-        transform -translate-x-1/2 font-[inter]"
+        transform -translate-x-1/2 "
         >
           <div
             className={`w-6 h-6 rounded-full ${
@@ -137,7 +137,7 @@ export default function WhyChooseUs() {
         {/* Dot4 on the circle */}
         <div
           className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[3%] max-lg:top-[78%] max-lg:-left-[4%] 
-        transform -translate-x-1/2 font-[inter]"
+        transform -translate-x-1/2 "
         >
           <div
             className={`${
@@ -158,7 +158,7 @@ export default function WhyChooseUs() {
         {/* Dot5 on the circle */}
         <div
           className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%]
-         max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 font-[inter]"
+         max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 "
         >
           <div
             className={`w-6 h-6 rounded-full ${
