@@ -112,7 +112,7 @@ export default function SecondNavbar() {
     >
       {/* second level menus */}
       <div className="w-full border-t border-gray-400 z-100 text-base max-lg:hidden">
-        <div className="max-w-[1200px] max-lg:max-w-[900px] mx-auto flex justify-evenly items-center h-10">
+        <div className="max-w-[1200px] max-sm:max-w-[500px] mx-auto flex justify-evenly items-center h-10">
           {/* Dropdown Menu Item */}
           {submenus.map((section, index) => (
             <div key={index} className="relative group cursor-pointer">

@@ -158,12 +158,6 @@ const Knowledge = () => {
                 </p>
               </div>
             </div>
-
-            <button onClick={toggleReadMore}>
-              <p className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-blue-500">{`${
-                readMore ? "Read More" : "Read Less"
-              }`}</p>
-            </button>
           </div>
         </div>
       </div>
