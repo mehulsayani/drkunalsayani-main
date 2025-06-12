@@ -25,7 +25,7 @@ const Knowledge = () => {
 
               <p className="mb-4">{data.introduction}</p>
 
-              <h2 className="text-2xl font-semibold mt-4">
+              <h2 id="recovery" className="text-2xl font-semibold mt-4">
                 {data.recovery.title}
               </h2>
               <h3 className="font-semibold mt-4">
@@ -50,7 +50,7 @@ const Knowledge = () => {
                 ))}
                 <p className="mb-4">{data.recovery.conclusion}</p>
 
-                <h2 className="text-2xl font-semibold mt-4">
+                <h2 id="risks-safety" className="text-2xl font-semibold mt-4">
                   {data.risks.title}
                 </h2>
                 <p className="mb-4">{data.risks.description}</p>

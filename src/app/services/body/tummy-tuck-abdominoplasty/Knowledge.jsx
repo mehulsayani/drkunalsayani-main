@@ -60,6 +60,7 @@ const Knowledge = () => {
                 </ul>
                 <p>{content.procedureDetails.description}</p>
                 <h2
+                 
                   id="recovery"
                   className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
                 >
@@ -101,6 +102,7 @@ const Knowledge = () => {
                 <p>{content.recoverySupport.description}</p>
                 <h2
                   id="risks-safety"
+                
                   className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
                 >
                   {content.risks.title}

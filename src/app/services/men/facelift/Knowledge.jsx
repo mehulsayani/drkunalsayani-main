@@ -184,7 +184,10 @@ const Knowledge = () => {
                   achieve a natural-looking contour.
                 </p>
 
-                <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
+                <h2
+                  id="risks-safety"
+                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
+                >
                   {/* <FaCheckCircle className="inline mr-2 text-blue-600" /> */}
                   Recovery & Aftercare (Post-Op Instructions)
                 </h2>
@@ -342,7 +345,10 @@ const Knowledge = () => {
                   achieve the best possible aesthetic outcome.
                 </p>
 
-                <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
+                <h2
+                  id="risks-safety"
+                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
+                >
                   {/* <FaShieldAlt className="inline mr-2 text-blue-600" /> */}
                   Risks & Safety
                 </h2>

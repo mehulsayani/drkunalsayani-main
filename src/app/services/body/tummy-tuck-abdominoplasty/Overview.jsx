@@ -53,8 +53,12 @@ export default function Overview() {
           belly button to maintain a natural contour.
         </p>
        </div>
-       <Knowledge/>
-       <ServiceCandidate/>
+       <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <section id="why-choose-us">
+        <ServiceCandidate />
+        </section>
       </div>
     </section>
   );

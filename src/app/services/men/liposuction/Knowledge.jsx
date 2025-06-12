@@ -71,7 +71,10 @@ const Knowledge = () => {
                   ))}
                 </ul>
 
-                <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
+                <h2
+                  id="recovery"
+                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
+                >
                   {data.recovery.title}
                 </h2>
                 <p className="mb-4">{data.recovery.description}</p>
@@ -86,7 +89,10 @@ const Knowledge = () => {
                   </div>
                 ))}
 
-                <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
+                <h2
+                  id="risks-safety"
+                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
+                >
                   {data.risks.title}
                 </h2>
                 <p className="mb-4">{data.risks.description}</p>

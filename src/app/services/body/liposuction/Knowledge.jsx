@@ -19,7 +19,7 @@ const Knowledge = () => {
 
   return (
     <section>
-      <div  className="w-full flex flex-col items-center justify-center py-8">
+      <div className="w-full flex flex-col items-center justify-center py-8">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
           <div>
             <div>
@@ -71,7 +71,10 @@ const Knowledge = () => {
                   ))}
                 </ul>
 
-                <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
+                <h2
+                  id="recovery"
+                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
+                >
                   {data.recovery.title}
                 </h2>
                 <p className="mb-4">{data.recovery.description}</p>
@@ -86,7 +89,10 @@ const Knowledge = () => {
                   </div>
                 ))}
 
-                <h2 className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans">
+                <h2
+                  id="risks-safety"
+                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
+                >
                   {data.risks.title}
                 </h2>
                 <p className="mb-4">{data.risks.description}</p>

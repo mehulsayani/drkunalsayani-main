@@ -59,7 +59,7 @@ const Knowledge = () => {
               </ul>
 
               <div>
-                <h3 className="text-2xl font-semibold mt-4">
+                <h3 id="recovery" className="text-2xl font-semibold mt-4">
                   {data.content.recoveryAftercare.title}
                 </h3>
 
@@ -133,7 +133,7 @@ const Knowledge = () => {
 
                 <p className="mt-4">{data.content.recoveryAftercare.note}</p>
 
-                <h3 className="text-2xl font-semibold mt-4">
+                <h3 id="risks-safety" className="text-2xl font-semibold mt-4">
                   {data.content.risksAndSafety.title}
                 </h3>
                 <p className="mb-4">
