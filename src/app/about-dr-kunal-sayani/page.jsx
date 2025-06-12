@@ -7,17 +7,17 @@ import Affiliations from "./Affiliations";
 export default function DrKunalSayani() {
   return (
     <div className="pt-[8rem] max-lg:pt-[4rem]  font-[roboto]">
-      <section className=" px-4 inset-0 bg-gradient-to-br from-blue-900 max-lg:pb-10 to-[#1AAEBC]">
+      <section className=" px-4 bg-[#E5F4F6] max-lg:pb-10 ">
         <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
           <div className="flex-1 max-lg:text-center">
-            <h1 className="text-4xl font-bold mb-4 text-[#ffffff] font-[Noto_Sans]">
+            <h1 className="text-4xl font-bold mb-4 text-[#10217D] font-[Noto_Sans]">
               Dr. Kunal Sayani
             </h1>
-            <p className="text-lg mb-6 text-[#FFC107] font-bold font-[Noto_Sans]">
+            <p className="text-lg mb-6 text-[#000000] font-bold font-[Noto_Sans]">
               MCh in Plastic & Reconstructive Surgery from the prestigious Grant
               Medical College and Sir J.J. Hospital, Mumbai.
             </p>
-            <p className="text-md mb-4 text-[#F0F0F0] max-w-2xl">
+            <p className="text-md mb-4 text-[#000000] max-w-2xl">
               Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
               based in Andheri, Mumbai, with over 8 years of experience in
               aesthetic and reconstructive surgery. Known for his
@@ -25,13 +25,13 @@ export default function DrKunalSayani() {
               advanced medical expertise with a refined aesthetic sense —
               delivering results that are both natural and transformative.
             </p>
-            <p className="text-md mb-2 text-[#F0F0F0] max-w-2xl">
+            <p className="text-md mb-2 text-[#000000] max-w-2xl">
               He completed his MCh in Plastic & Reconstructive Surgery and MS in
               General Surgery at the esteemed Grant Medical College and Sir J.J.
               Hospital, Mumbai. He also holds a Doctorate of National Board
               (DrNB) from New Delhi.
             </p>
-            <p className="text-md text-[#F0F0F0] max-w-2xl">
+            <p className="text-md text-[#000000] max-w-2xl">
               Dr. Sayani is among the few plastic surgeons in India with dual
               degrees (MCh & DrNB), including National Board certification.
             </p>
