@@ -5,7 +5,7 @@ import React from "react";
 export default function TopNavBanner() {
   return (
     <div
-      className="bg-[#1aaebcaf] m-2 text-white rounded-[2rem] max-lg:rounded-2xl px-6 py-28 max-lg:py-12 
+      className="bg-[#1aaebcaf] m-2 text-white rounded-[2rem] max-lg:rounded-2xl px-6 py-18 max-lg:py-12 
     relative overflow-hidden text-center"
     >
       <Image
@@ -37,7 +37,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl uppercase font-notoSans max-lg:text-xl font-semibold">
-      hair-transplant
+        hair-transplant
       </h1>
 
       {/* Breadcrumbs */}

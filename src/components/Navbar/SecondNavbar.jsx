@@ -118,7 +118,7 @@ export default function SecondNavbar() {
             <div key={index} className="relative group cursor-pointer">
               <span className="hover:text-[#40AEB9] transition-colors text-base font-semibold flex justify-center items-center gap-2">
                 {section.title}{" "}
-                <div className="group-hover:rotate-180 duration-300">
+                <div className="rotate-180 group-hover:rotate-360 duration-300">
                   <IoIosArrowUp />
                 </div>
               </span>

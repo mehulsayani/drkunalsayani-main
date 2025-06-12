@@ -12,7 +12,7 @@ import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1e1e1e] text-white py-12 pb-10 px-4 text-sm">
+    <footer className="bg-[#3E3E43FC] text-white py-12 pb-10 px-4 text-sm">
       <div className="max-w-[1100px] relative right-14 max-lg:right-0 mx-auto grid gap-10 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {/* Logo & Tagline */}
         <div className="space-y-4 col-span-1">
@@ -23,7 +23,7 @@ export default function Footer() {
             height={100}
             className="object-contain"
           />
-          <p className="text-gray-400">
+          <p className="text-white">
             Transform How You Feel <br /> Not Just How You Look
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function Footer() {
         {/* About Us */}
         <div>
           <h4 className="text-base font-semibold mb-3">About Us</h4>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 ">
             <li>
               <a href="/about/clinic" className="hover:text-white">
                 About Dr. Kunal Sayani
@@ -54,7 +54,7 @@ export default function Footer() {
         {/* Services */}
         <div>
           <h4 className="text-base font-semibold mb-3">Services</h4>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 ">
             <li>
               <a href="/services/body/tummy-tuck-abdominoplasty" className="hover:text-white">
                 Abdominoplasty
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Quick Links */}
         <div>
           <h4 className="text-base font-semibold mb-3">Quick Links</h4>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 ">
             <li>
               <a href="/reviews" className="hover:text-white">
                 Patient Reviews
@@ -133,7 +133,7 @@ export default function Footer() {
         {/* Contact Us */}
         <div className="w-66 max-lg:w-72">
           <h4 className="text-base font-semibold mb-3">Contact Us</h4>
-          <ul className="space-y-3 text-gray-300">
+          <ul className="space-y-3 ">
             <li className="flex items-start gap-2">
               <MdPhone className="text-teal-500" />
               <a href="tel:+9108048034415" className="hover:text-white">
