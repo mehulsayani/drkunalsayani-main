@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is Chin Augmentation (Mentoplasty)?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Chin augmentation is a cosmetic procedure designed to improve the size, shape, and projection of the chin, bringing it into better balance with other facial features like the nose and forehead. It can create a stronger, more defined jawline and a more harmonious facial profile.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "What are the primary methods of Chin Augmentation?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "There are two main approaches:\n• Chin Implants (Surgical): Involves placement of a biocompatible implant to permanently enhance chin projection.\n• Dermal Fillers (Non-Surgical): Temporary solution using injectable gels like hyaluronic acid for subtle augmentation. Dr. Kunal Sayani offers both options tailored to your needs.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Who is a good candidate for Chin Augmentation?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Good candidates are individuals who feel their chin is too small or recessed, leading to an unbalanced facial profile. They should be in good general health, have realistic expectations, and a healthy bite. Dr. Kunal Sayani will assess your suitability during a detailed consultation.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "What kind of implant is used in Chin Augmentation?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "The most common chin implants are made of solid, medical-grade silicone. They come in various shapes and sizes to allow for customized results. These implants are biocompatible and designed to be well-tolerated by the body.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "What is the difference between Chin Augmentation and Jaw Surgery (Orthognathic Surgery)?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Chin augmentation focuses on the chin's projection and shape to improve facial balance. Jaw surgery addresses bite problems or major jaw discrepancies by repositioning the jawbones. Chin augmentation is for shaping the chin itself. Dr. Kunal Sayani will help determine the right approach for you.",
   },
 ];
 
@@ -117,7 +117,7 @@ export default function FAQSection() {
                         transition={{ duration: 0.3 }}
                       >
                         <div className="px-4 pb-4 bg-[#f9fafa]">
-                          <p className="text-gray-700 text-sm md:text-base">
+                          <p className="text-gray-700 text-sm md:text-base whitespace-pre-line">
                             {faq.answer}
                           </p>
                         </div>
@@ -133,3 +133,4 @@ export default function FAQSection() {
     </section>
   );
 }
+  

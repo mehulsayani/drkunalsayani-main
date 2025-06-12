@@ -1,0 +1,108 @@
+{
+  "title": "Gynecomastia Surgery Procedure",
+  "content": {
+    "procedureDetails": {
+      "title": "Procedure Details",
+      "steps": [
+        {
+          "title": "Consultation and Evaluation",
+          "description": "Your journey begins with a thorough consultation with Dr. Kunal Sayani, where he will:",
+          "items": [
+            "Assess your medical history and current health status.",
+            "Evaluate the extent of breast tissue enlargement.",
+            "Discuss your aesthetic goals and expectations.",
+            "Determine the most suitable surgical approach."
+          ]
+        },
+        {
+          "title": "Surgical Techniques",
+          "description": "Depending on the severity of gynecomastia and individual patient factors, Dr. Sayani may employ one or both of the following techniques:",
+          "techniques": [
+            "Liposuction: Ideal for cases with excess fatty tissue and good skin elasticity. Small incisions are made, and a cannula is used to suction out fat deposits.",
+            "Excision: Necessary when glandular breast tissue or excess skin must be removed. Incisions are strategically placed to minimize visible scarring."
+          ],
+          "additionalInfo": "In some cases, a combination of liposuction and excision is utilized to achieve optimal results. Gynecomastia surgery performed by Dr. Kunal Sayani typically involves the following steps:",
+          "steps": [
+            "Anesthesia: The procedure is usually done under general anesthesia or intravenous sedation to ensure patient comfort.",
+            "Incision and Access: Small incisions are made in inconspicuous areas such as around the areola or in the natural creases of the chest to minimize visible scarring.",
+            "Tissue Removal: Excess glandular breast tissue and fat are carefully excised. In cases where fatty tissue predominates, liposuction may be employed to contour the chest and remove excess fat effectively.",
+            "Chest Contouring: The surgeon sculpts the chest to restore a natural, masculine appearance with a flat and toned look.",
+            "Closure: Incisions are closed with fine sutures to promote optimal healing and minimal scarring."
+          ],
+          "note": "The entire surgery is typically a day-care procedure, allowing patients to return home the same day. Dr. Kunal Sayani utilizes USFDA-approved, minimally invasive techniques designed to reduce pain and accelerate recovery, ensuring patients regain confidence quickly."
+        }
+      ]
+    },
+    "recoveryAftercare": {
+      "title": "Recovery & Aftercare (Post-Op Instructions)",
+      "stages": {
+        "immediatePostOp": {
+          "title": "Immediately After Surgery",
+          "instructions": [
+            "Patients should arrange for transportation home and assistance for the first 24 hours.",
+            "A compression garment or surgical vest must be worn continuously for several weeks to reduce swelling, support the new chest contour, and aid healing.",
+            "Keep the incision sites clean and dry; follow Dr. Kunal Sayani’s instructions for wound care meticulously."
+          ],
+          "painManagement": [
+            "Mild to moderate discomfort, swelling, and bruising are expected and can be managed with prescribed pain medications.",
+            "Avoid aspirin or blood thinners unless specifically approved by the surgeon."
+          ],
+          "activityRestrictions": [
+            "Avoid strenuous activities, heavy lifting, and vigorous exercise for at least 3 to 4 weeks.",
+            "Light walking is encouraged soon after surgery to promote circulation.",
+            "Avoid direct sun exposure on scars for several months."
+          ],
+          "followUp": [
+            "Attend all scheduled follow-up appointments with Dr. Kunal Sayani to monitor healing progress.",
+            "Report any signs of infection (redness, warmth, discharge), excessive swelling, or unusual pain immediately."
+          ]
+        },
+        "firstWeek": {
+          "title": "First Week",
+          "instructions": [
+            "Rest and Limited Activity: Avoid strenuous activities; light walking is encouraged to promote circulation.",
+            "Compression Garment: Wear continuously to reduce swelling and support the chest contour.",
+            "Pain Management: Take prescribed medications as directed to manage discomfort.",
+            "Follow-Up: Attend the scheduled post-operative appointment for assessment and suture removal if necessary."
+          ]
+        },
+        "weeksTwoToFour": {
+          "title": "Weeks 2–4",
+          "instructions": [
+            "Gradual Return to Activities: Resume non-strenuous work and daily activities as tolerated.",
+            "Continued Garment Use: Wear the compression garment as advised by Dr. Sayani.",
+            "Monitor Healing: Watch for signs of infection or complications and report any concerns promptly."
+          ]
+        },
+        "weeksFourToSix": {
+          "title": "Weeks 4–6",
+          "instructions": [
+            "Physical Activity: Gradually reintroduce exercise, avoiding chest-intensive workouts until cleared by Dr. Sayani.",
+            "Scar Care: Begin recommended scar treatments to enhance healing and minimize visibility."
+          ]
+        },
+        "note": "Full recovery and final results may take several months, with continued improvement in chest contour and skin elasticity."
+      }
+    },
+    "risksAndSafety": {
+      "title": "Risks & Safety",
+      "description": "Gynecomastia surgery is generally safe when performed by an experienced surgeon like Dr. Kunal Sayani. However, as with any surgical procedure, there are potential risks:",
+      "commonRisks": [
+        "Infection at the incision site",
+        "Bleeding or hematoma formation",
+        "Swelling and bruising",
+        "Temporary or permanent changes in nipple or chest sensation",
+        "Minor asymmetry or contour irregularities",
+        "Scarring, which usually fades over time"
+      ],
+      "rareRisks": [
+        "Excessive bleeding requiring intervention",
+        "Poor wound healing or skin necrosis",
+        "Allergic reactions to anesthesia or medications",
+        "Fluid accumulation (seroma)",
+        "Need for revision surgery if results are unsatisfactory or complications arise"
+      ],
+      "safetyMeasures": "Dr. Kunal Sayani emphasizes thorough preoperative evaluation and patient education to minimize risks. His use of advanced, minimally invasive techniques further enhances safety and reduces recovery time."
+    }
+  }
+}

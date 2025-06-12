@@ -32,22 +32,29 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          {/* <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
+            Who is a Good Candidate <br /> for Otoplasty?
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            Otoplasty can be performed on both children and adults. Ideal
+            candidates generally include:
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
-              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              `Children (typically age 5 and older): By this age, the ear cartilage is stable enough for
+correction, and undergoing the procedure early can help a child avoid potential teasing
+or self-consciousness.`,
+              `Teenagers and Adults: There is no upper age limit for Otoplasty. Healthy individuals of
+any age who are bothered by the appearance of their ears can be candidates.
+`,
+              `Individuals in good general health: Without active ear infections or serious underlying
+medical conditions that could impair healing.`,
+              `Non-smokers or those willing to quit: Smoking can significantly hinder the healing
+process.`,
+              `Individuals with realistic expectations: Understanding what Otoplasty can and cannot
+achieve is crucial for a satisfactory outcome. Dr. Kunal Sayani will discuss this thoroughly
+during your consultation.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
@@ -56,7 +63,7 @@ export default function ServiceCandidate() {
                 <span>{item}</span>
               </li>
             ))}
-          </ul> */}
+          </ul>
 
           {/* Contact Button */}
           <div

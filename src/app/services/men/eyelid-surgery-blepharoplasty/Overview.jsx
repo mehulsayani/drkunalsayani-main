@@ -6,51 +6,59 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/men/eyelid-surgery-blepharoplasty.jpg"}
+          src={"/images/services/face/Eyelid Surgery (Blepharoplasty).jpg"}
           width={1000}
           height={1000}
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-       {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
-         <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
-        </p>
-        <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
-        </p>
-        <p className="mb-3">
-          Abdominoplasty is not a weight-loss procedure but rather a body
-          contouring solution that addresses aesthetic concerns that diet and
-          exercise alone cannot resolve. Whether it’s restoring a pre-pregnancy
-          figure or achieving a sculpted abdomen, Dr. Kunal Sayani employs
-          state-of-theart methods to ensure optimal outcomes with minimal
-          scarring and downtime. The procedure can be combined with liposuction
-          for enhanced contouring or customized as a mini tummy tuck for
-          patients with less extensive needs.
-        </p>
-        <p className="mb-3">
-          Dr. Kunal Sayani, one of the top plastic surgeon in Mumbai for tummy
-          tuck, performs tummy tuck surgeries tailored to individual goals,
-          ensuring natural-looking results with minimal scarring. The surgery
-          typically involves an incision above the pubic area, muscle
-          tightening, removal of excess fat and skin, and repositioning of the
-          belly button to maintain a natural contour.
-        </p>
-       </div> */}
+        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+          <p className="mb-3">
+            Your eyes are often the first feature people notice, and they play a
+            crucial role in expressing emotion and conveying your personality.
+            However, with time, aging, sun exposure, genetics, and even
+            lifestyle factors can cause the delicate skin around your eyes to
+            sag, creating a tired, aged, or even sad appearance. Excess skin on
+            the upper eyelids can also obstruct your vision, while puffy bags
+            and dark circles under the eyes can leave you looking perpetually
+            fatigued.
+          </p>
+          <p className="mb-3">
+            Blepharoplasty, commonly known as eyelid surgery, is a sophisticated
+            and highly effective procedure designed to rejuvenate the appearance
+            of your eyes, restoring a more alert, refreshed look. This procedure
+            addresses specific concerns on the upper and/or lower eyelids by
+            meticulously removing excess skin, fat, and sometimes muscle, as
+            well as repositioning fat to create a smoother contour. This surgery
+            can significantly improve tired, droopy, or puffy eyelids, creating
+            a fresher, more youthful appearance.
+          </p>
+          <p className="mb-3">
+            Dr. Kunal Sayani, a renowned aesthetic surgeon in Mumbai,
+            understands the intricate anatomy of the eyelids and the profound
+            impact a subtle change can have on your entire facial appearance. He
+            approaches blepharoplasty with a meticulous eye for detail and an
+            artistic sensibility, aiming to achieve results that are
+            natural-looking, harmonious with your other facial features, and
+            avoid an "overdone" or "surprised" look. During your initial
+            consultation, Dr. Kunal Sayani will thoroughly assess your eyelids,
+            discuss your aesthetic goals, and determine if blepharoplasty, or a
+            combination of procedures like a brow lift, is the best solution for
+            you. He is committed to providing personalized care that restores
+            your bright, vibrant gaze.
+          </p>
+          <p className="mb-3">
+            appearance. He approaches blepharoplasty with a meticulous eye for
+            detail and an artistic sensibility, aiming to achieve results that
+            are natural-looking, harmonious with your other facial features, and
+            avoid an "overdone" or "surprised" look. During your initial
+            consultation, Dr. Kunal Sayani will thoroughly assess your eyelids,
+            discuss your aesthetic goals, and determine if blepharoplasty, or a
+            combination of procedures like a brow lift, is the best solution for
+            you. He is committed to providing personalized care that restores
+            your bright, vibrant gaze.
+          </p>
+        </div>
       </div>
     </section>
   );

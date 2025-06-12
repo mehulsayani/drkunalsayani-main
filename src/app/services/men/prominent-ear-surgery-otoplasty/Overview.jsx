@@ -6,51 +6,67 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/men/prominent-ear-surgery-otoplasty.jpg"}
+          src={"/images/services/face/Prominent Ear Surgery (Otoplasty).jpg"}
           width={1000}
           height={1000}
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-       {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
-         <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
-        </p>
-        <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
-        </p>
-        <p className="mb-3">
-          Abdominoplasty is not a weight-loss procedure but rather a body
-          contouring solution that addresses aesthetic concerns that diet and
-          exercise alone cannot resolve. Whether it’s restoring a pre-pregnancy
-          figure or achieving a sculpted abdomen, Dr. Kunal Sayani employs
-          state-of-theart methods to ensure optimal outcomes with minimal
-          scarring and downtime. The procedure can be combined with liposuction
-          for enhanced contouring or customized as a mini tummy tuck for
-          patients with less extensive needs.
-        </p>
-        <p className="mb-3">
-          Dr. Kunal Sayani, one of the top plastic surgeon in Mumbai for tummy
-          tuck, performs tummy tuck surgeries tailored to individual goals,
-          ensuring natural-looking results with minimal scarring. The surgery
-          typically involves an incision above the pubic area, muscle
-          tightening, removal of excess fat and skin, and repositioning of the
-          belly button to maintain a natural contour.
-        </p>
-       </div> */}
+        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+          <p className="mb-3">
+            Prominent ears, often a source of self-consciousness, can be
+            effectively corrected with Otoplasty, also known as prominent ear
+            surgery or ear pinning. This surgical procedure reshapes, resizes,
+            or repositions the ears to create a more balanced and aesthetically
+            pleasing appearance. At our clinic, Dr. Kunal Sayani specializes in
+            Otoplasty, helping patients of all ages achieve natural-looking
+            results and renewed self-confidence.
+          </p>
+          <p className="mb-3">
+            Otoplasty is a cosmetic surgical procedure designed to alter the
+            shape, position, or size of the ears. It is commonly performed to
+            correct ears that protrude significantly from the sides of the head
+            ("prominent ears"). However, it can also address various other
+            concerns, including:
+          </p>
+          <ul className="space-y-3 text-gray-800">
+            <li>
+              Overly large ears (macrotia): Reducing the overall size of the
+              ears.
+            </li>
+            <li>
+              Lop ear deformity: Correcting ears where the top seems to fold
+              down or forward.
+            </li>
+            <li>Cupped ear: Addressing unusually small ears.</li>
+            <li>
+              Shell ear: When the natural curve in the outer rim and other folds
+              are missing
+            </li>
+            <li>
+              Constricted ears or "cryptotia": Where part of the ear cartilage
+              is hidden beneath the skin.
+            </li>
+            <li>Asymmetrical ears: Improving the balance between the ears.</li>
+            <li>
+              Earlobe abnormalities: Reshaping stretched, torn, or overly large
+              earlobes
+            </li>
+            <li>
+              Correction of previous ear surgery: Revising unsatisfactory
+              results from a prior Otoplasty.
+            </li>
+          </ul>
+          <p className="mb-3">
+            The primary goal of Otoplasty is to create a more natural and
+            proportionate appearance of the ears in relation to the head and
+            face. This procedure can have a significant positive impact on a
+            patient's self-esteem and body image. Dr. Kunal Sayani understands
+            the delicate artistry required for Otoplasty, aiming for results
+            that are both aesthetically pleasing and harmonious with your
+            individual features.
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is the main goal of Otoplasty?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "The primary goal is to improve the shape, position, or proportion of the ear, most commonly to correct protruding ears, making them sit closer to the head and appear more natural and balanced with the face.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "At what age can Otoplasty be performed?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Otoplasty is commonly performed on children once their ears have reached near full development, typically around age 5-7. However, Dr. Kunal Sayani also performs Otoplasty on teenagers and adults of any age who are in good health and wish to correct their ear appearance.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Is Otoplasty a painful procedure?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "The procedure itself is not painful as it is performed under anesthesia (local with sedation or general). Post-operatively, some discomfort, aching, or throbbing is expected for a few days, but this is usually well-managed with prescribed or recommended pain medication by Dr. Kunal Sayani.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "How long does the Otoplasty procedure take?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Typically, Otoplasty takes between 1 to 3 hours, depending on the complexity of the correction needed.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Will I have visible scars after Otoplasty?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Dr. Kunal Sayani strategically places incisions in inconspicuous locations, usually in the natural crease behind the ear. When incisions are needed on the front, they are hidden within natural folds. Over time, these scars typically fade and become barely noticeable.",
   },
 ];
 

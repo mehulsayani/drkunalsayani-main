@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is a Thread Lift?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "A Thread Lift is a minimally invasive cosmetic procedure that uses dissolvable sutures (threads) inserted under the skin to lift and tighten sagging facial and neck tissues, providing a more youthful and contoured appearance. The threads also stimulate collagen production.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "How does a Thread Lift work?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "The threads have tiny barbs or cones that grip the skin and underlying tissues, allowing them to be gently pulled upwards to create an immediate lifting effect. Over time, the threads dissolve, but their presence stimulates your body's natural collagen production, providing long-term skin tightening and rejuvenation.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Who is a good candidate for a Thread Lift?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Ideal candidates are typically individuals in their 30s to 50s who have mild to moderate facial sagging, good skin elasticity, and realistic expectations. They are often looking for a noticeable lift but are not ready for a surgical facelift. Dr. Kunal Sayani will assess your suitability during a detailed consultation.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "What areas can be treated with a Thread Lift?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Commonly treated areas include the mid-face (cheeks), jowls, jawline, eyebrows, and neck. It can effectively improve mild sagging, redefine contours, and soften lines.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "What types of threads does Dr. Kunal Sayani use?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Dr. Kunal Sayani uses various types of medical-grade, dissolvable threads, such as PDO (Polydioxanone), PLLA (Poly-L-Lactic Acid), and PCA (Polycaprolactone), chosen based on your specific needs for lift, collagen stimulation, and longevity.",
   },
 ];
 

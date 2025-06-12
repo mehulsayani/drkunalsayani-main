@@ -12,7 +12,7 @@ export default function TopNavBanner() {
         fill
         className="w-full object-cover -z-20"
         alt=""
-        src={"/images/services/men.jpg"}
+        src={"/images/services/hair2.jpg"}
       />
 
       {/* Optional decorative elements */}
@@ -36,8 +36,8 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5xl uppercase font-notoSans max-lg:text-xl font-semibold">
-      hair-transplant
+      <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
+        Hair Transplant
       </h1>
 
       {/* Breadcrumbs */}
@@ -51,11 +51,11 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
         <Link href={"/services/body"}>
-          <span className="hover:underline cursor-pointer">Men</span>
+          <span className="hover:underline cursor-pointer">Hair</span>
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium uppercase">hair-transplant</span>
+        <span className=" font-medium">Hair Transplant</span>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/men/hair-transplant.jpg"}
+          src={"/images/homepage/specialization/hair-transplant.jpg"}
           width={1000}
           height={1000}
           alt=""
@@ -36,7 +36,6 @@ export default function Overview() {
             expert care of Dr. Kunal Sayani, you can achieve natural-looking
             hair growth that blends seamlessly with your existing hair.
           </p>
-          
         </div>
       </div>
     </section>

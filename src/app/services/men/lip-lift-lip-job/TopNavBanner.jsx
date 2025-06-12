@@ -12,7 +12,7 @@ export default function TopNavBanner() {
         fill
         className="w-full object-cover -z-20"
         alt=""
-        src={"/images/services/men.jpg"}
+        src={"/images/services/face.jpg"}
       />
 
       {/* Optional decorative elements */}
@@ -36,8 +36,8 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5xl uppercase font-notoSans max-lg:text-xl font-semibold">
-     lip-lift-lip-job
+      <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
+        Lip Lift (Lip job)
       </h1>
 
       {/* Breadcrumbs */}
@@ -51,11 +51,11 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
         <Link href={"/services/body"}>
-          <span className="hover:underline cursor-pointer">Men</span>
+          <span className="hover:underline cursor-pointer">Face</span>
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium uppercase"> lip-lift-lip-job</span>
+        <span className=" font-medium">Lip Lift (Lip job)</span>
       </div>
     </div>
   );

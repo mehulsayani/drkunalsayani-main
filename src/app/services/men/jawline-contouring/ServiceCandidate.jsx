@@ -32,22 +32,24 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          {/* <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
+            Best candidates for <br /> jawline contouring
           </h2>
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            The best candidates for Jawline Contouring are individuals who meet
+            certain physical and health-related criteria, as well as aesthetic
+            goals. Here’s a clear breakdown of ideal candidates:
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
-              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              `People looking to enhance facial balance and create a more structured look.`,
+              `Non-surgical contouring (like fillers or threads) can lift and define the jawline in early signs of aging.`,
+              `Candidates wanting to improve the proportions between their chin, jaw, and neck.`,
+              `Excess fat or extreme weight fluctuations can affect jawline results.`,
+              `No serious health conditions or active infections in the treatment area.`,
+              `Smoking delays healing and can impact surgical or non-surgical results.`,
+              `Candidates should understand the limits of contouring—it's about enhancing, not transforming.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
@@ -56,7 +58,7 @@ export default function ServiceCandidate() {
                 <span>{item}</span>
               </li>
             ))}
-          </ul> */}
+          </ul>
 
           {/* Contact Button */}
           <div

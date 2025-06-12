@@ -32,22 +32,32 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          {/* <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
+            Why Choose Liposuction with <br /> Dr. Kunal Sayani?
           </h2>
+
           <p className="text-gray-700 mb-6">
-            While a tummy tuck can yield remarkable results, it's essential to
-            understand who can benefit most from this surgery. Ideal candidates
-            typically include:
+            Dr. Kunal Sayani utilizes advanced liposuction techniques to ensure
+            optimal results and a comfortable experience. Discover how
+            liposuction can help you achieve the sculpted physique you desire
+            and enhance your overall well-being.
           </p>
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
-              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              `Targeted Fat Removal: Effectively addresses stubborn fat in areas like the abdomen,
+flanks (love handles), thighs, hips, buttocks, arms, back, chest (in men), and even the
+chin and neck.
+`,
+              `Improved Body Contours: Sculpts and refines your figure, creating a more aesthetically
+pleasing shape.
+`,
+              `Enhanced Confidence: Achieve the body you've always desired, leading to increased selfesteem and comfort in your own skin.`,
+              `Permanent Results: Once fat cells are removed, they are gone for good, provided you
+maintain a healthy lifestyle.`,
+              `Personalized Approach: Dr. Kunal Sayani provides a comprehensive consultation to
+understand your unique goals and tailor a liposuction plan specifically for you.
+`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
@@ -56,7 +66,7 @@ export default function ServiceCandidate() {
                 <span>{item}</span>
               </li>
             ))}
-          </ul> */}
+          </ul>
 
           {/* Contact Button */}
           <div

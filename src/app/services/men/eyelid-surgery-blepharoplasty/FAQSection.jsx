@@ -7,31 +7,32 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is blepharoplasty, and what does it achieve?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Blepharoplasty is a surgical procedure that rejuvenates the appearance of the eyes by removing excess skin, fat, and sometimes muscle from the upper and/or lower eyelids. It can reduce sagging, puffiness, and wrinkles, creating a more refreshed, alert, and youthful look.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "Who is a good candidate for blepharoplasty?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Ideal candidates are healthy individuals, typically over 30, though younger people may be eligible due to genetic factors. Candidates should be bothered by sagging eyelids, puffy bags, or vision obstruction due to excess eyelid skin. Non-smokers with realistic expectations are ideal.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Does blepharoplasty remove dark circles under the eyes?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Blepharoplasty mainly addresses excess fat and skin—not pigmentation. It may reduce shadows contributing to dark circles but won’t remove true pigmentation. Treatments like fillers or laser therapy may be better for dark circles caused by thin skin or visible blood vessels.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "How long do the results of blepharoplasty last?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Results from upper eyelid surgery can last for many years—often a lifetime. Lower eyelid surgery results are also long-lasting. Although aging continues, the eyes will generally maintain a more youthful appearance than before surgery.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Is blepharoplasty a painful procedure?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Most patients experience mild discomfort, tightness, or aching after surgery, but severe pain is rare. Pain is usually well-managed with medication, and the procedure is commonly described as uncomfortable rather than painful.",
   },
 ];
+
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -46,7 +47,7 @@ export default function FAQSection() {
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
             src="/images/services/body/tummytuck/timing.jpg"
-            alt="Facial treatment"
+            alt="Clinic timing"
             layout="fill"
             objectFit="cover"
             quality={100}
@@ -91,8 +92,7 @@ export default function FAQSection() {
                 >
                   <button
                     onClick={() => toggleFAQ(index)}
-                    className="w-full px-4 py-4 bg-white flex justify-between items-center 
-                    text-left hover:bg-gray-50 focus:outline-none"
+                    className="w-full px-4 py-4 bg-white flex justify-between items-center text-left hover:bg-gray-50 focus:outline-none"
                   >
                     <span className="text-base md:text-lg font-semibold text-[#000000]">
                       {faq.question}
@@ -116,7 +116,7 @@ export default function FAQSection() {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <div className="px-4 pb-4 bg-[#f9fafa]">
+                        <div className="px-4 pb-4 bg-[#f9fafa] whitespace-pre-line">
                           <p className="text-gray-700 text-sm md:text-base">
                             {faq.answer}
                           </p>
