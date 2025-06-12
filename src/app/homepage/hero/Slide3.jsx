@@ -31,7 +31,7 @@ export default function ServicesSection() {
       bg-gradient-to-r from-[#10217D] via-[#267196BF] to-[#2B849CB0] text-white"
     >
       <Image
-        src={"/images/homepage/hero/hero3.png"}
+        src={"/images/homepage/hero/abstract2.png"}
         width={1000}
         height={1000}
         alt=""
