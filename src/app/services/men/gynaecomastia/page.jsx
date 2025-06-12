@@ -19,7 +19,9 @@ export default function page() {
       <BeforeAfter />
       <Testimonials /> */}
       {/* <Knowledge /> */}
-      <FAQSection />
+      <section id="faq">
+        <FAQSection />
+      </section>
       <ConsultationSection />
     </div>
   );
