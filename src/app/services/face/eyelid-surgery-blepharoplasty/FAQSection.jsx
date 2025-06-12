@@ -8,23 +8,31 @@ import Image from "next/image";
 const faqs = [
   {
     question: "What is blepharoplasty, and what does it achieve?",
-    answer: `Blepharoplasty is a surgical procedure that rejuvenates the appearance of the eyes by removing excess skin, fat, and sometimes muscle from the upper and/or lower eyelids. It can reduce sagging, puffiness, and wrinkles, creating a more refreshed, alert, and youthful look.
-    
-• Who is a good candidate for blepharoplasty?
-Ideal candidates are generally healthy individuals, typically over 30 (though genetic factors can make younger people candidates), who are bothered by sagging eyelids, puffy bags, or obstructed vision due to excess eyelid skin. They should have realistic expectations and be non-smokers.
-
-• Does blepharoplasty remove dark circles under the eyes?
-Myth: Blepharoplasty primarily addresses excess fat and skin, not skin pigmentation. While removing or repositioning fat can sometimes improve the appearance of shadows that contribute to dark circles, it won't eliminate true pigmentation.
-Fact: For dark circles caused by thin skin or underlying blood vessels, other treatments like fillers or laser therapy might be more effective.
-
-• How long do the results of blepharoplasty last?
-The results of upper eyelid surgery can last for many years, often a lifetime. Lower eyelid surgery results are typically very long-lasting. While the surgery provides significant and durable improvement, the natural aging process will continue, but from a more refreshed baseline.
-
-• Is blepharoplasty a painful procedure?
-Myth: Many believe it's very painful.
-Fact: While you will experience some discomfort, tightness, and mild aching after surgery, severe pain is uncommon and effectively managed with prescribed pain medication. Most patients describe it as more uncomfortable than painful.`,
+    answer:
+      "Blepharoplasty is a surgical procedure that rejuvenates the appearance of the eyes by removing excess skin, fat, and sometimes muscle from the upper and/or lower eyelids. It can reduce sagging, puffiness, and wrinkles, creating a more refreshed, alert, and youthful look.",
+  },
+  {
+    question: "Who is a good candidate for blepharoplasty?",
+    answer:
+      "Ideal candidates are healthy individuals, typically over 30, though younger people may be eligible due to genetic factors. Candidates should be bothered by sagging eyelids, puffy bags, or vision obstruction due to excess eyelid skin. Non-smokers with realistic expectations are ideal.",
+  },
+  {
+    question: "Does blepharoplasty remove dark circles under the eyes?",
+    answer:
+      "Blepharoplasty mainly addresses excess fat and skin—not pigmentation. It may reduce shadows contributing to dark circles but won’t remove true pigmentation. Treatments like fillers or laser therapy may be better for dark circles caused by thin skin or visible blood vessels.",
+  },
+  {
+    question: "How long do the results of blepharoplasty last?",
+    answer:
+      "Results from upper eyelid surgery can last for many years—often a lifetime. Lower eyelid surgery results are also long-lasting. Although aging continues, the eyes will generally maintain a more youthful appearance than before surgery.",
+  },
+  {
+    question: "Is blepharoplasty a painful procedure?",
+    answer:
+      "Most patients experience mild discomfort, tightness, or aching after surgery, but severe pain is rare. Pain is usually well-managed with medication, and the procedure is commonly described as uncomfortable rather than painful.",
   },
 ];
+
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
