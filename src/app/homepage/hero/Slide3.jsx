@@ -70,7 +70,7 @@ export default function ServicesSection() {
 
         {/* Right Image */}
         <Image
-          src="/images/homepage/hero/slideimg3.png"
+          src="/images/homepage/hero/hero3.png"
           alt="Aesthetic Model"
           width={500}
           height={600}
