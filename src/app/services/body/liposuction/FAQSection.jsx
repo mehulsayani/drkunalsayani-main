@@ -7,29 +7,29 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a lipoma?",
+    question: "What is liposuction?",
     answer:
-      "A lipoma is a common, benign (non-cancerous) fatty tumor that typically forms just under the skin. It feels soft, rubbery, and can be moved around with your fingers. Lipomas are usually harmless but can grow large or cause discomfort if they press on nerves or organs.",
+      "Liposuction is a surgical procedure that removes excess fat deposits from specific areas of the body to reshape and contour the figure. It is not a weight-loss method but rather a body sculpting technique for individuals near their ideal weight.",
   },
   {
-    question: "What is a skin cyst?",
+    question: "Who is a good candidate for liposuction?",
     answer:
-      "A skin cyst is a sac-like pocket of tissue under the skin that can be filled with fluid, air, pus, or other material. Common types include epidermal cysts (often called sebaceous cysts, though technically different) and pilar cysts. They usually appear as a smooth lump and can sometimes become inflamed or infected.",
+      "Ideal candidates are healthy individuals who are at or near their ideal body weight, have good skin elasticity, and have localized pockets of fat that are resistant to diet and exercise. They should also have realistic expectations about the results. Dr. Kunal Sayani will determine your suitability during a consultation.",
   },
   {
-    question: "Are lipomas or cysts dangerous?",
+    question: "What areas of the body can be treated with liposuction?",
     answer:
-      "Most lipomas and cysts are benign (non-cancerous) and not dangerous. However, it's always recommended to have any new or growing lump evaluated by a medical professional like Dr. Kunal Sayani to confirm the diagnosis and rule out any rare underlying conditions.",
+      "Commonly treated areas include the abdomen, flanks (love handles), thighs (inner, outer, front), hips, buttocks, arms, back, chest (for gynecomastia in men), and the chin and neck.",
   },
   {
-    question: "Why should I have a lipoma or cyst removed?",
+    question: "Is liposuction a weight-loss solution?",
     answer:
-      "While often benign, people choose to have lipomas or cysts removed for various reasons:\n• Aesthetic concern: They may be unsightly, especially on visible areas.\n• Discomfort or pain: If they grow large, press on nerves, or become inflamed.\n• Infection: Cysts can sometimes rupture or become infected, requiring medical attention.\n• Uncertainty: To confirm the diagnosis and rule out malignancy.",
+      "No, liposuction is not a weight-loss solution. It is a body contouring procedure to remove localized fat deposits and improve body shape. For significant weight loss, lifestyle changes and other medical interventions are more appropriate.",
   },
   {
-    question: "Is the removal procedure painful?",
+    question: "How much fat can be removed during liposuction?",
     answer:
-      "The procedure is performed under local anesthesia, so you will not feel pain during the removal. You may feel some pressure or movement. Any post-operative discomfort is usually mild and easily managed with over-the-counter pain relievers.",
+      "The amount of fat that can be safely removed depends on several factors, including the patient's size, overall health, and the areas being treated. Dr. Kunal Sayani adheres to strict safety guidelines regarding fat removal to minimize risks.",
   },
 ];
 
