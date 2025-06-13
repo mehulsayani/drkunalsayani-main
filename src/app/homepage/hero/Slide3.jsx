@@ -28,8 +28,8 @@ export default function ServicesSection() {
   return (
     <section
       className="w-full flex justify-center relative mt-[1.3rem] max-lg:mt-[3rem] 
-      max-lg:h-[87vh] pt-[4rem] items-center 
-      bg-[#E5F4F6] text-[#10217D]"
+      max-lg:h-[80vh] pt-[4rem] items-center 
+       text-[#10217D]"
     >
       <Image
         src={"/images/homepage/hero/abstract2.png"}
@@ -71,11 +71,11 @@ export default function ServicesSection() {
 
         {/* Right Image */}
         <Image
-          src="/images/homepage/hero/hero3.png"
+          src="/images/homepage/hero/slideimg3.png"
           alt="Aesthetic Model"
-          width={500}
-          height={600}
-          className=" w-[31rem] max-lg:w-[30rem] max-lg:relative max-lg:bottom-[4rem]"
+          width={1000}
+          height={1000}
+          className=" w-[31rem] max-xl:w-[30rem] max-lg:w-[21rem] max-lg:relative max-lg:bottom-[4rem]"
         />
       </div>
     </section>
