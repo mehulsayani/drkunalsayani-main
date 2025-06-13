@@ -7,15 +7,14 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question:
-      "What is the difference between saline and silicone breast implants?",
+    question: "What is the difference between saline and silicone breast implants?",
     answer:
       "Saline implants are filled with sterile salt water and can be adjusted during surgery; if they rupture, the saline is safely absorbed by the body. Silicone implants are filled with a gel that feels more like natural breast tissue but may require MRI monitoring for silent ruptures.",
   },
   {
     question: "How long do breast implants last?",
     answer:
-      "Implants are not lifetime devices. Most last 10–20 years, but some may need replacement sooner due to rupture, capsular contracture, or personal preference.",
+      "Implants are not lifetime devices. Most last 10-20 years, but some may need replacement sooner due to rupture, capsular contracture, or personal preference.",
   },
   {
     question: "Will breast augmentation affect breastfeeding?",
@@ -31,6 +30,30 @@ const faqs = [
     question: "What is capsular contracture?",
     answer:
       "It is the hardening of scar tissue around the implant, causing firmness, pain, and breast distortion. It may require treatment with medication, massage, or surgery.",
+  },
+  {
+    question: "Can I have mammograms after breast augmentation?",
+    answer:
+      "Yes, but additional mammogram views are needed to properly visualize breast tissue around implants.",
+  },
+  {
+    question: "What are common myths about breast augmentation?",
+    answer:
+      "Myth: Breast implants always look fake and unnatural. Fact: Modern implants and surgical techniques allow for very natural-looking results tailored to your body.\n\n" +
+      "Myth: Breast implants last forever and never need replacement. Fact: Implants typically last 10-20 years and may require replacement or removal.\n\n" +
+      "Myth: Breast augmentation prevents breastfeeding. Fact: Many women successfully breastfeed after augmentation, especially with certain incision types.\n\n" +
+      "Myth: Breast implants cause breast cancer. Fact: There is no conclusive evidence that implants cause breast cancer; however, a rare lymphoma (BIA-ALCL) is associated with certain implants.\n\n" +
+      "Myth: You cannot do mammograms if you have breast implants. Fact: Mammograms can be done safely with implants, but extra views are required.",
+  },
+  {
+    question: "What should I do if I suspect a complication?",
+    answer:
+      "Contact your surgeon immediately if you experience severe pain, redness, swelling, fever, discharge, or sudden changes in breast shape or size. Early intervention can prevent serious complications.",
+  },
+  {
+    question: "Can I combine breast augmentation with other procedures?",
+    answer:
+      "Absolutely. Common combinations include breast lift, tummy tuck, and liposuction, often done as part of a Mommy Makeover.",
   },
 ];
 
@@ -117,7 +140,7 @@ export default function FAQSection() {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <div className="px-4 pb-4 bg-[#f9fafa]">
+                        <div className="px-4 pb-4 bg-[#f9fafa] whitespace-pre-line">
                           <p className="text-gray-700 text-sm md:text-base">
                             {faq.answer}
                           </p>

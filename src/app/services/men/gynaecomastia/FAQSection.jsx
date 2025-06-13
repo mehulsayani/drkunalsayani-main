@@ -7,6 +7,16 @@ import Image from "next/image";
 
 const faqs = [
   {
+    question: "What causes gynecomastia?",
+    answer:
+      "Gynecomastia is primarily caused by hormonal imbalances, especially an increase in estrogen or decrease in testosterone. It can also be linked to medications, medical conditions, obesity, or puberty.",
+  },
+  {
+    question: "Is gynecomastia surgery suitable for me?",
+    answer:
+      "If you experience enlarged male breasts causing physical discomfort or emotional distress, and non-surgical treatments have been ineffective, you may be a candidate. A consultation with Dr. Sayani will determine the best course of action.",
+  },
+  {
     question: "Is gynecomastia surgery painful?",
     answer:
       "Some discomfort and swelling are normal after surgery but are typically well-controlled with medications. Most patients describe the pain as mild to moderate and manageable.",
@@ -30,6 +40,40 @@ const faqs = [
     question: "Can gynecomastia recur after surgery?",
     answer:
       "While surgery removes existing excess tissue, maintaining a stable weight and avoiding substances that can cause hormonal imbalances helps prevent recurrence.",
+  },
+  {
+    question: "Can I return to normal activities after surgery?",
+    answer:
+      "Most patients return to non-strenuous work within a week and resume light exercise after 2-3 weeks. Full physical activity is usually permitted after 4–6 weeks, pending Dr. Sayani's evaluation.",
+  },
+  {
+    question: "Does gynecomastia surgery affect nipple sensation?",
+    answer:
+      "Temporary changes in nipple sensation are common but usually improve within months. Permanent changes are rare.",
+  },
+  {
+    question: "Are there non-surgical treatments for gynecomastia?",
+    answer:
+      "Mild cases may respond to medication or lifestyle changes, but surgery is the most effective and permanent solution for moderate to severe gynecomastia.",
+  },
+  {
+    question: "What are common myths about gynecomastia?",
+    answer:
+      "Myth: Gynecomastia only affects overweight men. Fact: It can affect men of all body types due to hormonal imbalances or other causes.\n\n" +
+      "Myth: Gynecomastia will go away on its own without treatment. Fact: Some cases resolve, especially in puberty, but many require surgery for permanent correction.\n\n" +
+      "Myth: Gynecomastia surgery is very painful and requires long hospitalization. Fact: The surgery is minimally invasive with mild pain and usually done as a day procedure.\n\n" +
+      "Myth: Gynecomastia surgery leaves large, noticeable scars. Fact: Scars are minimal and strategically placed to be inconspicuous.\n\n" +
+      "Myth: Exercise alone can cure gynecomastia. Fact: Exercise can reduce fat but cannot remove glandular breast tissue causing gynecomastia.",
+  },
+  {
+    question: "Is the procedure covered by insurance?",
+    answer:
+      "Coverage varies by insurance provider and policy. If gynecomastia causes significant physical symptoms, some insurers may cover the procedure. It's advisable to consult your insurance company for specific information.",
+  },
+  {
+    question: "Why choose Dr. Kunal Sayani for gynecomastia surgery?",
+    answer:
+      "Dr. Kunal Sayani is a highly experienced aesthetic and plastic surgeon with over 8 years of expertise in gynecomastia treatment. He uses advanced, minimally invasive techniques that ensure effective, safe, and natural-looking results, along with compassionate patient care throughout the treatment journey.",
   },
 ];
 
@@ -116,7 +160,7 @@ export default function FAQSection() {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <div className="px-4 pb-4 bg-[#f9fafa]">
+                        <div className="px-4 pb-4 bg-[#f9fafa] whitespace-pre-line">
                           <p className="text-gray-700 text-sm md:text-base">
                             {faq.answer}
                           </p>

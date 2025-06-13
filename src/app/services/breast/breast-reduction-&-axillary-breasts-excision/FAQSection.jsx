@@ -31,6 +31,40 @@ const faqs = [
     answer:
       "Breast reduction results are long-lasting, especially when paired with a healthy lifestyle. However, significant weight changes or pregnancy may impact breast size and shape.",
   },
+  {
+    question: "Will my insurance cover breast reduction?",
+    answer:
+      "In some cases, when performed for medical reasons (e.g., chronic back or neck pain), the procedure may be partially or fully covered. Dr. Kunal Sayani’s team can assist you with documentation if applicable.",
+  },
+  {
+    question: "Can breasts grow back after reduction?",
+    answer:
+      "While the removed tissue does not regrow, remaining breast tissue can change size due to hormonal fluctuations, pregnancy, or weight gain.",
+  },
+  {
+    question: "How do I choose the right surgeon?",
+    answer:
+      "Look for a board-certified plastic surgeon with extensive experience in breast reduction, such as Dr. Kunal Sayani, who prioritizes safety, aesthetics, and patient satisfaction.",
+  },
+  {
+    question: "What should I expect during the consultation?",
+    answer:
+      "Dr. Kunal Sayani will evaluate your medical history, breast anatomy, and goals, discuss surgical options, risks, and recovery, and develop a personalized surgical plan.",
+  },
+  {
+    question: "Can liposuction alone reduce breast size?",
+    answer:
+      "In some cases with fatty breasts, liposuction can reduce volume with smaller scars. However, it does not address excess skin or nipple repositioning, which are often needed.",
+  },
+  {
+    question: "What are some of the common myths around Breast Reduction?",
+    answer:
+      "Myth: Breast reduction is only cosmetic. Fact: While it improves appearance, it also relieves physical discomfort and improves posture and mobility.\n\n" +
+      "Myth: Scars will be very noticeable. Fact: Scars fade over time and are strategically placed. Most patients feel the benefits outweigh minor scarring.\n\n" +
+      "Myth: You can't breastfeed after surgery. Fact: Many women are still able to breastfeed post-surgery, depending on the technique used.\n\n" +
+      "Myth: Only older women get breast reduction. Fact: Breast reduction is suitable for women of all ages, including teens with significant physical discomfort.\n\n" +
+      "Myth: Results look unnatural. Fact: Dr. Kunal Sayani specializes in natural, proportionate outcomes that enhance your overall silhouette.",
+  },
 ];
 
 export default function FAQSection() {
@@ -45,9 +79,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src={
-            "/images/services/breast/Breast Reduction & Axillary Breasts Excision.jpg"
-          }
+            src={"/images/services/breast/Breast Reduction & Axillary Breasts Excision.jpg"}
             alt="Clinic timing"
             layout="fill"
             objectFit="cover"
@@ -118,7 +150,7 @@ export default function FAQSection() {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <div className="px-4 pb-4 bg-[#f9fafa]">
+                        <div className="px-4 pb-4 bg-[#f9fafa] whitespace-pre-line">
                           <p className="text-gray-700 text-sm md:text-base">
                             {faq.answer}
                           </p>

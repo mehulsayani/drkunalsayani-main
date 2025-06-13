@@ -31,6 +31,101 @@ const faqs = [
     answer:
       "The procedure is performed under local anesthesia, so you will not feel pain during the removal. You may feel some pressure or movement. Any post-operative discomfort is usually mild and easily managed with over-the-counter pain relievers.",
   },
+  {
+    question: "Will there be a scar after removal?",
+    answer:
+      "Yes, any incision will result in a scar. However, Dr. Kunal Sayani utilizes meticulous surgical techniques and strategically places incisions (often in natural skin folds) to minimize the visibility of the scar, aiming for the best possible cosmetic outcome.",
+  },
+  {
+    question: "Can lipomas or cysts grow back after removal?",
+    answer:
+      "For cysts, Dr. Kunal Sayani emphasizes complete removal of the entire cyst wall or sac to minimize the chance of recurrence. If any part of the wall is left, it can regrow. Lipomas are less likely to recur if completely excised, but new lipomas can form in other areas.",
+  },
+  {
+    question: "What is scar revision?",
+    answer:
+      "Scar revision is a surgical procedure or combination of treatments designed to improve the appearance of a scar, making it less noticeable, smoother, or better integrated with the surrounding skin. It aims to reduce the scar's visibility and improve its texture, color, and sometimes, its function.",
+  },
+  {
+    question: "What types of scars can be treated with revision?",
+    answer:
+      "Dr. Kunal Sayani can address various types of scars, including:\n• Hypertrophic scars: Raised, red scars confined to the original injury site.\n• Keloid scars: Raised, red scars that grow beyond the original injury boundaries.\n• Atrophic scars: Depressed or sunken scars (e.g., some acne scars).\n• Contracture scars: Scars that restrict movement, often from burns.\n• Discolored scars: Scars that are hyperpigmented (dark) or hypopigmented (light).\n• Wide or stretched scars.",
+  },
+  {
+    question: "Can a scar be completely removed?",
+    answer:
+      "No, a scar cannot be completely removed. Scar revision aims to improve its appearance, making it less noticeable and more aesthetically pleasing. The goal is to replace a more conspicuous scar with a less noticeable one.",
+  },
+  {
+    question: "How is scar revision performed?",
+    answer:
+      "The technique varies widely depending on the type and location of the scar. Methods include surgical excision and re-closure (often with Z-plasty or W-plasty), subcision, dermal fillers, fat grafting, corticosteroid injections, silicone sheeting, and laser therapy. Dr. Kunal Sayani will recommend the most appropriate approach or combination.",
+  },
+  {
+    question: "Will scar revision require general anesthesia?",
+    answer:
+      "Most scar revision procedures are performed under local anesthesia in Dr. Kunal Sayani's clinic. More extensive revisions or multiple areas might require sedation or, rarely, general anesthesia.",
+  },
+  {
+    question: "What is the typical recovery time?",
+    answer:
+      "Recovery time varies depending on the procedure. For simple lipoma/cyst removal, social downtime might be a few days. For more extensive scar revisions, it could be 1-2 weeks. Full healing and scar maturation take much longer (6-18 months).",
+  },
+  {
+    question: "How long do I need to care for the incision/scar?",
+    answer:
+      "Initial wound care (keeping it clean and dry, dressing changes) is typically for 1-2 weeks until sutures are removed or dissolved. Long-term scar care (silicone sheeting, massage, sun protection) is crucial for months, as advised by Dr. Kunal Sayani, to optimize the final appearance.",
+  },
+  {
+    question: "When can I resume normal activities and exercise?",
+    answer:
+      "Light activities can usually be resumed within a few days. Strenuous exercise, heavy lifting, or activities that put tension on the incision/scar should be avoided for 2-4 weeks or longer, as advised by Dr. Kunal Sayani.",
+  },
+  {
+    question: "Myth: All lumps under the skin are cancerous.",
+    answer:
+      "Fact: False. While any new lump should always be evaluated by a doctor, most lumps under the skin, such as lipomas and cysts, are benign (non-cancerous). Dr. Kunal Sayani can accurately diagnose your lesion and advise on treatment.",
+  },
+  {
+    question: "Myth: Lipomas and cysts will always go away on their own.",
+    answer:
+      "Fact: False. While some small cysts might resolve, most lipomas and cysts do not disappear on their own. They can often remain stable, grow larger, or become inflamed/infected, requiring removal if they are bothersome.",
+  },
+  {
+    question: "Myth: Rubbing or massaging a lipoma/cyst will make it go away.",
+    answer:
+      "Fact: False. Rubbing or massaging a lipoma or cyst will not make it disappear and can potentially irritate it or lead to inflammation.",
+  },
+  {
+    question: "Myth: Scars can be completely erased.",
+    answer:
+      "Fact: This is a pervasive myth. A scar is a permanent mark where skin has healed after injury. Scar revision aims to improve the appearance of a scar, making it less noticeable and better blending with surrounding skin, but it cannot completely erase it.",
+  },
+  {
+    question: "Myth: You should wait many years for a scar to 'mature' before having it revised.",
+    answer:
+      "Fact: While scar revision is often performed after a scar has matured (typically 6-12 months), it's not always necessary to wait years. For certain types of scars (like early hypertrophic or keloid scars), early intervention with treatments like silicone sheeting or steroid injections can prevent worsening. Dr. Kunal Sayani will determine the optimal timing for your scar.",
+  },
+  {
+    question: "Myth: Scar creams can make any scar disappear.",
+    answer:
+      "Fact: False. Over-the-counter scar creams can help soften and fade certain new or minor scars, particularly with consistent use. However, they are not effective for severe, deep, or raised scars like keloids or extensive atrophic scars. Such scars often require medical intervention from an expert like Dr. Kunal Sayani.",
+  },
+  {
+    question: "Myth: Surgical scar revision is always worse than the original scar.",
+    answer:
+      "Fact: False. When performed by a skilled aesthetic surgeon like Dr. Kunal Sayani, surgical scar revision often results in a significantly less noticeable and more aesthetically pleasing scar. The goal is to replace a prominent scar with a fine, less conspicuous line.",
+  },
+  {
+    question: "Myth: Keloid scars can be 'cut out' and will never return.",
+    answer:
+      "Fact: This is false and potentially dangerous. Keloids are a type of abnormal scar that tends to grow beyond the original wound boundaries and can recur even after excision. Surgical removal of keloids often needs to be combined with adjunctive therapies like corticosteroid injections, silicone sheeting, or radiation to minimize the high risk of recurrence. Dr. Kunal Sayani specializes in managing keloids.",
+  },
+  {
+    question: "Myth: Only aesthetic surgeons can perform lipoma/cyst removal or scar revision.",
+    answer:
+      "Fact: While other medical professionals may perform basic excisions, aesthetic surgeons like Dr. Kunal Sayani have specialized training in plastic and reconstructive techniques, focusing on minimizing scarring and optimizing aesthetic outcomes. For visible areas or complex cases, choosing an aesthetic surgeon is highly recommended for superior results.",
+  },
 ];
 
 export default function FAQSection() {
@@ -45,7 +140,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src={"/images/services/men/Lipoma-Cysts-Scars.jpg"}
+            src={"/images/services/face/Lipoma-Cysts-Scars.jpg"}
             alt="Clinic hours"
             layout="fill"
             objectFit="cover"
