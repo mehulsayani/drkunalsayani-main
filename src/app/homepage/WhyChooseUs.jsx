@@ -172,7 +172,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-left w-28">
-              Best Doctors <br /> in Hospital
+              Trusted & <br /> Experienced Doctor
             </p>
           </div>
         </div>
