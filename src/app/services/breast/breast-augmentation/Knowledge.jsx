@@ -19,52 +19,7 @@ const Knowledge = () => {
           className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center 
         max-lg:items-center"
         >
-          <div
-            className="w-[28%] max-lg:hidden max-lg:w-[90%] h-[28rem] sticky top-[5rem] mx-auto 
-            rounded-lg overflow-hidden shadow-lg"
-          >
-            <div className="bg-[#1aaebcaf] py-4 px-6">
-              <h1 className="text-white text-center text-2xl font-bold">
-                BOOK CONSULTATION
-              </h1>
-              <form className="space-y-4 py-4 px-0">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    className="border border-gray-200 p-3 rounded-lg w-full bg-white"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    className="border border-gray-200 p-3 rounded-lg w-full bg-white"
-                  />
-                  <input
-                    type="tel"
-                    placeholder="Phone Number"
-                    className="border border-gray-200 p-3 rounded-lg w-full bg-white"
-                  />
-                  <select className="border border-gray-200 text-gray-500 p-3 rounded-lg w-full bg-white">
-                    <option className="text-black">Services</option>
-                    <option className="text-black">Skin Care</option>
-                    <option className="text-black">Hair Treatment</option>
-                    <option className="text-black">Body Wellness</option>
-                  </select>
-                </div>
-                <textarea
-                  rows="4"
-                  placeholder="Your Message"
-                  className="border border-gray-200 p-3 rounded w-full bg-white"
-                ></textarea>
-                <button
-                  type="submit"
-                  className="bg-yellow-200 w-full text-black font-semibold px-6 py-3 rounded-lg hover:bg-blue-500 transition"
-                >
-                  Book Consultation
-                </button>
-              </form>
-            </div>
-          </div>
+          
           <div>
             <div>
               <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">

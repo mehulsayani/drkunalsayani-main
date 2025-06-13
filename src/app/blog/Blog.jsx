@@ -17,7 +17,7 @@ const blogPosts = [
     id: 2,
     title: "Understanding Gynecomastia: Causes and Treatment Options",
     date: "May 14, 2025",
-    author: "Dr. Arjun Mehta",
+    author: "Dr. Kunal Sayani",
     image: "/images/homepage/specialization/Gynecomastia-min.jpg",
     slug: "/blog/gynecomastia-treatment-options",
     category: "Men’s Health",

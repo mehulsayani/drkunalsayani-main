@@ -10,7 +10,7 @@ export default function ServiceLayout() {
   const services = [
     { name: "Overview", slug: "#overview" },
     { name: "Procedure Details", slug: "#procedure-details" },
-    { name: "Recovery & A ercare", slug: "#recovery" },
+    { name: "Recovery & Aftercare", slug: "#recovery" },
     { name: "Risks & Safety", slug: "#risks-safety" },
     { name: "Why Choose Us", slug: "#why-choose-us" },
     { name: "FAQ", slug: "#faq" },
