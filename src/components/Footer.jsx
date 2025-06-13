@@ -12,7 +12,7 @@ import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#3E3E43FC] text-white py-12 pb-10 px-4 text-sm">
+    <footer className="bg-[#3E3E43FC] text-white py-12 max-lg:pb-18 px-4 text-sm">
       <div className="max-w-[1100px] relative right-14 max-lg:right-0 mx-auto grid gap-10 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {/* Logo & Tagline */}
         <div className="space-y-4 col-span-1">
