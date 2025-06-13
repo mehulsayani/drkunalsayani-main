@@ -8,7 +8,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/men/Lipoma-Cysts-Scars.jpg"}
+        src={"/images/homepage/specialization/hair-transplant.jpg"}
           width={1000}
           height={1000}
           alt=""
