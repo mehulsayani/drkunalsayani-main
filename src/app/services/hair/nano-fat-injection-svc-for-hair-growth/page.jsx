@@ -14,15 +14,15 @@ export default function page() {
   return (
     <div className="pt-[8rem] max-lg:pt-[5rem]">
       <TopNavBanner />
-      <Overview />
+      {/* <Overview /> */}
       {/* <ServiceCandidate />
       <BeforeAfter />
       <Testimonials /> */}
       {/* <Knowledge /> */}
-      <section id="faq">
+      {/* <section id="faq">
         <FAQSection />
       </section>
-      <ConsultationSection />
+      <ConsultationSection /> */}
     </div>
   );
 }

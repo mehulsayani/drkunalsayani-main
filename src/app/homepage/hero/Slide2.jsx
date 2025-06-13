@@ -7,16 +7,16 @@ import { motion } from "framer-motion";
 export default function Slide2({ isActive }) {
   return (
     <section className="w-full h-[37.5rem] mt-[3.5rem] flex justify-center items-end ">
-      <div className="flex flex-col max-lg:flex-col-reverse max-lg:text-center  max-lg:gap-10 
-      w-full max-w-[1200px]  md:flex-row items-center justify-between">
+      <div className="flex max-lg:flex-col-reverse max-lg:text-center  max-lg:gap-10 
+      w-full max-w-[1200px] max-xl:max-w-[900px]  items-center justify-between">
         {/* Left Content */}
         <motion.div
-          className="max-w-xl "
+          className="max-w-xl max-xl:max-w-[400px]  "
           initial={{ x: -100, opacity: 0 }}
           animate={isActive ? { x: 0, opacity: 1 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-5xl font-semibold text-[#10217D] leading-tight max-lg:mb-4">
+          <h1 className="text-5xl max-xl:text-4xl font-semibold text-[#10217D] leading-tight max-lg:mb-4">
             Accessible Aesthetics Authentic Results
           </h1>
 
@@ -48,7 +48,7 @@ export default function Slide2({ isActive }) {
             alt="Rhinoplasty"
             width={1000}
             height={1000}
-            className=" w-[37rem] max-lg:w-[19rem] "
+            className=" w-[37rem] max-lg:w-[19rem] max-xl:w-[42rem] "
             priority
           />
         </motion.div>

@@ -27,7 +27,8 @@ export default function ServicesSection() {
 
   return (
     <section
-      className="w-full flex justify-center relative mt-[1.3rem] max-lg:mt-[3rem] max-lg:h-[87vh] pt-[4rem] items-center 
+      className="w-full flex justify-center relative mt-[1.3rem] max-lg:mt-[3rem] 
+      max-lg:h-[87vh] pt-[4rem] items-center 
       bg-[#E5F4F6] text-[#10217D]"
     >
       <Image
@@ -45,10 +46,10 @@ export default function ServicesSection() {
         className="absolute w-[8rem] bottom-5 left-0 opacity-90"
       />
 
-      <div className="w-6xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6">
+      <div className="w-6xl max-xl:w-4xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6">
         {/* Left Content */}
         <div className="text-center lg:text-left">
-          <h2 className="text-4xl max-lg:mt-8 sm:text-4xl lg:text-6xl mb-6">
+          <h2 className=" max-xl:text-4xl max-xl:font-semibold max-lg:mt-8 text-6xl mb-6">
             Services we offer
           </h2>
           <ul className="space-y-4 text-base sm:text-lg">
