@@ -47,36 +47,6 @@ const faqs = [
       "It's generally recommended that females be at least 15-16 years old and males at least 16-17 years old, as the nose should have completed its growth. This ensures stable and long-lasting results.",
   },
   {
-    question: "Myth: Rhinoplasty is only cosmetic.",
-    answer:
-      "Fact: Rhinoplasty can also improve breathing and correct structural deformities.",
-  },
-  {
-    question: "Myth: Results are instant.",
-    answer:
-      "Fact: Swelling can mask the final results for several months.",
-  },
-  {
-    question: "Myth: Anyone can perform a nose job.",
-    answer:
-      "Fact: Only a qualified and experienced aesthetic surgeon like Dr. Kunal Sayani should perform rhinoplasty.",
-  },
-  {
-    question: 'Myth: All nose jobs look "fake."',
-    answer:
-      "Fact: A well-done rhinoplasty by Dr. Kunal Sayani looks natural and suits your face.",
-  },
-  {
-    question: "Myth: It’s only for women.",
-    answer:
-      "Fact: Men also frequently undergo rhinoplasty for both cosmetic and functional reasons.",
-  },
-  {
-    question: "Myth: You can choose any nose shape.",
-    answer:
-      "Fact: The best shape is the one that fits your facial proportions and structure.",
-  },
-  {
     question: "What are the two main types of rhinoplasty techniques?",
     answer:
       "The two main techniques are open rhinoplasty (with a small external incision on the columella) and closed rhinoplasty (with all incisions inside the nostrils). Dr. Kunal Sayani will determine the best approach for your specific case during your consultation.",
@@ -135,6 +105,37 @@ const faqs = [
     question: "What if I'm not happy with my results? Can I have another surgery?",
     answer:
       "While Dr. Kunal Sayani strives for excellent results, in rare cases where a patient is dissatisfied or complications arise, revision rhinoplasty may be an option. This is typically performed at least 12-18 months after the initial surgery to allow for complete healing.",
+  },
+  
+  {
+    question: "Myth: Rhinoplasty is only cosmetic.",
+    answer:
+      "Fact: Rhinoplasty can also improve breathing and correct structural deformities.",
+  },
+  {
+    question: "Myth: Results are instant.",
+    answer:
+      "Fact: Swelling can mask the final results for several months.",
+  },
+  {
+    question: "Myth: Anyone can perform a nose job.",
+    answer:
+      "Fact: Only a qualified and experienced aesthetic surgeon like Dr. Kunal Sayani should perform rhinoplasty.",
+  },
+  {
+    question: 'Myth: All nose jobs look "fake."',
+    answer:
+      "Fact: A well-done rhinoplasty by Dr. Kunal Sayani looks natural and suits your face.",
+  },
+  {
+    question: "Myth: It’s only for women.",
+    answer:
+      "Fact: Men also frequently undergo rhinoplasty for both cosmetic and functional reasons.",
+  },
+  {
+    question: "Myth: You can choose any nose shape.",
+    answer:
+      "Fact: The best shape is the one that fits your facial proportions and structure.",
   },
 ];
 
