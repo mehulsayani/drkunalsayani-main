@@ -36,15 +36,7 @@ const faqs = [
     answer:
       "Yes, but additional mammogram views are needed to properly visualize breast tissue around implants.",
   },
-  {
-    question: "What are common myths about breast augmentation?",
-    answer:
-      "Myth: Breast implants always look fake and unnatural. Fact: Modern implants and surgical techniques allow for very natural-looking results tailored to your body.\n\n" +
-      "Myth: Breast implants last forever and never need replacement. Fact: Implants typically last 10-20 years and may require replacement or removal.\n\n" +
-      "Myth: Breast augmentation prevents breastfeeding. Fact: Many women successfully breastfeed after augmentation, especially with certain incision types.\n\n" +
-      "Myth: Breast implants cause breast cancer. Fact: There is no conclusive evidence that implants cause breast cancer; however, a rare lymphoma (BIA-ALCL) is associated with certain implants.\n\n" +
-      "Myth: You cannot do mammograms if you have breast implants. Fact: Mammograms can be done safely with implants, but extra views are required.",
-  },
+
   {
     question: "What should I do if I suspect a complication?",
     answer:
@@ -54,6 +46,15 @@ const faqs = [
     question: "Can I combine breast augmentation with other procedures?",
     answer:
       "Absolutely. Common combinations include breast lift, tummy tuck, and liposuction, often done as part of a Mommy Makeover.",
+  },
+    {
+    question: "What are common myths about breast augmentation?",
+    answer:
+      "Myth: Breast implants always look fake and unnatural. Fact: Modern implants and surgical techniques allow for very natural-looking results tailored to your body.\n\n" +
+      "Myth: Breast implants last forever and never need replacement. Fact: Implants typically last 10-20 years and may require replacement or removal.\n\n" +
+      "Myth: Breast augmentation prevents breastfeeding. Fact: Many women successfully breastfeed after augmentation, especially with certain incision types.\n\n" +
+      "Myth: Breast implants cause breast cancer. Fact: There is no conclusive evidence that implants cause breast cancer; however, a rare lymphoma (BIA-ALCL) is associated with certain implants.\n\n" +
+      "Myth: You cannot do mammograms if you have breast implants. Fact: Mammograms can be done safely with implants, but extra views are required.",
   },
 ];
 
