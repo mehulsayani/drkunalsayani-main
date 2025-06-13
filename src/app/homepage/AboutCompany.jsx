@@ -43,7 +43,8 @@ export default function AboutCompany() {
             <br />
           </p>
           <div className="flex items-center gap-4">
-            <motion.button
+            <a href="/about-clinic">
+              <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-[#1BA9B5] hover:bg-[#148d98] transition-colors text-white font-semibold
@@ -51,6 +52,7 @@ export default function AboutCompany() {
             >
               Read More
             </motion.button>
+            </a>
           </div>
         </div>
       </div>
