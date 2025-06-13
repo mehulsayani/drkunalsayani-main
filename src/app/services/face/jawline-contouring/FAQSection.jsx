@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "How long do the results of jawline contouring last?",
     answer:
-      "The longevity varies greatly. Non-surgical options like fillers last 12–24 months, neuromodulators 4–6 months, and Kybella results are permanent as fat cells are destroyed. Surgical procedures like liposuction and chin implants offer permanent results, though the natural aging process will continue. Facelift/neck lift results are long-lasting, often for 10–15 years.",
+      "The longevity varies greatly. Non-surgical options like fillers last 12-24 months, neuromodulators 4-6 months, and Kybella results are permanent as fat cells are destroyed. Surgical procedures like liposuction and chin implants offer permanent results, though the natural aging process will continue. Facelift/neck lift results are long-lasting, often for 10-15 years.",
   },
   {
     question: "Is jawline contouring painful?",
@@ -24,12 +24,57 @@ const faqs = [
   {
     question: "How long is the recovery time?",
     answer:
-      "Recovery for non-surgical treatments is minimal (a few hours to a few days of mild swelling/bruising). Surgical procedures require more downtime, ranging from 1–2 weeks for initial recovery to several months for complete swelling resolution and final results.",
+      "Recovery for non-surgical treatments is minimal (a few hours to a few days of mild swelling/bruising). Surgical procedures require more downtime, ranging from 1-2 weeks for initial recovery to several months for complete swelling resolution and final results.",
   },
   {
     question: "Can jawline contouring help with a double chin?",
     answer:
       "Absolutely! Submental liposuction or Kybella injections are specifically designed to address and eliminate a double chin, revealing a more defined jawline.",
+  },
+  {
+    question: "Can jawline contouring make my face look more masculine or feminine?",
+    answer:
+      "Yes, with Dr. Kunal Sayani's expertise, jawline contouring can be tailored to enhance masculine features (e.g., a sharper, more angular jaw) or feminine features (e.g., a more refined, delicate jawline, often with a V-shape).",
+  },
+  {
+    question: "What is the cost of jawline contouring?",
+    answer:
+      "The cost varies significantly based on the chosen procedure(s), the extent of treatment, and anesthesia fees (if applicable). During your consultation with Dr. Kunal Sayani, you will receive a detailed cost estimate tailored to your personalized treatment plan.",
+  },
+  {
+    question: "Myth: Jawline contouring is only for people who are overweight.",
+    answer:
+      "Fact: While excess fat can obscure the jawline, many individuals with a healthy weight seek jawline contouring due to genetics, aging, or a naturally recessed chin.",
+  },
+  {
+    question: "Myth: You can achieve a perfectly chiseled jawline with just diet and exercise.",
+    answer:
+      "Fact: While weight loss can improve overall facial slimness, it cannot address genetic predispositions, skin laxity, a weak chin, or an enlarged masseter muscle that contributes to a less defined jawline. Aesthetic procedures offer targeted solutions.",
+  },
+  {
+    question: "Myth: All jawline contouring procedures are surgical and require extensive downtime.",
+    answer:
+      "Fact: This is false. Dr. Kunal Sayani offers a wide range of non-surgical options like dermal fillers, neuromodulators, and Kybella, which involve minimal to no downtime. Surgical options are available for more significant concerns.",
+  },
+  {
+    question: "Myth: Jawline contouring results always look unnatural or 'done.'",
+    answer:
+      "Fact: When performed by a skilled and experienced surgeon like Dr. Kunal Sayani, the goal is always to achieve natural-looking, harmonious results that enhance your existing features, not drastically alter them. The key is a personalized approach and artistic precision.",
+  },
+  {
+    question: "Myth: Jawline contouring is a one-size-fits-all procedure.",
+    answer:
+      "Fact: This is completely false. As highlighted by Dr. Kunal Sayani's approach, jawline contouring involves a diverse range of techniques, each tailored to the individual's specific needs, facial anatomy, and desired outcome.",
+  },
+  {
+    question: "Myth: Injectables like fillers are permanent for jawline contouring.",
+    answer:
+      "Fact: While some injectables (like Kybella, for fat reduction) offer permanent results, hyaluronic acid-based dermal fillers are temporary and are naturally metabolized by the body over time. Retreatment is necessary to maintain the results.",
+  },
+  {
+    question: "Myth: Jawline contouring is only for younger people.",
+    answer:
+      "Fact: While younger individuals may seek to enhance existing features, many older patients choose jawline contouring to address signs of aging such as jowls, skin laxity, and a less defined profile, restoring a more youthful appearance.",
   },
 ];
 

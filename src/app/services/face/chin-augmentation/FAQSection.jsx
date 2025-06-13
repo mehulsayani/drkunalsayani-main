@@ -14,12 +14,12 @@ const faqs = [
   {
     question: "What are the primary methods of Chin Augmentation?",
     answer:
-      "There are two main approaches:\n• Chin Implants (Surgical): Involves placement of a biocompatible implant to permanently enhance chin projection.\n• Dermal Fillers (Non-Surgical): Temporary solution using injectable gels like hyaluronic acid for subtle augmentation. Dr. Kunal Sayani offers both options tailored to your needs.",
+      "There are two main approaches:\n• Chin Implants (Surgical): The most common method, involving the placement of a biocompatible implant to permanently enhance chin projection.\n• Dermal Fillers (Non-Surgical): A temporary solution using injectable gels (usually hyaluronic acid) for subtle augmentation and contouring. Dr. Kunal Sayani offers both options, tailored to your needs.",
   },
   {
     question: "Who is a good candidate for Chin Augmentation?",
     answer:
-      "Good candidates are individuals who feel their chin is too small or recessed, leading to an unbalanced facial profile. They should be in good general health, have realistic expectations, and a healthy bite. Dr. Kunal Sayani will assess your suitability during a detailed consultation.",
+      "Good candidates are individuals who feel their chin is too small or recessed, leading to an unbalanced facial profile. They should be in good general health, have realistic expectations, and have a healthy bite. Dr. Kunal Sayani will assess your suitability during a detailed consultation.",
   },
   {
     question: "What kind of implant is used in Chin Augmentation?",
@@ -29,7 +29,92 @@ const faqs = [
   {
     question: "What is the difference between Chin Augmentation and Jaw Surgery (Orthognathic Surgery)?",
     answer:
-      "Chin augmentation focuses on the chin's projection and shape to improve facial balance. Jaw surgery addresses bite problems or major jaw discrepancies by repositioning the jawbones. Chin augmentation is for shaping the chin itself. Dr. Kunal Sayani will help determine the right approach for you.",
+      "Chin augmentation focuses on the chin's projection and shape to improve facial balance. Jaw surgery (orthognathic surgery) addresses underlying bite problems or significant jaw discrepancies by repositioning the jawbones themselves. While a recessed chin can be related to a small lower jaw, chin augmentation addresses the chin directly. Dr. Kunal Sayani will evaluate your specific needs to determine the best approach.",
+  },
+  {
+    question: "Will Chin Augmentation make my nose look smaller?",
+    answer:
+      "Chin augmentation can create a more balanced facial profile. By bringing the chin into better proportion with the nose, it can make the nose appear less prominent, even if the nose itself hasn't been altered.",
+  },
+  {
+    question: "Is the Chin Augmentation procedure painful?",
+    answer:
+      "During a surgical chin augmentation, local anesthesia with sedation, or general anesthesia, will ensure you are comfortable and feel no pain. Post-operative discomfort is manageable with prescribed pain medication. Non-surgical filler augmentation is quick and typically involves minimal discomfort due to numbing cream and lidocaine in the filler.",
+  },
+  {
+    question: "When will I see the results of Chin Augmentation?",
+    answer:
+      "With surgical chin augmentation, the enhanced projection is immediately visible. However, initial swelling will be present. The final results become apparent as swelling subsides over several weeks to a few months. For non-surgical fillers, results are immediate.",
+  },
+  {
+    question: "How long do the results of Chin Augmentation last?",
+    answer:
+      "Surgical chin implants provide a permanent enhancement to chin projection. For non-surgical dermal filler chin augmentation, results typically last from 1 to 2 years, depending on the type of filler used.",
+  },
+  {
+    question: "Are the results of Chin Augmentation natural-looking?",
+    answer:
+      "Absolutely, when performed by an expert like Dr. Kunal Sayani. His artistic eye and precise technique ensure that the chin implant or filler seamlessly integrates with your existing facial features, creating a balanced and natural-looking profile that enhances your appearance without looking artificial.",
+  },
+  {
+    question: "What is the downtime after Chin Augmentation surgery?",
+    answer:
+      "Most patients take about 1-2 weeks off from work or social activities. Significant swelling and bruising typically subside within this period. Full recovery and internal healing take longer.",
+  },
+  {
+    question: "When can I resume normal activities and exercise after chin surgery?",
+    answer:
+      "Light activities can be resumed within a few days. Strenuous exercise should be avoided for at least 2-4 weeks. Contact sports or activities where your chin could be impacted should be avoided for 6-8 weeks to protect the implant.",
+  },
+  {
+    question: "Will there be a visible scar?",
+    answer:
+      "Dr. Kunal Sayani strives to minimize visible scarring. If the incision is made inside the mouth (intraoral), there will be no external scar. If an external incision is used, it is typically placed in a natural crease under the chin, making it very discreet once healed.",
+  },
+  {
+    question: "What kind of diet should I follow after chin surgery?",
+    answer:
+      "You will need to stick to a soft or liquid diet for the first few days to a week to minimize jaw movement and discomfort, as advised by Dr. Kunal Sayani.",
+  },
+  {
+    question: "Myth: Chin Augmentation is only for people with a very small or 'weak' chin.",
+    answer:
+      "Fact: While it's excellent for addressing recessed chins, Chin Augmentation can also be used to improve chin shape, definition, and overall facial balance, even for those with moderately sized chins. It's about proportion and harmony.",
+  },
+  {
+    question: "Myth: Chin implants look unnatural or feel fake.",
+    answer:
+      "Fact: False, when expertly placed by an aesthetic surgeon like Dr. Kunal Sayani. Modern chin implants are designed to look and feel natural. They integrate with your bone and soft tissues. A skilled surgeon ensures the right size and shape are chosen to blend seamlessly with your facial structure, providing a subtle yet impactful enhancement.",
+  },
+  {
+    question: "Myth: Chin implants can easily shift or move after surgery.",
+    answer:
+      "Fact: While implant shifting is a rare complication, it's largely minimized by Dr. Kunal Sayani's precise pocket creation which fits the implant snugly. In some cases, securing the implant with small screws can further reduce this risk. Following post-operative instructions carefully also helps prevent movement.",
+  },
+  {
+    question: "Myth: Chin Augmentation is a very painful surgery with a long recovery.",
+    answer:
+      "Fact: False. The procedure is performed under anesthesia, so you won't feel pain during surgery. Post-operative discomfort is generally mild to moderate and effectively managed with pain medication. Recovery, while involving some swelling and dietary adjustments, is significantly shorter than many other facial surgeries, with most patients returning to light activities within a week or two.",
+  },
+  {
+    question: "Myth: Dermal fillers are just as good as implants for chin augmentation.",
+    answer:
+      "Fact: It depends on your goals. Dermal fillers are excellent for subtle enhancements, temporary changes, or to 'test out' an augmentation. However, for significant and permanent changes in chin projection and shape, surgical chin implants offer a more definitive and long-lasting solution. Dr. Kunal Sayani will advise which is best for you.",
+  },
+  {
+    question: "Myth: Chin Augmentation only affects the chin.",
+    answer:
+      "Fact: While it directly changes the chin, a well-executed chin augmentation can significantly improve overall facial harmony. It can make the nose appear more proportionate, enhance jawline definition, and create a stronger neck contour, benefiting the entire lower face and profile.",
+  },
+  {
+    question: "Myth: You can get Chin Augmentation from any doctor.",
+    answer:
+      "Fact: Absolutely not. Chin augmentation is a complex surgical procedure requiring an in-depth understanding of facial anatomy, bone structure, and aesthetics. It should only be performed by a highly trained and experienced aesthetic surgeon like Dr. Kunal Sayani, who has specialized expertise in facial surgery. Choosing an unqualified practitioner can lead to unsatisfactory results or serious complications.",
+  },
+  {
+    question: "Myth: My teeth will be affected by a chin implant.",
+    answer:
+      "Fact: A chin implant is placed on the chin bone, not near the teeth roots or jaw joint. Therefore, it does not directly affect your teeth or bite. Dr. Kunal Sayani will assess your bite preoperatively to ensure no underlying dental issues complicate the procedure.",
   },
 ];
 
@@ -133,4 +218,3 @@ export default function FAQSection() {
     </section>
   );
 }
-  
