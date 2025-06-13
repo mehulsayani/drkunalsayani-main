@@ -70,11 +70,11 @@ const faqs = [
   {
     question: "What are common myths about gynecomastia?",
     answer:
-      "Myth: Gynecomastia only affects overweight men. Fact: It can affect men of all body types due to hormonal imbalances or other causes.\n\n" +
-      "Myth: Gynecomastia will go away on its own without treatment. Fact: Some cases resolve, especially in puberty, but many require surgery for permanent correction.\n\n" +
-      "Myth: Gynecomastia surgery is very painful and requires long hospitalization. Fact: The surgery is minimally invasive with mild pain and usually done as a day procedure.\n\n" +
-      "Myth: Gynecomastia surgery leaves large, noticeable scars. Fact: Scars are minimal and strategically placed to be inconspicuous.\n\n" +
-      "Myth: Exercise alone can cure gynecomastia. Fact: Exercise can reduce fat but cannot remove glandular breast tissue causing gynecomastia.",
+      "Myth: Gynecomastia only affects overweight men. \n Fact: It can affect men of all body types due to hormonal imbalances or other causes.\n\n" +
+      "Myth: Gynecomastia will go away on its own without treatment. \n Fact: Some cases resolve, especially in puberty, but many require surgery for permanent correction.\n\n" +
+      "Myth: Gynecomastia surgery is very painful and requires long hospitalization. \n Fact: The surgery is minimally invasive with mild pain and usually done as a day procedure.\n\n" +
+      "Myth: Gynecomastia surgery leaves large, noticeable scars. \n Fact: Scars are minimal and strategically placed to be inconspicuous.\n\n" +
+      "Myth: Exercise alone can cure gynecomastia. \n Fact: Exercise can reduce fat but cannot remove glandular breast tissue causing gynecomastia.",
   },
 ];
 
