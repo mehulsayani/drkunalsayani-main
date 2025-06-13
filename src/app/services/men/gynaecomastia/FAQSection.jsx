@@ -56,15 +56,7 @@ const faqs = [
     answer:
       "Mild cases may respond to medication or lifestyle changes, but surgery is the most effective and permanent solution for moderate to severe gynecomastia.",
   },
-  {
-    question: "What are common myths about gynecomastia?",
-    answer:
-      "Myth: Gynecomastia only affects overweight men. Fact: It can affect men of all body types due to hormonal imbalances or other causes.\n\n" +
-      "Myth: Gynecomastia will go away on its own without treatment. Fact: Some cases resolve, especially in puberty, but many require surgery for permanent correction.\n\n" +
-      "Myth: Gynecomastia surgery is very painful and requires long hospitalization. Fact: The surgery is minimally invasive with mild pain and usually done as a day procedure.\n\n" +
-      "Myth: Gynecomastia surgery leaves large, noticeable scars. Fact: Scars are minimal and strategically placed to be inconspicuous.\n\n" +
-      "Myth: Exercise alone can cure gynecomastia. Fact: Exercise can reduce fat but cannot remove glandular breast tissue causing gynecomastia.",
-  },
+  
   {
     question: "Is the procedure covered by insurance?",
     answer:
@@ -74,6 +66,15 @@ const faqs = [
     question: "Why choose Dr. Kunal Sayani for gynecomastia surgery?",
     answer:
       "Dr. Kunal Sayani is a highly experienced aesthetic and plastic surgeon with over 8 years of expertise in gynecomastia treatment. He uses advanced, minimally invasive techniques that ensure effective, safe, and natural-looking results, along with compassionate patient care throughout the treatment journey.",
+  },
+  {
+    question: "What are common myths about gynecomastia?",
+    answer:
+      "Myth: Gynecomastia only affects overweight men. Fact: It can affect men of all body types due to hormonal imbalances or other causes.\n\n" +
+      "Myth: Gynecomastia will go away on its own without treatment. Fact: Some cases resolve, especially in puberty, but many require surgery for permanent correction.\n\n" +
+      "Myth: Gynecomastia surgery is very painful and requires long hospitalization. Fact: The surgery is minimally invasive with mild pain and usually done as a day procedure.\n\n" +
+      "Myth: Gynecomastia surgery leaves large, noticeable scars. Fact: Scars are minimal and strategically placed to be inconspicuous.\n\n" +
+      "Myth: Exercise alone can cure gynecomastia. Fact: Exercise can reduce fat but cannot remove glandular breast tissue causing gynecomastia.",
   },
 ];
 

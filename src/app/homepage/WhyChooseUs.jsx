@@ -16,7 +16,7 @@ const labels = [
   "100% Patient Satisfaction Rate",
   "Value For Money",
   "Safety And Ethics",
-  "Best Doctors in Hospital",
+  "Trusted & Experienced Doctor",
 ];
 
 export default function WhyChooseUs() {

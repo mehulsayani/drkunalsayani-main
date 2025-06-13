@@ -8,7 +8,7 @@ export default function Slide1() {
   const stats = [
     { label: "Surgical Procedure", value: "1000+" },
     { label: "Years of Experience", value: "8" },
-    { label: "Happy  Patient", value: "98%" },
+    { label: "Happy  Patients", value: "98%" },
   ];
   return (
     <section className="w-full min-h-[400px] mt-[8rem] max-lg:mt-[5rem] flex justify-center items-center
