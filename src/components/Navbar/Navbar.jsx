@@ -130,7 +130,7 @@ export default function Navbar() {
               {/* Hamburger Icon */}
               <button
                 onClick={toggleMobileMenu}
-                className="lg:hidden text-3xl p-2 focus:outline-none"
+                className="lg:hidden  text-3xl p-2 focus:outline-none"
                 aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
               >
                 {isMobileMenuOpen ? <FiX /> : <FiMenu />}
