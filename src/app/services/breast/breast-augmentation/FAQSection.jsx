@@ -50,11 +50,11 @@ const faqs = [
     {
     question: "What are common myths about breast augmentation?",
     answer:
-      "Myth: Breast implants always look fake and unnatural. Fact: Modern implants and surgical techniques allow for very natural-looking results tailored to your body.\n\n" +
-      "Myth: Breast implants last forever and never need replacement. Fact: Implants typically last 10-20 years and may require replacement or removal.\n\n" +
-      "Myth: Breast augmentation prevents breastfeeding. Fact: Many women successfully breastfeed after augmentation, especially with certain incision types.\n\n" +
-      "Myth: Breast implants cause breast cancer. Fact: There is no conclusive evidence that implants cause breast cancer; however, a rare lymphoma (BIA-ALCL) is associated with certain implants.\n\n" +
-      "Myth: You cannot do mammograms if you have breast implants. Fact: Mammograms can be done safely with implants, but extra views are required.",
+      "Myth: Breast implants always look fake and unnatural. \n Fact: Modern implants and surgical techniques allow for very natural-looking results tailored to your body.\n\n" +
+      "Myth: Breast implants last forever and never need replacement. \n Fact: Implants typically last 10-20 years and may require replacement or removal.\n\n" +
+      "Myth: Breast augmentation prevents breastfeeding. \n Fact: Many women successfully breastfeed after augmentation, especially with certain incision types.\n\n" +
+      "Myth: Breast implants cause breast cancer. \n Fact: There is no conclusive evidence that implants cause breast cancer; however, a rare lymphoma (BIA-ALCL) is associated with certain implants.\n\n" +
+      "Myth: You cannot do mammograms if you have breast implants. \n Fact: Mammograms can be done safely with implants, but extra views are required.",
   },
 ];
 
