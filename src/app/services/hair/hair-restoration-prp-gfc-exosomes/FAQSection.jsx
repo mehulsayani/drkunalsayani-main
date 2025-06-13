@@ -31,6 +31,71 @@ const faqs = [
     answer:
       "Hair growth is a gradual process. Initial improvements in hair texture and reduced shedding may be noticeable within 2-3 months. Significant hair regrowth typically becomes visible after 3-6 months, with optimal results seen at 9-12 months.",
   },
+  {
+    question: "Are the results permanent?",
+    answer:
+      "While these treatments can provide long-lasting improvement, hair loss is often an ongoing process. Maintenance treatments are usually recommended by Dr. Kunal Sayani to sustain the benefits over time.",
+  },
+  {
+    question: "Can these treatments be combined with other hair loss therapies?",
+    answer:
+      "Yes, Dr. Kunal Sayani often recommends combining these treatments with other therapies like minoxidil, finasteride, or even hair transplant surgery for enhanced and comprehensive results.",
+  },
+  {
+    question: "Is there any downtime?",
+    answer:
+      "No significant downtime. You can typically resume your normal activities immediately after the procedure. Some mild redness or swelling may be present for 24-48 hours.",
+  },
+  {
+    question: "Are there any age restrictions for these treatments?",
+    answer:
+      "While there isn't a strict age limit, the best candidates are those with active hair follicles that can still be stimulated. Dr. Kunal Sayani will assess your suitability during the consultation.",
+  },
+  {
+    question: "What is the difference between PRP, GFC, and Exosomes?",
+    answer:
+      "PRP: Good starting point, uses your own blood, rich in platelets.\n\nGFC: More concentrated growth factors than standard PRP, potentially leading to better results.\n\nExosomes: The most advanced option, containing highly potent signaling molecules for superior cellular regeneration and often used for more advanced cases or where faster, more robust results are desired. Dr. Kunal Sayani will guide you on the best choice.",
+  },
+  {
+    question: "Myth: Hair restoration treatments are only for men.",
+    answer:
+      "Fact: Absolutely not! Dr. Kunal Sayani successfully treats both men and women experiencing various forms of hair loss, including female pattern hair loss.",
+  },
+  {
+    question: "Myth: These treatments are a quick fix for baldness.",
+    answer:
+      "Fact: While highly effective, these are not instant solutions. Hair growth is a biological process that takes time. Patience and consistent treatment are key to seeing optimal results with Dr. Kunal Sayani.",
+  },
+  {
+    question: "Myth: PRP/GFC/Exosomes are painful and involve surgery.",
+    answer:
+      "Fact: These are non-surgical, minimally invasive procedures. Dr. Kunal Sayani ensures patient comfort with local anesthesia, and most report minimal to no pain.",
+  },
+  {
+    question: "Myth: You only need one session to see results.",
+    answer:
+      "Fact: While some may notice initial changes, a series of treatments is almost always recommended by Dr. Kunal Sayani to achieve significant and lasting hair regrowth.",
+  },
+  {
+    question: "Myth: These treatments work for everyone, regardless of the cause of hair loss.",
+    answer:
+      "Fact: While effective for many types of hair loss, especially androgenetic alopecia, results can vary based on the underlying cause, severity of hair loss, and individual response. A thorough consultation with Dr. Kunal Sayani is essential.",
+  },
+  {
+    question: "Myth: Hair restoration treatments are only for people with severe hair loss.",
+    answer:
+      "Fact: These treatments can be highly beneficial for individuals in the early stages of hair thinning, helping to prevent further loss and improve existing hair density before it becomes severe.",
+  },
+  {
+    question: "Myth: Results are guaranteed to be exactly like before hair loss.",
+    answer:
+      "Fact: The goal is to stimulate new hair growth and improve the density and quality of existing hair, leading to a significant aesthetic improvement. While remarkable results are achieved by Dr. Kunal Sayani, individual outcomes can vary.",
+  },
+  {
+    question: "Myth: You can't wash your hair for weeks after the procedure.",
+    answer:
+      "Fact: Dr. Kunal Sayani typically advises waiting only 24 hours before gently washing your hair with a mild shampoo.",
+  },
 ];
 
 export default function FAQSection() {

@@ -31,6 +31,111 @@ const faqs = [
     answer:
       "Myth: Many people believe rhinoplasty is extremely painful. Fact: While you will experience some discomfort, pressure, and dull aching after surgery, severe pain is uncommon and can be effectively managed with prescribed pain medication. The recovery is generally more uncomfortable than painful.",
   },
+  {
+    question: "Will I have visible scars after rhinoplasty?",
+    answer:
+      "In open rhinoplasty, there is a very small, discreet incision on the columella (the skin between the nostrils) that typically heals very well and becomes almost imperceptible over time. In closed rhinoplasty, all incisions are made inside the nostrils, resulting in no visible external scars. Dr. Kunal Sayani prioritizes meticulous incision placement and closure to minimize scarring.",
+  },
+  {
+    question: "Can rhinoplasty fix breathing problems?",
+    answer:
+      "Fact: Yes, absolutely. If breathing difficulties are caused by structural issues such as a deviated septum or enlarged turbinates, Dr. Kunal Sayani can address these during the rhinoplasty procedure (often referred to as septorhinoplasty or functional rhinoplasty) to improve airflow. Myth: Rhinoplasty is purely cosmetic and has no functional benefits.",
+  },
+  {
+    question: "How old do I need to be for rhinoplasty?",
+    answer:
+      "It's generally recommended that females be at least 15-16 years old and males at least 16-17 years old, as the nose should have completed its growth. This ensures stable and long-lasting results.",
+  },
+  {
+    question: "Myth: Rhinoplasty is only cosmetic.",
+    answer:
+      "Fact: Rhinoplasty can also improve breathing and correct structural deformities.",
+  },
+  {
+    question: "Myth: Results are instant.",
+    answer:
+      "Fact: Swelling can mask the final results for several months.",
+  },
+  {
+    question: "Myth: Anyone can perform a nose job.",
+    answer:
+      "Fact: Only a qualified and experienced aesthetic surgeon like Dr. Kunal Sayani should perform rhinoplasty.",
+  },
+  {
+    question: 'Myth: All nose jobs look "fake."',
+    answer:
+      "Fact: A well-done rhinoplasty by Dr. Kunal Sayani looks natural and suits your face.",
+  },
+  {
+    question: "Myth: It’s only for women.",
+    answer:
+      "Fact: Men also frequently undergo rhinoplasty for both cosmetic and functional reasons.",
+  },
+  {
+    question: "Myth: You can choose any nose shape.",
+    answer:
+      "Fact: The best shape is the one that fits your facial proportions and structure.",
+  },
+  {
+    question: "What are the two main types of rhinoplasty techniques?",
+    answer:
+      "The two main techniques are open rhinoplasty (with a small external incision on the columella) and closed rhinoplasty (with all incisions inside the nostrils). Dr. Kunal Sayani will determine the best approach for your specific case during your consultation.",
+  },
+  {
+    question: "Will my bones be broken during the surgery?",
+    answer:
+      "Often, if the bridge of the nose needs to be narrowed or a significant hump needs to be removed, the nasal bones may be carefully fractured and repositioned (osteotomy). This is a controlled part of the procedure performed by Dr. Kunal Sayani to achieve the desired shape.",
+  },
+  {
+    question: "What is cartilage grafting in rhinoplasty?",
+    answer:
+      "Cartilage grafts are small pieces of cartilage, usually taken from your own septum, ear, or rib, used to build up, support, or reshape certain areas of the nose, such as the bridge or tip.",
+  },
+  {
+    question: "How long will I have a splint on my nose?",
+    answer:
+      "An external splint (plastic or plaster) is typically worn for about 5-7 days to help protect and stabilize the nose during the initial healing phase. Internal splints or packing may also be used and are removed around the same time.",
+  },
+  {
+    question: "How much swelling and bruising can I expect, and how long will it last?",
+    answer:
+      "Expect significant swelling and bruising around the eyes and nose for the first week or two. Most visible bruising resolves within 2-3 weeks, but considerable swelling can persist for several months, with the tip of the nose being the last area to fully settle (up to a year or more). Patience is crucial during this period.",
+  },
+  {
+    question: "When can I return to work or school?",
+    answer:
+      "Most patients can return to light, non-strenuous activities within 1-2 weeks after the splint is removed. However, you should avoid strenuous exercise for at least 4-6 weeks.",
+  },
+  {
+    question: "Can I wear my glasses after rhinoplasty?",
+    answer:
+      "Fact: You should avoid wearing glasses or sunglasses that rest on the bridge of your nose for at least 4-6 weeks after surgery, as they can put pressure on the healing bones and cartilage and potentially affect the final shape. Myth: I can wear my regular glasses immediately after surgery. Dr. Kunal Sayani will provide specific instructions on this.",
+  },
+  {
+    question: "When can I start exercising again?",
+    answer:
+      "Light walking is encouraged from the first few days, but strenuous exercise, heavy lifting, and activities that increase blood pressure in the face should be avoided for 4-6 weeks. Contact sports must be avoided for at least 6 months.",
+  },
+  {
+    question: "Can I blow my nose after surgery?",
+    answer:
+      "Fact: No, absolutely not. You must avoid blowing your nose for at least 2-3 weeks post-surgery to prevent disruption of the delicate healing tissues and potential complications. Myth: Blowing your nose will help clear congestion after surgery.",
+  },
+  {
+    question: "Is rhinoplasty a risky surgery?",
+    answer:
+      "Fact: While all surgeries carry some risks, rhinoplasty is generally considered safe when performed by a qualified, board-certified plastic surgeon like Dr. Kunal Sayani. Risks are minimized through proper patient selection, surgical technique, and post-operative care. Myth: Rhinoplasty is an extremely risky and dangerous surgery.",
+  },
+  {
+    question: "What are the potential complications of rhinoplasty?",
+    answer:
+      "Potential complications include bleeding, infection, poor wound healing, scarring, numbness, breathing difficulties, asymmetry, and dissatisfaction with the aesthetic outcome. These are thoroughly discussed with you by Dr. Kunal Sayani during your consultation.",
+  },
+  {
+    question: "What if I'm not happy with my results? Can I have another surgery?",
+    answer:
+      "While Dr. Kunal Sayani strives for excellent results, in rare cases where a patient is dissatisfied or complications arise, revision rhinoplasty may be an option. This is typically performed at least 12-18 months after the initial surgery to allow for complete healing.",
+  },
 ];
 
 export default function FAQSection() {
@@ -117,7 +222,7 @@ export default function FAQSection() {
                         transition={{ duration: 0.3 }}
                       >
                         <div className="px-4 pb-4 bg-[#f9fafa]">
-                          <p className="text-gray-700 text-sm md:text-base">
+                          <p className="text-gray-700 text-sm md:text-base whitespace-pre-line">
                             {faq.answer}
                           </p>
                         </div>

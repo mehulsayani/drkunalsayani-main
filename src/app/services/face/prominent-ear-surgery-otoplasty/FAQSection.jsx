@@ -31,6 +31,96 @@ const faqs = [
     answer:
       "Dr. Kunal Sayani strategically places incisions in inconspicuous locations, usually in the natural crease behind the ear. When incisions are needed on the front, they are hidden within natural folds. Over time, these scars typically fade and become barely noticeable.",
   },
+  {
+    question: "When can I see the final results of my Otoplasty?",
+    answer:
+      "You will notice an immediate difference once the initial bulky dressings are removed. However, there will be swelling that gradually subsides. The final, refined results are usually visible after about 3-6 months, once all residual swelling has resolved and the tissues have settled.",
+  },
+  {
+    question: "Are the results of Otoplasty permanent?",
+    answer:
+      "Yes, the results of Otoplasty are generally permanent. The cartilage is reshaped and secured in its new position. Significant changes or recurrence are rare when performed correctly.",
+  },
+  {
+    question: "Can Otoplasty affect my hearing?",
+    answer:
+      "No, Otoplasty is performed on the external ear (auricle) and does not involve the structures responsible for hearing (middle and inner ear). Therefore, it does not affect your ability to hear.",
+  },
+  {
+    question: "When can I return to work or school after Otoplasty?",
+    answer:
+      "Most patients can return to work or school within 5-7 days, depending on the nature of their activities and how they are feeling. Dr. Kunal Sayani will provide specific guidance based on your recovery.",
+  },
+  {
+    question: "When can I resume exercise and sports?",
+    answer:
+      "Light activities can usually be resumed within a week or two. However, strenuous exercise and contact sports or any activity that could put pressure or trauma on the ears should be avoided for at least 4-6 weeks, or as advised by Dr. Kunal Sayani.",
+  },
+  {
+    question: "Will I need to wear a headband after surgery?",
+    answer:
+      "Yes, after the initial dressings are removed, a supportive headband is typically worn, especially at night, for several weeks to protect the ears and help maintain their new position during healing. Dr. Kunal Sayani will specify the duration.",
+  },
+  {
+    question: "What type of anesthesia is used for Otoplasty?",
+    answer:
+      "For young children, general anesthesia is usually preferred. For older children, teenagers, and adults, Otoplasty can often be performed under local anesthesia with intravenous sedation. Dr. Kunal Sayani will discuss the best option for you or your child.",
+  },
+  {
+    question: "Can Otoplasty be performed on just one ear?",
+    answer:
+      "Yes, if only one ear is prominent or misshapen, surgery can be performed on that ear alone. However, sometimes surgery is performed on both ears to achieve the best possible symmetry, even if one ear appears more significantly affected. Dr. Kunal Sayani will assess this during your consultation.",
+  },
+  {
+    question: "Myth: Otoplasty is only for children.",
+    answer:
+      "Fact: While Otoplasty is commonly performed in children, Dr. Kunal Sayani regularly performs this procedure on teenagers and adults with excellent results. There's no upper age limit for individuals who wish to improve the appearance of their ears.",
+  },
+  {
+    question: "Myth: Otoplasty results look unnatural or 'pinned back.'",
+    answer:
+      "Fact: The goal of a skilled surgeon like Dr. Kunal Sayani is to create natural-looking ears that are in harmony with the rest of the facial features. Modern techniques focus on subtle reshaping and repositioning to avoid an 'overly corrected' or 'pinned' appearance.",
+  },
+  {
+    question: "Myth: The recovery from Otoplasty is extremely long and painful.",
+    answer:
+      "Fact: While there is a recovery period involving some discomfort and swelling, it is generally manageable. Most patients resume normal daily routines within a week. Significant pain is uncommon and can be controlled with medication. Compared to more invasive procedures, the recovery is relatively straightforward for most patients under Dr. Kunal Sayani's care.",
+  },
+  {
+    question: "Myth: My ears will eventually go back to their original prominent position after surgery.",
+    answer:
+      "Fact: Otoplasty involves surgically altering and securing the ear cartilage. When performed correctly and post-operative instructions are followed, the results are permanent. The likelihood of ears returning to their original position is very low with the techniques Dr. Kunal Sayani uses.",
+  },
+  {
+    question: "Myth: Otoplasty is a very risky procedure with frequent complications.",
+    answer:
+      "Fact: Otoplasty is considered a safe procedure with a low risk of serious complications when performed by a qualified and experienced plastic surgeon like Dr. Kunal Sayani. Minor issues like swelling and bruising are common and temporary. Serious complications are rare.",
+  },
+  {
+    question: "Myth: Insurance will never cover Otoplasty.",
+    answer:
+      "Fact: While Otoplasty is often considered a cosmetic procedure, in some cases, particularly for children where prominent ears cause significant psychological distress or if there is a reconstructive element (e.g., due to injury or congenital deformity), some insurance plans may offer partial or full coverage. It's always best to check with your insurance provider. Dr. Kunal Sayani's office can provide guidance on this.",
+  },
+  {
+    question: "Myth: You can achieve the same results as Otoplasty with non-surgical methods like ear taping or molds in adults.",
+    answer:
+      "Fact: Non-surgical ear molding can be effective in newborns when the cartilage is very soft and pliable. However, in older children and adults, the ear cartilage is much firmer. Taping or external devices may offer temporary, very slight changes at best and cannot replicate the permanent, significant improvements achieved through surgical Otoplasty by Dr. Kunal Sayani.",
+  },
+  {
+    question: "Myth: Otoplasty will improve my child's hearing.",
+    answer:
+      "Fact: Otoplasty is an aesthetic procedure that alters the shape and position of the external ear. It does not impact the structures responsible for hearing and will not improve or worsen hearing ability.",
+  },
+  {
+    question: "Myth: You don't need a specialist; any doctor can perform Otoplasty.",
+    answer:
+      "Fact: Otoplasty is a nuanced procedure that requires a deep understanding of ear anatomy and aesthetic principles. Choosing a board-certified plastic surgeon with specific experience in Otoplasty, like Dr. Kunal Sayani, is crucial for achieving safe, natural-looking, and satisfactory results.",
+  },
+  {
+    question: "Myth: If only one ear bothers me, I only need surgery on that ear, and it will look perfectly symmetrical to the other.",
+    answer:
+      "Fact: While surgery can be done on one ear, achieving perfect symmetry with the unoperated ear can be challenging as no two ears are naturally identical. Dr. Kunal Sayani often discusses operating on both ears even if one is more prominent, to achieve the best overall balance and harmony.",
+  },
 ];
 
 export default function FAQSection() {
@@ -117,7 +207,7 @@ export default function FAQSection() {
                         transition={{ duration: 0.3 }}
                       >
                         <div className="px-4 pb-4 bg-[#f9fafa]">
-                          <p className="text-gray-700 text-sm md:text-base">
+                          <p className="text-gray-700 text-sm md:text-base whitespace-pre-line">
                             {faq.answer}
                           </p>
                         </div>

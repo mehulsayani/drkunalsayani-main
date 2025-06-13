@@ -14,25 +14,104 @@ const faqs = [
   {
     question: "Who is a good candidate for blepharoplasty?",
     answer:
-      "Ideal candidates are healthy individuals, typically over 30, though younger people may be eligible due to genetic factors. Candidates should be bothered by sagging eyelids, puffy bags, or vision obstruction due to excess eyelid skin. Non-smokers with realistic expectations are ideal.",
+      "Ideal candidates are generally healthy individuals, typically over 30 (though genetic factors can make younger people candidates), who are bothered by sagging eyelids, puffy bags, or obstructed vision due to excess eyelid skin. They should have realistic expectations and be non-smokers.",
   },
   {
     question: "Does blepharoplasty remove dark circles under the eyes?",
     answer:
-      "Blepharoplasty mainly addresses excess fat and skin—not pigmentation. It may reduce shadows contributing to dark circles but won’t remove true pigmentation. Treatments like fillers or laser therapy may be better for dark circles caused by thin skin or visible blood vessels.",
+      "Myth: Blepharoplasty primarily addresses excess fat and skin, not skin pigmentation. While removing or repositioning fat can sometimes improve the appearance of shadows that contribute to dark circles, it won't eliminate true pigmentation. Fact: For dark circles caused by thin skin or underlying blood vessels, other treatments like fillers or laser therapy might be more effective.",
   },
   {
     question: "How long do the results of blepharoplasty last?",
     answer:
-      "Results from upper eyelid surgery can last for many years—often a lifetime. Lower eyelid surgery results are also long-lasting. Although aging continues, the eyes will generally maintain a more youthful appearance than before surgery.",
+      "The results of upper eyelid surgery can last for many years, often a lifetime. Lower eyelid surgery results are typically very long-lasting. While the surgery provides significant and durable improvement, the natural aging process will continue, but from a more refreshed baseline.",
   },
   {
     question: "Is blepharoplasty a painful procedure?",
     answer:
-      "Most patients experience mild discomfort, tightness, or aching after surgery, but severe pain is rare. Pain is usually well-managed with medication, and the procedure is commonly described as uncomfortable rather than painful.",
+      "Myth: Many believe it's very painful. Fact: While you will experience some discomfort, tightness, and mild aching after surgery, severe pain is uncommon and effectively managed with prescribed pain medication. Most patients describe it as more uncomfortable than painful.",
+  },
+  {
+    question: "Will I have visible scars after eyelid surgery?",
+    answer:
+      "Myth: Eyelid surgery leaves obvious scars. Fact: Dr. Kunal Sayani meticulously places incisions in the natural creases of the upper eyelids (hidden in the fold) and either just below the lash line or inside the lower eyelid (transconjunctival approach). These incisions are very fine and typically heal remarkably well, becoming almost invisible over time.",
+  },
+  {
+    question: "Can blepharoplasty improve my vision?",
+    answer:
+      "Fact: Yes, in cases where significant excess skin on the upper eyelids droops down and obstructs your peripheral or even central vision, blepharoplasty can effectively improve your visual field. Myth: Blepharoplasty is purely a cosmetic procedure.",
+  },
+  {
+    question: "What is the ideal age for blepharoplasty?",
+    answer:
+      "While there's no 'ideal' age, most patients are 35 years or older when they undergo blepharoplasty. However, if genetic factors cause significant puffiness or sagging at a younger age, individuals in their 20s or 30s may also be good candidates.",
+  },
+  {
+    question: "What is the difference between upper and lower blepharoplasty?",
+    answer:
+      "Upper blepharoplasty addresses excess skin and fat in the upper eyelids, often improving a tired or hooded appearance and potentially vision. Lower blepharoplasty targets puffy bags, excess skin, and wrinkles under the eyes, aiming for a smoother contour. Dr. Kunal Sayani can perform one or both.",
+  },
+  {
+    question: "Will my eyebrows be lifted during blepharoplasty?",
+    answer:
+      "Myth: Eyelid surgery also lifts the eyebrows. Fact: Blepharoplasty specifically addresses the eyelids. If your eyebrows are also drooping, contributing to a heavy or tired look, Dr. Kunal Sayani might recommend a brow lift as a separate or complementary procedure to achieve optimal facial harmony.",
+  },
+  {
+    question: "What is the transconjunctival approach for lower blepharoplasty?",
+    answer:
+      "This technique involves an incision made inside the lower eyelid, leaving no visible external scar. It's often chosen when the primary concern is fatty bags, and there's minimal excess skin to be removed.",
+  },
+  {
+    question: "How long does a blepharoplasty procedure typically take?",
+    answer:
+      "The duration varies depending on whether upper, lower, or both eyelids are treated, and the complexity. It typically ranges from 1 to 3 hours.",
+  },
+  {
+    question: "How long is the recovery period after blepharoplasty?",
+    answer:
+      "Most patients can return to light activities and work within 7-10 days, once significant bruising has faded and sutures are removed. However, residual swelling can take several weeks to months to fully resolve, with the final results appearing at 3-6 months.",
+  },
+  {
+    question: "When can I wear makeup and contact lenses after surgery?",
+    answer:
+      "You should avoid wearing eye makeup and contact lenses for at least 1-2 weeks after surgery, or as specifically instructed by Dr. Kunal Sayani, to allow the incisions to heal properly and prevent infection.",
+  },
+  {
+    question: "Can I exercise after blepharoplasty?",
+    answer:
+      "You should avoid strenuous exercise, heavy lifting, and activities that significantly raise your blood pressure for at least 2-4 weeks after surgery. Light walking is generally encouraged earlier to promote circulation. Dr. Kunal Sayani will provide specific guidelines for your return to activity.",
+  },
+  {
+    question: "Do I need to apply cold compresses?",
+    answer:
+      "Fact: Yes, applying cold compresses diligently for the first 48-72 hours is crucial for reducing swelling and bruising. Myth: Cold compresses aren't that important.",
+  },
+  {
+    question: "When will I see the final results?",
+    answer:
+      "While initial improvements are visible once bruising and significant swelling subside (around 2-3 weeks), the final, refined results of your blepharoplasty will gradually become apparent as all residual swelling diminishes, which can take 3 to 6 months.",
+  },
+  {
+    question: "Is blepharoplasty a safe surgery?",
+    answer:
+      "Fact: When performed by a qualified, board-certified aesthetic surgeon like Dr. Kunal Sayani, blepharoplasty is a very safe procedure. Risks are minimized through proper patient selection, meticulous surgical technique, and adherence to post-operative care. Myth: All cosmetic surgeries are inherently dangerous.",
+  },
+  {
+    question: "What are the potential complications of blepharoplasty?",
+    answer:
+      "Potential complications, though rare, include bleeding, infection, dry eyes, difficulty closing the eyes (lagophthalmos), asymmetry, changes in skin sensation, and, very rarely, vision changes. Dr. Kunal Sayani will discuss these thoroughly with you during your consultation.",
+  },
+  {
+    question: "Can blepharoplasty cause permanent dry eyes?",
+    answer:
+      "Fact: While temporary dry eyes are common, chronic or permanent dry eyes are rare complications, especially if you had pre-existing dry eye issues. Dr. Kunal Sayani will assess your tear production before surgery to evaluate this risk.",
+  },
+  {
+    question: "What if I don't like my results? Can it be revised?",
+    answer:
+      "While Dr. Kunal Sayani aims for excellent results, in rare instances where a patient is dissatisfied or minor refinements are desired, a revision blepharoplasty may be considered. This is typically performed after the initial healing is complete, usually 6-12 months later.",
   },
 ];
-
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
