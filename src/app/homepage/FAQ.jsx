@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import { BsPlus, BsDash } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,97 +6,97 @@ const faqs = [
   {
     question: "What can I expect during my first consultation with Dr. Kunal Sayani?",
     answer:
-      "Your first consultation is a comprehensive, confidential discussion. Dr. Sayani will listen carefully to your goals and concerns. He will conduct a thorough evaluation, discuss your medical history, and explain available treatment options. The goal is to leave with a clear understanding of what’s possible and all your questions answered.",
+      "Your first consultation is a comprehensive, confidential discussion. Dr. Sayani will listen carefully to your goals and concerns. He will conduct a thorough evaluation of the area you wish to enhance, discuss your medical history, and explain the available treatment options in detail. The goal is for you to leave with a clear understanding of what is possible, the recommended approach, and all your questions answered.",
   },
   {
     question: "Do I need to prepare anything for my consultation?",
     answer:
-      "It's helpful to come with a clear idea of what you'd like to achieve. Be ready to discuss your medical history, including past surgeries and current medications. Bringing photos that reflect your goals can also help guide the conversation.",
+      "It's helpful to come with a clear idea of what you'd like to achieve. Think about your aesthetic goals and be ready to discuss your medical history, including any past surgeries, current health conditions, and medications or supplements you are taking. Some patients find it useful to bring photos that represent their goals, which can be a great starting point for discussion.",
   },
   {
     question: "Is the consultation confidential?",
     answer:
-      "Absolutely. Patient privacy is a top priority. All consultations and records are handled with strict confidentiality at our Andheri, Mumbai clinic.",
+      "Absolutely. Patient privacy is of the utmost importance to us. Your consultation and all subsequent records are handled with the strictest confidentiality in our Andheri, Mumbai clinic.",
   },
   {
     question: "Is there a fee for the initial consultation?",
     answer:
-      "Yes, there is a nominal fee for the in-depth consultation with Dr. Sayani. It covers a comprehensive assessment and expert advice. Contact our clinic for current pricing.",
+      "Yes, there is a nominal fee for the initial in-depth consultation with Dr. Kunal Sayani. This covers the comprehensive assessment and the valuable, personalized expert advice you will receive. Please contact our clinic for the current fee structure.",
   },
   {
     question: "What are Dr. Kunal Sayani's qualifications and experience?",
     answer:
-      "Dr. Sayani is a board-certified Plastic, Reconstructive, and Aesthetic Surgeon with extensive training. He holds an M.Ch. and DrNB, and is a member of several national and international surgical associations.",
+      "Dr. Kunal Sayani is a board-certified Plastic, Reconstructive, and Aesthetic Surgeon with extensive training and experience. He holds an M.Ch. in Plastic & Reconstructive Surgery and Doctorate of National Board (DrNB) from prestigious institutions and is a member of several national and international surgical associations. He is dedicated to staying at the forefront of the latest, safest, and most effective surgical techniques.",
   },
   {
-    question: "Why is choosing a board-certified plastic surgeon important?",
+    question: "Why is choosing a board-certified plastic surgeon so important?",
     answer:
-      "Board certification ensures that a surgeon has completed specialized training and passed rigorous exams. It guarantees that your procedure is performed by a highly qualified expert.",
+      "Board certification is the gold standard in plastic surgery. It signifies that the surgeon has not only completed medical school but has also undergone years of rigorous, specialized training in plastic surgery and has passed comprehensive written and oral exams. Choosing a board-certified surgeon like Dr. Sayani ensures your procedure is performed by a qualified expert committed to the highest standards of safety and ethics.",
   },
   {
     question: "How do you ensure patient safety?",
     answer:
-      "Patient safety is our top priority. We perform thorough pre-operative evaluations, use advanced techniques, work with experienced anesthesiologists, and provide full post-op care and monitoring.",
+      "Patient safety is our number one priority. This begins with a thorough pre-operative evaluation to ensure you are a healthy candidate for surgery. We use advanced surgical techniques, work with experienced anesthesiologists, and provide comprehensive post-operative care and monitoring to minimize risks and ensure a smooth recovery.",
   },
   {
     question: "What is the difference between cosmetic and reconstructive surgery?",
     answer:
-      "Cosmetic surgery enhances appearance, while reconstructive surgery corrects abnormalities due to birth defects, trauma, or medical conditions. Dr. Sayani is highly skilled in both.",
+      "Cosmetic (or aesthetic) surgery is performed to enhance the appearance of normal body structures, improving self-esteem and confidence. Examples include facelifts, liposuction, and breast augmentation. Reconstructive surgery is performed to correct abnormalities caused by birth defects, trauma, or medical conditions, with the primary goal of improving function and approximating a normal appearance. Dr. Kunal Sayani is an expert in both fields.",
   },
   {
     question: "How do I know which procedure is right for me?",
     answer:
-      "Dr. Sayani will assess your anatomy, skin, and goals during the consultation to recommend the most suitable surgical or non-surgical options.",
+      "The right procedure for you depends entirely on your unique anatomy, skin quality, and aesthetic goals. During your consultation, Dr. Sayani will assess these factors and recommend the most suitable surgical or non-surgical options to help you achieve the results you desire.",
   },
   {
     question: "Will I have noticeable scars?",
     answer:
-      "Any surgery involving incisions can result in scars, but Dr. Sayani uses advanced methods to minimize visibility and help them fade over time.",
+      "While any surgery that involves an incision will result in a scar, Dr. Kunal Sayani is an expert at minimizing their appearance. He meticulously places incisions in natural creases and hidden areas (like within the hairline or around the ear for a facelift). He also uses advanced suturing techniques and provides detailed aftercare instructions to help your scars heal and fade to be as inconspicuous as possible over time.",
   },
   {
     question: "Are non-surgical treatments like Botox® and fillers effective?",
     answer:
-      "Yes, they are great for treating wrinkles and volume loss with minimal downtime. For major issues, surgery may be a better long-term solution.",
+      "Yes, non-surgical treatments are excellent for addressing specific concerns like dynamic wrinkles (Botox®) and volume loss (dermal fillers). They offer great results with minimal to no downtime. However, their effects are temporary. For more significant concerns like sagging skin and jowls, a surgical procedure like a facelift often provides a more dramatic and long-lasting solution. Dr. Sayani can help you decide which approach is best for you.",
   },
   {
     question: "What is the recovery process like?",
     answer:
-      "Recovery depends on the procedure. Non-surgical treatments allow immediate return to activities, while surgeries require rest and healing time. You'll receive detailed aftercare guidance.",
+      "Recovery varies significantly depending on the procedure. For non-surgical treatments, you can often return to daily activities immediately. For surgical procedures, you will have a specific recovery timeline. This typically involves a period of rest, managing swelling and bruising, and wearing compression garments. Dr. Sayani and his team will provide you with detailed post-operative instructions and will be available to support you throughout your recovery.",
   },
   {
-    question: "How long until I see the final results?",
+    question: "How long will it be until I see the final results?",
     answer:
-      "Initial changes are visible immediately, but final results may take 6 months to a year as swelling subsides and tissues settle.",
+      "You will notice a change immediately after surgery, but this will be obscured by swelling and bruising. As these subside over the following weeks, your results will become more apparent. However, the final, settled result of most surgical procedures can take anywhere from 6 months to a year to fully manifest as all the tissues heal and settle into place.",
   },
   {
     question: "Are the results of aesthetic surgery permanent?",
     answer:
-      "Surgical results are long-lasting, but aging continues. A healthy lifestyle helps maintain results over time.",
+      "The results of surgical procedures like rhinoplasty or breast augmentation are designed to be very long-lasting. Rejuvenation procedures like a facelift 'turn back the clock,' but they don't stop the natural aging process. However, you will always look younger than you would have without the surgery. Maintaining a healthy lifestyle is key to preserving your results for as long as possible.",
   },
   {
     question: "How much does aesthetic surgery cost?",
     answer:
-      "Costs depend on the procedure, complexity, and facility fees. After your consultation, a detailed, transparent quote will be provided.",
+      "The cost of surgery is based on several factors, including the specific procedure, the complexity and duration of the surgery, anesthesia fees, and facility costs. After your consultation with Dr. Kunal Sayani, you will be provided with a detailed and transparent quote that covers all aspects of your planned procedure.",
   },
   {
     question: "Does health insurance cover cosmetic surgery?",
     answer:
-      "Generally, no. But if the procedure is medically necessary, like reconstruction, insurance may cover it. Check with your provider.",
+      "Generally, health insurance does not cover procedures that are performed purely for cosmetic reasons. However, if a procedure is deemed medically necessary for reconstructive purposes (such as breast reconstruction after a mastectomy or nose surgery to improve breathing), some or all of the cost may be covered. It's best to check with your insurance provider.",
   },
   {
     question: "Myth or Fact? Plastic surgery always looks fake and unnatural.",
     answer:
-      "Myth. Skilled surgeons like Dr. Sayani aim for natural-looking results that enhance your features, not alter them drastically.",
+      "Fact: This is a myth. The goal of modern aesthetic surgery, as practiced by skilled surgeons like Dr. Kunal Sayani, is to create natural-looking enhancements that restore balance and harmony. The 'overdone' look is often the result of outdated techniques or an inexperienced surgeon.",
   },
   {
     question: "Myth or Fact? Aesthetic surgery is only for women.",
     answer:
-      "Myth. Many men seek surgery to boost their appearance and confidence. Common male procedures include rhinoplasty and gynecomastia correction.",
+      "Fact: This is a myth. A growing number of men are seeking aesthetic surgery to enhance their appearance and confidence. Popular procedures for men include rhinoplasty, hair transplantation, gynecomastia (male breast reduction), and facelifts, all of which are tailored to preserve and enhance masculine features.",
   },
   {
     question: "Myth or Fact? Liposuction is a tool for weight loss.",
     answer:
-      "Myth. Liposuction is for body contouring, not weight loss. It targets stubborn fat in people close to their ideal weight.",
+      "Fact: This is a myth. Liposuction is a body contouring procedure, not a weight-loss solution. It is ideal for removing stubborn pockets of fat that are resistant to diet and exercise in individuals who are already at or near their ideal weight.",
   },
 ];
 
@@ -125,7 +124,7 @@ export default function FAQSection() {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-4 py-4 bg-white flex justify-between items-center text-left hover:bg-gray-50 focus:outline-none "
+                className="w-full px-4 py-4 bg-white flex justify-between items-center text-left hover:bg-gray-50 focus:outline-none"
               >
                 <span className="text-lg font-semibold text-[#000000]">
                   {faq.question}
