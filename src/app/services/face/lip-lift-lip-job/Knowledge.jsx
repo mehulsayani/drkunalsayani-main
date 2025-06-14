@@ -13,374 +13,125 @@ const Knowledge = () => {
 
   return (
     <section>
-      <div className="w-full flex flex-col items-center justify-center py-8">
-        <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
+      <div className="w-full flex flex-col items-center justify-center py-6">
+        <div className="flex w-full max-lg:flex-col-reverse gap-6 max-w-[780px] max-lg-items-center">
           <div>
             <div>
-              <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
-                {/* <FaCheckCircle className="text-blue-600 mr-2" /> */}
-                What a Tummy Tuck Can Achieve:
-              </h2>
-
+              <h1 className="text-3xl font-bold mb-4 text-[#102842] font-noto-sans">
+                Procedure Details
+              </h1>
               <p className="mb-4">
-                A tummy tuck can offer a range of aesthetic improvements,
-                including:
+                A lip lift is a procedure of millimeters, where precision is paramount. Dr. Kunal Sayani’s process, from consultation to surgery, is designed for safety, comfort, and exquisite results.
               </p>
-              <ul className="list-disc ml-6 space-y-2 mb-3">
-                <li>Removal of excess skin and fat from the abdomen.</li>
-                <li>
-                  Tightening of weakened or separated abdominal muscles
-                  (diastasis recti).
-                </li>
-                <li>Creation of a flatter and firmer abdominal contour.</li>
-                <li>
-                  Improvement in the appearance of stretch marks located on the
-                  lower abdomen (though those on the upper abdomen may not be
-                  affected).
-                </li>
-                <li>A more proportionate and balanced physique.</li>
-                <li>Enhanced confidence and self-esteem.</li>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Your Personalized Consultation in Mumbai
+              </h2>
+              <p className="mb-4">
+                Your journey begins with an in-depth, one-on-one consultation with Dr. Kunal Sayani at his clinic in Andheri, Mumbai. This crucial meeting will involve:
+              </p>
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li><strong>A Detailed Facial Analysis:</strong> Dr. Sayani will assess your complete facial anatomy, not just your lips. He will measure the length of your philtrum, evaluate your lip shape, volume, symmetry, and note how much of your upper teeth show when your face is at rest and when you smile.</li>
+                <li><strong>Understanding Your Aesthetic Goals:</strong> He will listen carefully to what you wish to achieve. Are you looking for more pout, better definition, or a more pleasant resting expression?</li>
+                <li><strong>Determining Candidacy:</strong> He will confirm if you are a suitable candidate for a lip lift. Ideal candidates have an elongated philtrum and desire a permanent enhancement of their upper lip.</li>
+                <li><strong>Explaining the Procedure:</strong> Dr. Sayani will explain the chosen surgical technique (e.g., the Bullhorn Lift), where the incision will be placed, and the kind of result you can realistically expect. He will show you where the scar will be hidden.</li>
+                <li><strong>Developing Your Surgical Plan:</strong> A bespoke plan is created, detailing the exact amount of skin to be excised to achieve a result that is both beautiful and natural for your face.</li>
               </ul>
-              <div>
-                <p>
-                  Dr. Kunal Sayani understands that each patient's anatomy and
-                  aesthetic goals are unique. During your personalized
-                  consultation with him, he will thoroughly assess your
-                  individual needs, discuss your expectations, and determine if
-                  a tummy tuck is the right procedure to help you achieve your
-                  desired outcome. He will explain the different types of tummy
-                  tucks, such as a full tummy tuck, mini tummy tuck, and
-                  extended tummy tuck, and recommend the most suitable approach
-                  for you.
-                </p>
 
-                <h1 className="text-3xl font-bold mb-4 text-[#10217D] font-notoSans">
-                  Tummy Tuck Procedure with Dr. Kunal Sayani
-                </h1>
-                <p>
-                  The tummy tuck procedure with Dr. Kunal Sayani is typically
-                  performed under general anesthesia and takes approximately 2–4
-                  hours depending on the complexity and whether it is combined
-                  with other procedures (e.g., liposuction). There are different
-                  types of tummy tucks, and Dr. Sayani will recommend the best
-                  one based on your needs:
-                </p>
+              <h2 className="text-2xl font-semibold mt-6">
+                Preparing for Your Lip Lift
+              </h2>
+              <p className="mb-4">
+                Our team will provide you with clear pre-operative instructions to ensure a smooth procedure. This may include:
+              </p>
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li>Stopping smoking several weeks before surgery to promote optimal healing.</li>
+                <li>Avoiding medications and supplements that can increase bleeding, such as aspirin, anti-inflammatory drugs, and certain vitamins.</li>
+                <li>Arranging for someone to drive you home after the procedure.</li>
+              </ul>
 
-                <h2 className="text-2xl font-semibold mt-4">
-                  {/* <FaStethoscope className="inline mr-2 text-blue-600" /> */}
-                  Types of Tummy Tuck Procedures:
-                </h2>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Full Tummy Tuck: Addresses both the upper and lower abdomen.
-                    A horizontal incision is made between the hip bones, and the
-                    navel is repositioned.
-                  </li>
-                  <li>
-                    Mini Tummy Tuck: Focuses on the lower abdomen below the
-                    navel. It involves a smaller incision and is ideal for
-                    patients with minimal excess skin and fat.
-                  </li>
-                  <li>
-                    Extended Tummy Tuck: Targets the abdomen and flanks (love
-                    handles). It’s suitable for patients with significant skin
-                    laxity after major weight loss.
-                  </li>
-                </ul>
+              <h2 className="text-2xl font-semibold mt-6">
+                The Day of Your Procedure
+              </h2>
+              <p className="mb-4">
+                A lip lift is a minimally invasive procedure performed with meticulous care.
+              </p>
+              <ol className="list-decimal ml-6 space-y-2 mb-4">
+                <li><strong>Anesthesia:</strong> The procedure is typically performed under local anesthesia with light sedation. This means the area will be completely numb, and you will be relaxed and comfortable but awake.</li>
+                <li><strong>Surgical Markings:</strong> Dr. Kunal Sayani will make precise markings on your skin while you are sitting up, outlining the exact amount of skin to be removed from beneath the nostrils.</li>
+                <li><strong>The Incision and Excision:</strong> He will then carefully make an incision along these markings, hidden within the natural contours of the base of your nose. The planned strip of skin is then excised.</li>
+                <li><strong>Lifting and Suturing:</strong> The upper lip is gently lifted into its new, higher position. Dr. Sayani then uses fine, dissolvable sutures in deep layers and tiny, removable sutures on the skin surface to close the incision with extreme precision to ensure the finest possible scar.</li>
+              </ol>
+              <p className="mb-4">
+                The entire procedure usually takes about 60 to 90 minutes.
+              </p>
 
-                <h2 className="text-2xl font-semibold mt-4">
-                  {/* <FaHeartbeat className="inline mr-2 text-blue-600" /> */}
-                  The tummy tuck procedure involves the following key steps:
-                </h2>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Anesthesia: The surgery is performed under general
-                    anesthesia to ensure patient comfort throughout the
-                    operation.
-                  </li>
-                  <li>
-                    Incision: A horizontal incision is made just above the pubic
-                    area, extending from hip to hip. The length and pattern
-                    depend on the extent of correction needed.
-                  </li>
-                  <li>
-                    Muscle Repair: The underlying abdominal muscles, often
-                    stretched or separated due to pregnancy or weight changes,
-                    are tightened with permanent sutures to create a firmer
-                    abdominal wall and improve core strength.
-                  </li>
-                  <li>
-                    Removal of Excess Skin and Fat: The surgeon lifts the skin
-                    and removes excess fat and skin between the belly button and
-                    pubic hair. Liposuction may be used for better contouring in
-                    some cases.
-                  </li>
-                  <li>
-                    Repositioning of the Belly Button: The belly button is
-                    brought out through a small incision and stitched in its
-                    natural position to maintain a normal appearance.
-                  </li>
-                  <li>
-                    Closure: The incisions are closed with sutures, and surgical
-                    dressings are applied. Small drainage tubes may be placed to
-                    remove excess fluid or blood.
-                  </li>
-                </ul>
+              <h2
+                id="recovery"
+                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+              >
+                Recovery & Aftercare (Post-Op Instructions)
+              </h2>
+              <p className="mb-4">
+                Proper aftercare is essential for a smooth recovery and an inconspicuous scar. Following Dr. Kunal Sayani's instructions is key.
+              </p>
 
-                <p>
-                  Dr. Kunal Sayani employs meticulous surgical techniques and
-                  pays close attention to detail to minimize scarring and
-                  achieve a natural-looking contour.
-                </p>
+              <h3 className="font-semibold mt-4">
+                Immediately After Surgery
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Swelling and Discomfort:</strong> Swelling, numbness, and mild discomfort are normal and expected. The upper lip will feel very tight.</li>
+                <li><strong>Care:</strong> You will be able to go home the same day. Apply cool compresses gently to the area to help manage swelling. Keep your head elevated.</li>
+              </ul>
 
-                <h2
-                  id="recovery"
-                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
-                >
-                  {/* <FaCheckCircle className="inline mr-2 text-blue-600" /> */}
-                  Recovery & Aftercare (Post-Op Instructions)
-                </h2>
-                <p>
-                  The recovery period after a tummy tuck is crucial for
-                  achieving optimal results and minimizing complications. It's
-                  essential to follow Dr. Kunal Sayani's post-operative
-                  instructions diligently. Here's what you can generally expect:
-                </p>
+              <h3 className="font-semibold mt-4">
+                The First Week
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Rest and Restriction:</strong> Rest is crucial. Keep your head elevated as much as possible, including while sleeping.</li>
+                <li><strong>Diet:</strong> Eat soft foods that do not require excessive chewing. Drink through a straw if it's more comfortable, but avoid puckering your lips.</li>
+                <li><strong>Oral Hygiene:</strong> Be very gentle when brushing your teeth. Use a smaller toothbrush and avoid opening your mouth too wide.</li>
+                <li><strong>Incision Care:</strong> You will be instructed on how to gently clean the incision line with a prescribed solution to prevent crusting and infection. An antibiotic ointment may be recommended.</li>
+                <li><strong>Suture Removal:</strong> You will return to our Andheri, Mumbai clinic about 5-7 days after surgery for Dr. Sayani to remove the superficial sutures.</li>
+              </ul>
 
-                <h3 className="font-semibold mt-4">
-                  Immediately After Surgery:
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    You will wake up with dressings or bandages on your
-                    incisions. You may also have temporary drainage tubes in
-                    place.
-                  </li>
-                  <li>
-                    Pain medication will be prescribed to manage discomfort.
-                  </li>
-                  <li>
-                    You will be encouraged to walk short distances as soon as
-                    possible to promote circulation and prevent blood clots.
-                  </li>
-                  <li>
-                    You will need to wear a compression garment to help reduce
-                    swelling and support the healing tissues.
-                  </li>
-                </ul>
+              <h3 className="font-semibold mt-4">
+                Weeks 2 to 4
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Swelling Subsides:</strong> Most of the significant swelling will go down during this period. You can gradually return to a normal diet.</li>
+                <li><strong>Activity:</strong> Avoid strenuous exercise and any activity that could put pressure on the incision line for at least 3-4 weeks.</li>
+                <li><strong>Smiling:</strong> You may feel that your smile is restricted. This is normal and will improve as the swelling resolves and the tissues relax.</li>
+              </ul>
 
-                <p>
-                  Activity Restrictions: Avoid lifting anything heavier than 5
-                  to 10 pounds for at least 6 weeks. Strenuous exercise and
-                  activities should be avoided for 8 weeks. Walking is
-                  encouraged to promote circulation and prevent complications.
-                </p>
+              <h3 className="font-semibold mt-4">
+                One Month and Beyond
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Scar Maturation:</strong> The incision line will initially appear pink or red. This is normal. It will gradually fade and soften over the next 6-12 months.</li>
+                <li><strong>Scar Care:</strong> Dr. Kunal Sayani will guide you on a scar care protocol, which may include silicone gels or sheets to help the scar become virtually invisible.</li>
+                <li><strong>Final Result:</strong> You will be able to appreciate the final, beautiful result as the last of the swelling subsides and the scar matures.</li>
+              </ul>
 
-                <p>
-                  Incision Care: Keep incisions clean and dry. Showering is
-                  typically allowed 48 hours after drain removal. Avoid soaking
-                  in tubs or swimming for 6-8 weeks. Use sunblock (SPF 30 or
-                  higher) to protect scars from sun exposure for at least 12
-                  months.
-                </p>
-
-                <p>
-                  Wearing Compression Garments: An abdominal binder or
-                  compression garment should be worn 24/7 for about 6 to 8 weeks
-                  to reduce swelling, support the abdomen, and prevent fluid
-                  buildup.
-                </p>
-
-                <p>
-                  Pain Management: Pain, swelling, bruising, and tightness are
-                  expected but usually subside within a few weeks. Pain
-                  medications and sometimes blood thinners may be prescribed.
-                </p>
-
-                <p>
-                  Diet and Hydration: Maintain a balanced diet rich in lean
-                  proteins, whole foods, and plenty of fluids. Avoid
-                  constipation by staying hydrated and consuming fiber-rich
-                  foods. Stool softeners may be prescribed if needed.
-                </p>
-
-                <p>
-                  Follow-Up: Regular follow-up visits with Dr. Kunal Sayani will
-                  monitor healing, drain removal, and address any concerns.
-                </p>
-
-                <p>
-                  Posture: Patients may walk slightly bent forward initially and
-                  gradually return to normal posture over 3 weeks.
-                </p>
-
-                <p>
-                  Full recovery may take several weeks, with swelling and
-                  numbness resolving over 6 to 12 weeks.
-                </p>
-
-                <h3 className="font-semibold mt-4">
-                  Immediate Post-Op (0–7 Days):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Expect swelling, bruising, and tightness around the abdomen.
-                  </li>
-                  <li>
-                    Pain and discomfort are manageable with prescribed
-                    medications.
-                  </li>
-                  <li>
-                    You will be fitted with a compression garment to minimize
-                    swelling and support healing tissues.
-                  </li>
-                  <li>
-                    Surgical drains may be placed and are typically removed
-                    within a week.
-                  </li>
-                  <li>
-                    Avoid any strenuous activities, including bending, lifting,
-                    or exercising.
-                  </li>
-                  <li>
-                    Maintain a slightly bent posture while walking or resting to
-                    reduce tension on the incision.
-                  </li>
-                </ul>
-
-                <h3 className="font-semibold mt-4">
-                  Short-Term Recovery (1–4 Weeks):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>Gradually resume light daily activities.</li>
-                  <li>
-                    Attend all follow-up appointments with Dr. Kunal Sayani to
-                    monitor progress.
-                  </li>
-                  <li>Continue wearing your compression garment as advised.</li>
-                  <li>
-                    Maintain a healthy, protein-rich diet to promote healing.
-                  </li>
-                  <li>
-                    Avoid smoking or alcohol as they can impede recovery and
-                    increase complications.
-                  </li>
-                </ul>
-
-                <h3 className="font-semibold mt-4">
-                  Long-Term Recovery (1–3 Months+):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Resume light workouts after clearance from Dr. Sayani.
-                  </li>
-                  <li>
-                    Scars will gradually fade over several months but may take
-                    up to a year to mature fully.
-                  </li>
-                  <li>
-                    Final results become more apparent as swelling subsides,
-                    typically by 3 to 6 months.
-                  </li>
-                  <li>
-                    Follow scar care recommendations including silicone sheets,
-                    massage, or topical treatments.
-                  </li>
-                </ul>
-
-                <p>
-                  Dr. Kunal Sayani will remain involved throughout your recovery
-                  to ensure your comfort, answer any concerns, and help you
-                  achieve the best possible aesthetic outcome.
-                </p>
-
-                <h2
-                  id="risks-safety"
-                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
-                >
-                  {/* <FaShieldAlt className="inline mr-2 text-blue-600" /> */}
-                  Risks & Safety
-                </h2>
-                <p>
-                  While a tummy tuck is generally safe when performed by an
-                  experienced surgeon like Dr. Kunal Sayani, it is important to
-                  be aware of potential risks. Dr. Sayani prioritizes patient
-                  safety and employs advanced techniques to minimize
-                  complications. Possible risks include:
-                </p>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Infection: Proper wound care and antibiotics reduce this
-                    risk.
-                  </li>
-                  <li>
-                    Bleeding: Careful surgical techniques and post-op monitoring
-                    help prevent excessive bleeding.
-                  </li>
-                  <li>
-                    Scarring: Scars are inevitable but are strategically placed
-                    and fade over time with proper care.
-                  </li>
-                  <li>
-                    Seroma: Fluid accumulation under the skin can occur but is
-                    managed with drains and follow-up care.
-                  </li>
-                  <li>
-                    Changes in Sensation: Temporary numbness or altered
-                    sensation in the abdominal area may occur but typically
-                    resolves over time.
-                  </li>
-                  <li>
-                    Blood Clots: Early ambulation and compression garments
-                    reduce this risk.
-                  </li>
-                  <li>
-                    Anesthesia Risks: Dr. Kunal Sayani works with
-                    board-certified anesthesiologists to ensure safe
-                    administration.
-                  </li>
-                </ul>
-
-                <p>
-                  Dr. Kunal Sayani conducts thorough pre-operative assessments
-                  to identify and mitigate risks, ensuring a safe surgical
-                  experience. Patients are encouraged to disclose their full
-                  medical history and follow all pre- and post-operative
-                  instructions.
-                </p>
-
-                <h3 className="font-semibold mt-4">Safety Measures:</h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Conducting a thorough medical evaluation to ensure you are a
-                    suitable candidate for the procedure.
-                  </li>
-                  <li>
-                    Utilizing advanced surgical techniques and operating in
-                    accredited surgical facilities.
-                  </li>
-                  <li>
-                    Providing detailed pre-operative instructions to optimize
-                    your health before surgery.
-                  </li>
-                  <li>
-                    Offering comprehensive post-operative care and support.
-                  </li>
-                  <li>
-                    Being readily available to address any concerns or
-                    complications that may arise.
-                  </li>
-                </ul>
-
-                <p>
-                  By choosing an experienced and board-certified aesthetic
-                  surgeon like Dr. Kunal Sayani, you can significantly reduce
-                  the risks associated with a tummy tuck. During your
-                  consultation, Dr. Sayani will discuss these risks in detail
-                  and answer any questions you may have, ensuring you make an
-                  informed decision.
-                </p>
-              </div>
+              <h2
+                id="risks-safety"
+                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+              >
+                Risks & Safety
+              </h2>
+              <p className="mb-4">
+                A lip lift is a very safe procedure when performed by a skilled aesthetic surgeon with a deep understanding of facial anatomy like Dr. Kunal Sayani. However, as with any surgery, there are potential risks:
+              </p>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Scarring:</strong> While the goal is a nearly invisible scar, there is a risk of poor scarring (hypertrophic or keloid). This risk is minimized with precise surgical technique and proper aftercare.</li>
+                <li><strong>Infection:</strong> A rare risk that is managed with sterile technique and post-operative care.</li>
+                <li><strong>Asymmetry:</strong> Minor unevenness in the lips.</li>
+                <li><strong>Numbness:</strong> Temporary numbness of the upper lip is common; permanent numbness is very rare.</li>
+                <li><strong>Dissatisfaction with the Cosmetic Result:</strong> Dr. Sayani works closely with patients to align expectations with achievable outcomes.</li>
+              </ul>
+              <p>
+                Dr. Sayani will discuss all these risks with you during your consultation to ensure you can make a fully informed decision.
+              </p>
             </div>
           </div>
         </div>

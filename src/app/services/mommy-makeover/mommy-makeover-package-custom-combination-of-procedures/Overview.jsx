@@ -14,25 +14,25 @@ export default function Overview() {
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-        {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
          <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
+          Motherhood is a profound journey that reshapes your life, and often, your body. The incredible
+process of pregnancy, childbirth, and breastfeeding can leave behind lasting changes that diet
+and exercise alone cannot reverse. Common concerns include stretched abdominal muscles
+(diastasis recti), loose skin on the stomach, stubborn pockets of fat, and breasts that have lost
+volume and begun to sag. A Mommy Makeover is not a single surgery; it is a personalized
+combination of body contouring procedures designed to address these post-partum changes in
+one comprehensive surgical session.
+
         </p>
         <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
+          At his state-of-the-art practice in Andheri, Mumbai, renowned aesthetic surgeon Dr. Kunal
+Sayani offers a bespoke Mommy Makeover package tailored to your unique anatomy and
+aesthetic goals. This powerful package allows for a holistic rejuvenation, helping you reclaim
+your pre-pregnancy figure and restore your confidence. By combining procedures, you benefit
+from a single surgical event, a single anesthesia, and one consolidated recovery period, making
+it an efficient and effective path to the transformation you desire.
+
         </p>
         <p className="mb-3">
           Abdominoplasty is not a weight-loss procedure but rather a body
@@ -52,7 +52,7 @@ export default function Overview() {
           tightening, removal of excess fat and skin, and repositioning of the
           belly button to maintain a natural contour.
         </p>
-       </div> */}
+       </div>
         <section id="procedure-details">
           <Knowledge />
         </section>

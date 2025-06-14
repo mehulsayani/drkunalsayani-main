@@ -1,5 +1,5 @@
-"use client";
 
+"use client";
 import React, { useState } from "react";
 import { BsPlus, BsDash } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
@@ -7,34 +7,53 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What are PRP, GFC, and Nanofat SVC for hair restoration?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "PRP (Platelet-Rich Plasma) and GFC (Growth Factor Concentrate) are non-surgical treatments that use your blood to stimulate hair follicles. Nanofat SVC (Stem Cell-Based Therapy) uses stem cells from your fat tissue to regenerate damaged follicles. These treatments promote hair growth and improve hair density.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "What is the difference between PRP and GFC?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "GFC is considered an advancement over PRP. While both use your blood, GFC is processed to deliver a higher concentration of pure growth factors without other blood cells, potentially leading to better results with less inflammation.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "What makes Nanofat SVC so special?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Nanofat SVC therapy goes beyond just growth factors; it delivers a payload of your body's own stem cells directly to the scalp. These stem cells have a powerful regenerative capacity to repair and rejuvenate damaged follicles, making it a very potent treatment for hair thinning.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "How many sessions of GFC or Nanofat will I need?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "Nanofat SVC often requires only a single session, with maintenance as needed. GFC and PRP typically involve a series of 3-6 sessions for optimal results, followed by periodic maintenance sessions.",
+  },
+];
+
+const mythsVsFacts = [
+  {
+    myth: "Hair transplants are only for completely bald men.",
+    fact:
+      "Hair transplants are highly effective for adding density to thinning areas and redesigning hairlines. Acting earlier can often lead to more satisfying and subtle results.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
-    answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+    myth: "Only surgical transplants give permanent results.",
+    fact:
+      "While surgical transplants are the most permanent solution, regenerative therapies like Nanofat SVC and GFC can produce long-lasting improvements in hair health and density, significantly delaying or reversing the hair loss process.",
+  },
+  {
+    myth: "Using lots of hair products causes baldness.",
+    fact:
+      "Standard hair gels, sprays, and shampoos do not cause male pattern baldness. Hair loss is primarily genetic and hormonal.",
+  },
+  {
+    myth: "Shaving your head will make hair grow back thicker.",
+    fact:
+      "Shaving has no effect on the hair follicle itself. The hair will grow back with the same thickness and density as before.",
   },
 ];
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
+
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
@@ -45,13 +64,13 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src={"/images/services/men/hair-loss-treatment.jpg"}
-            alt="Facial treatment"
-            layout="fill"
-            objectFit="cover"
+            src="/images/services/hairrestoration/HairRestoration.jpg"
+            alt="Hair Restoration"
+            fill
+            style={{ objectFit: "cover" }}
             quality={100}
           />
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/100 to-transparent text-white p-6">
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent text-white p-6">
             <div className="flex items-center space-x-2 mb-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,12 +88,12 @@ export default function FAQSection() {
               </svg>
               <span className="text-lg font-semibold">Opening Hours:</span>
             </div>
-            <p className="text-sm">Mon - Sat : 10.00 AM - 8.00PM</p>
-            <p className="text-sm">Sunday : Closed</p>
+            <p className="text-sm">Mon - Sat: 10:00 AM - 8:00 PM</p>
+            <p className="text-sm">Sunday: Closed</p>
           </div>
         </div>
 
-        {/* FAQ Section */}
+        {/* FAQ and Myths vs Facts Section */}
         <div className="w-full">
           <h2 className="text-3xl md:text-5xl mb-6 text-[#10217D] font-marcellus">
             Got questions? We've got answers!
@@ -84,15 +103,14 @@ export default function FAQSection() {
               const isOpen = openIndex === index;
               return (
                 <div
-                  key={index}
+                  key={`faq-${index}`}
                   className={`border rounded-lg overflow-hidden transition-all duration-300 shadow-sm ${
                     isOpen ? "border-[#40AEB9]" : "border-gray-200"
                   }`}
                 >
                   <button
                     onClick={() => toggleFAQ(index)}
-                    className="w-full px-4 py-4 bg-white flex justify-between items-center 
-                    text-left hover:bg-gray-50 focus:outline-none"
+                    className="w-full px-4 py-4 bg-white flex justify-between items-center text-left hover:bg-gray-50 focus:outline-none"
                   >
                     <span className="text-base md:text-lg font-semibold text-[#000000]">
                       {faq.question}
@@ -106,11 +124,9 @@ export default function FAQSection() {
                       {isOpen ? <BsDash /> : <BsPlus />}
                     </motion.span>
                   </button>
-
                   <AnimatePresence initial={false}>
                     {isOpen && (
                       <motion.div
-                        key="content"
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
@@ -121,12 +137,66 @@ export default function FAQSection() {
                             {faq.answer}
                           </p>
                         </div>
-                      </motion.div>
+                    </motion.div>
                     )}
                   </AnimatePresence>
                 </div>
               );
             })}
+          </div>
+
+          {/* Myths vs Facts Section */}
+          <div className="mt-8">
+            <h3 className="text-2xl md:text-3xl mb-4 text-[#10217D] font-marcellus">
+              Myths vs. Facts
+            </h3>
+            <div className="space-y-4">
+              {mythsVsFacts.map((item, index) => {
+                const isOpen = openIndex === index + faqs.length;
+                return (
+                  <div
+                    key={`myth-${index}`}
+                    className={`border rounded-lg overflow-hidden transition-all duration-300 shadow-sm ${
+                      isOpen ? "border-[#40AEB9]" : "border-gray-200"
+                    }`}
+                  >
+                    <button
+                      onClick={() => toggleFAQ(index + faqs.length)}
+                      className="w-full px-4 py-4 bg-white flex justify-between items-center text-left hover:bg-gray-50 focus:outline-none"
+                    >
+                      <span className="text-base md:text-lg font-semibold text-[#000000]">
+                        Myth: {item.myth}
+                      </span>
+                      <motion.span
+                        className="text-2xl text-[#40AEB9]"
+                        initial={false}
+                        animate={{ rotate: isOpen ? 180 : 0 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        {isOpen ? <BsDash /> : <BsPlus />}
+                      </motion.span>
+                    </button>
+                    <AnimatePresence initial={false}>
+                      {isOpen && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: "auto" }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <div className="px-4 pb-4 bg-[#f9fafa]">
+                            <p className="text-gray-700 text-sm md:text-base">
+                              <span className="font-semibold">Fact:</span>{" "}
+                              {item.fact}
+                            </p>
+                          </div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

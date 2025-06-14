@@ -13,374 +13,125 @@ const Knowledge = () => {
 
   return (
     <section>
-      <div className="w-full flex flex-col items-center justify-center py-8">
-        <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
+      <div className="w-full flex flex-col items-center justify-center py-6">
+        <div className="flex w-full max-lg:flex-col-reverse gap-6 max-w-[780px] max-lg-items-center">
           <div>
             <div>
-              <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
-                {/* <FaCheckCircle className="text-blue-600 mr-2" /> */}
-                What a Tummy Tuck Can Achieve:
-              </h2>
-
+              <h1 className="text-3xl font-bold mb-4 text-[#102842] font-noto-sans">
+                Procedure Details: Your BBL Journey Step-by-Step
+              </h1>
               <p className="mb-4">
-                A tummy tuck can offer a range of aesthetic improvements,
-                including:
+                The Brazilian Butt Lift is a multi-stage procedure performed with meticulous attention to detail to ensure safety, beauty, and longevity of the results.
               </p>
-              <ul className="list-disc ml-6 space-y-2 mb-3">
-                <li>Removal of excess skin and fat from the abdomen.</li>
-                <li>
-                  Tightening of weakened or separated abdominal muscles
-                  (diastasis recti).
-                </li>
-                <li>Creation of a flatter and firmer abdominal contour.</li>
-                <li>
-                  Improvement in the appearance of stretch marks located on the
-                  lower abdomen (though those on the upper abdomen may not be
-                  affected).
-                </li>
-                <li>A more proportionate and balanced physique.</li>
-                <li>Enhanced confidence and self-esteem.</li>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Step 1: Consultation and Personalized Surgical Planning
+              </h2>
+              <p className="mb-4">
+                Your journey begins with a private consultation with Dr. Kunal Sayani. During this session, you will discuss your aesthetic goals, and he will perform a thorough evaluation of your body shape, skin elasticity, and the amount of available donor fat. He will use this information to create a bespoke surgical plan designed to achieve your desired outcome while maintaining natural proportions.
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Step 2: Anesthesia
+              </h2>
+              <p className="mb-4">
+                The BBL procedure is typically performed under general anesthesia or intravenous sedation with local anesthesia to ensure you are completely comfortable and pain-free throughout the surgery.
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Step 3: Liposuction & Fat Harvesting
+              </h2>
+              <p className="mb-4">
+                This is the sculpting phase. Dr. Sayani will make small, discreet incisions in the predetermined donor areas (e.g., abdomen, waist, back, thighs). A thin tube called a cannula is inserted to gently suction out the excess fat. This process is performed carefully to not only harvest the fat but also to contour the donor sites, creating a slimmer, more defined silhouette that will accentuate the final results of the buttock enhancement.
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Step 4: Fat Processing and Purification
+              </h2>
+              <p className="mb-4">
+                The harvested fat is not immediately ready for injection. It contains a mixture of fat cells, oil, and other fluids. The collected fat is placed in a specialized centrifuge system that spins it at high speeds. This process separates the pure, healthy, and viable fat cells from the unwanted components. This purification step is critical for maximizing the survival rate of the transferred fat cells and ensuring a smooth, long-lasting result.
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Step 5: Fat Injection and Augmentation
+              </h2>
+              <p className="mb-4">
+                This is where the artistry happens. The purified fat is loaded into small syringes. Dr. Kunal Sayani then strategically injects this fat through tiny incisions into various depths and areas of the buttocks. He uses a multi-layered micro-injection technique to meticulously sculpt the new shape, adding volume where needed, improving projection, and creating a smooth, rounded, and lifted appearance. The injections are made with precision to ensure a natural look and feel.
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Step 6: Incision Closure
+              </h2>
+              <p className="mb-4">
+                The small incisions from both the liposuction and injection sites are closed with sutures. The procedure typically takes 3 to 5 hours, depending on the complexity and the amount of fat being transferred.
+              </p>
+
+              <h2
+                id="recovery"
+                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+              >
+                Recovery & Aftercare (Post-Op Instructions)
+              </h2>
+              <p className="mb-4">
+                The recovery phase is as crucial as the surgery itself for achieving an excellent BBL result. Following post-operative instructions diligently is essential for fat graft survival and your overall well-being.
+              </p>
+
+              <h3 className="font-semibold mt-4">
+                Immediately After Surgery (First 24-48 Hours):
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Compression Garment:</strong> You will be placed in a specialized compression garment that covers the liposuctioned areas and the buttocks. This garment helps reduce swelling, supports the healing tissues, and assists in skin retraction. It must be worn 24/7 as directed by Dr. Sayani.</li>
+                <li><strong>Rest:</strong> Rest is essential. You will experience some swelling, bruising, and discomfort, which can be managed with prescribed pain medication.</li>
               </ul>
-              <div>
-                <p>
-                  Dr. Kunal Sayani understands that each patient's anatomy and
-                  aesthetic goals are unique. During your personalized
-                  consultation with him, he will thoroughly assess your
-                  individual needs, discuss your expectations, and determine if
-                  a tummy tuck is the right procedure to help you achieve your
-                  desired outcome. He will explain the different types of tummy
-                  tucks, such as a full tummy tuck, mini tummy tuck, and
-                  extended tummy tuck, and recommend the most suitable approach
-                  for you.
-                </p>
 
-                <h1 className="text-3xl font-bold mb-4 text-[#10217D] font-notoSans">
-                  Tummy Tuck Procedure with Dr. Kunal Sayani
-                </h1>
-                <p>
-                  The tummy tuck procedure with Dr. Kunal Sayani is typically
-                  performed under general anesthesia and takes approximately 2–4
-                  hours depending on the complexity and whether it is combined
-                  with other procedures (e.g., liposuction). There are different
-                  types of tummy tucks, and Dr. Sayani will recommend the best
-                  one based on your needs:
-                </p>
+              <h3 className="font-semibold mt-4">
+                The "No-Sit" Rule (First 2-6 Weeks):
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>CRITICAL:</strong> You must avoid sitting or lying directly on your buttocks for at least 2 to 6 weeks, or as specified by Dr. Kunal Sayani. This is the most important rule of BBL recovery. Direct pressure can damage the delicate, newly transferred fat cells and compromise your results.</li>
+                <li><strong>Sleeping:</strong> You will need to sleep on your stomach or your sides.</li>
+                <li><strong>Sitting:</strong> When you absolutely must sit, you will use a special "BBL pillow" or "booty pillow." This offloading pillow is placed under the thighs, allowing you to sit without putting pressure on your buttocks.</li>
+              </ul>
 
-                <h2 className="text-2xl font-semibold mt-4">
-                  {/* <FaStethoscope className="inline mr-2 text-blue-600" /> */}
-                  Types of Tummy Tuck Procedures:
-                </h2>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Full Tummy Tuck: Addresses both the upper and lower abdomen.
-                    A horizontal incision is made between the hip bones, and the
-                    navel is repositioned.
-                  </li>
-                  <li>
-                    Mini Tummy Tuck: Focuses on the lower abdomen below the
-                    navel. It involves a smaller incision and is ideal for
-                    patients with minimal excess skin and fat.
-                  </li>
-                  <li>
-                    Extended Tummy Tuck: Targets the abdomen and flanks (love
-                    handles). It’s suitable for patients with significant skin
-                    laxity after major weight loss.
-                  </li>
-                </ul>
+              <h3 className="font-semibold mt-4">
+                Weeks 1-3:
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Activity:</strong> Light walking is encouraged to promote circulation, but all strenuous activities, heavy lifting, and intense exercise are strictly prohibited.</li>
+                <li><strong>Diet & Hydration:</strong> Maintain a healthy diet and stay well-hydrated to support the healing process.</li>
+                <li><strong>Follow-ups:</strong> Attend all your scheduled follow-up appointments at our Andheri clinic to allow Dr. Sayani to monitor your healing progress.</li>
+              </ul>
 
-                <h2 className="text-2xl font-semibold mt-4">
-                  {/* <FaHeartbeat className="inline mr-2 text-blue-600" /> */}
-                  The tummy tuck procedure involves the following key steps:
-                </h2>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Anesthesia: The surgery is performed under general
-                    anesthesia to ensure patient comfort throughout the
-                    operation.
-                  </li>
-                  <li>
-                    Incision: A horizontal incision is made just above the pubic
-                    area, extending from hip to hip. The length and pattern
-                    depend on the extent of correction needed.
-                  </li>
-                  <li>
-                    Muscle Repair: The underlying abdominal muscles, often
-                    stretched or separated due to pregnancy or weight changes,
-                    are tightened with permanent sutures to create a firmer
-                    abdominal wall and improve core strength.
-                  </li>
-                  <li>
-                    Removal of Excess Skin and Fat: The surgeon lifts the skin
-                    and removes excess fat and skin between the belly button and
-                    pubic hair. Liposuction may be used for better contouring in
-                    some cases.
-                  </li>
-                  <li>
-                    Repositioning of the Belly Button: The belly button is
-                    brought out through a small incision and stitched in its
-                    natural position to maintain a normal appearance.
-                  </li>
-                  <li>
-                    Closure: The incisions are closed with sutures, and surgical
-                    dressings are applied. Small drainage tubes may be placed to
-                    remove excess fluid or blood.
-                  </li>
-                </ul>
+              <h3 className="font-semibold mt-4">
+                Weeks 4-8 and Beyond:
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Resuming Activities:</strong> You can gradually begin to reintroduce normal activities and light exercise as cleared by Dr. Sayani.</li>
+                <li><strong>Final Results:</strong> While you will see a noticeable difference immediately, the final results will become apparent after about 6 months. During this time, the initial swelling will completely subside, and the surviving fat cells will have established a permanent blood supply. It is normal for the body to absorb 30-40% of the injected fat; this is accounted for during the initial procedure.</li>
+              </ul>
 
-                <p>
-                  Dr. Kunal Sayani employs meticulous surgical techniques and
-                  pays close attention to detail to minimize scarring and
-                  achieve a natural-looking contour.
-                </p>
-
-                <h2
-                  id="recovery"
-                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
-                >
-                  {/* <FaCheckCircle className="inline mr-2 text-blue-600" /> */}
-                  Recovery & Aftercare (Post-Op Instructions)
-                </h2>
-                <p>
-                  The recovery period after a tummy tuck is crucial for
-                  achieving optimal results and minimizing complications. It's
-                  essential to follow Dr. Kunal Sayani's post-operative
-                  instructions diligently. Here's what you can generally expect:
-                </p>
-
-                <h3 className="font-semibold mt-4">
-                  Immediately After Surgery:
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    You will wake up with dressings or bandages on your
-                    incisions. You may also have temporary drainage tubes in
-                    place.
-                  </li>
-                  <li>
-                    Pain medication will be prescribed to manage discomfort.
-                  </li>
-                  <li>
-                    You will be encouraged to walk short distances as soon as
-                    possible to promote circulation and prevent blood clots.
-                  </li>
-                  <li>
-                    You will need to wear a compression garment to help reduce
-                    swelling and support the healing tissues.
-                  </li>
-                </ul>
-
-                <p>
-                  Activity Restrictions: Avoid lifting anything heavier than 5
-                  to 10 pounds for at least 6 weeks. Strenuous exercise and
-                  activities should be avoided for 8 weeks. Walking is
-                  encouraged to promote circulation and prevent complications.
-                </p>
-
-                <p>
-                  Incision Care: Keep incisions clean and dry. Showering is
-                  typically allowed 48 hours after drain removal. Avoid soaking
-                  in tubs or swimming for 6-8 weeks. Use sunblock (SPF 30 or
-                  higher) to protect scars from sun exposure for at least 12
-                  months.
-                </p>
-
-                <p>
-                  Wearing Compression Garments: An abdominal binder or
-                  compression garment should be worn 24/7 for about 6 to 8 weeks
-                  to reduce swelling, support the abdomen, and prevent fluid
-                  buildup.
-                </p>
-
-                <p>
-                  Pain Management: Pain, swelling, bruising, and tightness are
-                  expected but usually subside within a few weeks. Pain
-                  medications and sometimes blood thinners may be prescribed.
-                </p>
-
-                <p>
-                  Diet and Hydration: Maintain a balanced diet rich in lean
-                  proteins, whole foods, and plenty of fluids. Avoid
-                  constipation by staying hydrated and consuming fiber-rich
-                  foods. Stool softeners may be prescribed if needed.
-                </p>
-
-                <p>
-                  Follow-Up: Regular follow-up visits with Dr. Kunal Sayani will
-                  monitor healing, drain removal, and address any concerns.
-                </p>
-
-                <p>
-                  Posture: Patients may walk slightly bent forward initially and
-                  gradually return to normal posture over 3 weeks.
-                </p>
-
-                <p>
-                  Full recovery may take several weeks, with swelling and
-                  numbness resolving over 6 to 12 weeks.
-                </p>
-
-                <h3 className="font-semibold mt-4">
-                  Immediate Post-Op (0–7 Days):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Expect swelling, bruising, and tightness around the abdomen.
-                  </li>
-                  <li>
-                    Pain and discomfort are manageable with prescribed
-                    medications.
-                  </li>
-                  <li>
-                    You will be fitted with a compression garment to minimize
-                    swelling and support healing tissues.
-                  </li>
-                  <li>
-                    Surgical drains may be placed and are typically removed
-                    within a week.
-                  </li>
-                  <li>
-                    Avoid any strenuous activities, including bending, lifting,
-                    or exercising.
-                  </li>
-                  <li>
-                    Maintain a slightly bent posture while walking or resting to
-                    reduce tension on the incision.
-                  </li>
-                </ul>
-
-                <h3 className="font-semibold mt-4">
-                  Short-Term Recovery (1–4 Weeks):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>Gradually resume light daily activities.</li>
-                  <li>
-                    Attend all follow-up appointments with Dr. Kunal Sayani to
-                    monitor progress.
-                  </li>
-                  <li>Continue wearing your compression garment as advised.</li>
-                  <li>
-                    Maintain a healthy, protein-rich diet to promote healing.
-                  </li>
-                  <li>
-                    Avoid smoking or alcohol as they can impede recovery and
-                    increase complications.
-                  </li>
-                </ul>
-
-                <h3 className="font-semibold mt-4">
-                  Long-Term Recovery (1–3 Months+):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Resume light workouts after clearance from Dr. Sayani.
-                  </li>
-                  <li>
-                    Scars will gradually fade over several months but may take
-                    up to a year to mature fully.
-                  </li>
-                  <li>
-                    Final results become more apparent as swelling subsides,
-                    typically by 3 to 6 months.
-                  </li>
-                  <li>
-                    Follow scar care recommendations including silicone sheets,
-                    massage, or topical treatments.
-                  </li>
-                </ul>
-
-                <p>
-                  Dr. Kunal Sayani will remain involved throughout your recovery
-                  to ensure your comfort, answer any concerns, and help you
-                  achieve the best possible aesthetic outcome.
-                </p>
-
-                <h2
-                  id="risks-safety"
-                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
-                >
-                  {/* <FaShieldAlt className="inline mr-2 text-blue-600" /> */}
-                  Risks & Safety
-                </h2>
-                <p>
-                  While a tummy tuck is generally safe when performed by an
-                  experienced surgeon like Dr. Kunal Sayani, it is important to
-                  be aware of potential risks. Dr. Sayani prioritizes patient
-                  safety and employs advanced techniques to minimize
-                  complications. Possible risks include:
-                </p>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Infection: Proper wound care and antibiotics reduce this
-                    risk.
-                  </li>
-                  <li>
-                    Bleeding: Careful surgical techniques and post-op monitoring
-                    help prevent excessive bleeding.
-                  </li>
-                  <li>
-                    Scarring: Scars are inevitable but are strategically placed
-                    and fade over time with proper care.
-                  </li>
-                  <li>
-                    Seroma: Fluid accumulation under the skin can occur but is
-                    managed with drains and follow-up care.
-                  </li>
-                  <li>
-                    Changes in Sensation: Temporary numbness or altered
-                    sensation in the abdominal area may occur but typically
-                    resolves over time.
-                  </li>
-                  <li>
-                    Blood Clots: Early ambulation and compression garments
-                    reduce this risk.
-                  </li>
-                  <li>
-                    Anesthesia Risks: Dr. Kunal Sayani works with
-                    board-certified anesthesiologists to ensure safe
-                    administration.
-                  </li>
-                </ul>
-
-                <p>
-                  Dr. Kunal Sayani conducts thorough pre-operative assessments
-                  to identify and mitigate risks, ensuring a safe surgical
-                  experience. Patients are encouraged to disclose their full
-                  medical history and follow all pre- and post-operative
-                  instructions.
-                </p>
-
-                <h3 className="font-semibold mt-4">Safety Measures:</h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Conducting a thorough medical evaluation to ensure you are a
-                    suitable candidate for the procedure.
-                  </li>
-                  <li>
-                    Utilizing advanced surgical techniques and operating in
-                    accredited surgical facilities.
-                  </li>
-                  <li>
-                    Providing detailed pre-operative instructions to optimize
-                    your health before surgery.
-                  </li>
-                  <li>
-                    Offering comprehensive post-operative care and support.
-                  </li>
-                  <li>
-                    Being readily available to address any concerns or
-                    complications that may arise.
-                  </li>
-                </ul>
-
-                <p>
-                  By choosing an experienced and board-certified aesthetic
-                  surgeon like Dr. Kunal Sayani, you can significantly reduce
-                  the risks associated with a tummy tuck. During your
-                  consultation, Dr. Sayani will discuss these risks in detail
-                  and answer any questions you may have, ensuring you make an
-                  informed decision.
-                </p>
-              </div>
+              <h2
+                id="risks-safety"
+                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+              >
+                Risks & Safety
+              </h2>
+              <p className="mb-4">
+                While the Brazilian Butt Lift can deliver beautiful results, it is a major surgical procedure that carries inherent risks. Choosing a highly qualified, board-certified aesthetic surgeon like Dr. Kunal Sayani who operates in a fully accredited facility is the single most important decision you can make to ensure your safety.
+              </p>
+              <p className="mb-4">Potential risks include:</p>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Fat Embolism:</strong> This is the most serious risk, where fat is inadvertently injected into a large blood vessel and travels to the lungs. Dr. Sayani mitigates this risk by using specialized cannulas and employing safe injection techniques, such as injecting fat only into the subcutaneous space (above the muscle).</li>
+                <li><strong>Infection:</strong> Minimized with sterile operating conditions and post-op antibiotics.</li>
+                <li><strong>Asymmetry or Contour Irregularities:</strong> The risk is minimized by the surgeon's skill and meticulous technique.</li>
+                <li><strong>Poor Fat Graft Survival:</strong> Following all post-operative instructions, especially the "no-sitting" rule, is crucial to maximize fat survival.</li>
+                <li><strong>Seroma (Fluid Collection):</strong> Can be managed with drainage if it occurs.</li>
+                <li><strong>Changes in Skin Sensation:</strong> Usually temporary.</li>
+                <li><strong>Risks Associated with Anesthesia:</strong> Managed by working with board-certified anesthesiologists.</li>
+              </ul>
+              <p>
+                During your comprehensive consultation, Dr. Sayani will discuss these risks openly and in detail, ensuring you are fully informed before proceeding.
+              </p>
             </div>
           </div>
         </div>

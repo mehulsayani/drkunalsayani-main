@@ -13,374 +13,167 @@ const Knowledge = () => {
 
   return (
     <section>
-      <div className="w-full flex flex-col items-center justify-center py-8">
-        <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
+      <div className="w-full flex flex-col items-center justify-center py-6">
+        <div className="flex w-full max-lg:flex-col-reverse gap-6 max-w-[780px] max-lg-items-center">
           <div>
             <div>
-              <h2 className="text-3xl font-bold font-notoSans mb-2 flex items-center text-[#10217D]">
-                {/* <FaCheckCircle className="text-blue-600 mr-2" /> */}
-                What a Tummy Tuck Can Achieve:
+              <h1 className="text-3xl font-bold mb-4 text-[#102842] font-noto-sans">
+                Procedure Details: Your Guide to Advanced Hair Restoration
+              </h1>
+              <p className="mb-4">
+                We pride ourselves on technical excellence and patient-centric care. Here is a detailed look at the transformative procedures we offer:
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-6">
+                Surgical Hair Restoration
               </h2>
 
+              <h3 className="font-semibold mt-4">
+                1. Follicular Unit Extraction (FUE)
+              </h3>
               <p className="mb-4">
-                A tummy tuck can offer a range of aesthetic improvements,
-                including:
+                FUE is a state-of-the-art, minimally invasive technique that involves extracting individual hair follicular units (each containing 1-4 hairs) from the donor area (typically the back and sides of the head) and transplanting them to the balding areas.
               </p>
-              <ul className="list-disc ml-6 space-y-2 mb-3">
-                <li>Removal of excess skin and fat from the abdomen.</li>
-                <li>
-                  Tightening of weakened or separated abdominal muscles
-                  (diastasis recti).
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li><strong>The FUE Process:</strong>
+                  <ol className="list-decimal ml-6 space-y-1">
+                    <li><strong>Artistic Hairline Design:</strong> Dr. Kunal Sayani meticulously designs a natural, age-appropriate hairline that complements your facial features.</li>
+                    <li><strong>Donor Area Preparation:</strong> The donor area is trimmed, and local anesthesia is administered for a completely comfortable experience.</li>
+                    <li><strong>Graft Extraction:</strong> Using a high-precision, motorized micro-punch, individual follicular units are expertly extracted, leaving behind tiny dot-like marks that are virtually invisible after healing.</li>
+                    <li><strong>Implantation:</strong> The grafts are carefully implanted into the recipient sites at the correct angle, depth, and direction to mimic natural hair growth, ensuring a seamless and undetectable result.</li>
+                  </ol>
                 </li>
-                <li>Creation of a flatter and firmer abdominal contour.</li>
-                <li>
-                  Improvement in the appearance of stretch marks located on the
-                  lower abdomen (though those on the upper abdomen may not be
-                  affected).
-                </li>
-                <li>A more proportionate and balanced physique.</li>
-                <li>Enhanced confidence and self-esteem.</li>
               </ul>
-              <div>
-                <p>
-                  Dr. Kunal Sayani understands that each patient's anatomy and
-                  aesthetic goals are unique. During your personalized
-                  consultation with him, he will thoroughly assess your
-                  individual needs, discuss your expectations, and determine if
-                  a tummy tuck is the right procedure to help you achieve your
-                  desired outcome. He will explain the different types of tummy
-                  tucks, such as a full tummy tuck, mini tummy tuck, and
-                  extended tummy tuck, and recommend the most suitable approach
-                  for you.
-                </p>
 
-                <h1 className="text-3xl font-bold mb-4 text-[#10217D] font-notoSans">
-                  Tummy Tuck Procedure with Dr. Kunal Sayani
-                </h1>
-                <p>
-                  The tummy tuck procedure with Dr. Kunal Sayani is typically
-                  performed under general anesthesia and takes approximately 2–4
-                  hours depending on the complexity and whether it is combined
-                  with other procedures (e.g., liposuction). There are different
-                  types of tummy tucks, and Dr. Sayani will recommend the best
-                  one based on your needs:
-                </p>
+              <h3 className="font-semibold mt-4">
+                2. Follicular Unit Transplantation (FUT / Strip Method)
+              </h3>
+              <p className="mb-4">
+                FUT is a highly effective method for covering large areas of baldness with significant skin laxity. It involves surgically removing a portion of skin with hair from the donor area.
+              </p>
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li><strong>The FUT Process:</strong>
+                  <ol className="list-decimal ml-6 space-y-1">
+                    <li><strong>Strip Excision:</strong> After anesthesia, a strip of scalp tissue is removed from the donor area.</li>
+                    <li><strong>Trichophytic Closure:</strong> Dr. Sayani uses an advanced suturing technique called Trichophytic Closure, which allows hair to grow through the fine linear scar, making it exceptionally well-concealed by the surrounding hair.</li>
+                    <li><strong>Graft Dissection:</strong> The strip is passed to a highly skilled team who dissect it under stereoscopic microscopes into thousands of individual follicular units.</li>
+                    <li><strong>Implantation:</strong> The grafts are then implanted into the balding areas, just as in the FUE procedure.</li>
+                  </ol>
+                </li>
+              </ul>
 
-                <h2 className="text-2xl font-semibold mt-4">
-                  {/* <FaStethoscope className="inline mr-2 text-blue-600" /> */}
-                  Types of Tummy Tuck Procedures:
-                </h2>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Full Tummy Tuck: Addresses both the upper and lower abdomen.
-                    A horizontal incision is made between the hip bones, and the
-                    navel is repositioned.
-                  </li>
-                  <li>
-                    Mini Tummy Tuck: Focuses on the lower abdomen below the
-                    navel. It involves a smaller incision and is ideal for
-                    patients with minimal excess skin and fat.
-                  </li>
-                  <li>
-                    Extended Tummy Tuck: Targets the abdomen and flanks (love
-                    handles). It’s suitable for patients with significant skin
-                    laxity after major weight loss.
-                  </li>
-                </ul>
+              <h2 className="text-2xl font-semibold mt-6">
+                Regenerative Therapies
+              </h2>
 
-                <h2 className="text-2xl font-semibold mt-4">
-                  {/* <FaHeartbeat className="inline mr-2 text-blue-600" /> */}
-                  The tummy tuck procedure involves the following key steps:
-                </h2>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Anesthesia: The surgery is performed under general
-                    anesthesia to ensure patient comfort throughout the
-                    operation.
-                  </li>
-                  <li>
-                    Incision: A horizontal incision is made just above the pubic
-                    area, extending from hip to hip. The length and pattern
-                    depend on the extent of correction needed.
-                  </li>
-                  <li>
-                    Muscle Repair: The underlying abdominal muscles, often
-                    stretched or separated due to pregnancy or weight changes,
-                    are tightened with permanent sutures to create a firmer
-                    abdominal wall and improve core strength.
-                  </li>
-                  <li>
-                    Removal of Excess Skin and Fat: The surgeon lifts the skin
-                    and removes excess fat and skin between the belly button and
-                    pubic hair. Liposuction may be used for better contouring in
-                    some cases.
-                  </li>
-                  <li>
-                    Repositioning of the Belly Button: The belly button is
-                    brought out through a small incision and stitched in its
-                    natural position to maintain a normal appearance.
-                  </li>
-                  <li>
-                    Closure: The incisions are closed with sutures, and surgical
-                    dressings are applied. Small drainage tubes may be placed to
-                    remove excess fluid or blood.
-                  </li>
-                </ul>
+              <h3 className="font-semibold mt-4">
+                1. Nanofat SVC (Stromal Vascular Fraction) Therapy
+              </h3>
+              <p className="mb-4">
+                This is one of the most exciting advancements in regenerative medicine for hair loss. It harnesses the power of your body's own regenerative cells and growth factors derived from adipose (fat) tissue.
+              </p>
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li><strong>The Nanofat SVC Process:</strong>
+                  <ol className="list-decimal ml-6 space-y-1">
+                    <li><strong>Fat Harvesting:</strong> A small amount of fat (typically 20-30ml) is harvested from an area like the abdomen or thighs using a micro-liposuction procedure under local anesthesia.</li>
+                    <li><strong>Processing & Filtration:</strong> The harvested fat is then put through a specialized, multi-step filtration process. This breaks down the fat cells and isolates the Stromal Vascular Fraction (SVF) - a potent cocktail rich in adipose-derived regenerative cells and growth factors. The final product is a liquid suspension called "Nanofat."</li>
+                    <li><strong>Scalp Injections:</strong> The powerful Nanofat solution is then meticulously injected into the scalp in the areas of thinning to rejuvenate dormant hair follicles, improve scalp health, and stimulate new, robust hair growth.</li>
+                  </ol>
+                </li>
+              </ul>
 
-                <p>
-                  Dr. Kunal Sayani employs meticulous surgical techniques and
-                  pays close attention to detail to minimize scarring and
-                  achieve a natural-looking contour.
-                </p>
+              <h3 className="font-semibold mt-4">
+                2. GFC (Growth Factor Concentrate) & Exosome Treatments
+              </h3>
+              <p className="mb-4">
+                This represents the evolution of traditional regenerative therapy, offering a higher concentration of pure growth factors and advanced cellular messengers.
+              </p>
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li><strong>GFC:</strong> A small sample of your blood is collected and processed to extract a high concentration of various growth factors (like PDGF, TGF-β, VEGF). Unlike PRP, this process eliminates other blood components, resulting in a pure, potent growth factor solution that is injected into the scalp to reduce hair loss and boost growth.</li>
+                <li><strong>Exosomes:</strong> Exosomes are nanoscale vesicles derived from regenerative cells that act as powerful messengers, carrying proteins and genetic information to other cells. In hair restoration, lab-purified exosomes are applied to the scalp. They instruct the hair follicle cells to regenerate, repair damaged tissue, and promote active growth phases, offering a powerful tool against hair loss at a cellular level.</li>
+              </ul>
 
-                <h2
-                  id="recovery"
-                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
-                >
-                  {/* <FaCheckCircle className="inline mr-2 text-blue-600" /> */}
-                  Recovery & Aftercare (Post-Op Instructions)
-                </h2>
-                <p>
-                  The recovery period after a tummy tuck is crucial for
-                  achieving optimal results and minimizing complications. It's
-                  essential to follow Dr. Kunal Sayani's post-operative
-                  instructions diligently. Here's what you can generally expect:
-                </p>
+              <h3 className="font-semibold mt-4">
+                3. Platelet-Rich Plasma (PRP) Therapy
+              </h3>
+              <p className="ml-4">
+                A well-established and effective treatment, PRP therapy utilizes the healing and regenerative properties present in your own blood to stimulate hair follicles.
+              </p>
+              <ul className="list-disc ml-6 space-y-2 mb-4">
+                <li><strong>The PRP Process:</strong>
+                  <ol className="list-decimal ml-6 space-y-1">
+                    <li>A small amount of your blood is drawn.</li>
+                    <li>The blood is then processed in a centrifuge to separate the platelet-rich plasma.</li>
+                    <li>This concentrated plasma, rich in growth factors, is then injected into the scalp in the areas of hair thinning.</li>
+                  </ol>
+                </li>
+                <li><strong>Benefits of PRP:</strong>
+                  <ul className="list-disc ml-6 space-y-1">
+                    <li>Promotes the growth of existing hair.</li>
+                    <li>Increases hair thickness and density.</li>
+                    <li>Can be used as a standalone treatment or in conjunction with a hair transplant.</li>
+                  </ul>
+                </li>
+              </ul>
 
-                <h3 className="font-semibold mt-4">
-                  Immediately After Surgery:
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    You will wake up with dressings or bandages on your
-                    incisions. You may also have temporary drainage tubes in
-                    place.
-                  </li>
-                  <li>
-                    Pain medication will be prescribed to manage discomfort.
-                  </li>
-                  <li>
-                    You will be encouraged to walk short distances as soon as
-                    possible to promote circulation and prevent blood clots.
-                  </li>
-                  <li>
-                    You will need to wear a compression garment to help reduce
-                    swelling and support the healing tissues.
-                  </li>
-                </ul>
+              <h2
+                id="recovery"
+                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+              >
+                Recovery & Aftercare (Post-Op Instructions)
+              </h2>
+              <p className="mb-4">
+                Your commitment to aftercare is crucial for achieving optimal results. Dr. Kunal Sayani and his team will provide detailed, personalized instructions.
+              </p>
 
-                <p>
-                  Activity Restrictions: Avoid lifting anything heavier than 5
-                  to 10 pounds for at least 6 weeks. Strenuous exercise and
-                  activities should be avoided for 8 weeks. Walking is
-                  encouraged to promote circulation and prevent complications.
-                </p>
+              <h3 className="font-semibold mt-4">
+                For Surgical Procedures (FUE/FUT):
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>First 48 Hours:</strong> Rest is paramount. Sleep with your head elevated to minimize swelling. Take prescribed medications to manage any mild discomfort and prevent infection.</li>
+                <li><strong>First Week:</strong> A special head wash will be demonstrated at the clinic. You will be taught how to gently wash the scalp without dislodging the new grafts. Scabs will form and fall off naturally within 7-14 days; do not pick them.</li>
+                <li><strong>2-4 Weeks:</strong> Avoid strenuous exercise, swimming, saunas, and direct, harsh sun exposure. A temporary "shock loss" of the transplanted hairs is normal; this makes way for new, permanent growth to begin.</li>
+                <li><strong>3-12 Months:</strong> New hair will begin to sprout around the 3-4 month mark. The results will become progressively more visible over the following months, with the final, full result apparent at 12-18 months.</li>
+              </ul>
 
-                <p>
-                  Incision Care: Keep incisions clean and dry. Showering is
-                  typically allowed 48 hours after drain removal. Avoid soaking
-                  in tubs or swimming for 6-8 weeks. Use sunblock (SPF 30 or
-                  higher) to protect scars from sun exposure for at least 12
-                  months.
-                </p>
+              <h3 className="font-semibold mt-4">
+                For Injection-Based Therapies (Nanofat, GFC, PRP):
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Immediate Post-Procedure:</strong> The scalp may feel tender with mild redness or swelling, which typically subsides within a few hours to a day.</li>
+                <li><strong>First 24-48 Hours:</strong> Avoid washing your hair, strenuous activity, and excessive sweating.</li>
+                <li><strong>Aftercare:</strong> You can typically resume normal activities the next day. A series of sessions may be recommended for GFC and PRP, usually spaced 4-6 weeks apart, to achieve the best results.</li>
+              </ul>
 
-                <p>
-                  Wearing Compression Garments: An abdominal binder or
-                  compression garment should be worn 24/7 for about 6 to 8 weeks
-                  to reduce swelling, support the abdomen, and prevent fluid
-                  buildup.
-                </p>
+              <h2
+                id="risks-safety"
+                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+              >
+                Risks & Safety
+              </h2>
+              <p className="mb-4">
+                Your safety is our utmost priority. All procedures performed by Dr. Kunal Sayani in our Andheri, Mumbai facility adhere to the highest standards of medical safety and sterilization.
+              </p>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Surgical Risks:</strong> As with any surgery, risks are minimal but can include infection, bleeding, swelling, and temporary numbness. The risk of visible scarring is significantly minimized by Dr. Sayani’s advanced surgical techniques (micro-incisions in FUE and Trichophytic closure in FUT).</li>
+                <li><strong>Regenerative Therapy Risks:</strong> Because treatments like Nanofat, GFC, and PRP use your body's own cells/tissue, the risk of allergic reaction or rejection is virtually eliminated. The primary risks are minor and related to the injection process, such as temporary pain, pinpoint bleeding, swelling, or bruising at the injection sites.</li>
+                <li><strong>Choosing the Right Surgeon:</strong> The most significant factor in ensuring both safety and a natural-looking outcome is the skill and experience of your surgeon. Dr. Kunal Sayani's extensive training and artistic eye are your best assurance of a safe and successful procedure.</li>
+              </ul>
 
-                <p>
-                  Pain Management: Pain, swelling, bruising, and tightness are
-                  expected but usually subside within a few weeks. Pain
-                  medications and sometimes blood thinners may be prescribed.
-                </p>
-
-                <p>
-                  Diet and Hydration: Maintain a balanced diet rich in lean
-                  proteins, whole foods, and plenty of fluids. Avoid
-                  constipation by staying hydrated and consuming fiber-rich
-                  foods. Stool softeners may be prescribed if needed.
-                </p>
-
-                <p>
-                  Follow-Up: Regular follow-up visits with Dr. Kunal Sayani will
-                  monitor healing, drain removal, and address any concerns.
-                </p>
-
-                <p>
-                  Posture: Patients may walk slightly bent forward initially and
-                  gradually return to normal posture over 3 weeks.
-                </p>
-
-                <p>
-                  Full recovery may take several weeks, with swelling and
-                  numbness resolving over 6 to 12 weeks.
-                </p>
-
-                <h3 className="font-semibold mt-4">
-                  Immediate Post-Op (0–7 Days):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Expect swelling, bruising, and tightness around the abdomen.
-                  </li>
-                  <li>
-                    Pain and discomfort are manageable with prescribed
-                    medications.
-                  </li>
-                  <li>
-                    You will be fitted with a compression garment to minimize
-                    swelling and support healing tissues.
-                  </li>
-                  <li>
-                    Surgical drains may be placed and are typically removed
-                    within a week.
-                  </li>
-                  <li>
-                    Avoid any strenuous activities, including bending, lifting,
-                    or exercising.
-                  </li>
-                  <li>
-                    Maintain a slightly bent posture while walking or resting to
-                    reduce tension on the incision.
-                  </li>
-                </ul>
-
-                <h3 className="font-semibold mt-4">
-                  Short-Term Recovery (1–4 Weeks):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>Gradually resume light daily activities.</li>
-                  <li>
-                    Attend all follow-up appointments with Dr. Kunal Sayani to
-                    monitor progress.
-                  </li>
-                  <li>Continue wearing your compression garment as advised.</li>
-                  <li>
-                    Maintain a healthy, protein-rich diet to promote healing.
-                  </li>
-                  <li>
-                    Avoid smoking or alcohol as they can impede recovery and
-                    increase complications.
-                  </li>
-                </ul>
-
-                <h3 className="font-semibold mt-4">
-                  Long-Term Recovery (1–3 Months+):
-                </h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Resume light workouts after clearance from Dr. Sayani.
-                  </li>
-                  <li>
-                    Scars will gradually fade over several months but may take
-                    up to a year to mature fully.
-                  </li>
-                  <li>
-                    Final results become more apparent as swelling subsides,
-                    typically by 3 to 6 months.
-                  </li>
-                  <li>
-                    Follow scar care recommendations including silicone sheets,
-                    massage, or topical treatments.
-                  </li>
-                </ul>
-
-                <p>
-                  Dr. Kunal Sayani will remain involved throughout your recovery
-                  to ensure your comfort, answer any concerns, and help you
-                  achieve the best possible aesthetic outcome.
-                </p>
-
-                <h2
-                  id="risks-safety"
-                  className="text-3xl font-semibold mt-4 text-[#10217D] font-notoSans"
-                >
-                  {/* <FaShieldAlt className="inline mr-2 text-blue-600" /> */}
-                  Risks & Safety
-                </h2>
-                <p>
-                  While a tummy tuck is generally safe when performed by an
-                  experienced surgeon like Dr. Kunal Sayani, it is important to
-                  be aware of potential risks. Dr. Sayani prioritizes patient
-                  safety and employs advanced techniques to minimize
-                  complications. Possible risks include:
-                </p>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Infection: Proper wound care and antibiotics reduce this
-                    risk.
-                  </li>
-                  <li>
-                    Bleeding: Careful surgical techniques and post-op monitoring
-                    help prevent excessive bleeding.
-                  </li>
-                  <li>
-                    Scarring: Scars are inevitable but are strategically placed
-                    and fade over time with proper care.
-                  </li>
-                  <li>
-                    Seroma: Fluid accumulation under the skin can occur but is
-                    managed with drains and follow-up care.
-                  </li>
-                  <li>
-                    Changes in Sensation: Temporary numbness or altered
-                    sensation in the abdominal area may occur but typically
-                    resolves over time.
-                  </li>
-                  <li>
-                    Blood Clots: Early ambulation and compression garments
-                    reduce this risk.
-                  </li>
-                  <li>
-                    Anesthesia Risks: Dr. Kunal Sayani works with
-                    board-certified anesthesiologists to ensure safe
-                    administration.
-                  </li>
-                </ul>
-
-                <p>
-                  Dr. Kunal Sayani conducts thorough pre-operative assessments
-                  to identify and mitigate risks, ensuring a safe surgical
-                  experience. Patients are encouraged to disclose their full
-                  medical history and follow all pre- and post-operative
-                  instructions.
-                </p>
-
-                <h3 className="font-semibold mt-4">Safety Measures:</h3>
-                <ul className="list-disc ml-6 space-y-2">
-                  <li>
-                    Conducting a thorough medical evaluation to ensure you are a
-                    suitable candidate for the procedure.
-                  </li>
-                  <li>
-                    Utilizing advanced surgical techniques and operating in
-                    accredited surgical facilities.
-                  </li>
-                  <li>
-                    Providing detailed pre-operative instructions to optimize
-                    your health before surgery.
-                  </li>
-                  <li>
-                    Offering comprehensive post-operative care and support.
-                  </li>
-                  <li>
-                    Being readily available to address any concerns or
-                    complications that may arise.
-                  </li>
-                </ul>
-
-                <p>
-                  By choosing an experienced and board-certified aesthetic
-                  surgeon like Dr. Kunal Sayani, you can significantly reduce
-                  the risks associated with a tummy tuck. During your
-                  consultation, Dr. Sayani will discuss these risks in detail
-                  and answer any questions you may have, ensuring you make an
-                  informed decision.
-                </p>
-              </div>
+              <h2 className="text-2xl font-semibold mt-6">
+                FAQs: Your Questions Answered
+              </h2>
+              <p className="mb-4">
+                We believe in empowering our patients with knowledge. Here are answers to some common questions.
+              </p>
+              <h3 className="font-semibold mt-4">
+                General & Surgical FAQs
+              </h3>
+              <ul className="list-disc ml-6 space-y-1 mb-4">
+                <li><strong>Am I a good candidate for a hair transplant?</strong> The best candidates are men with a stabilized pattern of hair loss and sufficient healthy donor hair. A thorough consultation with Dr. Kunal Sayani will determine your suitability.</li>
+                <li><strong>How long until I see the final results?</strong> While new hair starts growing in 3-4 months, it takes 12-18 months to see the full, mature results of a hair transplant. Regenerative therapies can show improvements in hair texture and density within 3-6 months.</li>
+                <li><strong>Will the results look natural?</strong> Absolutely. Dr. Kunal Sayani specializes in creating hairlines and density patterns that are indistinguishable from natural hair growth. The key is in the artistic and strategic placement of each individual graft.</li>
+              </ul>
             </div>
           </div>
         </div>

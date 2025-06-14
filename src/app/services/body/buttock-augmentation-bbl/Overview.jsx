@@ -14,45 +14,54 @@ export default function Overview() {
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-        {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
          <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
+         In the modern world of aesthetics, achieving a balanced, sensual, and proportionate body
+contour is a goal for many. If you desire fuller, rounder, and more lifted buttocks that
+complement your natural physique, a Buttock Augmentation, popularly known as the Brazilian
+Butt Lift (BBL), can be a transformative procedure. At our premier aesthetic surgery center in
+Andheri, Mumbai, the highly esteemed Dr. Kunal Sayani combines surgical precision with an
+artist's eye to create stunning, natural-looking results that enhance your curves and elevate
+your confidence.
         </p>
         <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
+        This comprehensive guide will walk you through every aspect of the Buttock Augmentation
+journey, empowering you with the knowledge to make an informed decision about sculpting the
+silhouette you've always desired.
         </p>
-        <p className="mb-3">
-          Abdominoplasty is not a weight-loss procedure but rather a body
-          contouring solution that addresses aesthetic concerns that diet and
-          exercise alone cannot resolve. Whether it’s restoring a pre-pregnancy
-          figure or achieving a sculpted abdomen, Dr. Kunal Sayani employs
-          state-of-theart methods to ensure optimal outcomes with minimal
-          scarring and downtime. The procedure can be combined with liposuction
-          for enhanced contouring or customized as a mini tummy tuck for
-          patients with less extensive needs.
-        </p>
-        <p className="mb-3">
-          Dr. Kunal Sayani, one of the top plastic surgeon in Mumbai for tummy
-          tuck, performs tummy tuck surgeries tailored to individual goals,
-          ensuring natural-looking results with minimal scarring. The surgery
-          typically involves an incision above the pubic area, muscle
-          tightening, removal of excess fat and skin, and repositioning of the
-          belly button to maintain a natural contour.
-        </p>
-       </div> */}
+       <section className="px-4 py-8 md:px-12 lg:px-24 bg-white text-gray-800">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">
+        Redefining Your Curves with Brazilian Butt Lift
+      </h2>
+
+      <p className="mb-4">
+        A <strong>Brazilian Butt Lift (BBL)</strong> is a sophisticated and increasingly popular cosmetic procedure
+        designed to enhance the size and shape of the buttocks without the use of implants.
+        The true artistry of a BBL lies in its dual benefit: it not only augments the buttocks but also
+        sculpts and refines other areas of the body by removing unwanted fat.
+      </p>
+
+      <p className="mb-4">
+        The procedure uses your body's own fat—harvested via liposuction from areas like the
+        abdomen, flanks ("love handles"), or thighs—which is then purified and strategically injected
+        into different layers of the buttocks. This two-in-one contouring approach results in a more
+        hourglass figure, a smaller-looking waist, and fuller, more projected buttocks that are in
+        harmony with your overall physique.
+      </p>
+
+      <p className="mb-4">
+        At our <strong>Andheri, Mumbai clinic</strong>, Dr. Kunal Sayani, a board-certified aesthetic surgeon with
+        extensive experience in body contouring, approaches each BBL with a deep understanding of
+        human anatomy and aesthetic ideals. He is committed to delivering results that are not only
+        beautiful but are achieved with the highest standards of patient safety and care.
+      </p>
+
+      <p>
+        Whether you wish to correct flatness, improve symmetry, or simply achieve the curvaceous
+        figure you've dreamt of, a <strong>BBL</strong> can be a life-changing solution.
+      </p>
+    </section>
+       </div>
         <section id="procedure-details">
           <Knowledge />
         </section>

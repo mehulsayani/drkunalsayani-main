@@ -14,45 +14,57 @@ export default function Overview() {
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-        {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
-         <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
-        </p>
-        <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
-        </p>
-        <p className="mb-3">
-          Abdominoplasty is not a weight-loss procedure but rather a body
-          contouring solution that addresses aesthetic concerns that diet and
-          exercise alone cannot resolve. Whether it’s restoring a pre-pregnancy
-          figure or achieving a sculpted abdomen, Dr. Kunal Sayani employs
-          state-of-theart methods to ensure optimal outcomes with minimal
-          scarring and downtime. The procedure can be combined with liposuction
-          for enhanced contouring or customized as a mini tummy tuck for
-          patients with less extensive needs.
-        </p>
-        <p className="mb-3">
-          Dr. Kunal Sayani, one of the top plastic surgeon in Mumbai for tummy
-          tuck, performs tummy tuck surgeries tailored to individual goals,
-          ensuring natural-looking results with minimal scarring. The surgery
-          typically involves an incision above the pubic area, muscle
-          tightening, removal of excess fat and skin, and repositioning of the
-          belly button to maintain a natural contour.
-        </p>
-       </div> */}
+        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+          <p className="mb-3">
+            While full lips are often associated with youth and beauty, the key
+            to a truly balanced and attractive smile lies in proportion. As we
+            age, the philtrum—the space between the base of the nose and the top
+            of the upper lip—can elongate. This lengthening can cause the red
+            part of the lip (the vermilion) to roll inward, making the upper lip
+            appear thin, flat, and covering the upper teeth when smiling. This
+            can create a stern or aged appearance, something that dermal fillers
+            alone cannot correct.
+          </p>
+          <p className="mb-3">
+            A Lip Lift is a highly sophisticated and precise surgical procedure
+            designed to permanently address this concern. At his premier
+            aesthetic clinic in Andheri, Mumbai, expert aesthetic surgeon Dr.
+            Kunal Sayani performs this delicate "lip job" to shorten the
+            philtrum, evert (roll out) the upper lip, and increase the amount of
+            visible pink lip tissue. This creates a fuller, more defined, and
+            naturally youthful pout. It also improves the visibility of the
+            upper teeth, a hallmark of a vibrant, beautiful smile.
+          </p>
+          <p className="mb-3">
+            Unlike temporary fillers that add volume, a lip lift provides a
+            permanent structural change, enhancing your natural lip shape and
+            restoring facial harmony. It is the definitive solution for
+            individuals seeking a more pronounced cupid's bow and a rejuvenated,
+            more cheerful expression. Dr. Kunal Sayani’s meticulous approach
+            ensures the result is elegant, subtle, and perfectly suited to your
+            unique facial features
+          </p>
+          <section className="px-4 py-8 md:px-12 lg:px-24 bg-white text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Types of Lip Lifts We Offer
+            </h2>
+
+            <ul className="list-disc list-inside space-y-4">
+              <li>
+                <strong>Bullhorn Lip Lift (Subnasal Lip Lift):</strong> The most
+                common and effective technique, involving an incision hidden in
+                the natural crease at the base of the nose, resembling a bull's
+                horns. This powerfully shortens the philtrum and everts the lip.
+              </li>
+              <li>
+                <strong>Corner Lip Lift:</strong> An excellent procedure for
+                those with downturned corners of the mouth, which can create a
+                perpetually sad or stern look. Small incisions are made at the
+                corners to subtly elevate them.
+              </li>
+            </ul>
+          </section>
+        </div>
         <section id="procedure-details">
           <Knowledge />
         </section>
