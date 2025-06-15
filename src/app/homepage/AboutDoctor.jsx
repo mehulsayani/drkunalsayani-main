@@ -54,7 +54,7 @@ export default function About() {
 
   return (
     <section className="relative pt-12 sm:pt-16  md:pt-20 ">
-      <div className="max-w-[1250px] mx-auto flex  flex-col md:flex-row items-start gap-4 sm:gap-6 md:gap-0">
+      <div className="max-w-[1250px] mx-auto flex max-lg:flex-col max-lg:items-center items-start gap-4 sm:gap-6 md:gap-0">
         {/* Left: Doctor Image with Background Circle */}
         <motion.div
           ref={imageRef}
@@ -70,13 +70,14 @@ export default function About() {
             alt=""
             className="absolute top-18 -left-86 opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
           />
-          <div className="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[520px] md:h-[520px] rounded-full top-0 left-0 md:top-10 md:-left-10">
+          <div className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[400px] rounded-full
+           top-0 left-0 md:top-10 md:-left-10">
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
               width={1000}
               height={1000}
               alt=""
-              className="relative -z-10 left-4 sm:left-8 md:left-10 max-w-full h-auto "
+              className="relative -z-10 left-10 max-lg:left-0 max-lg:bottom-10 max-md:bottom-0 max-w-full h-auto "
             />
           </div>
           <Image
@@ -84,8 +85,8 @@ export default function About() {
             alt="Dr. Kunal Sayani"
             width={300}
             height={375}
-            className="relative z-10 object-cover transform scale-x-[-1] w-full max-w-[300px] sm:max-w-[350px]
-             md:max-w-[400px] h-auto"
+            className="relative z-10 object-cover transform scale-x-[-1]
+             w-[400px] max-xl:w-[424px] max-lg:w-[350px] max-md:w-[300px] h-auto"
             priority
           />
         </motion.div>
@@ -96,7 +97,8 @@ export default function About() {
           initial={{ opacity: 0, y: 40 }}
           animate={isTextInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="w-full md:w-[55%] mt-6 md:mt-0 max-lg:text-center max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col"
+          className="w-[55%] max-lg:w-[100%] mt-6 md:mt-0 max-lg:text-center max-lg:flex max-lg:justify-center 
+          max-lg:items-center max-lg:flex-col"
         >
           <h3 className="text-3xl sm:text-2xl md:text-[2rem] font-semibold text-[#10217D] tracking-wide">
             About <span className="text-[#1AAEBC]">Dr. Kunal Sayani</span>
@@ -106,7 +108,7 @@ export default function About() {
             Board-Certified. Patient-Focused. Results-Driven.
           </h2>
 
-          <p className="text-xs max-lg:w-[90%] sm:text-sm md:text-base text-gray-800 leading-relaxed mb-2">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm text-gray-800 leading-relaxed mb-2">
             Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
             based in Andheri, Mumbai, with over 8 years of dedicated experience
             in the field of aesthetic and reconstructive surgery. Known for his
@@ -116,7 +118,7 @@ export default function About() {
             transformative.
           </p>
 
-          <p className="text-xs max-lg:w-[90%] sm:text-sm md:text-base text-gray-800 leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm text-gray-800 leading-relaxed mb-3">
             He completed his MCh in Plastic & Reconstructive Surgery from the
             prestigious Grant Medical College and Sir J.J. Hospital, Mumbai,
             where he also earned his MS in General Surgery. His foundational
@@ -125,7 +127,7 @@ export default function About() {
             clinical excellence.
           </p>
 
-          <p className="text-xs max-lg:w-[90%] sm:text-sm md:text-base text-gray-800 leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm text-gray-800 leading-relaxed mb-3">
             With a comprehensive range of procedures offered — including{" "}
             <strong>Liposuction</strong>, <strong>Tummy Tuck</strong>,{" "}
             <strong>Breast Reduction and Implants</strong>,{" "}
