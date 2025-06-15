@@ -75,9 +75,9 @@ export default function Overview() {
         <section id="procedure-details">
           <Knowledge />
         </section>
-        <section id="why-choose-us">
+        {/* <section id="why-choose-us">
           <ServiceCandidate />
-        </section>
+        </section> */}
       </div>
     </section>
   );

@@ -161,9 +161,9 @@ export default function FAQSection() {
 
           {/* Myths vs Facts Section */}
           <div className="mt-8">
-            <h3 className="text-2xl md:text-3xl mb-4 text-[#10217D] font-marcellus">
+            {/* <h3 className="text-2xl md:text-3xl mb-4 text-[#10217D] font-marcellus">
               Myths vs. Facts
-            </h3>
+            </h3> */}
             <div className="space-y-4">
               {mythsVsFacts.map((item, index) => {
                 const isOpen = openIndex === index + faqs.length;
