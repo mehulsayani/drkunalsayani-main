@@ -50,7 +50,7 @@ export default function ServicesSection() {
         {/* Left Content */}
         <div className="text-center lg:text-left">
           <h2 className=" max-xl:text-4xl max-xl:font-semibold max-lg:mt-8 text-6xl mb-6">
-            Services we offer
+            Area of Specialization{" "}
           </h2>
           <ul className="space-y-4 text-base sm:text-lg">
             {services.map((service, index) => (
