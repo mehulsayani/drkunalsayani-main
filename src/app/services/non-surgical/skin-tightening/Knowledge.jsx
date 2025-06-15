@@ -14,7 +14,7 @@ const Knowledge = () => {
   return (
     <section>
       <div className="w-full flex flex-col items-center justify-center py-6">
-        <div className="flex w-full max-lg:flex-col-reverse gap-6 max-w-[780px] max-lg:justify-center max-lg-items-center">
+        <div className="flex w-full max-lg:flex-col-reverse gap-6 max-lg:justify-center max-lg-items-center">
           <div>
             <div>
               <h1 className="text-3xl font-bold mb-4 text-[#102842] font-noto-sans">

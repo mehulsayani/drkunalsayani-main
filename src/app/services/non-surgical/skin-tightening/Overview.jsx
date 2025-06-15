@@ -39,7 +39,7 @@ export default function Overview() {
             healthy collagen and elastin over time. The result is skin that is
             visibly firmer, smoother, and more youthful-looking.
           </p>
-          <section className="px-4 py-8 md:px-12 lg:px-24 bg-white text-gray-800">
+          <section className=" py-8  bg-white text-gray-800">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Advanced Skin Tightening Solutions
             </h2>

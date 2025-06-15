@@ -31,7 +31,7 @@ export default function Overview() {
             one-size-fits-all solutions to offer a truly bespoke hair
             restoration journey
           </p>
-          <section className="px-4 py-8 md:px-12 lg:px-24 bg-white text-gray-800">
+          <section className=" py-8  bg-white text-gray-800">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               A New Era in Hair Loss Treatment
             </h2>
