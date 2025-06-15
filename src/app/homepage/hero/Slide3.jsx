@@ -46,10 +46,10 @@ export default function ServicesSection() {
         className="absolute w-[8rem] bottom-5 left-0 opacity-90"
       />
 
-      <div className="w-6xl max-xl:w-4xl flex flex-col lg:flex-row justify-between gap-12 items-center px-6">
+      <div className="w-6xl max-xl:w-4xl flex flex-col lg:flex-row justify-between items-center px-6">
         {/* Left Content */}
-        <div className="text-center lg:text-left">
-          <h2 className=" max-xl:text-4xl max-xl:font-semibold max-lg:mt-8 text-6xl mb-6">
+        <div className="text-center lg:text-left w-full ">
+          <h2 className=" max-xl:text-4xl font-bold max-xl:font-semibold max-lg:mt-8 text-5xl mb-6">
             Area of Specialization{" "}
           </h2>
           <ul className="space-y-4 text-base sm:text-lg">
@@ -75,7 +75,7 @@ export default function ServicesSection() {
           alt="Aesthetic Model"
           width={1000}
           height={1000}
-          className=" w-[36rem] max-xl:w-[36rem] -scale-x-100 max-lg:w-[20rem] max-md:w-[28rem] max-sm:w-[19rem]
+          className=" w-[36rem]  max-xl:w-[36rem] max-lg:top-10 -scale-x-100 max-lg:w-[20rem] max-md:w-[28rem] max-sm:w-[19rem]
            max-lg:relative max-lg:bottom-[4rem]"
         />
       </div>

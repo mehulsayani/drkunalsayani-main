@@ -37,12 +37,9 @@ export default function Slide1() {
             <button
             className="group relative inline-flex items-center justify-center px-6 py-3 
           overflow-hidden font-semibold text-black transition-all duration-300 rounded-lg 
-          shadow-md bg-[#40AEB9]"
+          shadow-md bg-[#40AEB9] hover:bg-[#148d98]"
           >
-            <span
-              className="absolute w-0 h-0 transition-all duration-300 ease-out bg-black 
-            opacity-10 group-hover:w-full group-hover:h-full group-hover:rounded-full"
-            ></span>
+           
             <span className="relative z-10 text-white">Book Appointment</span>
           </button>
           </a>
@@ -61,7 +58,7 @@ export default function Slide1() {
                   <div className="text-4xl sm:text-5xl max-sm:text3xl text-[#25282BEB] mb-2">
                     {stat.value}
                   </div>
-                  <div className="text-[#25282BEB] max-lg:text-lg  font-bold text-sm">
+                  <div className="text-[#25282BEB] max-lg:text-lg font-bold text-sm">
                     {stat.label}
                   </div>
                 </div>

@@ -16,7 +16,7 @@ export default function Slide2({ isActive }) {
           animate={isActive ? { x: 0, opacity: 1 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl max-xl:text-4xl font-semibold text-[#10217D] leading-tight max-lg:mb-4">
+          <h1 className="text-5xl max-xl:text-4xl font-bold text-[#10217D] leading-tight max-lg:mb-4">
             Accessible Aesthetics Authentic Results
           </h1>
 
@@ -28,8 +28,7 @@ export default function Slide2({ isActive }) {
           </p>
 
           <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+            
             className="bg-[#1aaebcaf] hover:bg-[#148d98] text-white font-medium py-3 px-6 rounded-lg shadow-md transition"
           >
             Book Appointment
