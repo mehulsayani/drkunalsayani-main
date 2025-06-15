@@ -14,8 +14,8 @@ const Knowledge = () => {
   return (
     <section>
       <div className="w-full flex flex-col items-center justify-center py-6">
-        <div className="flex w-full max-lg:flex-col-reverse gap-6 max-w-[780px] max-lg-items-center">
-          <div>
+        <div className="flex w-full max-lg:flex-col-reverse gap-6  max-lg-items-center">
+         
             <div>
               <h1 className="text-3xl font-bold mb-4 text-[#102842] font-noto-sans">
                 Procedure Details: Your BBL Journey Step-by-Step
@@ -133,7 +133,7 @@ const Knowledge = () => {
                 During your comprehensive consultation, Dr. Sayani will discuss these risks openly and in detail, ensuring you are fully informed before proceeding.
               </p>
             </div>
-          </div>
+          
         </div>
       </div>
     </section>

@@ -32,7 +32,7 @@ export default function Overview() {
             make an informed decision about sculpting the silhouette you've
             always desired.
           </p>
-          <section className="px-4 py-8 md:px-12 lg:px-24 bg-white text-gray-800">
+          <section className=" py-8 bg-white text-gray-800">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Redefining Your Curves with Brazilian Butt Lift
             </h2>

@@ -63,6 +63,12 @@ export default function Overview() {
             </li>
           </ul>
         </div>
+         <section id="procedure-details">
+          <Knowledge />
+        </section>
+        <section id="why-choose-us">
+          <ServiceCandidate />
+        </section>
       </div>
     </section>
   );
