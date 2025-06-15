@@ -44,8 +44,8 @@ export default function Overview() {
             ensures the result is elegant, subtle, and perfectly suited to your
             unique facial features
           </p>
-          <section className="px-4 py-8 md:px-12 lg:px-24 bg-white text-gray-800">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+         <section className=" py-3  bg-white text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">
               Types of Lip Lifts We Offer
             </h2>
 
