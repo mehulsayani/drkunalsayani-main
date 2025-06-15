@@ -103,7 +103,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-right">
-              98% Patient <br /> Satisfaction Rate
+              98% Patients <br /> Satisfaction Rate
             </p>
           </div>
           <div
