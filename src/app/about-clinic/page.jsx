@@ -8,7 +8,7 @@ import ConsultationSection from "./ConsultationSection";
 
 export default function page() {
   return (
-    <section className="pt-[8rem]">
+    <section className="pt-[8rem] max-lg:pt-[4rem]">
       <AboutTvameva />
       <EnvironmentTechnology />
       <Procedures />

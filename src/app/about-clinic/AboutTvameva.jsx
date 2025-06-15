@@ -4,7 +4,7 @@ import React from "react";
 const AboutSection = () => {
   return (
     <div className="flex justify-center items-center">
-      <section className="flex w-full max-w-[1200px] flex-col md:flex-row items-start gap-10 justify-start px-6 md:px-16 py-10 ">
+      <section className="flex w-full max-w-[1200px]  flex-col lg:flex-row items-start gap-10 justify-start px-6 md:px-16 py-10 ">
       {/* Left Image */}
       <div className="relative ">
         <Image
@@ -12,13 +12,13 @@ const AboutSection = () => {
         height={1000}
           src="/images/homepage/gallery/gallery3.png" // replace with actual image path
           alt="Clinic Process"
-          className="rounded-xl w-[32rem]"
+          className="rounded-xl lg:w-[32rem]"
         />
        
       </div>
 
       {/* Right Content */}
-      <div className="md:w-1/2 w-full space-y-4 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col max-lg:text-center ">
+      <div className="lg:w-1/2 w-full space-y-4 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col max-lg:text-center ">
         <button className="font-bold flex flex-col gap-1 justify-center items-start rounded-full text-gray-600">
           <div className="flex gap-4 justify-center items-center ">
             {/* <Image src={'/images/homepage/aboutcompany/sayanilogo.png'} width={40} height={40} alt=""

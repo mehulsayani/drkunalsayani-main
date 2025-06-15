@@ -8,7 +8,7 @@ export default function DrKunalSayani() {
   return (
     <div className="pt-[8rem] max-lg:pt-[4rem]  font-[roboto]">
       <section className=" px-4 bg-[#E5F4F6] max-lg:pb-10 ">
-        <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
+        <div className="max-w-[1100px] mx-auto flex flex-col lg:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
           <div className="flex-1 max-lg:text-center">
             <h1 className="text-4xl font-bold mb-4 text-[#10217D] font-[Noto_Sans]">
               Dr. Kunal Sayani

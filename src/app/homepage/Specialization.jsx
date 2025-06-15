@@ -109,11 +109,11 @@ export default function Services() {
         <div className="flex flex-wrap justify-between gap-4">
       {specializations.map((service, index) => (
         <div key={service.id || index} className="px-3">
-          <div className="bg-white rounded-xl w-full sm:w-[17.25rem] shadow hover:shadow-lg transition-all overflow-hidden">
+          <div className="bg-white rounded-xl w-full sm:w-[90vw] md:w-[43vw] lg:w-[17.25rem] shadow hover:shadow-lg transition-all overflow-hidden">
             <img
               src={service.image}
               alt={service.title || 'Service image'}
-              className="w-full h-40 object-cover"
+              className="w-full h-50 max-lg:h-80 object-cover"
             />
             <div className="p-4 text-left">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">

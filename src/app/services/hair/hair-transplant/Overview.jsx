@@ -12,7 +12,10 @@ export default function Overview() {
           width={1000}
           height={1000}
           alt=""
-          className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
+          className="rounded-3xl mb-8"
+
+
+          
         />
         <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
           <p className="mb-3">

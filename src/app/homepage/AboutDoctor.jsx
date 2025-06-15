@@ -68,7 +68,7 @@ export default function About() {
             width={500}
             height={500}
             alt=""
-            className="absolute top-18 -left-86 opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
+            className="absolute top-18 -left-86 max-lg:hidden opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
           />
           <div className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[400px] rounded-full
            top-0 left-0 md:top-10 md:-left-10">
@@ -77,7 +77,7 @@ export default function About() {
               width={1000}
               height={1000}
               alt=""
-              className="relative -z-10 left-10 max-lg:left-0 max-lg:bottom-10 max-md:bottom-0 max-w-full h-auto "
+              className="relative -z-10 left-10 max-lg:left-0 max-md:left-30 max-sm:left-0 max-lg:bottom-10 max-md:bottom-0 max-w-full h-auto "
             />
           </div>
           <Image
@@ -153,8 +153,8 @@ export default function About() {
         className="relative z-40 bg-gradient-to-r min-[1024px]:hidden from-blue-900 to-cyan-800 
       text-white pt-6 sm:py-8 px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem] "
       >
-        <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row gap-6 sm:gap-14">
-          <h4 className="text-base text-center sm:text-left sm:text-lg md:text-2xl font-semibold w-full sm:w-[40%]">
+        <div className="max-w-[1200px] mx-auto flex max-lg:flex-col gap-6 sm:gap-14">
+          <h4 className="text-base text-center sm:text-left sm:text-lg md:text-2xl font-semibold w-full sm:w-[100%] lg:w-[40%]">
             Dr. Kunal Sayani is a proud member of several esteemed national and
             international professional bodies:
           </h4>
@@ -192,7 +192,7 @@ export default function About() {
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className="px-2">
-                  <div className="bg-white p-2 rounded-lg shadow-md w-34 h-34 mx-auto">
+                  <div className="bg-white p-2 rounded-lg shadow-md w-34m max-xl:w-28 h-34m max-xl:h-28 mx-auto">
                     <Image
                       src={`/images/homepage/aboutdoctor/${img}.png`}
                       alt={`Membership ${i + 1}`}
