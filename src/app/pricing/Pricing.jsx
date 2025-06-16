@@ -44,7 +44,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-[#1aaebc10] py-16 px-6">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#10217D] mb-4">
           Treatment & Procedure Pricing
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto text-base leading-relaxed">

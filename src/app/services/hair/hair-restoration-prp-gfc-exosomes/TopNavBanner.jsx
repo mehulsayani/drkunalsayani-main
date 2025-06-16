@@ -37,7 +37,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-        Hair Transplant
+        Hair Restoration
       </h1>
 
       {/* Breadcrumbs */}
@@ -55,7 +55,7 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium">Hair Transplant</span>
+        <span className=" font-medium"> Hair Restoration</span>
       </div>
     </div>
   );
