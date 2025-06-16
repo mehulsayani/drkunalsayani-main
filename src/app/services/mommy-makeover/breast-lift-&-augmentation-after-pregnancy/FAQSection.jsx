@@ -69,7 +69,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src="/images/services/breast/Breast Lift (mastopexy) with Shaping.jpg"
+             src={"/images/services/breast/Breast Augmentation.jpg"}
             alt="Breast Lift with Augmentation"
             fill
             style={{ objectFit: "cover" }}
