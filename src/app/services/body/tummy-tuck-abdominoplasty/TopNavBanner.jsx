@@ -37,7 +37,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-        TUMMY TUCK SURGERY
+        Tummy Tuck (Abdominoplasty)
       </h1>
 
       {/* Breadcrumbs */}
