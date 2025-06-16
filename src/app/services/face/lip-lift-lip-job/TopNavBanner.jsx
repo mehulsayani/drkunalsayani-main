@@ -37,7 +37,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-        Lip Lift (Lip job)
+        Lip Lift (Lip Job)
       </h1>
 
       {/* Breadcrumbs */}
@@ -55,7 +55,7 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium">Lip Lift (Lip job)</span>
+        <span className=" font-medium">Lip Lift (Lip Job)</span>
       </div>
     </div>
   );
