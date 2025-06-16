@@ -42,11 +42,7 @@ export default function Footer() {
                 About Clinic
               </a>
             </li>
-            <li>
-              <a href="/about/team" className="hover:text-white">
-                Our Team
-              </a>
-            </li>
+          
             
           </ul>
         </div>
