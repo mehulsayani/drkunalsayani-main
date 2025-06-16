@@ -33,7 +33,7 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+            Who is a Good Candidate <br /> for Skin Tightening
           </h2>
           {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
@@ -43,11 +43,14 @@ export default function ServiceCandidate() {
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
-              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              "Advanced, non-invasive technology for effective skin tightening without surgery",
+              "Experienced specialists ensuring safe and personalized treatment plans",
+              "Noticeable improvement in skin elasticity and firmness with minimal downtime",
+              "Use of FDA-approved equipment guaranteeing reliable and consistent results",
+              "Customized treatments targeting specific areas for natural-looking skin rejuvenation",
+              "Comfortable procedures with minimal discomfort and quick recovery",
+              "Comprehensive aftercare support to maintain and enhance treatment outcomes",
+              "Positive patient testimonials reflecting high satisfaction and visible results",
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
