@@ -130,7 +130,7 @@ export default function ConsultationSection() {
             ></textarea>
             <button
               type="submit"
-              className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-blue-500 transition"
+              className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-yellow-500 transition"
             >
               Book Consultation
             </button>
