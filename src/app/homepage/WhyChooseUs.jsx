@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
         <Image src={"/images/homepage/WhyChooseUs/dr15.png"} fill alt="" className="opacity-60" />
       </div>
 
-      <div className="relative max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">
+      <div className="relative bottom-10 max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">
         {/* Main Circle */}
         <div className="w-full h-full rounded-full border-1  border-dashed flex justify-center items-center ">
           <div className="w-[90%] h-[90%] rounded-full relative overflow-hidden shadow-[0px_0px_5px_lightgray]">
