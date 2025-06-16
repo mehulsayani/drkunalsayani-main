@@ -57,7 +57,7 @@ const EnvironmentTechnology = () => {
               </p>
               <div className="md:mt-0 max-lg:hidden">
                 <a
-                  href="/gellary"
+                  href="/gallery"
                   className="mt-4 px-8 py-3 bg-[#1AAEBC] text-base font-semibold text-white rounded-lg hover:bg-[#148d98]"
                 >
                   View All <span>→</span>
