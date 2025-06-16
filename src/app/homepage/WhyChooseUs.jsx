@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
 
         {/* Dot1 on the circle */}
         <div
-          className="flex text-center font- justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
+          className="flex text-center font-bold justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
         cursor-pointer left-[50%] transform -translate-x-1/2 "
         >
         
@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 4 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className=" text-right">
+            <p className="font-bold text-right">
               98% Patients <br /> Satisfaction Rate
             </p>
           </div>
@@ -129,7 +129,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 1 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className=" text-left w-28">
+            <p className="font-bold text-left w-28">
               Value For <br /> Money
             </p>
           </div>
@@ -145,7 +145,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 3 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className=" text-right ">
+            <p className="font-bold text-right ">
               Safety And <br /> Ethics
             </p>
           </div>
@@ -172,7 +172,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 2 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className=" text-left w-28">
+            <p className="font-bold text-left w-28">
               Trusted & <br /> Experienced Doctor
             </p>
           </div>
