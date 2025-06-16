@@ -7,29 +7,99 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a tummy tuck (abdominoplasty)?",
+    question: "What is Nano-Fat Injection SVC for hair growth?",
     answer:
-      "A tummy tuck is a surgical procedure to remove excess skin and fat from the abdomen and tighten the abdominal muscles, resulting in a smoother, firmer contour",
+      "Nano-Fat Injection SVC is a regenerative procedure that uses your own processed fat, rich in stem cells and growth factors, to stimulate hair follicles and promote hair growth on the scalp.",
   },
   {
-    question: "Who is a good candidate for a tummy tuck?",
+    question: "Who is a good candidate for Nano-Fat Injection SVC for hair growth?",
     answer:
-      "Ideal candidates are generally healthy adults who have excess skin and fat in the abdomen that doesn't respond well to diet and exercise, have stable weight, and are non-smokers. Women who have had multiple pregnancies and have stretched abdominal skin and muscles are also common ",
+      "Ideal candidates are generally healthy adults with early to moderate hair thinning or diffuse hair loss, seeking a natural and minimally invasive solution.",
   },
   {
-    question: "Will a tummy tuck help me lose weight?",
+    question: "Will Nano-Fat Injection SVC make my hair grow instantly?",
     answer:
-      "A tummy tuck is primarily a contouring procedure, not a weight-loss surgery. While some fat is removed, the main goal is to improve the shape and tone of the abdomen. It's best performed after you have achieved a stable and healthy weight.",
+      "Myth: Hair growth is a gradual process. Fact: While the regenerative cells start working immediately, visible new hair growth typically begins around 3-6 months after the procedure, as hair cycles need time to complete.",
   },
   {
-    question: "How long do the results of a tummy tuck last?",
+    question: "How long do the results of Nano-Fat Injection SVC for hair growth last?",
     answer:
-      "The results of a tummy tuck can be long-lasting, especially if you maintain a stable weight and healthy lifestyle. However, significant weight fluctuations, pregnancy, and the natural aging process can affect your results over time.",
+      "The results can be long-lasting, but maintenance treatments may be recommended periodically to sustain the effects, as natural aging and hair loss progression can still occur.",
   },
   {
-    question: "What kind of scars can I expect after a tummy tuck?",
+    question: "Is Nano-Fat Injection SVC the same as PRP for hair loss?",
     answer:
-      "Scars are a permanent outcome of a tummy tuck. The length and location of the scars depend on the type of tummy tuck performed. Dr. Kunal Sayani will make every effort to place incisions discreetly, and scars typically fade over time, although they will remain visible.",
+      "Myth: No, while both are regenerative therapies using your own body's components, they are different. Fact: PRP (Platelet-Rich Plasma) uses concentrated platelets from your blood, whereas Nano-Fat SVC uses processed fat containing a broader range of stem cells and growth factors. They can sometimes be used in combination.",
+  },
+  {
+    question: "Can Nano-Fat Injection SVC cure baldness?",
+    answer:
+      "Myth: Nano-Fat Injection SVC can reverse severe baldness. Fact: It's most effective for stimulating existing thinning hair follicles and promoting new growth in areas of early to moderate hair loss. It's not a 'cure' for complete baldness, where follicles are entirely lost.",
+  },
+  {
+    question: "Where is the fat typically harvested from?",
+    answer:
+      "Fat is usually harvested from areas with sufficient fat deposits, such as the abdomen, flanks, or inner thighs, using a small, gentle liposuction technique.",
+  },
+  {
+    question: "Is the procedure painful?",
+    answer:
+      "The procedure is performed under local anesthesia, so you should experience minimal discomfort during the fat harvest and injections. You may feel some pressure or tugging.",
+  },
+  {
+    question: "How long does the procedure take?",
+    answer:
+      "The Nano-Fat Injection SVC procedure typically takes between 1 to 2 hours, depending on the extent of the areas being treated.",
+  },
+  {
+    question: "How long is the recovery period after Nano-Fat Injection SVC?",
+    answer:
+      "The initial recovery period is usually just a few days, with most patients resuming normal activities within 24-48 hours.",
+  },
+  {
+    question: "When can I wash my hair after the procedure?",
+    answer:
+      "You will typically be advised to avoid washing your hair for the first 24-48 hours, as directed by Dr. Kunal Sayani.",
+  },
+  {
+    question: "Will I have visible marks on my scalp after the injections?",
+    answer:
+      "You may have some tiny red dots or minor swelling at the injection sites, which usually resolve within a few days.",
+  },
+  {
+    question: "Is Nano-Fat Injection SVC a safe procedure?",
+    answer:
+      "When performed by a qualified and experienced surgeon like Dr. Kunal Sayani, Nano-Fat Injection SVC is generally considered a safe procedure with minimal risks.",
+  },
+  {
+    question: "What are the potential complications of Nano-Fat Injection SVC?",
+    answer:
+      "Potential complications are rare but can include infection, swelling, bruising, temporary numbness, or minor irregularities at the fat harvest site. Dr. Kunal Sayani will discuss these with you.",
+  },
+  {
+    question: "How can I minimize the risks of the procedure?",
+    answer:
+      "Choosing a board-certified and experienced plastic surgeon, following all pre- and post-operative instructions carefully, and maintaining good overall health are crucial for minimizing risks.",
+  },
+  {
+    question: "Myth: Nano-Fat Injection SVC results are immediate.",
+    answer:
+      "Fact: Hair growth is a biological process that takes time. You will typically see noticeable results in 3-6 months, with continued improvement over a year.",
+  },
+  {
+    question: "Myth: Nano-Fat Injection SVC is painful and requires a long recovery.",
+    answer:
+      "Fact: The procedure is performed under local anesthesia, and recovery is generally quick, with most patients returning to their routine within a few days.",
+  },
+  {
+    question: "Myth: Anyone with hair loss is a candidate for Nano-Fat Injection SVC.",
+    answer:
+      "Fact: While effective for many, it's best suited for individuals with early to moderate hair thinning or diffuse hair loss, and sufficient fat reserves. A consultation with Dr. Kunal Sayani will determine your eligibility.",
+  },
+  {
+    question: "Myth: Nano-Fat Injection SVC is a one-time treatment that guarantees permanent hair.",
+    answer:
+      "Fact: While results can be long-lasting, the natural aging process and continued hair loss can occur. Maintenance treatments may be recommended to sustain optimal results.",
   },
 ];
 

@@ -14,45 +14,50 @@ export default function Overview() {
           alt=""
           className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
         />
-        {/* <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
-         <p className="mb-3">
-          Dreaming of a smoother, firmer abdomen? Do you find excess skin and
-          stubborn fat deposits around your midsection resistant to diet and
-          exercise? A tummy tuck, also known as abdominoplasty, is a
-          transformative surgical procedure designed to address these concerns,
-          creating a flatter and more toned abdominal profile.
-        </p>
-        <p className="mb-3">
-          A tummy tuck, medically known as abdominoplasty, is a surgical
-          procedure designed to improve the shape and appearance of the abdomen
-          by removing excess skin and fat and tightening the abdominal muscles.
-          This results in a smoother, firmer, and more toned stomach area. It is
-          particularly beneficial for individuals who have experienced
-          significant weight loss, pregnancy, or aging, which can cause
-          stretched skin and weakened muscles. The procedure can be customized
-          to the patient’s needs, ranging from a full tummy tuck addressing the
-          entire abdominal area to a mini tummy tuck focusing on the lower
-          abdomen.
-        </p>
-        <p className="mb-3">
-          Abdominoplasty is not a weight-loss procedure but rather a body
-          contouring solution that addresses aesthetic concerns that diet and
-          exercise alone cannot resolve. Whether it’s restoring a pre-pregnancy
-          figure or achieving a sculpted abdomen, Dr. Kunal Sayani employs
-          state-of-theart methods to ensure optimal outcomes with minimal
-          scarring and downtime. The procedure can be combined with liposuction
-          for enhanced contouring or customized as a mini tummy tuck for
-          patients with less extensive needs.
-        </p>
-        <p className="mb-3">
-          Dr. Kunal Sayani, one of the top plastic surgeon in Mumbai for tummy
-          tuck, performs tummy tuck surgeries tailored to individual goals,
-          ensuring natural-looking results with minimal scarring. The surgery
-          typically involves an incision above the pubic area, muscle
-          tightening, removal of excess fat and skin, and repositioning of the
-          belly button to maintain a natural contour.
-        </p>
-       </div> */}
+        <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
+          <p className="mb-3">
+            Are you experiencing hair thinning or hair loss and seeking a
+            natural, effective solution to restore your hair's density and
+            vitality? Nano-Fat Injection SVC for hair growth is an innovative
+            and minimally invasive procedure that harnesses the regenerative
+            power of your own body's fat cells to stimulate hair follicles and
+            promote new hair growth. This cutting-edge treatment offers a
+            promising alternative for those looking to address hair loss without
+            resorting to more invasive surgical options.
+          </p>
+          <p className="mb-3">
+            Nano-Fat Injection SVC, or Stromal Vascular Fraction, involves
+            harvesting a small amount of your own fat, processing it to
+            concentrate its regenerative cells (including stem cells and growth
+            factors), and then injecting this "nano-fat" into the scalp. These
+            highly concentrated regenerative cells work to revitalize dormant
+            hair follicles, improve blood circulation to the scalp, and create a
+            healthier environment for hair growth. The procedure is particularly
+            beneficial for individuals with androgenetic alopecia (pattern
+            baldness), diffuse thinning, or those seeking to improve the overall
+            quality and thickness of their existing hair.
+          </p>
+          <p className="mb-3">
+            This treatment is not a hair transplant but rather a regenerative
+            therapy aimed at improving the health and function of existing hair
+            follicles and stimulating new growth. It addresses the underlying
+            causes of hair loss by providing the scalp with a rich supply of
+            growth factors and stem cells, which are crucial for cellular repair
+            and regeneration. Dr. Kunal Sayani employs state-of-the-art techniques to
+            ensure optimal outcomes, focusing on natural-looking results with
+            minimal downtime. The procedure can be combined with other hair
+            restoration therapies for enhanced results.
+          </p>
+          <p className="mb-3">
+            Dr. Kunal Sayani, one of the top specialists in
+            regenerative hair solutions in Mumbai, performs Nano-Fat Injection SVC
+            procedures tailored to individual needs, ensuring natural-looking
+            and long-lasting improvements in hair density and quality. The
+            procedure typically involves a small fat harvest, centrifugation to
+            isolate the regenerative cells, and precise injections into the
+            scalp.
+          </p>
+        </div>
         <section id="procedure-details">
           <Knowledge />
         </section>
