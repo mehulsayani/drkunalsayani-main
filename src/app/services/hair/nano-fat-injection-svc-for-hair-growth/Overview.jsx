@@ -12,7 +12,7 @@ export default function Overview() {
           width={1000}
           height={1000}
           alt=""
-          className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
+          className="rounded-3xl mb-8 h-[30rem] max-lg:h-auto"
         />
         <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
           <p className="mb-3">
@@ -43,19 +43,18 @@ export default function Overview() {
             follicles and stimulating new growth. It addresses the underlying
             causes of hair loss by providing the scalp with a rich supply of
             growth factors and stem cells, which are crucial for cellular repair
-            and regeneration. Dr. Kunal Sayani employs state-of-the-art techniques to
-            ensure optimal outcomes, focusing on natural-looking results with
-            minimal downtime. The procedure can be combined with other hair
-            restoration therapies for enhanced results.
+            and regeneration. Dr. Kunal Sayani employs state-of-the-art
+            techniques to ensure optimal outcomes, focusing on natural-looking
+            results with minimal downtime. The procedure can be combined with
+            other hair restoration therapies for enhanced results.
           </p>
           <p className="mb-3">
-            Dr. Kunal Sayani, one of the top specialists in
-            regenerative hair solutions in Mumbai, performs Nano-Fat Injection SVC
-            procedures tailored to individual needs, ensuring natural-looking
-            and long-lasting improvements in hair density and quality. The
-            procedure typically involves a small fat harvest, centrifugation to
-            isolate the regenerative cells, and precise injections into the
-            scalp.
+            Dr. Kunal Sayani, one of the top specialists in regenerative hair
+            solutions in Mumbai, performs Nano-Fat Injection SVC procedures
+            tailored to individual needs, ensuring natural-looking and
+            long-lasting improvements in hair density and quality. The procedure
+            typically involves a small fat harvest, centrifugation to isolate
+            the regenerative cells, and precise injections into the scalp.
           </p>
         </div>
         <section id="procedure-details">

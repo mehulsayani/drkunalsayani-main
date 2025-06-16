@@ -12,7 +12,7 @@ export default function Overview() {
           width={1000}
           height={1000}
           alt=""
-          className="rounded-3xl mb-8 h-[30rem] max-lg:h-[15rem]"
+          className="rounded-3xl mb-8 h-[30rem] max-lg:h-auto"
         />
         <div className="text-gray-600 leading-relaxed text-base max-lg:text-base">
           <p className="mb-3">
@@ -44,7 +44,7 @@ export default function Overview() {
             ensures the result is elegant, subtle, and perfectly suited to your
             unique facial features
           </p>
-         <section className=" py-3  bg-white text-gray-800">
+          <section className=" py-3  bg-white text-gray-800">
             <h2 className="text-2xl md:text-3xl font-bold mb-3">
               Types of Lip Lifts We Offer
             </h2>
