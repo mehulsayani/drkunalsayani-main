@@ -109,7 +109,7 @@ export default function ConsultationSection() {
                 placeholder="Phone Number"
                 className="border border-gray-300 p-3 rounded-lg w-full bg-white"
               />
-              <select >
+              <select className="border border-gray-300 p-3 rounded-lg w-full bg-white">
   <option>Choose an Option</option>
   {submenus.map((menu, idx) => (
     <optgroup key={idx} label={menu.title}>
