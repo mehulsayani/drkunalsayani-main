@@ -18,7 +18,7 @@ export default function Slide1() {
         <div className="max-w-5xl w-full   mb-10 md:mb-0 mt-8 max-lg:flex max-lg:justify-center 
         max-lg:items-center max-lg:flex-col">
           <h1
-            className="text-4xl max-lg:text-2xl  md:text-[40px] max-lg:text-center 
+            className="text-4xl max-lg:text-3xl  md:text-[40px] max-lg:text-center 
           mb-4 font-bold max-lg:font-bold text-[#10217D] leading-tight"
           >
             When in Doubt, Trust Experience  You're <br /> in Safe Hands with{" "}
