@@ -70,8 +70,10 @@ export default function About() {
             alt=""
             className="absolute top-18 -left-86 max-lg:hidden opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
           />
-          <div className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[400px] rounded-full
-           top-0 left-0 md:top-10 md:-left-10">
+          <div
+            className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[400px] rounded-full
+           top-0 left-0 md:top-10 md:-left-10"
+          >
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
               width={1000}
@@ -127,23 +129,27 @@ export default function About() {
             clinical excellence.
           </p>
 
-          <p className="text-base max-lg:w-[90%] max-lg:text-sm text-gray-800 leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%]  max-lg:text-sm text-gray-800 leading-relaxed mb-3">
             With a comprehensive range of procedures offered — including{" "}
             <strong>Liposuction</strong>, <strong>Tummy Tuck</strong>,{" "}
             <strong>Breast Reduction and Implants</strong>,{" "}
             <strong>Rhinoplasty</strong>, <strong>Neck Lift</strong>,{" "}
             <strong>Face Lift (Rhytidectomy)</strong>,{" "}
             <strong>Mastopexy</strong>, and{" "}
-            <strong>Facial Plastic Surgery</strong> — Dr. Kunal is known for
-            delivering personalized outcomes that prioritize patient safety,
-            satisfaction, and aesthetic harmony.
+            <strong>Facial Plastic Surgery</strong>{" "}
+            <p className="max-xl:hidden">
+              — Dr. Kunal is known for delivering personalized outcomes that
+              prioritize patient safety, satisfaction, and aesthetic harmony.
+            </p>
           </p>
 
           <a href="/about-dr-kunal-sayani">
-            <button className="px-4 sm:px-5 py-2 bg-[#1AAEBC] hover:bg-[#148d98] max-lg:mb-8 text-white 
-          text-xs sm:text-sm font-semibold rounded-md shadow  transition">
-            Read More
-          </button>
+            <button
+              className="px-4 sm:px-5 py-2 bg-[#1AAEBC] hover:bg-[#148d98] max-lg:mb-8 text-white 
+          text-xs sm:text-sm font-semibold rounded-md shadow  transition"
+            >
+              Read More
+            </button>
           </a>
         </motion.div>
       </div>
@@ -192,7 +198,8 @@ export default function About() {
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className="px-2">
-                  <div className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-34 sm:h-34 mx-auto">
+                  <div className="bg-white p-2 rounded-lg shadow-md w-34 h-34 
+                   max-xl:w-24 max-lg:w-20  max-xl:h-24 max-lg:h-20 mx-auto">
                     <Image
                       src={`/images/homepage/aboutdoctor/${img}.png`}
                       alt={`Membership ${i + 1}`}
