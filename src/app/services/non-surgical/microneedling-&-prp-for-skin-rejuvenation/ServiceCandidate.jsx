@@ -33,7 +33,7 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Why Choose Microneedling & PRP for Skin Rejuvenation service :
+            Why Choose Microneedling & PRP for Skin Rejuvenation with Kunal Sayani :
           </h2>
           {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
