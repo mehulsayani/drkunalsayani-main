@@ -15,7 +15,7 @@ const procedures = [
   },
   {
     id: 2,
-    title: "Breast Reduction & Axillary Breasts Excision",
+    title: "Breast Reduction ",
     description:
       "Gently remove dead skin and peach fuzz for a smooth, radiant complexion.",
     image: "breast/Breast Reduction & Axillary Breasts Excision.jpg",
