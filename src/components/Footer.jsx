@@ -67,12 +67,12 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/services/breast/buttock-augmentation-bbl" className="hover:text-white">
+              <a href="/services/body/buttock-augmentation-bbl" className="hover:text-white">
               Buttock Augmentation
               </a>
             </li>
              <li>
-              <a href="/services/breast/botox-(wrinkles-anti-ageing)" className="hover:text-white">
+              <a href="/services/non-surgical/botox-wrinkles-anti-ageing" className="hover:text-white">
                 Botox
               </a>
             </li>
@@ -82,7 +82,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/services/breast/aesthetics" className="hover:text-white">
+              <a href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures" className="hover:text-white">
              Mommy Makeover
               </a>
             </li>
