@@ -22,7 +22,7 @@ const Knowledge = () => {
                 {data.title}
               </h2>
 
-              <p className="mb-4">{data.introduction}</p>
+              <p className="mb-4 text-gray-600">{data.introduction}</p>
 
               <h2 className="text-2xl font-semibold mt-4">
                 {data.procedure.title}
@@ -30,8 +30,8 @@ const Knowledge = () => {
               <h3 className="font-semibold mt-4">
                 {data.procedure.steps[0].step}
               </h3>
-              <p className="mb-2">{data.procedure.steps[0].description}</p>
-              <ul className="list-disc ml-6 space-y-2 mb-3">
+              <p className="mb-2 text-gray-600">{data.procedure.steps[0].description}</p>
+              <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                 {data.procedure.steps[0].points.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}
@@ -41,8 +41,8 @@ const Knowledge = () => {
                 {data.procedure.steps.slice(1).map((step, index) => (
                   <div key={index}>
                     <h3 className="font-semibold mt-4">{step.step}</h3>
-                    <p className="mb-2">{step.description}</p>
-                    <ul className="list-disc ml-6 space-y-2 mb-3">
+                    <p className="mb-2 text-gray-600">{step.description}</p>
+                    <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                       {step.points.map((point, idx) => (
                         <li key={idx}>{point}</li>
                       ))}
@@ -50,14 +50,14 @@ const Knowledge = () => {
                   </div>
                 ))}
 
-                <h2 id="recovery" className="text-2xl font-semibold mt-4">
+                <h2 id="recovery" className="text-2xl font-semibold mt-4 text-[#10217D]">
                   {data.recovery.title}
                 </h2>
-                <p className="mb-4">{data.recovery.introduction}</p>
+                <p className="mb-4 text-gray-600">{data.recovery.introduction}</p>
                 <h3 className="font-semibold mt-4">
                   {data.recovery.phases[0].phase}
                 </h3>
-                <ul className="list-disc ml-6 space-y-2 mb-3">
+                <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                   {data.recovery.phases[0].points.map((point, index) => (
                     <li key={index}>{point}</li>
                   ))}
@@ -65,38 +65,38 @@ const Knowledge = () => {
                 {data.recovery.phases.slice(1).map((phase, index) => (
                   <div key={index}>
                     <h3 className="font-semibold mt-4">{phase.phase}</h3>
-                    <ul className="list-disc ml-6 space-y-2 mb-3">
+                    <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                       {phase.points.map((point, idx) => (
                         <li key={idx}>{point}</li>
                       ))}
                     </ul>
                   </div>
                 ))}
-                <p className="mb-4">{data.recovery.note}</p>
+                <p className="mb-4 text-gray-600">{data.recovery.note}</p>
 
-                <h2 id="risks-safety" className="text-2xl font-semibold mt-4">
+                <h2 id="risks-safety" className="text-2xl font-semibold mt-4 text-[#10217D]">
                   {data.risks.title}
                 </h2>
-                <p className="mb-4">{data.risks.introduction}</p>
+                <p className="mb-4 text-gray-600">{data.risks.introduction}</p>
                 <h3 className="font-semibold mt-4">General Safety</h3>
-                <ul className="list-disc ml-6 space-y-2 mb-3">
+                <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                   {data.risks.generalSafety.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
                 <h3 className="font-semibold mt-4">Minor Side Effects</h3>
-                <ul className="list-disc ml-6 space-y-2 mb-3">
+                <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                   {data.risks.minorSideEffects.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
                 <h3 className="font-semibold mt-4">Extremely Rare Risks</h3>
-                <ul className="list-disc ml-6 space-y-2 mb-3">
+                <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                   {data.risks.rareRisks.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
-                <p className="mb-4">{data.risks.conclusion}</p>
+                <p className="mb-4 text-gray-600">{data.risks.conclusion}</p>
               </div>
             </div>
           </div>

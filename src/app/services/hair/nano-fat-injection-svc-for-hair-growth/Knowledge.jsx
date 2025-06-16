@@ -22,11 +22,11 @@ const Knowledge = () => {
                 What Nano-Fat Injection SVC Can Achieve:
               </h2>
 
-              <p className="mb-4">
+              <p className="mb-4 text-gray-600">
                 Nano-Fat Injection SVC for hair growth can offer a range of
                 aesthetic improvements, including:
               </p>
-              <ul className="list-disc ml-6 space-y-2 mb-3">
+              <ul className="list-disc ml-6 space-y-2 mb-3 text-gray-600">
                 <li>
                   Stimulation of dormant hair follicles, leading to new hair
                   growth.
@@ -41,7 +41,7 @@ const Knowledge = () => {
                 <li>A more confident and youthful appearance.</li>
               </ul>
               <div>
-                <p>
+                <p className="text-gray-600">
                   Dr. Kunal Sayani understands that each patient's hair loss
                   pattern and aesthetic goals are unique. During your
                   personalized consultation with him, he will thoroughly assess
@@ -55,7 +55,7 @@ const Knowledge = () => {
                 <h1 className="text-3xl font-bold mb-4 text-[#10217D] font-notoSans">
                   Procedure Details
                 </h1>
-                <p>
+                <p className="text-gray-600">
                   The Nano-Fat Injection SVC procedure, performed by Dr. Kunal
                   Sayani, is a meticulously planned treatment tailored to the
                   patient’s specific hair loss condition and goals. Below is a
@@ -66,7 +66,7 @@ const Knowledge = () => {
                   {/* <FaStethoscope className="inline mr-2 text-blue-600" /> */}
                   Consultation
                 </h2>
-                <p>
+                <p className="text-gray-600">
                   Your journey begins with a comprehensive consultation with Dr.
                   Kunal Sayani. During this session, he evaluates your medical
                   history, examines your scalp and hair, and discusses your
@@ -82,7 +82,7 @@ const Knowledge = () => {
                   The Nano-Fat Injection SVC procedure involves the following
                   key steps:
                 </h2>
-                <ul className="list-disc ml-6 space-y-2">
+                <ul className="list-disc ml-6 space-y-2 text-gray-600">
                   <li>
                     Fat Harvesting: A small amount of fat is typically harvested
                     from an area like the abdomen or thigh using a gentle

@@ -102,7 +102,7 @@ export default function Page() {
       <div className="mt-12 text-center">
         <a
           href="/book-appointment"
-          className="inline-block bg-[#1AAEBC] text-white font-medium text-base px-8 py-3 rounded-full shadow-md hover:bg-[#1AAEBC] transition-all duration-300"
+          className="inline-block bg-[#1AAEBC] text-white font-medium text-base px-8 py-3 rounded-lg shadow-md hover:bg-[#1AAEBC] transition-all duration-300"
         >
           Book Your Surgery
         </a>
