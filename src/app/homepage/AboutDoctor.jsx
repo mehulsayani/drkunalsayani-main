@@ -71,7 +71,7 @@ export default function About() {
             className="absolute top-18 -left-86 max-lg:hidden opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
           />
           <div
-            className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[400px] rounded-full
+            className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[350px] rounded-full
            top-0 left-0 md:top-10 md:-left-10"
           >
             <Image
