@@ -17,7 +17,7 @@ const Knowledge = () => {
         <div className="flex w-full max-lg:flex-col-reverse gap-6 max-lg:justify-center max-lg-items-center">
           <div>
             <div>
-              <h1 className="text-3xl font-bold mb-4 text-[#102842] font-noto-sans">
+              <h1 className="text-3xl font-bold mb-4 text-[#10217D] font-noto-sans">
                 Procedure Details
               </h1>
               <p className="mb-4">
@@ -58,7 +58,7 @@ const Knowledge = () => {
 
               <h2
                 id="recovery"
-                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+                className="text-3xl font-bold mt-6 text-[#10217D] font-noto-sans"
               >
                 Recovery & Aftercare (Post-Op Instructions)
               </h2>
@@ -96,7 +96,7 @@ const Knowledge = () => {
 
               <h2
                 id="risks-safety"
-                className="text-3xl font-bold mt-6 text-[#102842] font-noto-sans"
+                className="text-3xl font-bold mt-6 text-[#10217D] font-noto-sans"
               >
                 Risks & Safety
               </h2>
