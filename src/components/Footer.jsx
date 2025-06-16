@@ -33,12 +33,12 @@ export default function Footer() {
           <h4 className="text-base font-semibold mb-3">About Us</h4>
           <ul className="space-y-2 ">
             <li>
-              <a href="/about/about-dr-kunal-sayani" className="hover:text-white">
+              <a href="/about-dr-kunal-sayani" className="hover:text-white">
                 About Dr. Kunal Sayani
               </a>
             </li>
             <li>
-              <a href="/about/about-clinic" className="hover:text-white">
+              <a href="/about-clinic" className="hover:text-white">
                 About Clinic
               </a>
             </li>
