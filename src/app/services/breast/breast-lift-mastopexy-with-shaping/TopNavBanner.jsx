@@ -37,7 +37,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-        Breast Lift Mastopexy With Shaping
+       Breast Lift (mastopexy) with Shaping
       </h1>
 
       {/* Breadcrumbs */}
