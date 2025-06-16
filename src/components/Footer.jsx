@@ -57,7 +57,7 @@ export default function Footer() {
           <ul className="space-y-2 ">
             <li>
               <a href="/services/body/tummy-tuck-abdominoplasty" className="hover:text-white">
-                Abdominoplasty
+                Tummy Tuck Abdominoplasty
               </a>
             </li>
             <li>
