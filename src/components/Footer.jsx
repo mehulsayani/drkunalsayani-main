@@ -127,7 +127,7 @@ export default function Footer() {
         </div>
 
         {/* Contact Us */}
-        <div className="w-66 max-lg:w-72">
+        <div className="w-66 max-lg:w-72 max-xl:w-52">
           <h4 className="text-base font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-3 ">
             <li className="flex items-start gap-2">
