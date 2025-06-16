@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const faqs = [
   {
@@ -107,8 +108,10 @@ export default function FAQSection() {
       <div className="flex flex-col lg:flex-row w-full max-w-[1300px] gap-8">
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
-          <img
-            src={"https://placehold.co/485x461/40AEB9/FFFFFF?text=Medical+Aesthetics"} // Placeholder image URL
+          <Image
+          width={1000}
+          height={1000}
+            src={"/images/services/body/Fat Grafting.jpg"}
             alt="Medical treatment"
             className="absolute inset-0 w-full h-full object-cover"
             onError={(e) => {
