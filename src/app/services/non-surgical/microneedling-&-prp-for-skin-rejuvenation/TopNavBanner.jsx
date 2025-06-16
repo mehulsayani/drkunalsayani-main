@@ -41,7 +41,7 @@ export default function TopNavBanner() {
       </h1>
 
       {/* Breadcrumbs */}
-      <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white font-roboto">
+      {/* <div className="mt-4 max-lg:mt-2 text-sm md:text-base text-white font-roboto">
         <Link href={"/"}>
           <span className="hover:underline cursor-pointer">Home</span>
         </Link>
@@ -58,7 +58,7 @@ export default function TopNavBanner() {
         <span className=" font-medium">
           Microneedling & PRP for Skin Rejuvenation
         </span>
-      </div>
+      </div> */}
     </div>
   );
 }
