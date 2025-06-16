@@ -79,7 +79,7 @@ export default function About() {
               width={1000}
               height={1000}
               alt=""
-              className="relative -z-10 left-10 max-lg:left-0 max-md:left-30 max-sm:left-0 max-lg:bottom-10 max-md:bottom-0 max-w-full h-auto "
+              className="relative -z-10 left-10 max-lg:left-0 max-md:left-30 max-sm:left-0 max-lg:bottom-12 max-md:bottom-0 max-w-full h-auto "
             />
           </div>
           <Image

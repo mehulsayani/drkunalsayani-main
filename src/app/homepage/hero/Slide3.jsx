@@ -60,7 +60,7 @@ export default function ServicesSection() {
                 className={`pl-4 border-l-4 transition-colors duration-300 cursor-pointer ${
                   activeIndex === index
                     ? "border-blue-500 text-blue-800 font-semibold"
-                    : "border-white/20 text-black hover:text-blue-800"
+                    : "border-white/20 text-black "
                 }`}
               >
                 <Link href={`/services/${service.slug}`}>{service.name}</Link>

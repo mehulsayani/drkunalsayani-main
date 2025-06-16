@@ -6,9 +6,9 @@ import CustomControls from "./CustomControls";
 
 export default function Slide1() {
   const stats = [
-    { label: "Surgical Procedure", value: "1000+" },
+    { label: "Surgical Procedures", value: "1000+" },
     { label: "Years of Experience", value: "8" },
-    { label: "Happy  Patients", value: "98%" },
+    { label: "Happy Patients", value: "98%" },
   ];
   return (
     <section className="w-full min-h-[400px] mt-[8rem] max-lg:mt-[5rem] flex justify-center items-center
@@ -21,7 +21,7 @@ export default function Slide1() {
             className="text-4xl max-lg:text-2xl  md:text-[40px] max-lg:text-center 
           mb-4 font-bold max-lg:font-bold text-[#10217D] leading-tight"
           >
-            When in Doubt, Trust Experience <br /> You're in Safe Hands with{" "}
+            When in Doubt, Trust Experience  You're <br /> in Safe Hands with{" "}
             <br className="hidden max-lg:block"/>
             <span className="text-[#40AEB9]">Dr. Kunal Sayani</span>
           </h1>
