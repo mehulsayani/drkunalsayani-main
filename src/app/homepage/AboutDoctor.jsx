@@ -192,7 +192,7 @@ export default function About() {
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className="px-2">
-                  <div className="bg-white p-2 rounded-lg shadow-md w-34m max-xl:w-28 h-34m max-xl:h-28 mx-auto">
+                  <div className="bg-white p-2 rounded-lg shadow-md w-20 h-20 sm:w-34 sm:h-34 mx-auto">
                     <Image
                       src={`/images/homepage/aboutdoctor/${img}.png`}
                       alt={`Membership ${i + 1}`}
