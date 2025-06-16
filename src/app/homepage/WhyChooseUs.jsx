@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
   }, []); // Empty dependency array to run once on mount
 
   return (
-    <div className="flex flex-col justify-center items-center py-10 relative">
+    <div className="flex flex-col justify-center items-center overflow-hidden py-10 relative">
         <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" 
         className="absolute top-0 left-0 opacity-50 max-lg:w-40"/>
           <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" 
@@ -72,7 +72,7 @@ export default function WhyChooseUs() {
 
         {/* Dot1 on the circle */}
         <div
-          className="flex text-center font-bold justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
+          className="flex text-center font- justify-around gap-2 items-center flex-col absolute -top-[14%] max-lg:-top-[29%]
         cursor-pointer left-[50%] transform -translate-x-1/2 "
         >
         
@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 4 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className="font-bold text-right">
+            <p className=" text-right">
               98% Patients <br /> Satisfaction Rate
             </p>
           </div>
@@ -129,14 +129,15 @@ export default function WhyChooseUs() {
               currentImageIndex === 1 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className="font-bold text-left w-28">
+            <p className=" text-left w-28">
               Value For <br /> Money
             </p>
           </div>
         </div>
         {/* Dot4 on the circle */}
         <div
-          className="flex text-center justify-around gap-5 items-start absolute top-[75%] -left-[3%] max-lg:top-[78%] max-lg:-left-[4%] 
+          className="flex text-center  justify-around gap-5 items-start absolute top-[75%] -left-[3%] 
+          max-lg:top-[78%] max-lg:-left-[4%] 
         transform -translate-x-1/2 "
         >
           <div
@@ -144,7 +145,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 3 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className="font-bold text-right">
+            <p className=" text-right ">
               Safety And <br /> Ethics
             </p>
           </div>
@@ -171,7 +172,7 @@ export default function WhyChooseUs() {
               currentImageIndex === 2 ? "text-[#10217D]" : "text-black"
             }`}
           >
-            <p className="font-bold text-left w-28">
+            <p className=" text-left w-28">
               Trusted & <br /> Experienced Doctor
             </p>
           </div>

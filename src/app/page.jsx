@@ -36,9 +36,9 @@ export default function page() {
       <Aesthetics />
       <Specialization />
       <AboutCompany />
-      {/* <WhyChooseUs /> */}
-      {/* <Gallery /> */}
-      {/* <Testimonials /> */}
+      <WhyChooseUs />
+      <Gallery />
+      <Testimonials />
       <Banner />
       <VideoSection />
       <Blog />
