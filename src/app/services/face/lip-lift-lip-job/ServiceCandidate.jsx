@@ -32,22 +32,32 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          {/* <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
+            Why Choose Lip Lift service :
+
           </h2>
-          <p className="text-gray-700 mb-6">
+          {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
             understand who can benefit most from this surgery. Ideal candidates
             typically include:
-          </p>
+          </p> */}
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
-              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              `Specialized expertise in facial cosmetic procedures, including precision-focused lip lift surgery
+`,
+              `Customized surgical plans tailored to enhance lip shape, balance, and overall facial harmony
+`,
+              `Natural-looking results that enhance the Cupid’s bow and reduce the distance between nose and lip
+`,
+              `Use of refined surgical techniques to ensure minimal scarring and optimal healing
+`,
+              `Comprehensive pre-operative consultation and personalized aesthetic assessment
+`, `Post-procedure care and support to ensure smooth recovery and desired results
+
+`,
+              `High patient satisfaction with improved lip proportions and youthful facial appearance
+`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
@@ -56,7 +66,7 @@ export default function ServiceCandidate() {
                 <span>{item}</span>
               </li>
             ))}
-          </ul> */}
+          </ul>
 
           {/* Contact Button */}
           <div
