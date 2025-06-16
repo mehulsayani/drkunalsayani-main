@@ -109,7 +109,8 @@ export default function ConsultationSection() {
                 placeholder="Phone Number"
                 className="border border-gray-300 p-3 rounded-lg w-full bg-white"
               />
-              <select className="border border-gray-300 p-3 rounded-lg w-full bg-white">
+              
+ <select className=" bg-white">
   <option>Choose an Option</option>
   {submenus.map((menu, idx) => (
     <optgroup key={idx} label={menu.title}>
@@ -121,7 +122,6 @@ export default function ConsultationSection() {
     </optgroup>
   ))}
 </select>
-
             </div>
             <textarea
               rows="4"
@@ -130,7 +130,7 @@ export default function ConsultationSection() {
             ></textarea>
             <button
               type="submit"
-              className="bg-yellow-300 w-full text-lg text-black font-bold px-6 py-3 rounded-lg hover:bg-yellow-500 transition"
+              className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-blue-500 transition"
             >
               Book Consultation
             </button>
@@ -151,3 +151,4 @@ export default function ConsultationSection() {
     </section>
   );
 }
+

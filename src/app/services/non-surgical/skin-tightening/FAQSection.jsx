@@ -74,7 +74,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src="/images/services/nonsurgical/Non-Surgical Skin Tightening.jpg"
+            src={"/images/services/nonsurgical/Skin Tightening.jpg"}
             alt="Non-Surgical Skin Tightening"
             fill
             style={{ objectFit: "cover" }}
