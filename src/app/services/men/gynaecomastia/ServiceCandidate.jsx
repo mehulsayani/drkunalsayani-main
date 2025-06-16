@@ -32,22 +32,24 @@ export default function ServiceCandidate() {
           {/* <span className="text-sm uppercase tracking-wider text-[#B15528] font-semibold flex items-center gap-2 mb-2">
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
-          {/* <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Who is a Good Candidate <br /> for a Tummy Tuck?
+          <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
+            Why Choose Gynecomastia Treatment
           </h2>
-          <p className="text-gray-700 mb-6">
+          {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
             understand who can benefit most from this surgery. Ideal candidates
             typically include:
-          </p>
+          </p> */}
 
           <ul className="space-y-3 text-gray-800">
             {[
-              `Individuals who have experienced significant weight loss and are left with excess, hanging skin.`,
-              `Women who have had multiple pregnancies and have stretched abdominal skin and muscles.`,
-              `People with naturally lax skin due to aging or genetics.`,
-              `Those who are in good overall health, are non-smokers, and have realistic expectations about the outcome of the surgery.`,
-              `Individuals who are at a stable weight, as significant future weight fluctuations can impact the results.`,
+              `Highly experienced, board-certified plastic surgeons specializing in male breast reduction surgeries.`,
+              `Every case is unique — we design tailored treatment plans to match your body type and cosmetic goals.`,
+              `We use the latest liposuction and gland excision methods to ensure minimal scarring and faster recovery.`,
+              `Focused on restoring confidence by achieving a firm, flat, and sculpted chest appearance.`,
+              `Modern surgical suites equipped with the latest technology and highest standards of hygiene and safety.`,
+              `From consultation to recovery, we provide full support, ensuring a smooth and stress-free experience.`,
+              `Excellent success rates and patient satisfaction make us a top choice for gynecomastia correction.`,
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
@@ -56,7 +58,7 @@ export default function ServiceCandidate() {
                 <span>{item}</span>
               </li>
             ))}
-          </ul> */}
+          </ul>
 
           {/* Contact Button */}
           <div

@@ -33,21 +33,23 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Blepharoplasty can significantly improve:
+            Why Choose Eyelid Surgery (Blepharoplasty) service :
           </h2>
-          <p className="text-gray-700 mb-6">
+          {/* <p className="text-gray-700 mb-6">
             Dr. Kunal Sayani, a renowned aesthetic surgeon in Mumbai,
             understands the intricate anatomy of the eyelids and the profound
             impact a subtle change can have on your entire facial
-          </p>
+          </p> */}
 
           <ul className="space-y-3 text-gray-800">
             {[
-              "Loose or sagging skin that creates folds or disturbs the natural contour of the upper eyelid, sometimes impairing vision.",
-              "Fatty deposits that appear as puffiness in the upper or lower eyelids.",
-              "Bags under the eyes.",
-              "Droopiness of the lower eyelids, which may reveal white below the iris (scleral show).",
-              "Fine wrinkles on the lower eyelid.",
+              "Board-certified facial aesthetic surgeon with extensive experience in eyelid correction procedures",
+              "Personalized treatment plans tailored to individual facial anatomy and cosmetic goals",
+              "Use of advanced surgical techniques for natural results with minimal scarring",
+              "Focus on reducing downtime while delivering long-lasting improvements",
+              "Commitment to highest standards of safety, hygiene, and patient care",
+              "Compassionate, transparent consultations and dedicated post-operative support",
+              "Proven track record with high patient satisfaction and trusted reputation in aesthetic surgery",
             ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
