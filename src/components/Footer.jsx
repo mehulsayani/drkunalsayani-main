@@ -39,7 +39,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="/about-clinic" className="hover:text-white">
-                About Clinic
+                About Tvameva Clinic
               </a>
             </li>
           
