@@ -57,9 +57,9 @@ export default function ServicesSection() {
               <li
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`pl-4 border-l-4 transition-colors duration-300 cursor-pointer ${
+                className={`pl-4  transition-colors duration-300 cursor-pointer ${
                   activeIndex === index
-                    ? "border-blue-500 text-blue-800 font-semibold"
+                    ? "border-blue-500 border-l-4 text-blue-800 font-semibold"
                     : "border-white/20 text-black "
                 }`}
               >
