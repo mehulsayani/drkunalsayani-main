@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
   }, []); // Empty dependency array to run once on mount
 
   return (
-    <div className="flex flex-col justify-center items-center overflow-hidden py-10 relative">
+    <div className="flex flex-col justify-center items-center overflow-hidden pt-10 relative">
         <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" 
         className="absolute top-0 left-0 opacity-50 max-lg:w-40"/>
           <Image src={'/images/homepage/hero/abstract1.png'} width={400} height={400} alt="" 
