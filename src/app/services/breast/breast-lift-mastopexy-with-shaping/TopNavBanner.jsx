@@ -55,7 +55,7 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium">Breast Lift</span>
+        <span className=" font-medium">Breast Lift Mastopexy With Shaping</span>
       </div>
     </div>
   );
