@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Slide2({ isActive }) {
   return (
-    <section className="w-full h-[37.5rem] max-lg:h-[43rem] mt-[3.5rem] max-sm:mt-[5rem] max-md:mt-[5rem] flex justify-center items-end ">
+    <section className="w-full h-[37.5rem] max-md:h-[43rem] max-lg:h-[44.5rem] max-xl:h-[37.5rem] mt-[3.5rem] max-sm:mt-[5rem] max-md:mt-[5rem] flex justify-center items-end ">
       <div className="flex max-lg:flex-col max-lg:text-center  max-lg:gap-10 
       w-full max-w-[1200px] max-xl:max-w-[900px]  items-center justify-between">
         {/* Left Content */}
