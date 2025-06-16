@@ -36,7 +36,7 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5xl uppercase font-notoSans max-lg:text-xl font-semibold">
+      <h1 className="text-5xl  font-notoSans max-lg:text-xl font-semibold">
         Hair Loss Treatment
       </h1>
 
@@ -55,7 +55,7 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium uppercase"> Hair Loss Treatment</span>
+        <span className=" font-medium "> Hair Loss Treatment</span>
       </div>
     </div>
   );

@@ -36,8 +36,8 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5xl  uppercase font-notoSans max-lg:text-xl font-semibold">
-        gynaecomastia
+      <h1 className="text-5xl   font-notoSans max-lg:text-xl font-semibold">
+        Gynaecomastia
       </h1>
 
       {/* Breadcrumbs */}
@@ -55,7 +55,7 @@ export default function TopNavBanner() {
         </Link>
         <span className="mx-2">/</span>
 
-        <span className=" font-medium uppercase">gynaecomastia</span>
+        <span className=" font-medium ">Gynaecomastia</span>
       </div>
     </div>
   );
