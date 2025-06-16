@@ -3,6 +3,7 @@ import React from "react";
 import Membership from "./Membership";
 import Quote from "./Quote";
 import Affiliations from "./Affiliations";
+import ConsultationSection from "../about-clinic/ConsultationSection";
 
 export default function DrKunalSayani() {
   return (
@@ -50,6 +51,7 @@ export default function DrKunalSayani() {
       <Membership/>
       <Quote/>
       <Affiliations/>
+      <ConsultationSection/>
     </div>
   );
 }
