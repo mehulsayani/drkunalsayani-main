@@ -91,7 +91,7 @@ export default function SecondNavbar() {
         "Liposuction",
         "Hair Loss Treatment",
         "Hair Transplant",
-        "Face Rhinoplasty (Nose job)",
+        "Rhinoplasty (Nose job)",
         "Eyelid Surgery (Blepharoplasty)",
         "Prominent Ear Surgery (Otoplasty)",
         "Facelift",
