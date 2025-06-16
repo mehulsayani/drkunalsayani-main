@@ -137,7 +137,7 @@ export default function About() {
             <strong>Face Lift (Rhytidectomy)</strong>,{" "}
             <strong>Mastopexy</strong>, and{" "}
             <strong>Facial Plastic Surgery</strong>{" "}
-            <p className="max-xl:hidden">
+            <p className="max-xl:hidden max-lg:block">
               — Dr. Kunal is known for delivering personalized outcomes that
               prioritize patient safety, satisfaction, and aesthetic harmony.
             </p>

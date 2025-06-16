@@ -68,7 +68,7 @@ export default function Slide1() {
         </div>
 
         {/* Right Image */}
-        <div className="relative  w-[40rem] h-[33rem] max-lg:w-[19rem] max-lg:h-[19rem]">
+        <div className="relative  w-[40rem] h-[33rem] max-xl:w-[50rem] max-lg:w-[19rem] max-lg:h-[19rem]">
           <Image
             src="/images/homepage/hero/kunal.png"
             alt="Gynecomastia"
