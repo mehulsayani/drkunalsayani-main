@@ -18,7 +18,7 @@ const items = [
     id: 3,
     title: "Water Purification",
     subtitle: "Clean water solutions",
-    image: "/images/homepage/gallery/gallery3.png",
+    image: "/images/homepage/aboutcompany/aboutimg1.jpg",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const items = [
     id: 5,
     title: "Waste Management",
     subtitle: "Eco-conscious solutions",
-    image: "/images/homepage/gallery/gallery5.png",
+    image: "/images/homepage/aboutcompany/aboutimg2.jpg",
   },
 ];
 
@@ -86,7 +86,7 @@ const EnvironmentTechnology = () => {
                 alt={item.title}
                 width={1000}
                 height={1000}
-                className="w-full h-[300px] object-cover group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-[300px] object-cover  transition-transform duration-300"
               />
             
             </div>

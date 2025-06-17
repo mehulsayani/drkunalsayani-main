@@ -42,8 +42,6 @@ export default function Footer() {
                 About Tvameva Clinic
               </a>
             </li>
-          
-            
           </ul>
         </div>
 
@@ -52,38 +50,56 @@ export default function Footer() {
           <h4 className="text-base font-semibold mb-3">Services</h4>
           <ul className="space-y-2 ">
             <li>
-              <a href="/services/body/tummy-tuck-abdominoplasty" className="hover:text-white">
+              <a
+                href="/services/body/tummy-tuck-abdominoplasty"
+                className="hover:text-white"
+              >
                 Tummy Tuck Abdominoplasty
               </a>
             </li>
             <li>
-              <a href="/services/breast/breast-augmentation" className="hover:text-white">
+              <a
+                href="/services/breast/breast-augmentation"
+                className="hover:text-white"
+              >
                 Breast Augmentation
               </a>
             </li>
             <li>
-              <a href="/services/hair/hair-transplant" className="hover:text-white">
-               Hair Transplant
+              <a
+                href="/services/hair/hair-transplant"
+                className="hover:text-white"
+              >
+                Hair Transplant
               </a>
             </li>
             <li>
-              <a href="/services/body/buttock-augmentation-bbl" className="hover:text-white">
-              Buttock Augmentation
+              <a
+                href="/services/body/buttock-augmentation-bbl"
+                className="hover:text-white"
+              >
+                Buttock Augmentation
               </a>
             </li>
-             <li>
-              <a href="/services/non-surgical/botox-wrinkles-anti-ageing" className="hover:text-white">
+            <li>
+              <a
+                href="/services/non-surgical/botox-wrinkles-anti-ageing"
+                className="hover:text-white"
+              >
                 Botox
               </a>
             </li>
             <li>
               <a href="/services/body/liposuction" className="hover:text-white">
-              Liposuction
+                Liposuction
               </a>
             </li>
             <li>
-              <a href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures" className="hover:text-white">
-             Mommy Makeover
+              <a
+                href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures"
+                className="hover:text-white"
+              >
+                Mommy Makeover
               </a>
             </li>
           </ul>
@@ -132,15 +148,18 @@ export default function Footer() {
           <ul className="space-y-3 ">
             <li className="flex items-start gap-2">
               <MdPhone className="text-teal-500" />
-              <a href="tel:+9108048034415" className="hover:text-white">
-                +91 9967267567, 02246056767
+              <a href="tel:+919967267567" className="hover:text-white hover:underline">
+                +91 9967267567
+              </a>
+              <a href="tel:+9102246056767" className="hover:text-white hover:underline">
+              02246056767
               </a>
             </li>
             <li className="flex items-start gap-2">
               <MdEmail className="text-teal-500" />
               <a
                 href="mailto:drkunalsayani.professional@gmail.com"
-                className="hover:text-white break-all"
+                className="hover:text-white break-all hover:underline"
               >
                 drkunalsayani.professional@gmail.com
               </a>

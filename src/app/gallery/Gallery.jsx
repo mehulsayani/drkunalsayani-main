@@ -40,10 +40,10 @@ export default function Gallery() {
                 className="object-cover"
               />
             </div>
-            <div className="p-4 bg-white">
+            {/* <div className="p-4 bg-white">
               <h3 className="text-lg font-semibold">{item.title}</h3>
               <p className="text-sm text-gray-500">{item.label}</p>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
