@@ -75,7 +75,7 @@ export default function ServicesSection() {
           alt="Aesthetic Model"
           width={1000}
           height={1000}
-          className=" w-[420px] max-xl:w-[44.5rem] max-lg:w-[20rem] max-md:w-[28rem] max-sm:w-[15rem]
+          className=" w-[410px] max-xl:w-[44.5rem] max-lg:w-[20rem] max-md:w-[28rem] max-sm:w-[15rem]
            "
         />
       </div>
