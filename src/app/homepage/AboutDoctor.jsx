@@ -83,7 +83,7 @@ export default function About() {
             />
           </div>
           <Image
-            src="/images/homepage/hero/kunal.png"
+            src="/images/homepage/aboutdoctor/kunal_sayani1.png"
             alt="Dr. Kunal Sayani"
             width={300}
             height={375}

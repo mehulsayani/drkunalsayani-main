@@ -1,10 +1,9 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import { IoIosArrowForward } from "react-icons/io";
 
-// Updated: Proper titles, and image paths
+// If you plan to use the procedures array later, keep it — otherwise it's unused.
 const procedures = [
   {
     id: 1,
@@ -15,7 +14,7 @@ const procedures = [
   },
   {
     id: 2,
-    title: "Breast Reduction ",
+    title: "Breast Reduction",
     description:
       "Gently remove dead skin and peach fuzz for a smooth, radiant complexion.",
     image: "breast/Breast Reduction & Axillary Breasts Excision.jpg",
@@ -44,22 +43,12 @@ const procedures = [
 ];
 
 const Procedures = () => {
-  const [openId, setOpenId] = useState(1);
-
-  const toggleOpen = (id) => {
-    setOpenId((prev) => (prev === id ? 0 : id));
-  };
-
-  const currentItem = procedures.find((item) => item.id === openId);
-
   return (
-    <section className="flex justify-center items-center w-full">
-      <div className="max-w-[1300px] px-6 w-full md:px-20 py-16 flex flex-col md:flex-row gap-10">
-        {/* Left: Text + Accordion */}
-        <div className="md:w-1/2 space-y-6 max-lg:flex max-lg:justify-center max-lg:items-center max-lg:flex-col">
-          <span className="bg-[#1aaebc46] text-sm px-4 py-1 rounded-full font-medium inline-block">
-            Beauty In Every Leaf
-          </span>
+    <section className="flex justify-center items-center w-full bg-white">
+      <div className="max-w-[1300px] px-6 md:px-20 py-16 w-full flex flex-col md:flex-row gap-10">
+        {/* Left Section */}
+        <div className="md:w-1/2 space-y-6 flex flex-col justify-start items-center">
+         
           <h2 className="text-4xl font-semibold text-[#10217D]">
             Aesthetic treatments & procedures offered
           </h2>
@@ -71,59 +60,19 @@ const Procedures = () => {
             with a holistic approach, ensuring that your experience is as
             empowering as it is effective.
           </p>
-
-          {/* Accordion */}
-          <div className="space-y-2">
-            {procedures.map((item) => (
-              <div
-                key={item.id}
-                onClick={() => toggleOpen(item.id)}
-                className={`rounded-md p-4 transition-all duration-300 cursor-pointer ${
-                  openId === item.id
-                    ? "bg-[#1aaebc46]"
-                    : "bg-transparent hover:bg-[#1aaebc46]"
-                }`}
-              >
-                <div className="flex justify-between items-center">
-                  <div className="flex gap-4 items-center">
-                    <span className="w-8 h-8 bg-[#1AAEBC] text-white font-semibold rounded-full flex items-center justify-center">
-                      0{item.id}
-                    </span>
-                    <h3 className="font-medium text-lg">{item.title}</h3>
-                  </div>
-                  <span
-                    className={`text-xl transform transition-transform duration-300 ${
-                      openId === item.id ? "rotate-90" : ""
-                    }`}
-                  >
-                    <IoIosArrowForward />
-                  </span>
-                </div>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${
-                    openId === item.id ? "max-h-40 mt-2" : "max-h-0"
-                  }`}
-                >
-                  <p className="text-sm text-gray-600">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
 
-        {/* Right: Dynamic Image */}
-        <div className="md:w-1/2 relative">
-          {currentItem && (
-            <Image
-              src={`/images/services/${currentItem.image}`}
-              alt={currentItem.title}
-              width={600}
-              height={800}
-              className="rounded-lg w-full h-full pt-40 max-lg:pt-0 object-cover transition duration-500"
-              key={currentItem.id}
-              priority
-            />
-          )}
+        {/* Right Section - YouTube Video */}
+        <div className="md:w-1/2 w-full aspect-video">
+          <iframe
+            className="w-full h-full rounded-xl"
+            src="https://www.youtube.com/embed/JSFG-IE8n_c?si=KVdgxcvHO8TDhpps"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>
