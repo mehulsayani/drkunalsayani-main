@@ -146,8 +146,8 @@ export default function About() {
 
           <a href="/about-dr-kunal-sayani">
             <button
-              className="px-4 sm:px-5 py-2 bg-[#1AAEBC] hover:bg-[#148d98] max-lg:mb-8 text-white 
-          text-xs sm:text-sm font-semibold rounded-md shadow  transition"
+              className="px-8 sm:px-14 py-2 bg-[#1AAEBC] hover:bg-[#148d98] max-lg:mb-8 text-white 
+          text-base sm:text-lg font-semibold rounded-md shadow  transition"
             >
               Read More
             </button>
