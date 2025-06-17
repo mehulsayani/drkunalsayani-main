@@ -1,112 +1,81 @@
 "use client";
 import React from "react";
 
-export default function Page() {
-  const services = [
-    {
-      title: "Face Cosmetology",
-      items: [
-        { name: "Face cleaning", price: "$100" },
-        { name: "Face lifting", price: "$950" },
-        { name: "Skin relief alignment", price: "$200" },
-        { name: "Laser skin rejuvenation", price: "$320" },
-        { name: "Depigmentation therapy", price: "$320" },
-        { name: "Regenerative therapy", price: "$320" },
-        { name: "Acne therapy", price: "$200" },
-        { name: "Post-acne therapy", price: "$200" },
-      ],
-    },
-    {
-      title: "Injections",
-      items: [
-        { name: "Contour plastic lips", price: "$250-350" },
-        { name: "Complex face modeling", price: "$600-800" },
-        { name: "Biorevitalization", price: "$150-300" },
-        { name: "Mesotherapy for the eye area", price: "$150" },
-        { name: "Lipolitics (fat cell dissolution)", price: "$350" },
-        { name: "Venus Rings (complex neck rejuvenation)", price: "$300" },
-        { name: "Mesotherapy", price: "$150" },
-      ],
-    },
-    {
-      title: "Botulinum Therapy (Botox / Dysport)",
-      items: [
-        { name: "Forehead area correction", price: "$200" },
-        { name: "Correction of the brow area", price: "$150" },
-        { name: "Eye area correction", price: "$200" },
-        { name: "Correction of the nose zone", price: "$100" },
-        { name: "Chin area correction", price: "$70" },
-      ],
-      showMore: true,
-    },
-  ];
+const pricingData = [
+  { sr: 1, procedure: "Breast Implants", charges: "₹1,50,000 - ₹1,95,000" },
+  { sr: 2, procedure: "Breast Reduction", charges: "₹2,00,000 - ₹3,25,000" },
+  { sr: 3, procedure: "Breast Lift (Mastopexy)", charges: "₹1,35,000 - ₹2,10,000" },
+  { sr: 4, procedure: "Liposuction for Gynecomastia", charges: "₹75,000 - ₹1,75,000" },
+  { sr: 5, procedure: "Liposuction for Thighs or Arms (Bilateral)", charges: "₹1,10,000 - ₹2,15,000" },
+  { sr: 6, procedure: "Liposuction for Abdomen & Flanks (Waistline)", charges: "₹1,20,000 - ₹2,25,000" },
+  { sr: 7, procedure: "Fat Grafting for Breast Augmentation", charges: "₹95,000 - ₹1,45,000" },
+  { sr: 8, procedure: "Facial Fat Grafting – for rejuvenation", charges: "₹65,000 - ₹1,40,000" },
+  { sr: 9, procedure: "Labia Majora Fat Grafting", charges: "₹50,000 - ₹85,000" },
+  { sr: 10, procedure: "Tummy Tuck (Abdominoplasty)", charges: "₹2,50,000 - ₹4,50,000" },
+  { sr: 11, procedure: "Blepharoplasty (Upper)", charges: "₹45,000 - ₹70,000" },
+  { sr: 12, procedure: "Blepharoplasty (Lower)", charges: "₹65,000 - ₹1,25,000" },
+  { sr: 13, procedure: "Implant Rhinoplasty (Silicon / Medpore)", charges: "₹1,25,000 - ₹1,95,000" },
+  { sr: 14, procedure: "Open Rhinoplasty", charges: "₹1,45,000 - ₹2,25,000" },
+  { sr: 15, procedure: "Hymenoplasty", charges: "₹40,000 - ₹75,000" },
+  { sr: 16, procedure: "Lip Reduction", charges: "₹35,000 - ₹60,000" },
+  { sr: 17, procedure: "Chin Augmentation (Implant/Osseous)", charges: "₹1,25,000 - ₹2,45,000" },
+  { sr: 18, procedure: "HA Filler (per ml)", charges: "₹25,000 - ₹30,000" },
+  { sr: 19, procedure: "Botulinum toxin (per unit price)", charges: "₹350 - ₹400" },
+  { sr: 20, procedure: "Scar Revision / Local Anaesthesia Surgery", charges: "₹25,000 - ₹35,000" },
+  { sr: 21, procedure: "Otoplasty (Ear Surgery)", charges: "₹75,000 - ₹1,95,000" },
+  { sr: 22, procedure: "Buccal Fat Pad Removal", charges: "₹35,000 - ₹65,000" },
+  { sr: 23, procedure: "Dimple Creation", charges: "₹30,000 - ₹60,000" },
+  { sr: 24, procedure: "Threadlift (Includes cost of threads)", charges: "₹30,000 - ₹1,25,000" },
+  { sr: 25, procedure: "Jawline Enhancement (Non-surgical)", charges: "₹25,000 - ₹85,000" },
+  { sr: 26, procedure: "Hair Transplant (per graft)", charges: "₹45 - ₹75" },
+  { sr: 27, procedure: "PRP / GCF / Exosomes / SVF for Hair Growth", charges: "₹7,500 - ₹35,000" },
+  { sr: 28, procedure: "Consultation / Tele Consult Fees", charges: "₹2,000" },
+];
 
+const notes = [
+  "Charges mentioned above are approximate.",
+  "GST 18% extra applicable for all cosmetic surgical procedures.",
+  "Charges of hospital stay, anaesthesia, assistant surgeon, and medicines are not included.",
+  "If multiple procedures are required, then charges may vary.",
+  "Charges may vary based on clinical condition & patient requirements.",
+  "Charges of implants & case-specific consumables are not mentioned and depend on patient’s choice.",
+];
+
+const Page = () => {
   return (
-    <div className="min-h-screen bg-[#1aaebc10] py-16 px-6">
-      <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#10217D] mb-4">
-          Treatment & Procedure Pricing
-        </h1>
-        <p className="text-gray-600 max-w-2xl mx-auto text-base leading-relaxed">
-          We keep our pricing transparent and affordable. Each treatment is priced with your specific needs in mind. Our rates are the same for every patient worldwide.
-        </p>
+    <div className="p-4 md:p-10 bg-white text-gray-800">
+      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-[#10217D]">Surgical Treatments – Packages</h1>
+      <div className="overflow-auto rounded-md shadow border">
+        <table className="min-w-full table-auto border-collapse text-sm md:text-base">
+          <thead className="bg-gray-100">
+            <tr>
+              <th className="p-3 border">Sr. No.</th>
+              <th className="p-3 border">Procedure</th>
+              <th className="p-3 border">Charges (INR)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {pricingData.map((item) => (
+              <tr key={item.sr} className="hover:bg-gray-50">
+                <td className="p-2 border text-center">{item.sr}</td>
+                <td className="p-2 border">{item.procedure}</td>
+                <td className="p-2 border text-center">{item.charges}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        {[...services, ...services].map((section, idx) => (
-          <div
-            key={idx}
-            className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-3xl p-6 border border-gray-100"
-          >
-            <h2 className="text-xl font-semibold text-[#13547A] mb-4">
-              {section.title}
-            </h2>
-            <ul className="space-y-3">
-              {section.items.map((item, i) => (
-                <li
-                  key={i}
-                  className="flex justify-between items-center text-sm text-gray-700"
-                >
-                  <span className="flex items-center gap-2">
-                    <span className="text-[#13547A] text-lg">•</span>
-                    {item.name}
-                  </span>
-                  <span className="font-medium">{item.price}</span>
-                </li>
-              ))}
-            </ul>
-            {section.showMore && (
-              <div className="mt-5 text-right text-sm text-[#13547A] font-medium hover:underline cursor-pointer">
-                VIEW MORE →
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-20 max-w-3xl mx-auto text-gray-600 text-base space-y-4 leading-relaxed">
-        <p>
-          All prices include hospital admission, OT charges, surgeon’s fees, medications during the stay, and required implants. Post-operation consultations are also included until suture removal.
-        </p>
-        <p>
-          Additional charges may apply for compression garments and postoperative investigations after suture removal.
-        </p>
-        <p>
-          Payments are accepted in Indian currency via cheque, debit, or credit cards (including American Express).
-        </p>
-        <p>
-          International patients are requested to confirm their surgery by paying a deposit of USD 400.
-        </p>
-      </div>
-
-      <div className="mt-12 text-center">
-        <a
-          href="/book-appointment"
-          className="inline-block bg-[#1AAEBC] text-white font-medium text-base px-8 py-3 rounded-lg shadow-md hover:bg-[#1AAEBC] transition-all duration-300"
-        >
-          Book Your Surgery
-        </a>
+      <div className="mt-8 bg-[#1aaebc10] border-l-4 border-[#1aaebc] p-4 rounded-md">
+        <h2 className="font-semibold text-lg mb-2">Important Notes:</h2>
+        <ul className="list-disc list-inside text-sm md:text-base">
+          {notes.map((note, index) => (
+            <li key={index} className="mb-1">{note}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
-}
+};
+
+export default Page;

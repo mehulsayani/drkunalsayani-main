@@ -71,8 +71,8 @@ export default function About() {
             className="absolute top-18 -left-86 max-lg:hidden opacity-20 max-lg:w-54 w-[28rem] h-[30rem] -z-10"
           />
           <div
-            className="absolute w-[520px] h-[520px] max-xl:w-[450px] max-md:w-[350px] rounded-full
-           top-0 left-0 md:top-10 md:-left-10"
+            className="absolute w-[580px] max-xl:w-[500px] max-md:w-[350px] rounded-full
+           -top-10 max-xl:top-0 -left-18 max-md:left-8  "
           >
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
@@ -87,8 +87,8 @@ export default function About() {
             alt="Dr. Kunal Sayani"
             width={300}
             height={375}
-            className="relative z-10 object-cover transform scale-x-[-1]
-             w-[400px] max-xl:w-[424px] max-lg:w-[350px] max-md:w-[300px] h-auto"
+            className="relative z-10 object-cover transform
+             w-[430px] max-xl:w-[424px] max-lg:w-[350px] max-md:w-[300px] h-auto"
             priority
           />
         </motion.div>
