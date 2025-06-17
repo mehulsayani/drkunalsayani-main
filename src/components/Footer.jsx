@@ -99,7 +99,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/blogs" className="hover:text-white">
+              <a href="/blog" className="hover:text-white">
                 Blogs
               </a>
             </li>
