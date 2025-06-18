@@ -36,7 +36,7 @@ export default function ImageSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const settings = { 
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 1000,
     autoplay: true,
