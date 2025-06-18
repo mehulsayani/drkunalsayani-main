@@ -13,84 +13,83 @@ const BookAppointment = () => {
   const [visitType, setVisitType] = useState("clinic");
 
   const purposeOptions = [
-
-  {
-    title: "Hair",
-    items: [
-      "Hair Transplant",
-      "Hair Restoration PRP GFC Exosomes",
-      "Nano fat injection (SVC) for Hair Growth",
-    ],
-  },
-  {
-    title: "Face",
-    items: [
-      "Rhinoplasty (Nose job)",
-      "Eyelid Surgery (Blepharoplasty)",
-      "Prominent Ear Surgery (Otoplasty)",
-      "Facelift",
-      "Thread Lift Treatment",
-      "Chin Augmentation",
-      "Jawline Contouring",
-      "Lip Lift (Lip job)",
-      "Lipoma-Cysts-Scars",
-    ],
-  },
-  {
-    title: "Breast",
-    items: [
-      "Breast Augmentation",
-      "Breast Lift (mastopexy) with Shaping",
-      "Breast Reduction & Axillary Breasts Excision",
-    ],
-  },
-  {
-    title: "Body",
-    items: [
-      "Tummy Tuck (Abdominoplasty)",
-      "Liposuction",
-      "Buttock Augmentation (BBL)",
-      "Fat Grafting",
-    ],
-  },
-  {
-    title: "Mommy Makeover",
-    items: [
-      "Post-Pregnancy Tummy Tuck (moms)",
-      "Breast Lift & Augmentation after Pregnancy",
-      "Genital Cosmetic Surgeries",
-      "Mommy Makeover Package (custom combination of procedures)",
-    ],
-  },
-  {
-    title: "Non Surgical",
-    items: [
-      "Botox (wrinkles-anti-ageing)",
-      "Dermal Fillers",
-      "Laser Skin Rejuvenation",
-      "Microneedling & PRP for Skin Rejuvenation",
-      "Skin Tightening",
-    ],
-  },
-  {
-    title: "Men",
-    items: [
-      "Gynaecomastia",
-      "Liposuction",
-      "Hair Loss Treatment",
-      "Hair Transplant",
-      "Rhinoplasty (Nose job)",
-      "Eyelid Surgery (Blepharoplasty)",
-      "Prominent Ear Surgery (Otoplasty)",
-      "Facelift",
-      "Thread Lift Treatment",
-      "Chin Augmentation",
-      "Jawline Contouring",
-      "Lip Lift (Lip job)",
-      "Lipoma Cysts Scars",
-    ],
-  },
-];
+    {
+      title: "Hair",
+      items: [
+        "Hair Transplant",
+        "Hair Restoration PRP GFC Exosomes",
+        "Nano fat injection (SVC) for Hair Growth",
+      ],
+    },
+    {
+      title: "Face",
+      items: [
+        "Rhinoplasty (Nose job)",
+        "Eyelid Surgery (Blepharoplasty)",
+        "Prominent Ear Surgery (Otoplasty)",
+        "Facelift",
+        "Thread Lift Treatment",
+        "Chin Augmentation",
+        "Jawline Contouring",
+        "Lip Lift (Lip job)",
+        "Lipoma-Cysts-Scars",
+      ],
+    },
+    {
+      title: "Breast",
+      items: [
+        "Breast Augmentation",
+        "Breast Lift (mastopexy) with Shaping",
+        "Breast Reduction & Axillary Breasts Excision",
+      ],
+    },
+    {
+      title: "Body",
+      items: [
+        "Tummy Tuck (Abdominoplasty)",
+        "Liposuction",
+        "Buttock Augmentation (BBL)",
+        "Fat Grafting",
+      ],
+    },
+    {
+      title: "Mommy Makeover",
+      items: [
+        "Post-Pregnancy Tummy Tuck (moms)",
+        "Breast Lift & Augmentation after Pregnancy",
+        "Genital Cosmetic Surgeries",
+        "Mommy Makeover Package (custom combination of procedures)",
+      ],
+    },
+    {
+      title: "Non Surgical",
+      items: [
+        "Botox (wrinkles-anti-ageing)",
+        "Dermal Fillers",
+        "Laser Skin Rejuvenation",
+        "Microneedling & PRP for Skin Rejuvenation",
+        "Skin Tightening",
+      ],
+    },
+    {
+      title: "Men",
+      items: [
+        "Gynaecomastia",
+        "Liposuction",
+        "Hair Loss Treatment",
+        "Hair Transplant",
+        "Rhinoplasty (Nose job)",
+        "Eyelid Surgery (Blepharoplasty)",
+        "Prominent Ear Surgery (Otoplasty)",
+        "Facelift",
+        "Thread Lift Treatment",
+        "Chin Augmentation",
+        "Jawline Contouring",
+        "Lip Lift (Lip job)",
+        "Lipoma Cysts Scars",
+      ],
+    },
+  ];
 
   const groupedTimeSlots = {
     Morning: ["09:00 am", "10:00 am", "11:00 am"],
@@ -98,7 +97,12 @@ const BookAppointment = () => {
     Evening: ["03:00 pm", "04:00 pm", "05:00 pm"],
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email || !name || !phone || !selectedDate) {
+      alert("Please fill in all required fields (Name, Email, Phone, Date).");
+      return;
+    }
     alert(`Appointment set for ${selectedDate} at ${selectedTime}
 Name: ${name}
 Email: ${email}
@@ -111,60 +115,91 @@ Notes: ${notes}`);
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-10">
       <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-2xl w-full max-w-5xl">
-        {/* <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
+        <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
           Book Your Appointment
-        </h1> */}
+        </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Form Inputs */}
           <div className="space-y-4">
             {/* Date Input */}
-            <label className="block text-sm font-semibold text-gray-700 mb-2">
-              Select Date
-            </label>
-            <input
-              type="date"
-              value={selectedDate}
-              onChange={(e) => setSelectedDate(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-            />
-            <input
-              type="text"
-              placeholder="Enter your name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-            />
-
-            <input
-              type="email"
-              placeholder="Enter your email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-            />
-
-            <input
-              type="tel"
-              placeholder="Enter your phone number"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-            />
+            <div>
+              <label htmlFor="date" className="block text-sm font-semibold text-gray-700 mb-2">
+                Select Date
+              </label>
+              <input
+                id="date"
+                type="date"
+                value={selectedDate}
+                onChange={(e) => setSelectedDate(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                required
+              />
+            </div>
 
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">
+              <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+                Name
+              </label>
+              <input
+                id="name"
+                type="text"
+                placeholder="Enter your name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                required
+              />
+            </div>
+
+            <div>
+              <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                placeholder="Enter your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                required
+              />
+            </div>
+
+            <div>
+              <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
+                Phone Number
+              </label>
+              <input
+                id="phone"
+                type="tel"
+                placeholder="Enter your phone number"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                required
+              />
+            </div>
+
+            <div>
+              <label htmlFor="purpose" className="block text-sm font-semibold text-gray-700 mb-2">
                 Purpose
               </label>
               <select
+                id="purpose"
                 value={purpose}
                 onChange={(e) => setPurpose(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
               >
-                {purposeOptions.map((option) => (
-                  <option key={option} value={option}>
-                    {option}
-                  </option>
+                {purposeOptions.map((category) => (
+                  <optgroup key={category.title} label={category.title}>
+                    {category.items.map((item) => (
+                      <option key={item} value={item}>
+                        {item}
+                      </option>
+                    ))}
+                  </optgroup>
                 ))}
               </select>
             </div>
@@ -183,6 +218,8 @@ Notes: ${notes}`);
                 value="clinic"
                 checked={visitType === "clinic"}
                 onChange={() => setVisitType("clinic")}
+                name="visitType"
+                className="focus:ring-blue-500"
               />
               Clinic Visit
             </label>
@@ -192,6 +229,8 @@ Notes: ${notes}`);
                 value="online"
                 checked={visitType === "online"}
                 onChange={() => setVisitType("online")}
+                name="visitType"
+                className="focus:ring-blue-500"
               />
               Online Consultation
             </label>
@@ -226,17 +265,23 @@ Notes: ${notes}`);
         </div>
 
         {/* Notes */}
-        <textarea
-          placeholder="Additional notes or concerns (optional)"
-          value={notes}
-          onChange={(e) => setNotes(e.target.value)}
-          className="w-full mt-6 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-          rows={3}
-        />
+        <div>
+          <label htmlFor="notes" className="block text-sm font-semibold text-gray-700 mb-2">
+            Additional Notes
+          </label>
+          <textarea
+            id="notes"
+            placeholder="Additional notes or concerns (optional)"
+            value={notes}
+            onChange={(e) => setNotes(e.target.value)}
+            className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+            rows={3}
+          />
+        </div>
 
         {/* Submit */}
         <button
-          className="mt-8 w-full bg-blue-600 text-white text-lg font-semibold py-3 rounded-md hover:bg-blue-700 transition"
+          className="mt-8 w-full bg-blue-600 text-white text-lg font-semibold py-3 rounded-md hover:bg-blue-700 transition disabled:bg-gray-400 disabled:cursor-not-allowed"
           onClick={handleSubmit}
           disabled={!email || !name || !phone || !selectedDate}
         >
