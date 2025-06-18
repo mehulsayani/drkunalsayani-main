@@ -149,7 +149,7 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               <MdPhone className="text-teal-500" />
               <a href="tel:+919967267567" className="hover:text-white hover:underline">
-                +91 9967267567
+                +91-9967267567,
               </a>
               <a href="tel:+9102246056767" className="hover:text-white hover:underline">
               02246056767
