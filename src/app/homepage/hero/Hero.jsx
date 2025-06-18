@@ -40,7 +40,7 @@ export default function ImageSlider() {
     infinite: true,
     speed: 1000,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 30000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
