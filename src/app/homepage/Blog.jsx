@@ -34,7 +34,7 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white hidden max-lg:block">
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center">
         <h2 className="text-3xl font-bold text-center text-[#10217D] mb-4">
           From Our Blog
