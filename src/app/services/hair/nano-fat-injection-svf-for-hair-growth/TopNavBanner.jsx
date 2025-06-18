@@ -37,7 +37,7 @@ export default function TopNavBanner() {
 
       {/* Main heading */}
       <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
-       Nano fat injection (SVC) for Hair Growth
+       Nano fat injection (SVF) for Hair Growth
       </h1>
 
       {/* Breadcrumbs */}
