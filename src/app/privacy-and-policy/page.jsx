@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
         medical consultation, diagnosis, or treatment by a licensed professional.
       </p>
 
-      <h2 className="text-2xl font-semibold text-blue-600 mb-4">Important Notes for Visitors:</h2>
+      <h2 className="text-2xl font-semibold text-black mb-4">Important Notes for Visitors:</h2>
       <ul className="list-disc ml-6 space-y-4 mb-6">
         <li>
           <strong>Individual Results Will Vary:</strong> Each person’s anatomy, healing ability,
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold text-blue-600 mb-4">Privacy Commitment:</h2>
+      <h2 className="text-2xl font-semibold text-black mb-4">Privacy Commitment:</h2>
       <p className="mb-6">
         Dr. Kunal Sayani and his team are committed to maintaining patient privacy and confidentiality
         in accordance with medical ethics and applicable data protection laws.
