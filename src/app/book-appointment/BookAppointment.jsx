@@ -85,8 +85,7 @@ const BookAppointment = () => {
         "Thread Lift Treatment",
         "Chin Augmentation",
         "Jawline Contouring",
-        "Lip Lift (Lip job)",
-        "Lipoma Cysts Scars",
+     
       ],
     },
   ];
