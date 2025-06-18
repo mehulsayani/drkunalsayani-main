@@ -22,7 +22,7 @@ export default function Slide2({ isActive }) {
 
           <div className="h-1 w-24 bg-[#10217D] my-4 max-lg:hidden"></div>
 
-          <p className="text-black mb-6 text-lg ">
+          <p className="text-black mb-6 text-lg max-lg:text-base ">
             Dr. Kunal Sayani believes aesthetic surgery isn’t a luxury—it’s a
             path to restored confidence and improved quality of life.
           </p>
