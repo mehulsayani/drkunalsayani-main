@@ -64,7 +64,7 @@ export default function CTA() {
           {/* Share Icons - Desktop */}
           <div
             className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-12
-              max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
+             max-lg:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
             rounded-l-lg shadow-lg py-2 px-3 flex-col 
             gap-3 flex transition-all "
           >
