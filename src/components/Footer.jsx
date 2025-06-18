@@ -130,7 +130,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/privacy-policy" className="hover:text-white">
+              <a href="/privacy-and-policy" className="hover:text-white">
                 Privacy Policy
               </a>
             </li>
@@ -173,7 +173,7 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               <FaLocationDot className="text-teal-500 w-10 pt-1" />
               <span className="leading-snug">
-                <a href="">
+                <a href="https://www.google.com/maps/dir//TVAMEVA+AESTHETICS+-+501%2F502+Sapphire+Plaza+Dadabhai+road,+Swami+Vivekananda+Rd,+Vile+Parle+West,+Mumbai,+Maharashtra+400056/@19.1059122,72.7589144,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3be7b70ae5b76aef:0xbc36ee7fd47dd276!2m2!1d72.8413161!2d19.1059305?entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D">
                   TVAMEVA AESTHETICS - 501/502 Sapphire Plaza, Dadabhai Road,
                   Swami Vivekananda Rd, Vile Parle West, Mumbai, Maharashtra
                 </a>

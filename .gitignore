@@ -33,6 +33,12 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+*.mp4
+*.mov
+*.zip
+*.exe
+
+
 # vercel
 .vercel
 
