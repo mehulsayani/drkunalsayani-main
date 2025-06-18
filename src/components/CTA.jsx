@@ -53,20 +53,19 @@ export default function CTA() {
         </a>
 
         {/* Share Button */}
-        <div className="relative group max-lg:w-full ">
+        <div className="relative group max-lg:w-full pointer-events-auto">
           <div
             className="text-white bg-[#0084ff] rounded-bl-lg p-3 flex items-center justify-center"
             aria-label="Share this page"
           >
-            <IoMdShare  size={24}/>
+            <IoMdShare size={24} />
           </div>
 
-          {/* Share Icons - Desktop */}
+          {/* Share Icons */}
           <div
-            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-12
-             max-lg:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
-            rounded-l-lg shadow-lg py-2 px-3 flex-col 
-            gap-3 flex transition-all "
+            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg 
+              group-hover:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
+              rounded-l-lg shadow-lg py-2 px-3 flex-col gap-3 flex transition-all max-lg:hidden group-hover:max-lg:block"
           >
             <a
               href="https://www.instagram.com/drkunalsayani/"
@@ -85,7 +84,7 @@ export default function CTA() {
               className="text-[#1877F2] hover:scale-110 transition text-xl max-lg:text-3xl"
               aria-label="Share on Facebook"
             >
-              <FaFacebookF  />
+              <FaFacebookF />
             </a>
             <a
               href="https://www.youtube.com/"
@@ -94,7 +93,7 @@ export default function CTA() {
               className="text-[#FF0000] hover:scale-110 transition text-xl max-lg:text-3xl"
               aria-label="Share on YouTube"
             >
-              <BsYoutube  />
+              <BsYoutube />
             </a>
             <a
               href="https://www.linkedin.com/shareArticle?mini=true&url="
@@ -103,7 +102,7 @@ export default function CTA() {
               className="text-[#0077B5] hover:scale-110 transition text-xl max-lg:text-3xl"
               aria-label="Share on LinkedIn"
             >
-              <FaLinkedin  />
+              <FaLinkedin />
             </a>
           </div>
         </div>
