@@ -55,19 +55,19 @@ export default function CTA() {
         {/* Share Button */}
         <div className="relative group max-lg:w-full ">
           <div
-            className="text-white max-lg:group-hover:-top-44 bg-[#0084ff] rounded-bl-lg p-3 flex items-center justify-center"
+            className="text-white bg-[#0084ff] rounded-bl-lg p-3 flex items-center justify-center"
             aria-label="Share this page"
           >
             <IoMdShare  size={24}/>
           </div>
 
           {/* Share Icons - Desktop */}
-          <div
-            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-12
-             max-lg:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
-            rounded-l-lg shadow-lg py-2 px-3 flex-col 
-            gap-3 flex transition-all "
-          >
+        <div
+  className="absolute top-12 right-0 z-50 w-full flex flex-col gap-3 py-2 px-3 bg-white rounded-l-lg shadow-lg 
+             transition-all duration-300 
+             group-hover:-top-44 
+             max-lg:rounded-tr-lg max-lg:rounded-br-lg max-lg:top-12 max-lg:group-hover:-top-44"
+>
             <a
               href="https://www.instagram.com/drkunalsayani/"
               target="_blank"
