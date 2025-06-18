@@ -13,11 +13,84 @@ const BookAppointment = () => {
   const [visitType, setVisitType] = useState("clinic");
 
   const purposeOptions = [
-    "Tummy Tuck (Abdominoplasty)",
-    "Liposuction",
-    "Facelift",
-    "Rhinoplasty",
-  ];
+
+  {
+    title: "Hair",
+    items: [
+      "Hair Transplant",
+      "Hair Restoration PRP GFC Exosomes",
+      "Nano fat injection (SVC) for Hair Growth",
+    ],
+  },
+  {
+    title: "Face",
+    items: [
+      "Rhinoplasty (Nose job)",
+      "Eyelid Surgery (Blepharoplasty)",
+      "Prominent Ear Surgery (Otoplasty)",
+      "Facelift",
+      "Thread Lift Treatment",
+      "Chin Augmentation",
+      "Jawline Contouring",
+      "Lip Lift (Lip job)",
+      "Lipoma-Cysts-Scars",
+    ],
+  },
+  {
+    title: "Breast",
+    items: [
+      "Breast Augmentation",
+      "Breast Lift (mastopexy) with Shaping",
+      "Breast Reduction & Axillary Breasts Excision",
+    ],
+  },
+  {
+    title: "Body",
+    items: [
+      "Tummy Tuck (Abdominoplasty)",
+      "Liposuction",
+      "Buttock Augmentation (BBL)",
+      "Fat Grafting",
+    ],
+  },
+  {
+    title: "Mommy Makeover",
+    items: [
+      "Post-Pregnancy Tummy Tuck (moms)",
+      "Breast Lift & Augmentation after Pregnancy",
+      "Genital Cosmetic Surgeries",
+      "Mommy Makeover Package (custom combination of procedures)",
+    ],
+  },
+  {
+    title: "Non Surgical",
+    items: [
+      "Botox (wrinkles-anti-ageing)",
+      "Dermal Fillers",
+      "Laser Skin Rejuvenation",
+      "Microneedling & PRP for Skin Rejuvenation",
+      "Skin Tightening",
+    ],
+  },
+  {
+    title: "Men",
+    items: [
+      "Gynaecomastia",
+      "Liposuction",
+      "Hair Loss Treatment",
+      "Hair Transplant",
+      "Rhinoplasty (Nose job)",
+      "Eyelid Surgery (Blepharoplasty)",
+      "Prominent Ear Surgery (Otoplasty)",
+      "Facelift",
+      "Thread Lift Treatment",
+      "Chin Augmentation",
+      "Jawline Contouring",
+      "Lip Lift (Lip job)",
+      "Lipoma Cysts Scars",
+    ],
+  },
+];
 
   const groupedTimeSlots = {
     Morning: ["09:00 am", "10:00 am", "11:00 am"],
