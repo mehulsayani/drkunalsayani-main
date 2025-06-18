@@ -116,13 +116,15 @@ Notes: ${notes}`);
       <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-2xl w-full max-w-5xl">
         
        
-<div className="w-full mb-10 bg-gradient-to-r from-blue-600 to-blue-800 text-white py-6 px-4 sm:px-6 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div className="w-full mb-10 bg-gradient-to-r from-[#1a60bc] to-[#1AAEBC] text-white 
+py-6 px-4 sm:px-6 md:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 shadow-lg 
+rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
   <p className="text-base sm:text-lg md:text-xl font-bold text-center sm:text-left tracking-tight">
     Get <span className="text-yellow-300">30% Off</span> on Your Consultation by Booking Online!
   </p>
-  <button className="bg-white text-blue-600 font-semibold py-2 px-4 sm:px-6 rounded-full hover:bg-blue-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">
+  {/* <button className="bg-white text-blue-600 font-semibold py-2 px-4 sm:px-6 rounded-full hover:bg-blue-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">
     Book Now
-  </button>
+  </button> */}
 </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Form Inputs */}
