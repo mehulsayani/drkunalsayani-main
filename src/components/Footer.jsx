@@ -148,11 +148,17 @@ export default function Footer() {
           <ul className="space-y-3 ">
             <li className="flex items-start gap-2">
               <MdPhone className="text-teal-500" />
-              <a href="tel:+919967267567" className="hover:text-white hover:underline">
+              <a
+                href="tel:+919967267567"
+                className="hover:text-white hover:underline"
+              >
                 +91-9967267567,
               </a>
-              <a href="tel:+9102246056767" className="hover:text-white hover:underline">
-              02246056767
+              <a
+                href="tel:+9102246056767"
+                className="hover:text-white hover:underline"
+              >
+                02246056767
               </a>
             </li>
             <li className="flex items-start gap-2">
@@ -167,8 +173,10 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               <FaLocationDot className="text-teal-500 w-10 pt-1" />
               <span className="leading-snug">
-                TVAMEVA AESTHETICS - 501/502 Sapphire Plaza, Dadabhai Road,
-                Swami Vivekananda Rd, Vile Parle West, Mumbai, Maharashtra
+                <a href="">
+                  TVAMEVA AESTHETICS - 501/502 Sapphire Plaza, Dadabhai Road,
+                  Swami Vivekananda Rd, Vile Parle West, Mumbai, Maharashtra
+                </a>
               </span>
             </li>
             <li className="flex items-start gap-2">
@@ -235,7 +243,7 @@ export default function Footer() {
         >
           drkunalsayani
         </a>
-        . All rights reserved. Designed & developed by{" "}
+        . All rights reserved. Designed & Developed by{" "}
         <a
           href="https://pracharkarsolutions.com"
           className="text-white hover:underline"
