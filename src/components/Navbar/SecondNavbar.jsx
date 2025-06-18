@@ -30,7 +30,7 @@ export default function SecondNavbar() {
       items: [
         "Hair Transplant",
         "Hair Restoration PRP GFC Exosomes",
-        "Nano fat injection (SVC) for Hair Growth",
+        "Nano fat injection (SVF) for Hair Growth",
       ],
     },
     {
