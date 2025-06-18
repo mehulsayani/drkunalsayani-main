@@ -114,10 +114,16 @@ Notes: ${notes}`);
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-10">
       <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-2xl w-full max-w-5xl">
-        <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">
-          Book Your Appointment
-        </h1>
-
+        
+       
+<div className="w-full mb-10 bg-gradient-to-r from-blue-600 to-blue-800 text-white py-6 px-4 sm:px-6 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
+  <p className="text-base sm:text-lg md:text-xl font-bold text-center sm:text-left tracking-tight">
+    Get <span className="text-yellow-300">30% Off</span> on Your Consultation by Booking Online!
+  </p>
+  <button className="bg-white text-blue-600 font-semibold py-2 px-4 sm:px-6 rounded-full hover:bg-blue-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">
+    Book Now
+  </button>
+</div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Form Inputs */}
           <div className="space-y-4">

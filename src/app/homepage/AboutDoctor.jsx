@@ -72,7 +72,7 @@ export default function About() {
           />
           <div
             className="absolute w-[580px] max-xl:w-[500px]  max-lg:w-[450px] max-md:w-[350px] rounded-full
-           -top-8 max-xl:top-0 -left-18 max-md:left-8  "
+           -top-3 max-xl:top-0 -left-18 max-md:left-8  "
           >
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
