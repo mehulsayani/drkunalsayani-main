@@ -17,13 +17,18 @@ export default function ServiceLayout() {
   ];
 
   // Smooth scroll handler
-  const handleScroll = (e, id) => {
-    e.preventDefault();
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+const handleScroll = (e, id) => {
+  e.preventDefault();
+  const element = document.getElementById(id);
+  if (element) {
+    const offset = -150; // Adjust this value (in pixels) to control how far below the element to scroll
+    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({
+      top: elementPosition + offset,
+      behavior: "smooth"
+    });
+  }
+};
 
   return (
     <section>
