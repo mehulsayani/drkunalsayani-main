@@ -43,7 +43,7 @@ export default function CTA() {
 
         {/* Email Button */}
         <a
-          href="drkunalsayani.professional@gmail.com"
+          href="mailto:drkunalsayani.professional@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#1AAEBC] text-white p-3 shadow-md hover:bg-[#5fc1ca] transition duration-200 flex items-center justify-center max-lg:w-full"
