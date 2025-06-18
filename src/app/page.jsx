@@ -41,7 +41,7 @@ export default function page() {
       <Testimonials />
       <Banner />
       <VideoSection />
-      <Blog />
+      {/* <Blog /> */}
       <FAQ />
     </div>
   );
