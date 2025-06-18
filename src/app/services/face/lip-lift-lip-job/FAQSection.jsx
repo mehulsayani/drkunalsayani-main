@@ -69,7 +69,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src="/images/services/surgical/Lip Lift.jpg"
+            src={"/images/services/face/Lip Lift (Lip job).jpg"}
             alt="Lip Lift"
             fill
             style={{ objectFit: "cover" }}
