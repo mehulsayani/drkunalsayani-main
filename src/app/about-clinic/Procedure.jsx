@@ -65,8 +65,8 @@ const Procedures = () => {
         {/* Right Section - YouTube Video */}
         <div className="md:w-1/2 w-full aspect-video">
           <iframe
-            className="w-full h-full rounded-xl"
-            src="https://www.youtube.com/embed/JSFG-IE8n_c?si=KVdgxcvHO8TDhpps"
+            className="w-full h-full rounded-xl bg-gray-600"
+           
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
