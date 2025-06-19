@@ -55,7 +55,7 @@ export default function CTA() {
         {/* Share Button */}
         <div className="relative group max-lg:w-full ">
           <div
-            className="text-white  rounded-bl-lg p-3 flex items-center justify-center"
+            className="text-white bg-[#0084ff] rounded-bl-lg p-3 flex items-center justify-center"
             aria-label="Share this page"
           >
             <IoMdShare  size={24}/>
