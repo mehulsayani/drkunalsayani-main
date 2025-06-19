@@ -8,7 +8,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/face/Lip Lift (Lip job).jpg"}
+          src={"/images/services/face/Lip Lift (Lip job).jpeg"}
           width={1000}
           height={1000}
           alt=""
