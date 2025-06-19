@@ -12,7 +12,7 @@ import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#3E3E43] text-white py-12 max-lg:pb-18 px-4 text-sm">
+    <footer className="bg-[#3E3E43] text-white py-12 max-lg:pb-24 px-4 text-sm">
       <div className="max-w-[1100px] relative right-14 max-lg:right-0 mx-auto grid gap-10 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {/* Logo & Tagline */}
         <div className="space-y-4 col-span-1">
@@ -248,7 +248,7 @@ export default function Footer() {
           pracharkarsolutions
         </a>
         {/* Disclaimer Section */}
-      <section className="max-w-5xl text-base max-lg:text-xs mx-auto  pt-5 text-white">
+      <section className="max-w-5xl text-base max-lg:text-xs mx-auto pt-5 text-white">
        
         <p className="mb-2">
          <span className="text-yellow-400"> Disclaimer:</span> The information presented on this website is intended solely for general
