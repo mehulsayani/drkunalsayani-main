@@ -6,7 +6,10 @@ import Image from "next/image";
 
 export default function ServiceCandidate() {
   return (
-    <section id="why-choose-us" className=" flex justify-center items-center my-8">
+    <section
+      id="why-choose-us"
+      className=" flex justify-center items-center my-8"
+    >
       <div className="flex w-full max-w-[1200px]">
         {/* Left Side - Image Section */}
         {/* <div className="flex gap-4 w-[50rem]">
@@ -67,7 +70,7 @@ export default function ServiceCandidate() {
               <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
               <div>
                 <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-[#10217D] max-lg:text-center">
-                  Get Ready For Consultation?
+                  Ready For Consultation?
                 </p>
                 <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
                   <span>

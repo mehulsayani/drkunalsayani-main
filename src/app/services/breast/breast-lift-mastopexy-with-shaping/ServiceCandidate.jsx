@@ -33,8 +33,7 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Why Choose  Breast Lift (Mastopexy) with Shaping with Kunal Sayani :
-
+            Why Choose Breast Lift (Mastopexy) with Shaping with Kunal Sayani :
           </h2>
           {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
@@ -43,16 +42,16 @@ export default function ServiceCandidate() {
           </p> */}
 
           <ul className="space-y-3 text-gray-800">
-            { [
-    "Performed by skilled and board-certified plastic surgeon with years of experience",
-    "Customized surgical approach tailored to individual body type and aesthetic goals",
-    "Natural-looking lift and contour to restore youthful breast appearance",
-    "Advanced techniques minimizing scarring and maximizing results",
-    "Focus on patient safety with strict adherence to surgical protocols",
-    "Comprehensive consultation and clear explanation of the procedure",
-    "Post-operative care and follow-up to ensure smooth recovery",
-    "High patient satisfaction with long-lasting, confidence-boosting outcomes"
-  ].map((item, index) => (
+            {[
+              "Performed by skilled and board-certified plastic surgeon with years of experience",
+              "Customized surgical approach tailored to individual body type and aesthetic goals",
+              "Natural-looking lift and contour to restore youthful breast appearance",
+              "Advanced techniques minimizing scarring and maximizing results",
+              "Focus on patient safety with strict adherence to surgical protocols",
+              "Comprehensive consultation and clear explanation of the procedure",
+              "Post-operative care and follow-up to ensure smooth recovery",
+              "High patient satisfaction with long-lasting, confidence-boosting outcomes",
+            ].map((item, index) => (
               <li key={index} className="flex gap-2">
                 <span>
                   <CheckCircle className="text-[#1AAEBC] mt-1 w-5 h-5" />
@@ -71,7 +70,7 @@ export default function ServiceCandidate() {
               <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
               <div>
                 <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-[#10217D] max-lg:text-center">
-                  Get Ready For Consultation?
+                  Ready For Consultation?
                 </p>
                 <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
                   <span>

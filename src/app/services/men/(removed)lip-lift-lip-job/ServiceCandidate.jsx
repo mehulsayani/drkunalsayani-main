@@ -34,7 +34,6 @@ export default function ServiceCandidate() {
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
             Why Choose Lip Lift with Kunal Sayani:
-
           </h2>
           {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
@@ -53,7 +52,8 @@ export default function ServiceCandidate() {
               `Use of refined surgical techniques to ensure minimal scarring and optimal healing
 `,
               `Comprehensive pre-operative consultation and personalized aesthetic assessment
-`, `Post-procedure care and support to ensure smooth recovery and desired results
+`,
+              `Post-procedure care and support to ensure smooth recovery and desired results
 
 `,
               `High patient satisfaction with improved lip proportions and youthful facial appearance
@@ -77,7 +77,7 @@ export default function ServiceCandidate() {
               <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
               <div>
                 <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-[#10217D] max-lg:text-center">
-                  Get Ready For Consultation?
+                  Ready For Consultation?
                 </p>
                 <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
                   <span>

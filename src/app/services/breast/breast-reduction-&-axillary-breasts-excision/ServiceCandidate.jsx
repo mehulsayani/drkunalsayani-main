@@ -33,8 +33,7 @@ export default function ServiceCandidate() {
           <span className="text-xl">❖</span> Why Chooce Us
         </span> */}
           <h2 className="text-4xl font-bold max-lg:text-3xl font-notoSans text-[#10217D] leading-tight mb-4">
-            Why Choose Breast Reduction & Axillary Breasts
-            Excision service :
+            Why Choose Breast Reduction & Axillary Breasts Excision service :
           </h2>
           {/* <p className="text-gray-700 mb-6">
             While a tummy tuck can yield remarkable results, it's essential to
@@ -79,7 +78,7 @@ export default function ServiceCandidate() {
               <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
               <div>
                 <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-[#10217D] max-lg:text-center">
-                  Get Ready For Consultation?
+                  Ready For Consultation?
                 </p>
                 <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
                   <span>

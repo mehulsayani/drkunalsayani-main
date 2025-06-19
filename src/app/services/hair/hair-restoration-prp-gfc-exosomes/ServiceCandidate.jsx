@@ -84,7 +84,7 @@ hair follicle rejuvenation.
               <FaWhatsapp className="text-[#1AAEBC] text-4xl max-lg:hidden" />
               <div>
                 <p className="text-sm max-lg:text-3xl max-lg:mb-4 font-bold text-[#10217D] max-lg:text-center">
-                  Get Ready For Consultation?
+                  Ready For Consultation?
                 </p>
                 <p className="text-md font-medium text-gray-800 max-lg:flex max-lg:justify-center max-lg:items-center">
                   <span>
