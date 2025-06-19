@@ -60,7 +60,7 @@ const Procedures = () => {
             and non-surgical enhancements—performed in a modern, serene, and
             private environment. We combine the latest techniques and medical
             innovations with a holistic approach, ensuring that your experience
-            is as empowering as it is effective.
+            is as empowering as it is effective.   
           </p>
         </div>
 
