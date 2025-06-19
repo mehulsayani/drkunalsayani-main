@@ -111,7 +111,7 @@ export default function FAQSection() {
           <Image
           width={1000}
           height={1000}
-            src={"/images/services/body/Fat Grafting.jpg"}
+            src={"/images/services/body/Fat Grafting.jpeg"}
             alt="Medical treatment"
             className="absolute inset-0 w-full h-full object-cover"
             onError={(e) => {

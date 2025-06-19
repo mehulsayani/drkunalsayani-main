@@ -19,7 +19,7 @@ export default function Slide1() {
         max-lg:items-center max-lg:flex-col">
           <h1
             className="text-4xl max-lg:text-3xl  md:text-[40px] max-lg:text-center 
-          mb-4 font-bold max-lg:font-bold text-[#10217D] leading-tight"
+          mb-4 font-bold max-lg:font-bold text-[#10217D] leading-tight "
           >
             When in Doubt, Trust Experience  You're <br /> in Safe Hands with{" "}
             <br className="hidden max-lg:block"/>

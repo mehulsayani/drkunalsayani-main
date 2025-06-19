@@ -140,7 +140,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl shadow-lg">
           <Image
-            src={"/images/services/body/tummytuck/tummytuck.jpg"}
+            src={"/images/services/body/tummytuck/tummytuck.jpeg"}
             alt="Facial treatment"
             layout="fill"
             objectFit="cover"
