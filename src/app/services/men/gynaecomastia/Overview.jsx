@@ -8,7 +8,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/men/Gynaecomastia.jpg"}
+          src={"/images/services/men/Gynaecomastia.jpeg"}
           width={1000}
           height={1000}
           alt=""
