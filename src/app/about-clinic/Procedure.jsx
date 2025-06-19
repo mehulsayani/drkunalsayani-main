@@ -48,32 +48,28 @@ const Procedures = () => {
       <div className="max-w-[1300px] px-6 md:px-20 py-16 w-full flex flex-col md:flex-row gap-10">
         {/* Left Section */}
         <div className="md:w-1/2 space-y-6 flex flex-col justify-start items-center">
-         
           <h2 className="text-4xl font-semibold text-[#10217D]">
             Aesthetic treatments & procedures offered
           </h2>
           <p className="text-gray-600">
-            Our clinic offers a full spectrum of aesthetic procedures—from advanced
-            facial rejuvenation and body contouring to hair restoration and
-            non-surgical enhancements—performed in a modern, serene, and private
-            environment. We combine the latest techniques and medical innovations
-            with a holistic approach, ensuring that your experience is as
-            empowering as it is effective.
+            Our clinic offers a full spectrum of aesthetic procedures—from
+            advanced facial rejuvenation and body contouring to hair restoration
+            and non-surgical enhancements—performed in a modern, serene, and
+            private environment. We combine the latest techniques and medical
+            innovations with a holistic approach, ensuring that your experience
+            is as empowering as it is effective.
           </p>
         </div>
 
         {/* Right Section - YouTube Video */}
         <div className="md:w-1/2 w-full aspect-video">
-  {/* <video 
-    src="/images/aboutcompany/aboutcompany.mp4" 
-    className="w-full h-full object-cover" 
-    controls 
-    muted 
-    autoPlay 
-    loop 
-  /> */}
-</div>
-
+          <Image
+            src={"/images/aboutcompany/tvamevaimg.jpg"}
+            alt=""
+            width={1000}
+            height={1000}
+          />
+        </div>
       </div>
     </section>
   );
