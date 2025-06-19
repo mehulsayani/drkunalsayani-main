@@ -124,11 +124,7 @@ export default function Footer() {
                 Appointments
               </a>
             </li>
-            <li>
-              <a href="/faqs" className="hover:text-white">
-                Disclaimer
-              </a>
-            </li>
+          
             <li>
               <a href="/privacy-and-policy" className="hover:text-white">
                 Privacy Policy
@@ -235,7 +231,8 @@ export default function Footer() {
       <hr className="w-full my-8 border-gray-600" />
 
       {/* Copyright */}
-      <div className="text-center text-gray-400 text-xs px-4">
+      <div className="text-center text-gray-400 text-sm px-4">
+        
         © {new Date().getFullYear()}{" "}
         <a
           href="https://www.drkunalsayani.com/"
@@ -250,7 +247,15 @@ export default function Footer() {
         >
           pracharkarsolutions
         </a>
-        .
+        {/* Disclaimer Section */}
+      <section className="max-w-4xl text-base mx-auto px-4 pt-5 text-white">
+       
+        <p className="mb-2">
+         <span className="text-yellow-400"> Disclaimer:</span> The information presented on this website is intended solely for general
+          informational and educational purposes. It does not replace personalized
+          medical consultation, diagnosis, or treatment by a licensed professional.
+        </p>
+      </section>
       </div>
     </footer>
   );
