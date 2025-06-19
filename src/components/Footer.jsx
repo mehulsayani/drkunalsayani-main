@@ -231,7 +231,7 @@ export default function Footer() {
       <hr className="w-full my-8 border-gray-600" />
 
       {/* Copyright */}
-      <div className="text-center text-gray-400 text-sm px-4">
+      <div className="text-center text-gray-400 text-base max-lg:text-xs px-4">
         
         © {new Date().getFullYear()}{" "}
         <a
@@ -248,7 +248,7 @@ export default function Footer() {
           pracharkarsolutions
         </a>
         {/* Disclaimer Section */}
-      <section className="max-w-4xl text-base max-lg:text-xs mx-auto px-4 pt-5 text-white">
+      <section className="max-w-5xl text-base max-lg:text-xs mx-auto  pt-5 text-white">
        
         <p className="mb-2">
          <span className="text-yellow-400"> Disclaimer:</span> The information presented on this website is intended solely for general
