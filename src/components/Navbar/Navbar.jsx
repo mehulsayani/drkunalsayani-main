@@ -53,7 +53,7 @@ export default function Navbar() {
             {/* Logo */}
             <a href="/" className="text-xl font-bold text-black flex-shrink-0">
               <Image
-                src="/images/components/navbar/logo.jpg"
+                src="/images/components/navbar/logo.png"
                 alt="Gynecomastia"
                 width={200}
                 height={200}
