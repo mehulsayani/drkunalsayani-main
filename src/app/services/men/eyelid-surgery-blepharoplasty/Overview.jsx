@@ -8,7 +8,7 @@ export default function Overview() {
     <section>
       <div className="bg-white h-full">
         <Image
-          src={"/images/services/men/eyelid-surgery-blepharoplasty.jpg"}
+          src={"/images/services/men/eyelid-surgery-blepharoplasty.png"}
           width={1000}
           height={1000}
           alt=""
