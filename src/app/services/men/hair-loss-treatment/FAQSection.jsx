@@ -64,7 +64,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src="/images/services/hairrestoration/HairRestoration.jpg"
+             src={"/images/services/men/hair-loss-treatment.jpg"}
             alt="Hair Restoration"
             fill
             style={{ objectFit: "cover" }}
