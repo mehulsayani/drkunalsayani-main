@@ -10,7 +10,7 @@ const PrevArrow = ({ onClick }) => (
   <button
     className="border border-[#40AEB9] 
             hover:bg-[#40AEB9] hover:text-white 
-            focus:bg-[#40AEB9] focus:text-white 
+            max-lg:focus:bg-[#40AEB9] max-lg:focus:text-white 
             text-[#40AEB9] rounded-full mr-4 
             transition duration-300"
     onClick={onClick}
@@ -23,7 +23,7 @@ const NextArrow = ({ onClick }) => (
   <button
     className="border border-[#40AEB9] 
             hover:bg-[#40AEB9] hover:text-white 
-            focus:bg-[#40AEB9] focus:text-white 
+            max-lg:focus:bg-[#40AEB9] max-lg:focus:text-white 
             text-[#40AEB9] rounded-full mr-4 
             transition duration-300"
     onClick={onClick}
@@ -97,7 +97,7 @@ export default function Testimonials() {
         width={300}
         height={300}
         alt=""
-        className="absolute max-lg:w-40 top-0 left-0"
+        className="absolute max-lg:w-40  top-0 left-0"
       />
       <div className="flex justify-between w-full max-w-[1200px] max-lg:flex-col">
         {/* Left Section */}
@@ -108,7 +108,7 @@ export default function Testimonials() {
           </h2>
 
           {/* External Arrow Controls */}
-          <div className="text-lg text-center mb-8 flex">
+          <div className="text-lg text-center mb-8 z-0 flex">
             <PrevArrow onClick={() => sliderRef.current?.slickPrev()} />
             <NextArrow onClick={() => sliderRef.current?.slickNext()} />
           </div>
