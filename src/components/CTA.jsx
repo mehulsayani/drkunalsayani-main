@@ -77,7 +77,7 @@ export default function CTA() {
 
           {/* Share Icons */}
           <div
-            className={`absolute  top-[-8rem] group-hover:top-12 right-0 bg-white rounded-l-lg shadow-lg py-2 px-3 flex-col gap-3 flex transition-all duration-300
+            className={`absolute max-lg:w-14 max-lg:justify-center max-lg:items-center top-[-8rem] group-hover:top-12 right-0 max-lg:left-1 bg-white rounded-l-lg shadow-lg py-2 px-3 flex-col gap-3 flex transition-all duration-300
               ${isShareOpen ? 'max-lg:top-[-11rem]' : ' max-lg:top-0'} 
               max-lg:rounded-tr-lg max-lg:rounded-br-lg w-full -z-10`}
           >
