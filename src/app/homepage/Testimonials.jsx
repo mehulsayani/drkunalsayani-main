@@ -8,7 +8,11 @@ import { FcGoogle } from "react-icons/fc";
 // Custom Arrows
 const PrevArrow = ({ onClick }) => (
   <button
-    className="border border-[#40AEB9] hover:bg-[#40AEB9] text-[#40AEB9] hover:text-[#ffffff] rounded-full mr-4"
+    className="border border-[#40AEB9] 
+            hover:bg-[#40AEB9] hover:text-white 
+            focus:bg-[#40AEB9] focus:text-white 
+            text-[#40AEB9] rounded-full mr-4 
+            transition duration-300"
     onClick={onClick}
   >
     <IoIosArrowRoundBack size={50} />
@@ -17,7 +21,11 @@ const PrevArrow = ({ onClick }) => (
 
 const NextArrow = ({ onClick }) => (
   <button
-    className="border border-[#40AEB9] hover:bg-[#40AEB9] text-[#40AEB9] hover:text-[#ffffff] rounded-full"
+    className="border border-[#40AEB9] 
+            hover:bg-[#40AEB9] hover:text-white 
+            focus:bg-[#40AEB9] focus:text-white 
+            text-[#40AEB9] rounded-full mr-4 
+            transition duration-300"
     onClick={onClick}
   >
     <IoIosArrowRoundForward size={50} />
@@ -84,12 +92,19 @@ export default function Testimonials() {
 
   return (
     <section className="w-full flex flex-col items-center justify-center py-20 relative">
-        <Image src={'/images/homepage/hero/abstract1.png'} width={300} height={300} alt="" className="absolute max-lg:w-40 top-0 left-0"/>
+      <Image
+        src={"/images/homepage/hero/abstract1.png"}
+        width={300}
+        height={300}
+        alt=""
+        className="absolute max-lg:w-40 top-0 left-0"
+      />
       <div className="flex justify-between w-full max-w-[1200px] max-lg:flex-col">
         {/* Left Section */}
         <div className="w-full flex justify-center px-4 flex-col items-start">
           <h2 className="text-4xl text-left mb-6">
-            See What Our <br /> <span className="text-[#10217D]">Patients</span> Have To Say!
+            See What Our <br /> <span className="text-[#10217D]">Patients</span>{" "}
+            Have To Say!
           </h2>
 
           {/* External Arrow Controls */}
@@ -117,7 +132,9 @@ export default function Testimonials() {
                             className="rounded-full"
                           />
                           <div className="flex flex-col">
-                            <h1 className="text-[#10217D] font-bold text-lg">{testimonial.name}</h1>
+                            <h1 className="text-[#10217D] font-bold text-lg">
+                              {testimonial.name}
+                            </h1>
                             <p className="text-gray-500">{testimonial.date}</p>
                             <div className="text-yellow-400 flex text-2xl">
                               {[...Array(testimonial.rating)].map((_, i) => (
@@ -128,7 +145,9 @@ export default function Testimonials() {
                         </div>
                         <FcGoogle size={30} />
                       </div>
-                      <p className="mt-4 text-base max-lg:text-sm text-gray-700">{testimonial.review}</p>
+                      <p className="mt-4 text-base max-lg:text-sm text-gray-700">
+                        {testimonial.review}
+                      </p>
                     </div>
                   </div>
                 ))}
