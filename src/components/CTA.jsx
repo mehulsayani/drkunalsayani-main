@@ -63,10 +63,13 @@ export default function CTA() {
 
           {/* Share Icons - Desktop */}
           <div
-            className="absolute -top-30 justify-center items-center max-lg:rounded-tr-lg max-lg:rounded-br-lg group-hover:top-12
-           max-lg:top-12 max-lg:group-hover:-top-44 w-full duration-300 -z-50 right-0 bg-white 
-           rounded-l-lg shadow-lg py-2 px-3 flex-col 
-           gap-3 flex transition-all"
+           className="absolute top-[-120px] group-hover:top-12 group-focus:top-12
+           max-lg:group-hover:-top-44 max-lg:group-focus:-top-44 max-lg:top-12
+           justify-center items-center w-full right-0 z-50
+           bg-white rounded-l-lg max-lg:rounded-tr-lg max-lg:rounded-br-lg
+           shadow-lg py-2 px-3 flex flex-col gap-3
+           transition-all duration-300"
+
 
           >
             <a
