@@ -1,3 +1,4 @@
+// /app/components/BookAppointment.jsx
 "use client";
 
 import React, { useState } from "react";
@@ -11,6 +12,8 @@ const BookAppointment = () => {
   const [notes, setNotes] = useState("");
   const [purpose, setPurpose] = useState("Tummy Tuck (Abdominoplasty)");
   const [visitType, setVisitType] = useState("clinic");
+  const [status, setStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const purposeOptions = [
     {
@@ -85,7 +88,6 @@ const BookAppointment = () => {
         "Thread Lift Treatment",
         "Chin Augmentation",
         "Jawline Contouring",
-     
       ],
     },
   ];
@@ -96,36 +98,69 @@ const BookAppointment = () => {
     Evening: ["03:00 pm", "04:00 pm", "05:00 pm"],
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus("");
+    setIsSubmitting(true);
+
     if (!email || !name || !phone || !selectedDate) {
-      alert("Please fill in all required fields (Name, Email, Phone, Date).");
+      setStatus("Please fill in all required fields (Name, Email, Phone, Date).");
+      setIsSubmitting(false);
       return;
     }
-    alert(`Appointment set for ${selectedDate} at ${selectedTime}
-Name: ${name}
-Email: ${email}
-Phone: ${phone}
-Purpose: ${purpose}
-Visit Type: ${visitType === "clinic" ? "Clinic Visit" : "Online Consultation"}
-Notes: ${notes}`);
+
+    const formData = {
+      name,
+      email,
+      phone,
+      selectedDate,
+      selectedTime,
+      purpose,
+      visitType: visitType === "clinic" ? "In-Person" : "Online",
+      notes,
+    };
+
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+      if (res.ok) {
+        setStatus("Appointment booked successfully! Confirmation email sent.");
+        // Reset form
+        setName("");
+        setEmail("");
+        setPhone("");
+        setSelectedDate("");
+        setSelectedTime("10:00 am");
+        setPurpose("Tummy Tuck (Abdominoplasty)");
+        setVisitType("clinic");
+        setNotes("");
+      } else {
+        setStatus(data.message || "Failed to book appointment.");
+      }
+    } catch (error) {
+      setStatus("An error occurred. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-10">
       <div className="bg-white p-6 sm:p-10 rounded-2xl shadow-2xl w-full max-w-5xl">
-        
-       
-<div className="w-full mb-10 bg-gradient-to-r from-[#1a60bc] to-[#1AAEBC] text-white 
-py-6 px-4 sm:px-6 md:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 shadow-lg 
-rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
-  <p className="text-base sm:text-lg md:text-xl font-bold text-center sm:text-left tracking-tight">
-    Get <span className="text-yellow-300">30% Off</span> On Your Consultation By Booking Online!
-  </p>
-  {/* <button className="bg-white text-blue-600 font-semibold py-2 px-4 sm:px-6 rounded-full hover:bg-blue-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50">
-    Book Now
-  </button> */}
-</div>
+        <div
+          className="w-full mb-10 bg-gradient-to-r from-[#1a60bc] to-[#1AAEBC] text-white 
+          py-6 px-4 sm:px-6 md:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 shadow-lg 
+          rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl"
+        >
+          <p className="text-base sm:text-lg md:text-xl font-bold text-center sm:text-left tracking-tight">
+            Get <span className="text-yellow-300">30% Off</span> On Your Consultation By Booking Online!
+          </p>
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Form Inputs */}
           <div className="space-y-4">
@@ -286,13 +321,24 @@ rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
           />
         </div>
 
+        {/* Status Message */}
+        {status && (
+          <p
+            className={`mt-4 text-center ${
+              status.includes("successfully") ? "text-green-600" : "text-red-600"
+            }`}
+          >
+            {status}
+          </p>
+        )}
+
         {/* Submit */}
         <button
           className="mt-8 w-full bg-blue-600 text-white text-lg font-semibold py-3 rounded-md hover:bg-blue-700 transition disabled:bg-gray-400 disabled:cursor-not-allowed"
           onClick={handleSubmit}
-          disabled={!email || !name || !phone || !selectedDate}
+          disabled={isSubmitting || !email || !name || !phone || !selectedDate}
         >
-          Get Appointment
+          {isSubmitting ? "Submitting..." : "Get Appointment"}
         </button>
       </div>
     </div>
