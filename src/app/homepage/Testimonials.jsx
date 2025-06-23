@@ -37,7 +37,7 @@ const testimonials = [
   {
     name: "Ritesh Vasani",
     date: "05-04-2025",
-    image: "/images/homepage/testimonials/dp1.png",
+    image: "/images/homepage/testimonials/Ritesh Vasani.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani explained liposuction for my wife thoroughly, ensuring a smooth process. Post-surgery results were amazing, and he was always available. Highly recommend him for plastic surgery. Thank you, Dr. Kunal!",
@@ -47,7 +47,7 @@ const testimonials = [
   {
     name: "Dipak Pawar",
     date: "05-04-2025",
-    image: "/images/homepage/testimonials/dp2.png",
+    image: "/images/homepage/testimonials/Dipak Pawar.png",
     rating: 5,
     review:
       "Dr. Kunal's expertise in gynecomastia surgery was exceptional. He explained everything clearly, and the results boosted my confidence. Recovery was smooth, thanks to his guidance. Highly recommend him!",
@@ -57,7 +57,7 @@ const testimonials = [
   {
     name: "Geeta Rijhwani",
     date: "05-04-2025",
-    image: "/images/homepage/testimonials/dp3.png",
+    image: "/images/homepage/testimonials/Geeta Rijhwani.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani made my trichilemmal cyst removal stress-free. From consultation to post-op care, everything was smooth. Thank you for the excellent experience and great results!",
@@ -67,7 +67,7 @@ const testimonials = [
   {
     name: "Devendra Lotlikar",
     date: "29-02-2025",
-    image: "/images/homepage/testimonials/dp4.png",
+    image: "/images/homepage/testimonials/Devendra Lotlikar.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani and his team at Twameva Aesthetics provided exceptional care during my wife's procedure. Their professionalism and post-surgery follow-ups were outstanding. Highly recommend!",
@@ -77,7 +77,7 @@ const testimonials = [
   {
     name: "Mridula Sarda",
     date: "05-04-2025",
-    image: "/images/homepage/testimonials/dp5.png",
+    image: "/images/homepage/testimonials/Mridula Sarda.png",
     rating: 5,
     review:
       "Dr. Kunal skillfully stitched my daughter's eyelid cut with precision. His calm demeanor and expertise ensured a barely noticeable scar. Highly recommend him for cosmetic scar treatment!",
@@ -87,7 +87,7 @@ const testimonials = [
   {
     name: "Ankit Doshi",
     date: "29-02-2025",
-    image: "/images/homepage/testimonials/dp6.png",
+    image: "/images/homepage/testimonials/Ankit Doshi.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani's hair transplant and under-eye fillers were exceptional. His patient-centered care and expertise delivered great results. Highly recommend Twameva Aesthetics!",
@@ -97,7 +97,7 @@ const testimonials = [
   {
     name: "Tejal Panchal",
     date: "05-01-2025",
-    image: "/images/homepage/testimonials/dp7.png",
+    image: "/images/homepage/testimonials/Tejal Panchal.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani removed a benign breast tumor with minimal scarring. His compassion and clear guidance made the process seamless. Eternally grateful for his care!",
@@ -107,7 +107,7 @@ const testimonials = [
   {
     name: "Sameer Kanabar",
     date: "05-01-2025",
-    image: "/images/homepage/testimonials/dp8.png",
+    image: "/images/homepage/testimonials/Sameer Kanabar.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani at Twameva Clinic is exceptional. His expertise, care, and ethical approach make him the best for aesthetic and reconstructive surgeries. Highly recommend!",
@@ -117,7 +117,7 @@ const testimonials = [
   {
     name: "Rohan Jadhav",
     date: "03-11-2024",
-    image: "/images/homepage/testimonials/dp9.png",
+    image: "/images/homepage/testimonials/Rohan Jadhav.png",
     rating: 5,
     review:
       "Dr. Kunal Sayani's care during my wife's axillary fat surgery was exceptional. The results exceeded expectations, and his professionalism was outstanding. Highly recommend!",
