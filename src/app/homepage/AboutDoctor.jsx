@@ -111,7 +111,7 @@ export default function About() {
             Board-Certified. Patient-Focused. Results-Driven.
           </h2>
 
-          <p className="text-base max-lg:w-[90%] max-lg:text-sm text-gray-800 leading-relaxed mb-2">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base max-lg:text-justify text-gray-800 leading-relaxed mb-2">
             Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
             based in Andheri, Mumbai, with over 8 years of dedicated experience
             in the field of aesthetic and reconstructive surgery. Known for his
@@ -121,7 +121,7 @@ export default function About() {
             transformative.
           </p>
 
-          <p className="text-base max-lg:w-[90%] max-lg:text-sm text-gray-800 leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base text-gray-800 max-lg:text-justify leading-relaxed mb-3">
             He completed his MCh in Plastic & Reconstructive Surgery from the
             prestigious Grant Medical College and Sir J.J. Hospital, Mumbai,
             where he also earned his MS in General Surgery. His foundational
@@ -130,7 +130,7 @@ export default function About() {
             clinical excellence.
           </p>
 
-          <p className="text-base max-lg:w-[90%]  max-lg:text-sm text-gray-800 leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%] max-md:text-base max-lg:text-sm text-gray-800 max-lg:text-justify leading-relaxed mb-3">
             With a comprehensive range of procedures offered — including{" "}
             <strong>Liposuction</strong>, <strong>Tummy Tuck</strong>,{" "}
             <strong>Breast Reduction and Implants</strong>,{" "}
@@ -139,7 +139,7 @@ export default function About() {
             <strong>Mastopexy</strong>, and{" "}
             <strong>Facial Plastic Surgery</strong>{" "}
             <p className="max-xl:hidden max-lg:block">
-              — Dr. Kunal is known for delivering personalized outcomes that
+              Dr. Kunal is known for delivering personalized outcomes that
               prioritize patient safety, satisfaction, and aesthetic harmony.
             </p>
           </p>
@@ -160,12 +160,12 @@ export default function About() {
         className="relative z-40 bg-gradient-to-r min-[1024px]:hidden from-blue-900 to-cyan-800 
       text-white pt-6 sm:py-8 px-4 sm:px-6 rounded-t-[2rem] sm:rounded-t-[4rem] "
       >
-        <div className="max-w-[1200px] mx-auto flex max-lg:flex-col gap-6 sm:gap-14">
+        <div className="max-w-[1200px] mx-auto flex max-lg:flex-col gap-14 max-lg:gap-0">
           <h4 className="text-base text-center sm:text-left sm:text-lg md:text-2xl font-semibold w-full sm:w-[100%] lg:w-[40%]">
             Dr. Kunal Sayani is a proud member of several esteemed national and
             international professional bodies:
           </h4>
-          <div className="w-full px-4 py-6">
+          <div className="w-full px-4 py-6 max-lg:pb-2">
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className="px-2">
