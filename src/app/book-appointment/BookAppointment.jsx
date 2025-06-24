@@ -106,7 +106,9 @@ const BookAppointment = () => {
     setIsSubmitting(true);
 
     if (!email || !name || !phone || !selectedDate) {
-      setStatus("Please fill in all required fields (Name, Email, Phone, Date).");
+      setStatus(
+        "Please fill in all required fields (Name, Email, Phone, Date)."
+      );
       setIsSubmitting(false);
       return;
     }
@@ -160,124 +162,143 @@ const BookAppointment = () => {
           rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl"
         >
           <p className="text-base sm:text-lg md:text-xl font-bold text-center sm:text-left tracking-tight">
-            Get <span className="text-yellow-300">30% Off</span> On Your Consultation By Booking Online!
+            Get <span className="text-yellow-300">30% Off</span> On Your
+            Consultation By Booking Online!
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="flex gap-8">
           {/* Form Inputs */}
-          <div className="space-y-4">
+          <div className=" flex w-full gap-4 max-lg:flex-col">
             {/* Date Input */}
-            <div>
-              <label htmlFor="date" className="block text-sm font-semibold text-gray-700 mb-2">
-                Select Date
-              </label>
-              <input
-                id="date"
-                type="date"
-                value={selectedDate}
-                onChange={(e) => setSelectedDate(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-                required
-              />
+            <div className="w-full flex flex-col gap-4">
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
+                  Name
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                  required
+                />
+              </div>
+
+              <div>
+                <label
+                  htmlFor="date"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
+                  Select Date
+                </label>
+                <input
+                  id="date"
+                  type="date"
+                  value={selectedDate}
+                  onChange={(e) => setSelectedDate(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                  required
+                />
+              </div>
+
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
+                  Email
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                  required
+                />
+              </div>
             </div>
 
-            <div>
-              <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
-                Name
-              </label>
-              <input
-                id="name"
-                type="text"
-                placeholder="Enter your name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-                required
-              />
-            </div>
+            <div className="flex flex-col gap-4 w-full ">
+              <div>
+                <label
+                  htmlFor="phone"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
+                  Phone Number
+                </label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="Enter your phone number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                  required
+                />
+              </div>
 
-            <div>
-              <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
-                Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-                required
-              />
+              <div>
+                <label
+                  htmlFor="purpose"
+                  className="block text-sm font-semibold text-gray-700 mb-2"
+                >
+                  Purpose
+                </label>
+                <select
+                  id="purpose"
+                  value={purpose}
+                  onChange={(e) => setPurpose(e.target.value)}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                >
+                  {purposeOptions.map((category) => (
+                    <optgroup key={category.title} label={category.title}>
+                      {category.items.map((item) => (
+                        <option key={item} value={item}>
+                          {item}
+                        </option>
+                      ))}
+                    </optgroup>
+                  ))}
+                </select>
+              </div>
+          
+              <div className="mt-0">
+                <label className="block text-sm font-semibold text-gray-700 mb-4 max-lg:mb-2">
+                  Visit Type
+                </label>
+                <div className="flex gap-6">
+                  <label className="flex items-center gap-2 text-gray-700">
+                    <input
+                      type="radio"
+                      value="clinic"
+                      checked={visitType === "clinic"}
+                      onChange={() => setVisitType("clinic")}
+                      name="visitType"
+                      className="focus:ring-blue-500"
+                    />
+                    Clinic Visit
+                  </label>
+                  <label className="flex items-center gap-2 text-gray-700">
+                    <input
+                      type="radio"
+                      value="online"
+                      checked={visitType === "online"}
+                      onChange={() => setVisitType("online")}
+                      name="visitType"
+                      className="focus:ring-blue-500"
+                    />
+                    Online Consultation
+                  </label>
+                </div>
+              </div>
             </div>
-
-            <div>
-              <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
-                Phone Number
-              </label>
-              <input
-                id="phone"
-                type="tel"
-                placeholder="Enter your phone number"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-                required
-              />
-            </div>
-
-            <div>
-              <label htmlFor="purpose" className="block text-sm font-semibold text-gray-700 mb-2">
-                Purpose
-              </label>
-              <select
-                id="purpose"
-                value={purpose}
-                onChange={(e) => setPurpose(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-              >
-                {purposeOptions.map((category) => (
-                  <optgroup key={category.title} label={category.title}>
-                    {category.items.map((item) => (
-                      <option key={item} value={item}>
-                        {item}
-                      </option>
-                    ))}
-                  </optgroup>
-                ))}
-              </select>
-            </div>
-          </div>
-        </div>
-
-        {/* Visit Type */}
-        <div className="mt-8">
-          <label className="block text-sm font-semibold text-gray-700 mb-2">
-            Visit Type
-          </label>
-          <div className="flex gap-6">
-            <label className="flex items-center gap-2 text-gray-700">
-              <input
-                type="radio"
-                value="clinic"
-                checked={visitType === "clinic"}
-                onChange={() => setVisitType("clinic")}
-                name="visitType"
-                className="focus:ring-blue-500"
-              />
-              Clinic Visit
-            </label>
-            <label className="flex items-center gap-2 text-gray-700">
-              <input
-                type="radio"
-                value="online"
-                checked={visitType === "online"}
-                onChange={() => setVisitType("online")}
-                name="visitType"
-                className="focus:ring-blue-500"
-              />
-              Online Consultation
-            </label>
           </div>
         </div>
 
@@ -310,7 +331,10 @@ const BookAppointment = () => {
 
         {/* Notes */}
         <div>
-          <label htmlFor="notes" className="block text-sm font-semibold text-gray-700 mb-2">
+          <label
+            htmlFor="notes"
+            className="block text-sm font-semibold text-gray-700 mb-2"
+          >
             Additional Notes
           </label>
           <textarea
@@ -327,7 +351,9 @@ const BookAppointment = () => {
         {status && (
           <p
             className={`mt-4 text-center ${
-              status.includes("successfully") ? "text-green-600" : "text-red-600"
+              status.includes("successfully")
+                ? "text-green-600"
+                : "text-red-600"
             }`}
           >
             {status}
