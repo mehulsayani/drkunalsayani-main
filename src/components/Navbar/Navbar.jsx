@@ -45,7 +45,7 @@ export default function Navbar() {
         className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-0 ${
           showNavbar || isMobileMenuOpen
             ? "translate-y-0 max-lg:translate-none"
-            : "-translate-y-full"
+            : "-translate-y-full max-lg:translate-0"
         }`}
       >
         <div className=" w-full max-lg:w-[90%] flex items-center justify-between flex-col">
