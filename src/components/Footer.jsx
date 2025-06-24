@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* About Us */}
         <div>
-          <h4 className="text-base font-semibold mb-3">About Us</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">About Us</h4>
           <ul className="space-y-2 ">
             <li>
               <a href="/about-dr-kunal-sayani" className="hover:text-white">
@@ -47,7 +47,7 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <h4 className="text-base font-semibold mb-3">Services</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">Services</h4>
           <ul className="space-y-2 ">
             <li>
               <a
@@ -107,7 +107,7 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-base font-semibold mb-3">Quick Links</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">Quick Links</h4>
           <ul className="space-y-2 ">
             <li>
               <a href="/reviews" className="hover:text-white">
@@ -140,7 +140,7 @@ export default function Footer() {
 
         {/* Contact Us */}
         <div className="w-66 max-lg:w-72 max-xl:w-52">
-          <h4 className="text-base font-semibold mb-3">Contact Us</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">Contact Us</h4>
           <ul className="space-y-3 ">
             <li className="flex items-start gap-2">
               <MdPhone className="text-teal-500" />
