@@ -89,7 +89,7 @@ const BookAppointment = () => {
         "Thread Lift Treatment",
         "Chin Augmentation",
         "Jawline Contouring",
-        "Other",
+        "Other Purpose",
       ],
     },
   ];
