@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { FaInfoCircle } from "react-icons/fa";
 
 const pricingData = [
   { sr: 1, procedure: "Breast Implants", charges: "₹1,50,000 - ₹1,95,000" },
@@ -43,34 +44,43 @@ const notes = [
 
 const Page = () => {
   return (
-    <div className="p-4 md:p-10 bg-white text-gray-800">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-[#10217D]">Surgical Treatments – Packages</h1>
-      <div className="overflow-auto rounded-md shadow border">
-        <table className="min-w-full table-auto border-collapse text-sm md:text-base">
-          <thead className="bg-gray-100">
+    <div className="p-4 px-20 max-lg:px-4 bg-gradient-to-br from-white to-[#f6f9fc] text-gray-800 min-h-screen">
+      <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center text-[#10217D] tracking-tight">
+        Surgical Treatments – Packages
+      </h1>
+
+      <div className="overflow-x-auto rounded-lg shadow-lg ring-1 ring-gray-200 ">
+        <table className="min-w-full divide-y divide-gray-200 text-sm md:text-base">
+          <thead className="bg-[#1aaebc3d] sticky top-0 z-10">
             <tr>
-              <th className="p-3 border">Sr. No.</th>
-              <th className="p-3 border">Procedure</th>
-              <th className="p-3 border">Charges (INR)</th>
+              <th className="px-4 py-3 text-left font-semibold text-black">Sr. No.</th>
+              <th className="px-4 py-3 text-left font-semibold text-black">Procedure</th>
+              <th className="px-4 py-3 text-left font-semibold text-black">Charges (INR)</th>
             </tr>
           </thead>
-          <tbody>
-            {pricingData.map((item) => (
-              <tr key={item.sr} className="hover:bg-gray-50">
-                <td className="p-2 border text-center">{item.sr}</td>
-                <td className="p-2 border">{item.procedure}</td>
-                <td className="p-2 border text-center">{item.charges}</td>
+          <tbody className="bg-white divide-y divide-gray-100">
+            {pricingData.map((item, index) => (
+              <tr
+                key={item.sr}
+                className={`hover:bg-blue-50 ${index % 2 === 0 ? "bg-white" : "bg-gray-50"}`}
+              >
+                <td className="px-4 py-3 text-gray-700 text-left">{item.sr}.</td>
+                <td className="px-4 py-3 text-gray-800">{item.procedure}</td>
+                <td className="px-4 py-3 text-gray-800 text-left">{item.charges}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      <div className="mt-8 bg-[#1aaebc10] border-l-4 border-[#1aaebc] p-4 rounded-md">
-        <h2 className="font-semibold text-lg mb-2">Important Notes:</h2>
-        <ul className="list-disc list-inside text-sm md:text-base">
+      <div className="mt-10 bg-[#f0f9ff] border-l-4 border-[#1aaebc] p-6 rounded-md shadow-sm">
+        <div className="flex items-center gap-2 mb-3 text-[#0f6d78]">
+          <FaInfoCircle className="text-lg" />
+          <h2 className="font-semibold text-lg">Important Notes:</h2>
+        </div>
+        <ul className="list-disc list-inside text-sm md:text-base text-gray-700 space-y-1 pl-2">
           {notes.map((note, index) => (
-            <li key={index} className="mb-1">{note}</li>
+            <li key={index}>{note}</li>
           ))}
         </ul>
       </div>
