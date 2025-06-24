@@ -16,7 +16,7 @@ export default function TopNavBanner() {
       /> */}
 
       {/* Main heading */}
-      <h1 className="text-5xl font-notoSans max-lg:text-xl font-semibold">
+      <h1 className="text-5xl font-notoSans max-lg:text-3xl font-semibold">
         Pricing
       </h1>
 
