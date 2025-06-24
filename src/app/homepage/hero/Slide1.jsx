@@ -15,7 +15,7 @@ export default function Slide1() {
      transition-opacity px-18 duration-700 ease-in-out">
       <div className="flex items-center   max-w-[1200px] max-xl:max-w-[1000px] justify-between  max-lg:flex-col">
         {/* Left Content */}
-        <div className="max-w-5xl w-full  max-lg:mb-2 mb-10 md:mb-0 mt-8 max-lg:flex max-lg:justify-center 
+        <div className="max-w-5xl w-full font-[roboto] max-lg:mb-2 mb-10 md:mb-0 mt-8 max-lg:flex max-lg:justify-center 
         max-lg:items-center max-lg:flex-col">
           <h1
             className="text-4xl max-lg:text-3xl  md:text-[40px] max-lg:text-center 
@@ -68,7 +68,7 @@ export default function Slide1() {
         </div>
 
         {/* Right Image */}
-        <div className="relative  w-[40rem] h-[33rem] max-xl:w-[50rem] max-lg:w-[19rem] max-lg:h-[19.5rem] max-md:h-[17.5rem]">
+        <div className="relative  w-[40rem] h-[33rem] max-xl:w-[50rem] max-lg:w-[19rem] max-lg:h-[19.5rem] max-md:h-[17.6rem]">
           <Image
             src="/images/homepage/hero/kunal.png"
             alt="Gynecomastia"

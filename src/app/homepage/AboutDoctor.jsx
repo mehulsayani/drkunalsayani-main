@@ -72,14 +72,14 @@ export default function About() {
           />
           <div
             className="absolute w-[580px] max-xl:w-[500px]  max-lg:w-[450px] max-md:w-[350px] rounded-full
-           -top-3 max-xl:top-0 -left-18 max-md:left-8  "
+           -top-3 max-xl:top-0  "
           >
             <Image
               src="/images/homepage/aboutdoctor/bg-image.png"
               width={1000}
               height={1000}
               alt=""
-              className="relative -z-10 left-10 max-lg:left-0 max-md:left-30 max-sm:left-0 max-lg:bottom-12 
+              className="relative -z-10 -left-4 max-sm:left-0 max-lg:bottom-12 
               max-md:bottom-0 max-w-full h-auto "
             />
           </div>
