@@ -3,7 +3,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <section className="max-w-4xl mx-auto px-4 pt-[10rem] py-12 text-gray-800">
+    <section className="max-w-4xl mx-auto px-4 pt-[10rem] max-lg:pt-[5rem] py-12 text-gray-800">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#10217D]">
          Disclaimer: Plastic & Cosmetic Surgery
       </h1>
