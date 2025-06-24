@@ -10,7 +10,7 @@ const BookAppointment = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [notes, setNotes] = useState("");
-  const [purpose, setPurpose] = useState("Tummy Tuck (Abdominoplasty)");
+  const [purpose, setPurpose] = useState("Select Services");
   const [visitType, setVisitType] = useState("clinic");
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -19,6 +19,7 @@ const BookAppointment = () => {
     {
       title: "Hair",
       items: [
+        "Select Your Purpose",
         "Hair Transplant",
         "Hair Restoration PRP GFC Exosomes",
         "Nano fat injection (SVC) for Hair Growth",
@@ -88,6 +89,7 @@ const BookAppointment = () => {
         "Thread Lift Treatment",
         "Chin Augmentation",
         "Jawline Contouring",
+        "Other",
       ],
     },
   ];
@@ -136,7 +138,7 @@ const BookAppointment = () => {
         setPhone("");
         setSelectedDate("");
         setSelectedTime("10:00 am");
-        setPurpose("Tummy Tuck (Abdominoplasty)");
+        setPurpose("Select Services");
         setVisitType("clinic");
         setNotes("");
       } else {
