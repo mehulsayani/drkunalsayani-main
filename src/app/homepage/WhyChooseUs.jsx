@@ -5,9 +5,11 @@ import React, { useState, useEffect } from "react";
 const images = [
   "/images/homepage/WhyChooseUs/equipment.jpg",
   "/images/homepage/WhyChooseUs/save_money.jpg",
-  "/images/homepage/WhyChooseUs/doctors.jpg",
-  "/images/homepage/WhyChooseUs/safety.jpg",
+  
   "/images/homepage/WhyChooseUs/satisfaction.jpg",
+  "/images/homepage/WhyChooseUs/doctors.jpg",
+  
+  "/images/homepage/WhyChooseUs/safety.jpg",
 ];
 
 // Corresponding labels for dots (for accessibility)
@@ -57,10 +59,10 @@ export default function WhyChooseUs() {
         <Image src={"/images/homepage/WhyChooseUs/dr15.png"} fill alt="" className="opacity-60" />
       </div>
 
-      <div className="relative bottom-10 max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">
+      <div className="relative  bottom-10 max-lg:text-[10px] w-[30rem]  h-[30rem] max-lg:w-[14rem] max-lg:h-[14rem] group ">
         {/* Main Circle */}
         <div className="w-full h-full rounded-full border-1  border-dashed flex justify-center items-center ">
-          <div className="w-[90%] h-[90%] rounded-full relative overflow-hidden shadow-[0px_0px_5px_lightgray]">
+          <div className="w-[90%] max-lg:w-[88%] h-[90%] max-lg:h-[88%] rounded-full relative overflow-hidden shadow-[0px_0px_5px_lightgray]">
             <Image
               src={images[currentImageIndex]}
               fill
@@ -93,8 +95,8 @@ export default function WhyChooseUs() {
         </div>
         {/* Dot2 on the circle */}
         <div
-          className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[24%] -left-[9.5%]
-         max-lg:top-[20%] max-lg:-left-[13%]
+          className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[19%] -left-[1.5%]
+         max-lg:top-[19%] max-lg:-left-[6%]
         transform -translate-x-1/2 "
         >
           <div
@@ -103,7 +105,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-right">
-              98% Patients <br /> Satisfaction Rate
+             Safety And <br /> Ethics 
             </p>
           </div>
           <div
@@ -115,7 +117,7 @@ export default function WhyChooseUs() {
         </div>
         {/* Dot3 on the circle */}
         <div
-          className="flex text-center justify-around gap-5 items-start absolute top-[19%] left-[105.5%] max-lg:left-[123%] 
+          className="flex text-center justify-around gap-5 max-lg:gap-2 items-start absolute top-[19%] left-[105%] max-lg:left-[120%] 
         transform -translate-x-1/2 "
         >
           <div
@@ -136,8 +138,8 @@ export default function WhyChooseUs() {
         </div>
         {/* Dot4 on the circle */}
         <div
-          className="flex text-center  justify-around gap-5 items-start absolute top-[75%] -left-[3%] 
-          max-lg:top-[78%] max-lg:-left-[4%] 
+          className="flex text-center  justify-around gap-2 items-start absolute top-[76%] -left-[7%] 
+          max-lg:top-[78%] max-lg:-left-[8.5%] 
         transform -translate-x-1/2 "
         >
           <div
@@ -146,7 +148,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-right ">
-              Safety And <br /> Ethics
+              Trusted & <br /> Experienced Doctor
             </p>
           </div>
           <div
@@ -158,7 +160,7 @@ export default function WhyChooseUs() {
         </div>
         {/* Dot5 on the circle */}
         <div
-          className="flex text-center justify-around gap-2 items-start absolute top-[75%] left-[104%]
+          className="flex text-center justify-around gap-2 items-start absolute top-[76%] left-[104%]
          max-lg:top-[78%] max-lg:left-[114%] transform -translate-x-1/2 "
         >
           <div
@@ -173,7 +175,7 @@ export default function WhyChooseUs() {
             }`}
           >
             <p className="font-bold text-left w-28">
-              Trusted & <br /> Experienced Doctor
+             98% Patients Satisfaction_Rate 
             </p>
           </div>
         </div>
