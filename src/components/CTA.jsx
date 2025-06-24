@@ -70,15 +70,16 @@ export default function CTA() {
             className="text-white max-lg:rounded-bl-none bg-[#0084ff] rounded-bl-lg p-3 flex items-center justify-center 
             hover:bg-[#006acc] focus:bg-[#006acc] active:bg-[#006acc] transition duration-200 w-full"
             aria-label="Share this page"
-            aria-expanded={isShareOpen}
           >
             <IoMdShare size={24} />
           </button>
 
           {/* Share Icons */}
           <div
-            className={`absolute max-lg:w-14 max-lg:justify-center max-lg:items-center top-[-8rem] group-hover:top-12 right-0 max-lg:left-1 bg-white rounded-l-lg shadow-lg py-2 px-3 flex-col gap-3 flex transition-all duration-300
-              ${isShareOpen ? 'max-lg:top-[-11rem]' : ' max-lg:top-0'} 
+            className={`absolute max-lg:w-14 max-lg:justify-center max-lg:items-center top-[-8rem]
+                lg:group-hover:top-12 right-0 max-lg:left-1 bg-white rounded-l-lg shadow-lg py-2 px-3 
+               flex-col gap-3 flex transition-all duration-300
+              ${isShareOpen ? " max-lg:-top-[11rem]" : " max-lg:top-0 "} 
               max-lg:rounded-tr-lg max-lg:rounded-br-lg w-full -z-10`}
           >
             <a
