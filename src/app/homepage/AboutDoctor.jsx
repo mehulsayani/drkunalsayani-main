@@ -100,7 +100,7 @@ export default function About() {
           initial={{ opacity: 0, y: 40 }}
           animate={isTextInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="w-[55%] max-lg:w-[100%] mt-6 md:mt-0 max-lg:text-center max-lg:flex max-lg:justify-center 
+          className="w-[55%] max-lg:w-[100%] mt-6 md:mt-0 max-lg:text-center max-lg:flex  
           max-lg:items-center max-lg:flex-col"
         >
           <h3 className="text-3xl sm:text-2xl md:text-[2rem] font-semibold text-[#10217D] tracking-wide">
@@ -111,7 +111,7 @@ export default function About() {
             Board-Certified. Patient-Focused. Results-Driven.
           </h2>
 
-          <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base max-lg:text-justify text-gray-800 leading-relaxed mb-2">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base max-lg:text-center text-gray-800 leading-relaxed mb-2">
             Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
             based in Andheri, Mumbai, with over 8 years of dedicated experience
             in the field of aesthetic and reconstructive surgery. Known for his
@@ -121,7 +121,7 @@ export default function About() {
             transformative.
           </p>
 
-          <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base text-gray-800 max-lg:text-justify leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base text-gray-800 max-lg:text-center leading-relaxed mb-3">
             He completed his MCh in Plastic & Reconstructive Surgery from the
             prestigious Grant Medical College and Sir J.J. Hospital, Mumbai,
             where he also earned his MS in General Surgery. His foundational
@@ -130,7 +130,7 @@ export default function About() {
             clinical excellence.
           </p>
 
-          <p className="text-base max-lg:w-[90%] max-md:text-base max-lg:text-sm text-gray-800 max-lg:text-justify leading-relaxed mb-3">
+          <p className="text-base max-lg:w-[90%] max-md:text-base max-lg:text-sm text-gray-800 max-lg:text-center leading-relaxed mb-3">
             With a comprehensive range of procedures offered — including{" "}
             <strong>Liposuction</strong>, <strong>Tummy Tuck</strong>,{" "}
             <strong>Breast Reduction and Implants</strong>,{" "}
