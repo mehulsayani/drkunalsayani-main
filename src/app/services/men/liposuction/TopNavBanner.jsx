@@ -50,8 +50,8 @@ export default function TopNavBanner() {
           <span className="hover:underline cursor-pointer">Services</span>
         </Link>
         <span className="mx-2">/</span>
-        <Link href={"/services/body"}>
-          <span className="hover:underline cursor-pointer">Body</span>
+        <Link href={"/services/men"}>
+          <span className="hover:underline cursor-pointer">Men</span>
         </Link>
         <span className="mx-2">/</span>
 

@@ -30,7 +30,9 @@ export default function Footer() {
 
         {/* About Us */}
         <div>
-          <h4 className="text-base font-semibold max-lg:font-bold mb-3">About Us</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">
+            About Us
+          </h4>
           <ul className="space-y-2 ">
             <li>
               <a href="/about-dr-kunal-sayani" className="hover:text-white">
@@ -47,7 +49,9 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <h4 className="text-base font-semibold max-lg:font-bold mb-3">Services</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">
+            Services
+          </h4>
           <ul className="space-y-2 ">
             <li>
               <a
@@ -107,7 +111,9 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-base font-semibold max-lg:font-bold mb-3">Quick Links</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">
+            Quick Links
+          </h4>
           <ul className="space-y-2 ">
             <li>
               <a href="/reviews" className="hover:text-white">
@@ -124,7 +130,7 @@ export default function Footer() {
                 Appointments
               </a>
             </li>
-          
+
             <li>
               <a href="/privacy-and-policy" className="hover:text-white">
                 Privacy Policy
@@ -140,7 +146,9 @@ export default function Footer() {
 
         {/* Contact Us */}
         <div className="w-66 max-lg:w-72 max-xl:w-52">
-          <h4 className="text-base font-semibold max-lg:font-bold mb-3">Contact Us</h4>
+          <h4 className="text-base font-semibold max-lg:font-bold mb-3">
+            Contact Us
+          </h4>
           <ul className="space-y-3 ">
             <li className="flex items-start gap-2">
               <MdPhone className="text-teal-500" />
@@ -231,8 +239,7 @@ export default function Footer() {
       <hr className="w-full my-8 border-gray-600" />
 
       {/* Copyright */}
-      <div className="text-center text-gray-400 text-base max-lg:text-xs px-4">
-        
+      <div className="text-center text-gray-300 text-base max-lg:text-xs px-4">
         © {new Date().getFullYear()}{" "}
         <a
           href="https://www.drkunalsayani.com/"
@@ -248,14 +255,18 @@ export default function Footer() {
           pracharkarsolutions
         </a>
         {/* Disclaimer Section */}
-      <section className="max-w-5xl text-base max-lg:text-xs mx-auto pt-5 text-white">
-       
-        <p className="mb-2">
-         <span className="text-yellow-400"> Disclaimer:</span> The information presented on this website is intended solely for general
-          informational and educational purposes. It does not replace personalized
-          medical consultation, diagnosis, or treatment by a licensed professional.
-        </p>
-      </section>
+        <section className="max-w-5xl text-base max-lg:text-xs mx-auto pt-5 text-white">
+          <p className="mb-2 max-md:mb-8">
+            <span className="text-yellow-400"> Disclaimer:</span> The
+            information in the Web Site is provided for informational purposes
+            only and is not meant to substitute the advice provided by your
+            doctor or other health care professional. You should not use the
+            information available on or through the Web Site for diagnosing or
+            treating a health problem or disease, or prescribing any medication.
+            All images used on this website are for illustrative purposes only,
+            actual results and process may vary.
+          </p>
+        </section>
       </div>
     </footer>
   );
