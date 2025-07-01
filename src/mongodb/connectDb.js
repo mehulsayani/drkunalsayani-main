@@ -1,24 +1,20 @@
-import { NextResponse } from "next/server";
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI;
-const client = new MongoClient(uri);
-
 export async function POST(req) {
-  const { date } = await req.json();
   try {
-    await client.connect();
-    const database = client.db("appointments");
-    const collection = database.collection("bookings");
-    const bookedTimes = await collection
+    const { date } = await req.json();
+    const client = await MongoClient.connect(process.env.MONGODB_URI);
+    const db = client.db("appointments");
+    const bookedTimes = await db
+      .collection("bookings")
       .find({ date })
       .project({ time: 1, _id: 0 })
-      .toArray();
-    return NextResponse.json({ bookedTimes: bookedTimes.map((item) => item.time) });
-  } catch (error) {
-    console.error(error);
-    return NextResponse.json({ error: "Failed to fetch availability" }, { status: 500 });
-  } finally {
+      .toArray()
+      .map((item) => item.time);
     await client.close();
+    return NextResponse.json({ bookedTimes });
+  } catch (error) {
+    console.error("Database error:", error);
+    return NextResponse.json({ error: "Failed to fetch booked times" }, { status: 500 });
   }
 }

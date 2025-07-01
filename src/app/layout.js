@@ -2,7 +2,11 @@ import "./globals.css";
 
 import { Noto_Sans } from "next/font/google";
 import { Roboto } from "next/font/google";
-import ClientLayout from "./ClientLayout";
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer";
+import CTA from "@/components/CTA";
+import SecondNavbar from "@/components/Navbar/SecondNavbar";
+import ScrollTop from "@/components/ScrollTop";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -26,7 +30,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
       <body className="antialiased">
-        <ClientLayout>{children}</ClientLayout>
+        <Navbar />
+        <SecondNavbar />
+        <main>{children}</main>
+        <ScrollTop />
+        <Footer />
+        <CTA />
       </body>
     </html>
   );

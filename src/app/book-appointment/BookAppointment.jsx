@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
+import debounce from "lodash/debounce";
 
 const BookAppointment = () => {
   // State variables
@@ -104,10 +105,13 @@ const BookAppointment = () => {
     Evening: ["03:00 pm", "04:00 pm", "05:00 pm"],
   };
 
-  // Fetch booked times when selectedDate changes
-  useEffect(() => {
-    const checkAvailability = async () => {
-      if (!selectedDate) {
+  // Flatten time slots for checking availability
+  const allTimeSlots = Object.values(groupedTimeSlots).flat();
+
+  // Debounced function to fetch booked times
+  const checkAvailability = useCallback(
+    debounce(async (date) => {
+      if (!date) {
         setBookedTimes([]);
         return;
       }
@@ -116,7 +120,7 @@ const BookAppointment = () => {
         const res = await fetch("/api/check-availability", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ date: selectedDate }),
+          body: JSON.stringify({ date }),
         });
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
@@ -126,14 +130,30 @@ const BookAppointment = () => {
         setBookedTimes(data.bookedTimes || []);
       } catch (error) {
         console.error("Error fetching availability:", error);
-        setStatus("Failed to load available times. Please try again.");
+        setStatus(
+          error.message.includes("HTTP error")
+            ? `Failed to load available times (Server error: ${error.message}).`
+            : "Failed to connect to server. Please check your connection and try again."
+        );
       } finally {
         setIsLoadingTimes(false);
       }
-    };
+    }, 500),
+    []
+  );
 
-    checkAvailability();
-  }, [selectedDate]);
+  // Fetch booked times when selectedDate changes
+  useEffect(() => {
+    checkAvailability(selectedDate);
+  }, [selectedDate, checkAvailability]);
+
+  // Reset selectedTime if it's booked
+  useEffect(() => {
+    if (bookedTimes.includes(selectedTime)) {
+      const firstAvailableTime = allTimeSlots.find((time) => !bookedTimes.includes(time)) || "10:00 am";
+      setSelectedTime(firstAvailableTime);
+    }
+  }, [bookedTimes, selectedTime, allTimeSlots]);
 
   // Handle form submission
   const handleSubmit = async (e) => {
@@ -182,13 +202,14 @@ const BookAppointment = () => {
         setPurpose("Select Services");
         setVisitType("clinic");
         setNotes("");
-        setBookedTimes([...bookedTimes, selectedTime]); // Update booked times locally
+        // Re-fetch availability to reflect new booking
+        await checkAvailability(selectedDate);
       } else {
         setStatus(data.message || "Failed to book appointment.");
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      setStatus("An error occurred. Please try again.");
+      setStatus("An error occurred while booking. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -215,13 +236,16 @@ const BookAppointment = () => {
                 onChange={(e) => setName(e.target.value)}
                 className="input px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
                 required
+                aria-label="Name"
               />
               <input
                 type="date"
                 value={selectedDate}
                 onChange={(e) => setSelectedDate(e.target.value)}
+                min={new Date().toISOString().split("T")[0]} // Prevent past dates
                 className="input px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
                 required
+                aria-label="Appointment Date"
               />
               <input
                 type="email"
@@ -230,6 +254,7 @@ const BookAppointment = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 className="input px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
                 required
+                aria-label="Email"
               />
             </div>
 
@@ -241,11 +266,13 @@ const BookAppointment = () => {
                 onChange={(e) => setPhone(e.target.value)}
                 className="input px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
                 required
+                aria-label="Phone Number"
               />
               <select
                 value={purpose}
                 onChange={(e) => setPurpose(e.target.value)}
                 className="input px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
+                aria-label="Purpose of Visit"
               >
                 {purposeOptions.map((group) => (
                   <optgroup key={group.title} label={group.title}>
@@ -258,7 +285,9 @@ const BookAppointment = () => {
                 ))}
               </select>
               <div className="mt-0">
-                <label className="block text-sm font-semibold text-gray-700 mb-4 max-lg:mb-2">Visit Type</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-4 max-lg:mb-2">
+                  Visit Type
+                </label>
                 <div className="flex gap-6">
                   <label className="flex items-center gap-2 text-gray-700">
                     <input
@@ -267,6 +296,7 @@ const BookAppointment = () => {
                       checked={visitType === "clinic"}
                       onChange={() => setVisitType("clinic")}
                       name="visitType"
+                      aria-label="Clinic Visit"
                     />
                     Clinic Visit
                   </label>
@@ -277,6 +307,7 @@ const BookAppointment = () => {
                       checked={visitType === "online"}
                       onChange={() => setVisitType("online")}
                       name="visitType"
+                      aria-label="Online Consultation"
                     />
                     Online Consultation
                   </label>
@@ -291,6 +322,8 @@ const BookAppointment = () => {
           <label className="block text-sm font-semibold text-gray-700 mb-4">Select Time</label>
           {isLoadingTimes ? (
             <p>Loading availability...</p>
+          ) : bookedTimes.length === allTimeSlots.length ? (
+            <p className="text-red-600">No time slots available for this date. Please select another date.</p>
           ) : (
             Object.entries(groupedTimeSlots).map(([period, slots]) => (
               <div key={period} className="mb-4">
@@ -303,6 +336,8 @@ const BookAppointment = () => {
                         key={time}
                         onClick={() => !isBooked && setSelectedTime(time)}
                         disabled={isBooked}
+                        aria-disabled={isBooked}
+                        aria-label={`Select ${time} ${isBooked ? "(Booked)" : ""}`}
                         className={`px-4 py-2 rounded-lg border text-sm transition font-medium ${
                           isBooked
                             ? "bg-gray-300 text-gray-500 cursor-not-allowed"
@@ -329,12 +364,19 @@ const BookAppointment = () => {
             onChange={(e) => setNotes(e.target.value)}
             className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
             rows={3}
+            aria-label="Additional Notes"
           />
         </div>
 
         {/* Status Message */}
         {status && (
-          <p className={`mt-4 text-center ${status.includes("successfully") ? "text-green-600" : "text-red-600"}`}>{status}</p>
+          <p
+            className={`mt-4 text-center ${
+              status.includes("successfully") ? "text-green-600" : "text-red-600"
+            }`}
+          >
+            {status}
+          </p>
         )}
 
         {/* Submit Button */}
@@ -342,6 +384,7 @@ const BookAppointment = () => {
           className="mt-8 w-full bg-blue-600 text-white text-lg font-semibold py-3 rounded-md hover:bg-blue-700 transition disabled:bg-gray-400 disabled:cursor-not-allowed"
           onClick={handleSubmit}
           disabled={isSubmitting || !email || !name || !phone || !selectedDate || !selectedTime}
+          aria-label="Submit Appointment"
         >
           {isSubmitting ? "Submitting..." : "Get Appointment"}
         </button>
