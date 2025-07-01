@@ -14,6 +14,8 @@ import {
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Reviews from "../reviews/Reviews";
+import FAQSection from "../services/hair/hair-transplant/FAQSection";
 
 
 export default function Page() {
@@ -285,6 +287,8 @@ export default function Page() {
           </div>
         </div>
       )}
+      <Reviews/>
+      <FAQSection/>
     </div>
   );
 }
