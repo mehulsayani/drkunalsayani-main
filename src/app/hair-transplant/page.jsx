@@ -16,6 +16,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Reviews from "../reviews/Reviews";
 import FAQSection from "../services/hair/hair-transplant/FAQSection";
+import Testimonials from "../homepage/Testimonials";
 
 
 export default function Page() {
@@ -287,7 +288,7 @@ export default function Page() {
           </div>
         </div>
       )}
-      <Reviews/>
+      <Testimonials/>
       <FAQSection/>
     </div>
   );
