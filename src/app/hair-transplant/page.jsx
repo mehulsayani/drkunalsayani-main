@@ -89,9 +89,11 @@ export default function Page() {
             <p className="text-lg md:text-xl text-gray-900 mb-6">
               Permanent hair restoration using advanced transplant techniques.
             </p>
-            <button className="bg-[#1AAEBC] px-10 py-3 text-white rounded-lg font-semibold hover:bg-[#148d98] transition">
+            <a href="book-appointment">
+              <button className="bg-[#1AAEBC] px-10 py-3 text-white rounded-lg font-semibold hover:bg-[#148d98] transition">
               Book Now
             </button>
+            </a>
           </div>
           <div className="w-full max-w-sm">
             <Image
