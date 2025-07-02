@@ -17,6 +17,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Reviews from "../reviews/Reviews";
 import FAQSection from "../services/hair/hair-transplant/FAQSection";
 import Testimonials from "../homepage/Testimonials";
+import { IoIosHappy } from "react-icons/io";
 
 
 export default function Page() {
@@ -73,7 +74,7 @@ export default function Page() {
     },
     {
       label: "Satisfaction rate",
-      icon: <FaHeartbeat className="text-red-600 text-3xl mb-2" />,
+      icon: <IoIosHappy className="text-red-600 text-3xl mb-2" />,
     },
   ];
 
