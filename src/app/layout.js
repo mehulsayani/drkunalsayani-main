@@ -29,6 +29,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="TRM5uN2AbAEpuMZ-oECmvatuvFw9rdvoKtm-UK8NCsI"
+        />
+      </head>
+
       <body className="antialiased">
         <Navbar />
         <SecondNavbar />
