@@ -1,11 +1,11 @@
 import "./globals.css";
 import { Noto_Sans, Roboto } from "next/font/google";
-
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 import SecondNavbar from "@/components/Navbar/SecondNavbar";
 import ScrollTop from "@/components/ScrollTop";
+import Script from "next/script";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -30,8 +30,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${roboto.variable} ${notoSans.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
+      <head />
+
       <body className="antialiased">
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-2VGL1KMKTY"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2VGL1KMKTY');
+          `}
+        </Script>
+
+        {/* Layout */}
         <Navbar />
         <SecondNavbar />
         <main>{children}</main>
