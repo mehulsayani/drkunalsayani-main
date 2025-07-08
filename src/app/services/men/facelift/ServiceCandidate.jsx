@@ -81,12 +81,12 @@ return to your routine quickly.
                   <span>
                     <FaWhatsapp className="text-[#1AAEBC] text-xl hidden" />
                   </span>
-                  +91 02246056767
+                  +91 9967267567
                 </p>
               </div>
             </div>
             <a
-              href="https://wa.me/919970939063"
+              href="https://wa.me/919967267567"
               className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-lg 
                font-medium hover:bg-[#148d98] transition"
             >
