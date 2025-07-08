@@ -39,7 +39,7 @@ export default function CTA() {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/919970939063"
+          href="https://wa.me/919967267567"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#25D366] text-white p-3 shadow-md 
