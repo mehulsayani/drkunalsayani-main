@@ -85,12 +85,13 @@ transplant plan specifically for you.`,
                 </p>
               </div>
             </div>
-            <button
+            <a
+              href="https://wa.me/919970939063"
               className="flex items-center gap-2 bg-[#1AAEBC] text-white px-5 py-2 rounded-lg 
                font-medium hover:bg-[#148d98] transition"
             >
               Contact Us <ArrowUpRight size={18} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
