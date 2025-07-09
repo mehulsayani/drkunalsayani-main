@@ -168,10 +168,10 @@ export default function Footer() {
             <li className="flex items-start gap-2">
               <MdEmail className="text-teal-500" />
               <a
-                href="mailto:drkunalsayani.professional@gmail.com"
+                href="mailto:contact@drkunalsayani.com"
                 className="hover:text-white break-all hover:underline"
               >
-                drkunalsayani.professional@gmail.com
+                contact@drkunalsayani.com
               </a>
             </li>
             <li className="flex items-start gap-2">

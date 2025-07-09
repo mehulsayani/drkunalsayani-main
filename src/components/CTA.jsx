@@ -26,7 +26,7 @@ export default function CTA() {
       >
         {/* Phone Button */}
         <a
-          href="tel://918048034415"
+          href="tel:919967267567"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-800 text-white p-3 shadow-md rounded-tl-lg max-lg:rounded-tl-none 
@@ -52,7 +52,7 @@ export default function CTA() {
 
         {/* Email Button */}
         <a
-          href="mailto:drkunalsayani.professional@gmail.com"
+          href="mailto:contact@drkunalsayani.com"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#1AAEBC] text-white p-3 shadow-md 
