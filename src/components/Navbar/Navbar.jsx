@@ -10,8 +10,12 @@ import CallForm from "./CallForm";
 import ToggleSubMenu from "./ToggleSubMenu";
 import Link from "next/link";
 import SecondNavbar from "./SecondNavbar";
+import { openModal } from "@/redux/bookAppointmentSlice";
+import { useDispatch } from "react-redux";
+
 
 export default function Navbar() {
+ const dispatch = useDispatch();
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -120,12 +124,13 @@ export default function Navbar() {
             <div className="flex items-center gap-2 sm:gap-4">
               <div className="flex items-center gap-2 sm:gap-4 ">
                 {/* <CallForm /> */}
-                <a
-                  href="/book-appointment"
+                <button
+                       onClick={() => dispatch(openModal())}
                   className="bg-[#1aaebc] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"
                 >
                   Book Appointment
-                </a>
+                </button>
+              
               </div>
               {/* Hamburger Icon */}
               <button

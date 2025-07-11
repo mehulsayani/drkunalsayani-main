@@ -6,7 +6,6 @@ import { PT_Serif } from "next/font/google";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import KiviHealthAppointment from "@/components/Navbar/Button";
 
 const ptSerif = PT_Serif({
   subsets: ["latin"],

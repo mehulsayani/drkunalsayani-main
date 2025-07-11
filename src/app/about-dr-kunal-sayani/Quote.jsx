@@ -2,8 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Quote as QuoteIcon } from "lucide-react";
+import { openModal } from "@/redux/bookAppointmentSlice";
+import { useDispatch } from "react-redux";
 
 export default function Quote() {
+  const dispatch = useDispatch();
   return (
     <div
       initial={{ opacity: 0, y: 30 }}
@@ -20,12 +23,12 @@ export default function Quote() {
         </p>
         <div className="flex items-center gap-2 sm:gap-4 max-lg:hidden">
           {/* <CallForm /> */}
-          <a
-            href="/book-appointment"
+          <button
+            onClick={() => dispatch(openModal())}
             className="bg-[#1aaebcaf] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"
           >
             Book Appointment
-          </a>
+          </button>
         </div>
       </div>
     </div>

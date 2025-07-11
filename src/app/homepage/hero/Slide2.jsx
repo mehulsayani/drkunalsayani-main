@@ -3,8 +3,11 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { openModal } from "@/redux/bookAppointmentSlice";
+import { useDispatch } from "react-redux";
 
 export default function Slide2({ isActive }) {
+  const dispatch = useDispatch()
   return (
     <section className="w-full h-[37.5rem] max-md:h-[43rem] max-lg:h-[44.5rem] max-xl:h-[37.5rem] mt-[3.5rem] max-sm:mt-[5rem] max-md:mt-[5rem] flex justify-center items-end ">
       <div className="flex max-lg:flex-col max-lg:text-center  max-lg:gap-10 
@@ -28,7 +31,7 @@ export default function Slide2({ isActive }) {
           </p>
 
           <motion.button
-            
+            onClick={() => dispatch(openModal())}
             className="bg-[#1aaebcaf] hover:bg-[#148d98] text-white font-medium py-3 px-6 rounded-lg shadow-md transition"
           >
             Book Appointment

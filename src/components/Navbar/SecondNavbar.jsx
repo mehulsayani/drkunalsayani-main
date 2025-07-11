@@ -107,7 +107,7 @@ export default function SecondNavbar() {
 
   return (
     <div
-      className={`w-full bg-white shadow-md z-50 flex items-center justify-center transition-transform duration-300 fixed top-22 ${
+      className={`w-full bg-white shadow-md z-40 flex items-center justify-center transition-transform duration-300 fixed top-22 ${
         showNavbar ? "translate-y-0" : "-translate-y-22"
       }`}
     >
