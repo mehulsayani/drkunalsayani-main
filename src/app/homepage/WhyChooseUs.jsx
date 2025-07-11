@@ -14,7 +14,7 @@ const images = [
 
 // Corresponding labels for dots (for accessibility)
 const labels = [
-  "Cutting Edge Technologies And Facilities",
+  "Cutting Edge Technologies And Facilities ",
   "100% Patient Satisfaction Rate",
   "Value For Money",
   "Safety And Ethics",
