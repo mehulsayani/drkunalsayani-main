@@ -46,8 +46,8 @@
   <loc>https://www.drkunalsayani.com/book-appointment</loc>
   <lastmod>2025-07-14T06:27:36+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
+  </url>
+<!-- <url>
   <loc>https://www.drkunalsayani.com/services/hair/hair-transplant</loc>
   <lastmod>2025-07-14T06:27:36+00:00</lastmod>
   <priority>0.80</priority>
@@ -289,4 +289,4 @@
 </url>
 
 
-</urlset>
+</urlset> -->
