@@ -18,7 +18,7 @@ const notoSans = Noto_Sans({
 
 export const metadata = {
   title:
-    "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai | Dr. Kunal Sayani ",
+    "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
   description: `Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, 
   Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.`,
   keywords: `   
