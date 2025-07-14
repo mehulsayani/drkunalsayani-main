@@ -35,7 +35,7 @@ export const metadata = {
     Plastic Surgeon in Andheri Mumbai,
     Best Plastic Surgeon in Andheri,
     Plastic Surgeon in Andheri,
-     plastic surgery cost,
+    plastic surgery cost,
     cosmetic surgeon near me,
     cosmetic surgeries near me, 
   `,
