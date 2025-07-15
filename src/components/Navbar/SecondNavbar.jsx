@@ -105,7 +105,7 @@ const submenus = [
       "post-pregnancy-tummy-tuck-moms-surgery-in-andheri-mumbai",
       "breast-lift-&-augmentation-after-pregnancy-surgery-in-andheri-mumbai",
       "genital-cosmetic-surgeries-in-andheri-mumbai",
-      "mommy-makeover-package-custom-combination-of-procedures-mumbai",
+      "mommy-makeover-package-custom-combination-of-procedures-in-mumbai",
     ],
   },
   {
