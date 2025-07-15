@@ -3,7 +3,7 @@ import React from "react";
 import Membership from "./Membership";
 import Quote from "./Quote";
 import Affiliations from "./Affiliations";
-import ConsultationSection from "../about-clinic/ConsultationSection";
+import ConsultationSection from "../about-tvameva-clinic/ConsultationSection";
 
 export default function DrKunalSayani() {
   return (
@@ -48,10 +48,10 @@ export default function DrKunalSayani() {
           </div>
         </div>
       </section>
-      <Membership/>
-      <Quote/>
-      <Affiliations/>
-      <ConsultationSection/>
+      <Membership />
+      <Quote />
+      <Affiliations />
+      <ConsultationSection />
     </div>
   );
 }

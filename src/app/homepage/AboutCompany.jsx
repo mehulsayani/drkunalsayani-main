@@ -43,7 +43,7 @@ export default function AboutCompany() {
             <br />
           </p>
           <div className="flex items-center gap-4">
-            <a href="/about-clinic">
+            <a href="/about-tvameva-clinic">
               <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

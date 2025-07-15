@@ -14,7 +14,7 @@ import {
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FAQSection from "../services/hair/hair-transplant/FAQSection";
+import FAQSection from "../services/hair/hair-transplant-in-andheri-mumbai/FAQSection";
 import Testimonials from "../homepage/Testimonials";
 import { IoIosHappy } from "react-icons/io";
 

@@ -81,7 +81,7 @@ export default function Navbar() {
                 About Dr Kunal Sayani
               </Link>
               <Link
-                href="/about-clinic"
+                href="/about-tvameva-clinic"
                 className="hover:text-[#1AAEBC] max-lg:hidden duration-500 text-gray-700 relative inline-block cursor-pointer overflow-hidden after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-[#1AAEBC] after:rounded-[10px] after:scale-x-0 after:origin-right after:transition-transform after:duration-400 hover:after:scale-x-100 hover:after:origin-left"
               >
                 About Tvameva Clinic
