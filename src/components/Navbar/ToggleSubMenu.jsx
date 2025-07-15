@@ -19,62 +19,63 @@ export default function ToggleSubMenu({
     setActiveCategory((prev) => (prev === category ? null : category));
   };
 
-  const services = {
-    Hair: [
-      "Hair Transplant",
-      "Hair Restoration PRP GFC Exosomes",
-      "Nano fat injection (SVF) for Hair Growth",
-    ],
-    Face: [
-      "Rhinoplasty (Nose job)",
-      "Eyelid Surgery (Blepharoplasty)",
-      "Prominent Ear Surgery (Otoplasty)",
-      "Facelift",
-      "Thread Lift Treatment",
-      "Chin Augmentation",
-      "Jawline Contouring",
-      "Lip Lift (Lip job)",
-      "Lipoma-Cysts-Scars",
-    ],
-    Breast: [
-      "Breast Augmentation",
-      "Breast Lift (mastopexy) with Shaping",
-      "Breast Reduction & Axillary Breasts Excision",
-    ],
-    Body: [
-      "Tummy Tuck (Abdominoplasty)",
-      "Liposuction",
-      "Buttock Augmentation (BBL)",
-      "Fat Grafting",
-    ],
-    Mommy_Makeover: [
-      "Post Pregnancy Tummy Tuck (moms)",
-      "Breast Lift & Augmentation after Pregnancy",
-      "Genital Cosmetic Surgeries",
-      "Mommy Makeover Package (custom combination of procedures)",
-    ],
-    Non_Surgical: [
-      "Botox (wrinkles-anti-ageing)",
-      "Dermal Fillers",
-      "Laser Skin Rejuvenation",
-      "Microneedling & PRP for Skin Rejuvenation",
-      "Skin Tightening",
-    ],
-    Men: [
-      "Gynaecomastia",
-      "Liposuction",
-      "Hair Loss Treatment",
-      "Hair Transplant",
-      "Rhinoplasty (Nose job)",
-      "Eyelid Surgery (Blepharoplasty)",
-      "Prominent Ear Surgery (Otoplasty)",
-      "Facelift",
-      "Thread Lift Treatment",
-      "Chin Augmentation",
-      "Jawline Contouring",
-    
-    ],
-  };
+ const services = {
+  Hair: [
+    "hair-transplant-in-andheri-mumbai",
+    "hair-restoration-prp-gfc-exosomes-in-andheri-mumbai",
+    "nano-fat-injection-svf-for-hair-growth-andheri-mumbai",
+  ],
+  Face: [
+    "rhinoplasty-nose-job-surgery-in-mumbai",
+    "eyelid-surgery-blepharoplasty-in-andheri-mumbai",
+    "prominent-ear-surgery-otoplasty-in-andheri-mumbai",
+    "facelift-surgery-in-andheri-mumbai",
+    "thread-lift-treatment-in-andheri-mumbai",
+    "chin-augmentation-surgery-in-andheri-mumbai",
+    "jawline-contouring-surgery-in-andheri-mumbai",
+    "lip-lift-lip-job-surgery-in-andheri-mumbai",
+    "lipoma-cysts-scars-surgery-in-andheri-mumbai",
+  ],
+  Breast: [
+    "breast-augmentation-surgery-in-andheri-mumbai",
+    "breast-lift-mastopexy-with-shaping-surgery-in-andheri-mumbai",
+    "breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai",
+  ],
+  Body: [
+    "tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai",
+    "liposuction-surgeon-in-andheri-mumbai",
+    "buttock-augmentation-bbl-surgery-in-andheri-mumbai",
+    "fat-grafting-surgery-in-andheri-mumbai",
+  ],
+  Mommy_Makeover: [
+    "post-pregnancy-tummy-tuck-moms-surgery-in-andheri-mumbai",
+    "breast-lift-&-augmentation-after-pregnancy-surgery-in-andheri-mumbai",
+    "genital-cosmetic-surgeries-in-andheri-mumbai",
+    "mommy-makeover-package-custom-combination-of-procedures-in-mumbai",
+  ],
+  Non_Surgical: [
+    "botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai",
+    "dermal-fillers-treatment-andheri-mumbai",
+    "laser-skin-rejuvenation-treatment-in-andheri-mumbai",
+    "microneedling-&-prp-for-skin-rejuvenation-surgery-in-andheri-mumbai",
+    "skin-tightening-surgery-in-andheri-mumbai",
+  ],
+  Men: [
+    "gynaecomastia-surgery-in-andheri-mumbai",
+    "liposuction-surgeon-in-andheri-mumbai",
+    "hair-loss-treatment-in-andheri-mumbai",
+    "hair-transplant-in-mumbai",
+    "rhinoplasty-nose-job-surgery-in-mumbai",
+    "eyelid-surgery-blepharoplasty-surgery-in-mumbai",
+    "prominent-ear-surgery-otoplasty-in-mumbai",
+    "facelift-surgeon-in-mumbai",
+    "thread-lift-treatment-in-mumbai",
+    "chin-augmentation-surgeon-in-mumbai",
+    "jawline-contouring-surgeon-in-mumbai",
+  ],
+};
+
+
 
   return (
     <div className={`relative ${isMobile ? "w-full" : ""}`}>
