@@ -18,7 +18,7 @@ const services = [
   },
   {
     title: "Nano fat injection (SVF) for Hair Growth",
-    link: "/services/hair/nano-fat-injection-svf-for-hair-growth-andheri-mumbai",
+    link: "/services/hair/nano-fat-injection-svf-for-hair-growth-in-andheri-mumbai",
     description: "Boost hair regrowth using stem-cell-rich nano fat injections.",
     image: "/images/services/hair/2149404688.jpg",
   },
