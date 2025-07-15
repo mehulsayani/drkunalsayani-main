@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Mommy Makeover Package (custom combination of procedures)",
-    link: "/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-mumbai",
+    link: "/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-in-mumbai",
     description: "Personalized makeover combining body contouring and breast procedures.",
     image: "/images/services/mommymakeover/Mommy Makeover Package.jpg",
   },

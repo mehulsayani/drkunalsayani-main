@@ -100,7 +100,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-mumbai"
+                href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-in-mumbai"
                 className="hover:text-white"
               >
                 Mommy Makeover
