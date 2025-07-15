@@ -55,7 +55,7 @@ export default function Footer() {
           <ul className="space-y-2 ">
             <li>
               <a
-                href="/services/body/tummy-tuck-abdominoplasty"
+                href="/services/body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai"
                 className="hover:text-white"
               >
                 Tummy Tuck Abdominoplasty
@@ -63,7 +63,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/breast/breast-augmentation"
+                href="/services/breast/breast-augmentation-surgery-in-andheri-mumbai"
                 className="hover:text-white"
               >
                 Breast Augmentation
@@ -71,7 +71,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/hair/hair-transplant"
+                href="/services/hair/hair-transplant-in-andheri-mumbai"
                 className="hover:text-white"
               >
                 Hair Transplant
@@ -79,7 +79,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/body/buttock-augmentation-bbl"
+                href="/services/body/buttock-augmentation-bbl-surgery-in-andheri-mumbai"
                 className="hover:text-white"
               >
                 Buttock Augmentation
@@ -87,20 +87,20 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/non-surgical/botox-wrinkles-anti-ageing"
+                href="/services/non-surgical/botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai"
                 className="hover:text-white"
               >
                 Botox
               </a>
             </li>
             <li>
-              <a href="/services/body/liposuction" className="hover:text-white">
+              <a href="/services/body/liposuction-surgeon-in-andheri-mumbai" className="hover:text-white">
                 Liposuction
               </a>
             </li>
             <li>
               <a
-                href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures"
+                href="/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-mumbai"
                 className="hover:text-white"
               >
                 Mommy Makeover

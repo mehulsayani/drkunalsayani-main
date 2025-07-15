@@ -5,20 +5,20 @@ import Image from "next/image";
 const services = [
   {
     title: "Breast Augmentation",
-    link: "/services/breast/breast-augmentation",
+    link: "/services/breast/breast-augmentation-surgery-in-andheri-mumbai",
     description:
       "Enhances breast size and shape using implants or fat transfer.",
     image: "/images/services/breast/Breast Augmentation.jpeg",
   },
   {
     title: "Breast Lift (Mastopexy) with Shaping",
-    link: "/services/breast/breast-lift-mastopexy-with-shaping",
+    link: "/services/breast/breast-lift-mastopexy-with-shaping-surgery-in-andheri-mumbai",
     description: "Raises and reshapes sagging breasts for a firmer appearance.",
     image: "/images/services/breast/Breast Lift (mastopexy) with Shaping.jpeg",
   },
   {
     title: "Breast Reduction & Axillary Breasts Excision",
-    link: "/services/breast/breast-reduction-&-axillary-breasts-excision",
+    link: "/services/breast/breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai",
     description:
       "Reduces breast size and removes excess tissue for comfort and balance.",
     image: "/images/services/breast.jpg",

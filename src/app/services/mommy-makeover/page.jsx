@@ -6,25 +6,25 @@ import Image from "next/image";
 const services = [
   {
     title: "Post-Pregnancy Tummy Tuck (moms)",
-    link: "/services/mommy-makeover/post-pregnancy-tummy-tuck-moms",
+    link: "/services/mommy-makeover/post-pregnancy-tummy-tuck-moms-surgery-in-andheri-mumbai",
     description: "Restore a flatter, firmer abdomen after pregnancy.",
     image: "/images/services/mommymakeover/Post-Pregnancy Tummy Tuck (moms).jpg",
   },
   {
     title: "Breast Lift & Augmentation After Pregnancy",
-    link: "/services/mommy-makeover/breast-lift-&-augmentation-after-pregnancy",
+    link: "/services/mommy-makeover/breast-lift-&-augmentation-after-pregnancy-surgery-in-andheri-mumbai",
     description: "Enhance breast shape and volume post-pregnancy.",
     image: "/images/services/breast/Breast Augmentation.jpg",
   },
   {
     title: "Genital Cosmetic Surgeries",
-    link: "/services/mommy-makeover/genital-cosmetic-surgeries",
+    link: "/services/mommy-makeover/genital-cosmetic-surgeries-in-andheri-mumbai",
     description: "Rejuvenate and enhance feminine wellness and aesthetics.",
     image: "/images/services/mommymakeover/Genital Cosmetic Surgeries.jpg",
   },
   {
     title: "Mommy Makeover Package (custom combination of procedures)",
-    link: "/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures",
+    link: "/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-mumbai",
     description: "Personalized makeover combining body contouring and breast procedures.",
     image: "/images/services/mommymakeover/Mommy Makeover Package.jpg",
   },

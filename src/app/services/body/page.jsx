@@ -6,27 +6,27 @@ import Image from "next/image";
 const services = [
   {
     title: "Tummy Tuck (Abdominoplasty)",
-    link: "/services/body/tummy-tuck-abdominoplasty",
+    link: "/services/body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai",
     description: "Removes excess fat and skin to flatten and firm the abdomen.",
     image: "/images/services/body/tummytuck/tummytuck.jpeg",
   },
   {
     title: "Liposuction",
-    link: "/services/body/liposuction",
+    link: "/services/body/liposuction-surgeon-in-andheri-mumbai",
     description:
       "Targets and removes stubborn fat deposits to contour your body.",
     image: "/images/services/body/liposuction/liposuction-min.jpg",
   },
   {
     title: "Buttock Augmentation (BBL)",
-    link: "/services/body/buttock-augmentation-bbl",
+    link: "/services/body/buttock-augmentation-bbl-surgery-in-andheri-mumbai",
     description:
       "Enhances buttock shape and volume using fat transfer techniques.",
     image: "/images/services/body/Buttock Augmentation (BBL).jpg",
   },
   {
     title: "Fat Grafting",
-    link: "/services/body/fat-grafting",
+    link: "/services/body/fat-grafting-surgery-in-andheri-mumbai",
     description:
       "Uses your own fat to restore volume and improve body contours.",
     image: "/images/services/body/Fat Grafting.jpeg",

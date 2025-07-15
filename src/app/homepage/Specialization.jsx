@@ -12,56 +12,56 @@ const specializations = [
     description1:
       "Enhance breast size and shape with natural-looking implants tailored to your body.",
     image: "/images/homepage/specialization/breast-reduction.jpg",
-    link: "/services/breast/breast-augmentation",
+    link: "/services/breast/breast-augmentation-surgery-in-andheri-mumbai",
   },
   {
     title: "Breast Reduction",
     description1:
       "Relieve discomfort and achieve proportion with expertly performed breast reduction surgery.",
     image: "/images/homepage/specialization/b14.jpg",
-    link: "/services/breast/breast-reduction-&-axillary-breasts-excision",
+    link: "/services/breast/breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai",
   },
   {
     title: "Gynecomastia",
     description1:
       "Sculpt a more masculine chest by removing excess glandular or fatty tissue.",
     image: "/images/homepage/specialization/Gynecomastia-min.jpg",
-    link: "/services/men/gynaecomastia",
+    link: "/services/men/gynaecomastia-surgery-in-andheri-mumbai",
   },
   {
     title: "Liposuction",
     description1:
       `Avoid stubborn fat deposits that don’t respond to diet or exercise with targeted aesthetic solutions.`,
     image: "/images/homepage/specialization/liposuction-min.jpg",
-    link: "/services/body/liposuction",
+    link: "/services/body/liposuction-surgeon-in-andheri-mumbai",
   },
   {
     title: "Tummy Tuck",
     description1:
       "Tighten loose abdominal muscles and remove excess skin for a firmer, flatter stomach.",
     image: "/images/homepage/specialization/tummy-tuck.jpg",
-    link: "/services/body/tummy-tuck-abdominoplasty",
+    link: "/services/body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai",
   },
   {
     title: "Face Lift",
     description1:
       "Reverse signs of aging by lifting and tightening sagging facial skin and muscles.",
     image: "/images/homepage/specialization/face-lift.jpg",
-    link: "/services/face/facelift",
+    link: "/services/face/facelift-surgery-in-andheri-mumbai",
   },
   {
     title: "Botox | Derma Fillers",
     description1:
       "Smooth fine lines, enhance facial volume, and restore youthful contours non-surgically.",
     image: "/images/homepage/specialization/botox.jpg",
-    link: "/services/non-surgical/botox-wrinkles-anti-ageing",
+    link: "/services/non-surgical/botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai",
   },
   {
     title: "Hair Transplant",
     description1:
       "Restore a naturally fuller hairline with advanced FUE or FUT hair transplant techniques for lasting results.",
     image: "/images/homepage/specialization/hair-transplant.jpg",
-    link: "/services/hair/hair-transplant",
+    link: "/services/hair/hair-transplant-in-andheri-mumbai",
   },
 ];
 
