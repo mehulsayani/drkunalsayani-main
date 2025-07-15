@@ -23,7 +23,7 @@ export default function ToggleSubMenu({
   Hair: [
     "hair-transplant-in-andheri-mumbai",
     "hair-restoration-prp-gfc-exosomes-in-andheri-mumbai",
-    "nano-fat-injection-svf-for-hair-growth-andheri-mumbai",
+    "nano-fat-injection-svf-for-hair-growth-in-andheri-mumbai",
   ],
   Face: [
     "rhinoplasty-nose-job-surgery-in-mumbai",
