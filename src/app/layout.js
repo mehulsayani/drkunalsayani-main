@@ -2,6 +2,7 @@ import "./globals.css";
 import { Noto_Sans, Roboto } from "next/font/google";
 import Script from "next/script";
 import ClientLayout from "./ClientLayout"; // 👈 Import new client wrapper
+import CanonicalTag from "@/components/SEO/CanonicalTag";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
       <head>
+      <CanonicalTag/>
         <Script id="gtm-init" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

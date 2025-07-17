@@ -119,7 +119,7 @@ const submenus = [
     ],
     links: [
       "botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai",
-      "dermal-fillers-treatment-andheri-mumbai",
+      "dermal-fillers-treatment-in-andheri-mumbai",
       "laser-skin-rejuvenation-treatment-in-andheri-mumbai",
       "microneedling-&-prp-for-skin-rejuvenation-surgery-in-andheri-mumbai",
       "skin-tightening-surgery-in-andheri-mumbai",
