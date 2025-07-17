@@ -173,7 +173,7 @@ export default function Navbar() {
               About Dr Kunal Sayani
             </a>
             <a
-              href="/about-clinic"
+              href="/about-tvameva-clinic"
               onClick={toggleMobileMenu}
               className="text-gray-700 hover:text-[#1AAEBC] text-base font-medium transition-colors duration-200"
             >
