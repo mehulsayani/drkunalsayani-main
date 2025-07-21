@@ -1,9 +1,17 @@
+
+
 import Image from "next/image";
 import React from "react";
 import Membership from "./Membership";
 import Quote from "./Quote";
 import Affiliations from "./Affiliations";
 import ConsultationSection from "../about-tvameva-clinic/ConsultationSection";
+
+export const metadata = {
+  title: "Dr. Kunal Sayani | Leading Cosmetic & Plastic Surgeon in Mumbai ",
+  description: "Dr. Kunal Sayani is a trusted cosmetic and Aesthetic Plastic surgeon in Andheri. Mumbai, known for advanced treatments, personalized care, and natural results.",
+  keywords: ``,
+};
 
 export default function DrKunalSayani() {
   return (

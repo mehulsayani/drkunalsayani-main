@@ -17,18 +17,16 @@ const notoSans = Noto_Sans({
 });
 
 export const metadata = {
-  title:
-    "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
-  description: `Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, 
-  Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.`,
-  keywords: `   
+  title: "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
+  description: `Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.`,
+  keywords: `
     Best Plastic Surgeon in Mumbai,
     Best Cosmetic Surgeon in Mumbai,
     Plastic Surgery in Mumbai,
     Cosmetic Surgery in Mumbai,
     Cosmetic Surgery in Andheri,
     Best Cosmetic Surgery in Andheri,
-    Cosmetic surgeon in Mumbai,    
+    Cosmetic surgeon in Mumbai,
     Best Cosmetic surgeon in Mumbai,
     Plastic Surgery Clinic in Mumbai,
     Best Plastic Surgeon in Andheri Mumbai,
@@ -48,6 +46,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
       <head>
+        {/* ✅ OG & Twitter Meta Tags */}
+        <meta property="og:title" content="#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai" />
+        <meta
+          property="og:description"
+          content="Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H."
+        />
+        <meta property="og:image" content="https://drkunalsayani.com/favicon.ico" />
+        <meta property="og:url" content="https://drkunalsayani.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai" />
+        <meta
+          name="twitter:description"
+          content="Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H."
+        />
+        <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg" /> */}
+
+        {/* ✅ Google Tag Manager */}
         <Script id="gtm-init" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -58,7 +76,9 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
+
       <body className="antialiased">
+        {/* ✅ GTM noscript fallback */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KP58PKB7"
@@ -68,10 +88,8 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
 
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-2VGL1KMKTY"
-        />
+        {/* ✅ Google Analytics */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2VGL1KMKTY" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -81,7 +99,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        {/* Wrap client components here */}
+        {/* ✅ Client Layout Wrapper */}
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>

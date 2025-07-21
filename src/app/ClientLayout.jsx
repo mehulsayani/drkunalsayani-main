@@ -20,9 +20,9 @@ export default function ClientLayout({ children }) {
       <BookAppointment />
       <Navbar />
       <SecondNavbar />
-      <head>
+       <Head>
         <link rel="canonical" href={canonicalUrl} />
-      </head>
+      </Head>
       <main>{children}</main>
       <ScrollTop />
       <Footer />
