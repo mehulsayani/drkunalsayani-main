@@ -1,28 +1,16 @@
-"use client";
+import React from 'react'
+import ClientComponent from './ClientComponent';
 
-import React from "react";
-import TopNavBanner from "./TopNavBanner";
-import Overview from "./ServiceLayout";
-import FAQSection from "./FAQSection";
-import Testimonials from "@/app/homepage/Testimonials";
-import ConsultationSection from "@/app/about-tvameva-clinic/ConsultationSection";
-import BeforeAfter from "./BeforeAfter";
-import ServiceCandidate from "./ServiceCandidate";
-import Knowledge from "./Knowledge";
+export const metadata = {
+  title: "Post-Pregnancy Tummy Tuck Surgery in Andheri, Mumbai ",
+  description: `Dr. Kunal Sayani offers post-pregnancy tummy tuck surgery in Andheri, Mumbai to restore a flat, toned abdomen and boost body confidence after childbirth.`,
+  keywords: ``,
+};
 
 export default function page() {
   return (
-    <div className="pt-[8rem] max-lg:pt-[5rem]">
-      <TopNavBanner />
-      <Overview />
-      {/* <ServiceCandidate />
-      <BeforeAfter />
-      <Testimonials /> */}
-      {/* <Knowledge /> */}
-      <section id="faq">
-        <FAQSection />
-      </section>
-      <ConsultationSection />
+    <div>
+      <ClientComponent/>
     </div>
-  );
+  )
 }

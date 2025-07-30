@@ -1,28 +1,16 @@
-"use client";
+import React from 'react'
+import ClientComponent from './ClientComponent';
 
-import React from "react";
-import TopNavBanner from "./TopNavBanner";
-import Overview from "./ServiceLayout";
-import FAQSection from "./FAQSection";
-import Testimonials from "@/app/homepage/Testimonials";
-import ConsultationSection from "@/app/about-tvameva-clinic/ConsultationSection";
-import BeforeAfter from "./BeforeAfter";
-import ServiceCandidate from "./ServiceCandidate";
-import Knowledge from "./Knowledge";
+export const metadata = {
+  title: "Best Tummy Tuck Surgery in Andheri, Mumbai | Dr. Kunal Sayani – Abdominoplasty Expert",
+  description: `Dr. Kunal Sayani offers expert tummy tuck (abdominoplasty) surgery in Andheri, Mumbai to remove belly fat, tighten muscles, and contour a flat, toned abdomen.`,
+  keywords: ``,
+};
 
 export default function page() {
   return (
-    <div className="pt-[8rem] max-lg:pt-[5rem]">
-      <TopNavBanner />
-      <Overview />
-      {/* <ServiceCandidate />
-      <BeforeAfter />
-      <Testimonials /> */}
-      {/* <Knowledge /> */}
-      <section id="faq">
-        <FAQSection />
-      </section>
-      <ConsultationSection />
+    <div>
+      <ClientComponent/>
     </div>
-  );
+  )
 }

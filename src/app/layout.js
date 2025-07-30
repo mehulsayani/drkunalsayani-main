@@ -1,16 +1,8 @@
-// ✅ Import global styles
 import "./globals.css";
-
-// ✅ Import Google Fonts via next/font
 import { Noto_Sans, Roboto } from "next/font/google";
-
-// ✅ Import Next.js Script component for injecting third-party scripts
 import Script from "next/script";
+import ClientLayout from "./ClientLayout";
 
-// ✅ Import client layout wrapper to include client-specific logic/UI
-import ClientLayout from "./ClientLayout"; // 👈 Client-side layout wrapper
-
-// ✅ Configure Roboto font with multiple weights and styles
 const roboto = Roboto({
   subsets: ["latin"],
   variable: "--font-roboto",
@@ -18,46 +10,27 @@ const roboto = Roboto({
   style: ["normal", "italic"],
 });
 
-// ✅ Configure Noto Sans font with basic weights
 const notoSans = Noto_Sans({
   subsets: ["latin"],
   variable: "--font-noto",
   weight: ["400", "700"],
 });
 
-// ✅ Define site metadata for SEO
 export const metadata = {
   title: "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
-  description: `Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.`,
-  keywords: `
-    Best Plastic Surgeon in Mumbai,
-    Best Cosmetic Surgeon in Mumbai,
-    Plastic Surgery in Mumbai,
-    Cosmetic Surgery in Mumbai,
-    Cosmetic Surgery in Andheri,
-    Best Cosmetic Surgery in Andheri,
-    Cosmetic surgeon in Mumbai,
-    Best Cosmetic surgeon in Mumbai,
-    Plastic Surgery Clinic in Mumbai,
-    Best Plastic Surgeon in Andheri Mumbai,
-    Plastic Surgeon in Andheri Mumbai,
-    Best Plastic Surgeon in Andheri,
-    Plastic Surgeon in Andheri,
-    plastic surgery cost,
-    cosmetic surgeon near me,
-    cosmetic surgeries near me, 
-  `,
+  description:
+    "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
+  keywords: `Best Plastic Surgeon in Mumbai, Best Cosmetic Surgeon in Mumbai, Plastic Surgery in Mumbai, Cosmetic Surgery in Mumbai, Cosmetic Surgery in Andheri, Best Cosmetic Surgery in Andheri, Cosmetic surgeon in Mumbai, Best Cosmetic surgeon in Mumbai, Plastic Surgery Clinic in Mumbai, Best Plastic Surgeon in Andheri Mumbai, Plastic Surgeon in Andheri Mumbai, Best Plastic Surgeon in Andheri, Plastic Surgeon in Andheri, plastic surgery cost, cosmetic surgeon near me, cosmetic surgeries near me `,
   verification: {
     google: "TRM5uN2AbAEpuMZ-oECmvatuvFw9rdvoKtm-UK8NCsI",
   },
 };
 
-// ✅ Root layout component wraps all pages
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
       <head>
-        {/* ✅ Open Graph (OG) & Twitter meta tags for social sharing */}
+        {/* ✅ OG & Twitter Meta Tags */}
         <meta property="og:title" content="#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai" />
         <meta
           property="og:description"
@@ -68,9 +41,71 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
 
-        {/* ✅ Structured Data: Medical Clinic schema */}
-        <script type="application/ld+json">
-          {`{
+        {/* ✅ Website Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+          {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "Dr. Kunal Sayani",
+            "url": "https://www.drkunalsayani.com/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.drkunalsayani.com/search/{search_term_string}/1",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}} />
+
+        {/* ✅ Searchbox Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.drkunalsayani.com/"
+          }
+        `}} />
+
+        {/* ✅ Organization Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Dr. Kunal Sayani",
+            "legalName": "TVAMEVA AESTHETICS",
+            "url": "https://www.drkunalsayani.com/",
+            "logo": "https://www.drkunalsayani.com/favicon.ico",
+            "foundingDate": "",
+            "founders": [
+              {
+                "@type": "Person",
+                "name": "Dr. Kunal Sayani"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "501/502 Sapphire Plaza Dadabhai road, Swami Vivekananda Rd, Vile Parle West",
+              "addressLocality": "Dadabhai road, Swami Vivekananda Rd, Vile Parle West",
+              "addressRegion": "Mumbai Maharashtra",
+              "postalCode": "400056",
+              "addressCountry": "India"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "Office",
+              "telephone": "+91-9967267567, 02246056767",
+              "email": "contact@drkunalsayani.com"
+            },
+            "sameAs": [
+              "https://www.facebook.com/drkunalsayani.plasticsurgeon",
+              "https://www.instagram.com/drkunalsayani",
+              "https://www.youtube.com/@drkunalsayani"
+            ]
+          }
+        `}} />
+
+        {/* ✅ Logo & Medical Clinic Schema */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+          {
             "@context": "https://schema.org",
             "@type": "MedicalClinic",
             "name": "Dr.KUNAL SAYANI- Plastic and Cosmetic Surgeon in Andheri, Mumbai",
@@ -92,7 +127,9 @@ export default function RootLayout({ children }) {
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+              "dayOfWeek": [
+                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+              ],
               "opens": "09:00",
               "closes": "09:00"
             },
@@ -102,94 +139,10 @@ export default function RootLayout({ children }) {
               "image": "https://www.drkunalsayani.com/_next/image?url=%2Fimages%2Fhomepage%2Fgallery%2Fgallery3.png&w=1080&q=75",
               "telephone": "+91-9967267567, 02246056767"
             }
-          }`}
-        </script>
+          }
+        `}} />
 
-        {/* ✅ Structured Data: WebSite schema with SearchAction */}
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "name": "Dr. Kunal Sayani",
-            "url": "https://www.drkunalsayani.com/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://www.drkunalsayani.com/search/{search_term_string}/1",
-              "query-input": "required name=search_term_string"
-            }
-          }`}
-        </script>
-
-        {/* ✅ Basic WebSite schema */}
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://www.drkunalsayani.com/"
-          }`}
-        </script>
-
-        {/* ✅ Organization Schema with social links */}
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Dr. Kunal Sayani",
-            "alternateName": "TVAMEVA AESTHETICS",
-            "url": "https://www.drkunalsayani.com/",
-            "logo": "https://www.drkunalsayani.com/favicon.ico",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+91-9967267567, 02246056767",
-              "contactType": "customer service",
-              "areaServed": "IN",
-              "availableLanguage": "en"
-            },
-            "sameAs": [
-              "https://www.facebook.com/drkunalsayani.plasticsurgeon",
-              "https://www.instagram.com/drkunalsayani",
-              "https://www.youtube.com/@drkunalsayani"
-            ]
-          }`}
-        </script>
-
-        {/* ✅ Extended Organization schema with address and founders */}
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Dr. Kunal Sayani",
-            "legalName": "TVAMEVA AESTHETICS",
-            "url": "https://www.drkunalsayani.com/",
-            "logo": "https://www.drkunalsayani.com/favicon.ico",
-            "foundingDate": "",
-            "founders": [{
-              "@type": "Person",
-              "name": "Dr. Kunal Sayani"
-            }],
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "501/502 Sapphire Plaza Dadabhai road, Swami Vivekananda Rd, Vile Parle West",
-              "addressLocality": "Dadabhai road, Swami Vivekananda Rd, Vile Parle West",
-              "addressRegion": "Mumbai Maharashtra",
-              "postalCode": "400056",
-              "addressCountry": "India"
-            },
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Office",
-              "telephone": "[+91-9967267567, 02246056767]",
-              "email": "contact@drkunalsayani.com"
-            },
-            "sameAs": [
-              "https://www.facebook.com/drkunalsayani.plasticsurgeon",
-              "https://www.instagram.com/drkunalsayani",
-              "https://www.youtube.com/@drkunalsayani"
-            ]
-          }`}
-        </script>
-
-        {/* ✅ Google Tag Manager (GTM) script */}
+        {/* ✅ Google Tag Manager */}
         <Script id="gtm-init" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -202,7 +155,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="antialiased">
-        {/* ✅ GTM fallback for non-JS environments */}
+        {/* ✅ GTM noscript fallback */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KP58PKB7"
@@ -212,7 +165,7 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
 
-        {/* ✅ Google Analytics tracking script */}
+        {/* ✅ Google Analytics */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2VGL1KMKTY" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -223,7 +176,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        {/* ✅ Render the client-side layout with dynamic content */}
+        {/* ✅ Client Layout Wrapper */}
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
