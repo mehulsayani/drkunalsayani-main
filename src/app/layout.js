@@ -30,16 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
       <head>
-        {/* ✅ OG & Twitter Meta Tags */}
-        <meta property="og:title" content="#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai" />
-        <meta
-          property="og:description"
-          content="Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H."
-        />
-        <meta property="og:image" content="https://drkunalsayani.com/favicon.ico" />
-        <meta property="og:url" content="https://drkunalsayani.com" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_IN" />
+       
 
         {/* ✅ Website Schema */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
@@ -104,7 +95,7 @@ export default function RootLayout({ children }) {
         `}} />
 
         {/* ✅ Logo & Medical Clinic Schema */}
-        {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
           {
             "@context": "https://schema.org",
             "@type": "MedicalClinic",
@@ -120,19 +111,6 @@ export default function RootLayout({ children }) {
               "postalCode": "400056",
               "addressCountry": "IN"
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 19.105925,
-              "longitude": 72.841313
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-              ],
-              "opens": "09:00",
-              "closes": "09:00"
-            },
             "department": {
               "@type": "PlasticSurgery",
               "name": "Dr.KUNAL SAYANI- Plastic and Cosmetic Surgeon in Andheri, Mumbai",
@@ -140,7 +118,7 @@ export default function RootLayout({ children }) {
               "telephone": "+91-9967267567, 02246056767"
             }
           }
-        `}} /> */}
+        `}} />
 
         {/* ✅ Google Tag Manager */}
         <Script id="gtm-init" strategy="afterInteractive">
