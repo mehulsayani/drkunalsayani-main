@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
         `}} />
 
         {/* ✅ Logo & Medical Clinic Schema */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+        {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
           {
             "@context": "https://schema.org",
             "@type": "MedicalClinic",
@@ -140,7 +140,7 @@ export default function RootLayout({ children }) {
               "telephone": "+91-9967267567, 02246056767"
             }
           }
-        `}} />
+        `}} /> */}
 
         {/* ✅ Google Tag Manager */}
         <Script id="gtm-init" strategy="afterInteractive">

@@ -9,7 +9,6 @@ import SecondNavbar from "@/components/Navbar/SecondNavbar";
 import ScrollTop from "@/components/ScrollTop";
 import BookAppointment from "@/components/Navbar/BookAppointment";
 import { usePathname } from "next/navigation";
-import Head from "next/head"; // ✅ Add this line
 
 export default function ClientLayout({ children }) {
   const pathname = usePathname();
@@ -20,9 +19,9 @@ export default function ClientLayout({ children }) {
       <BookAppointment />
       <Navbar />
       <SecondNavbar />
-       <Head>
+       <head>
         <link rel="canonical" href={canonicalUrl} />
-      </Head>
+      </head>
       <main>{children}</main>
       <ScrollTop />
       <Footer />
