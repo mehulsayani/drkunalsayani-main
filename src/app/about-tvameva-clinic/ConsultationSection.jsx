@@ -1,9 +1,20 @@
-"use client"
+"use client"; // add this at top of your component file if you use hooks
 
 import { useState } from "react";
-import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function ConsultationSection() {
+  const router = useRouter();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    service: "",
+    message: "",
+  });
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
    const submenus = [
   {
     title: "Hair",
@@ -83,51 +94,41 @@ export default function ConsultationSection() {
   },
 ];
 
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    service: "",
-    message: "",
-  });
-
-  const [status, setStatus] = useState(null); // success or error message
-
   const handleChange = (e) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
+    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus(null);
+    setLoading(true);
+    setError("");
 
     try {
       const res = await fetch("/api/send-email", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify(formData),
       });
 
-      const data = await res.json();
-
-      if (res.ok) {
-        setStatus({ type: "success", message: "Consultation booked successfully!" });
-        setFormData({ name: "", email: "", phone: "", service: "", message: "" });
-      } else {
-        setStatus({ type: "error", message: data.error || "Something went wrong." });
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.error || "Something went wrong");
       }
-    } catch (error) {
-      setStatus({ type: "error", message: "Failed to send request." });
+
+      // On success, navigate to /thank-you
+      router.push("/thank-you");
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <section className="py-16 px-4 w-full md:px-6 bg-[#1AAEBC] text-gray-800 flex justify-center items-center">
       <div className="max-w-[1200px] w-full flex flex-col max-lg:flex-col-reverse lg:flex-row gap-10">
-        {/* Left Content */}
         <div className="w-full lg:w-1/2">
           <h2 className="text-5xl mb-4 text-white font-bold">
             Ready to Begin Your Transformation?
@@ -135,42 +136,40 @@ export default function ConsultationSection() {
           <p className="text-base md:text-lg mb-6 text-white">
             At Tvameva, we tailor every consultation to your unique goals—offering expert care with honesty and compassion. Let’s take the first step together.
           </p>
-
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid md:grid-cols-2 gap-4">
               <input
-                name="name"
                 type="text"
+                name="name"
                 placeholder="Your Name"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 value={formData.name}
                 onChange={handleChange}
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 required
               />
               <input
-                name="email"
                 type="email"
+                name="email"
                 placeholder="Your Email"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 value={formData.email}
                 onChange={handleChange}
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 required
               />
               <input
-                name="phone"
                 type="tel"
+                name="phone"
                 placeholder="Phone Number"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 value={formData.phone}
                 onChange={handleChange}
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 required
               />
-
               <select
                 name="service"
-                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 value={formData.service}
                 onChange={handleChange}
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
                 required
               >
                 <option value="">Choose an Option</option>
@@ -185,44 +184,26 @@ export default function ConsultationSection() {
                 ))}
               </select>
             </div>
-
             <textarea
-              name="message"
               rows="4"
+              name="message"
               placeholder="Your Message"
-              className="border border-gray-300 p-3 rounded w-full bg-white"
               value={formData.message}
               onChange={handleChange}
+              className="border border-gray-300 p-3 rounded w-full bg-white"
             ></textarea>
-
+            {error && <p className="text-red-600">{error}</p>}
             <button
               type="submit"
+              disabled={loading}
               className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-yellow-500 transition"
             >
-              Book Consultation
+              {loading ? "Sending..." : "Book Consultation"}
             </button>
           </form>
-
-          {status && (
-            <p
-              className={`mt-4 font-semibold ${
-                status.type === "success" ? "text-green-500" : "text-red-500"
-              }`}
-            >
-              {status.message}
-            </p>
-          )}
         </div>
-
-        {/* Right Content */}
         <div className="w-full lg:w-1/2 flex justify-center items-center">
-          <Image
-            src="/images/services/body/tummytuck/consultation2.jpg"
-            alt="Satisfied client"
-            width={400}
-            height={400}
-            className="rounded-2xl w-full max-w-[500px] h-auto"
-          />
+          {/* Your Image component here */}
         </div>
       </div>
     </section>
