@@ -16,6 +16,12 @@ export const metadata = {
 export default function DrKunalSayani() {
   return (
     <div className="pt-[8rem] max-lg:pt-[4rem]  font-[roboto]">
+        {/* ✅ OG & Twitter Meta Tags */}
+        <meta property="og:title" content="Dr. Kunal Sayani | Leading Cosmetic & Plastic Surgeon in Mumbai" />
+        <meta
+          property="og:description"
+          content="Dr. Kunal Sayani is a trusted cosmetic and Aesthetic Plastic surgeon in Andheri. Mumbai, known for advanced treatments, personalized care, and natural results."
+        />
       <section className=" px-4 bg-[#E5F4F6] max-lg:pb-10 ">
         <div className="max-w-[1100px] mx-auto flex flex-col lg:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
           <div className="flex-1 max-lg:text-center">

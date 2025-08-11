@@ -1,8 +1,10 @@
-// components/ConsultationSection.jsx
+"use client"
+
+import { useState } from "react";
 import Image from "next/image";
 
 export default function ConsultationSection() {
-  const submenus = [
+   const submenus = [
   {
     title: "Hair",
     items: [
@@ -81,6 +83,47 @@ export default function ConsultationSection() {
   },
 ];
 
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    service: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState(null); // success or error message
+
+  const handleChange = (e) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus(null);
+
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setStatus({ type: "success", message: "Consultation booked successfully!" });
+        setFormData({ name: "", email: "", phone: "", service: "", message: "" });
+      } else {
+        setStatus({ type: "error", message: data.error || "Something went wrong." });
+      }
+    } catch (error) {
+      setStatus({ type: "error", message: "Failed to send request." });
+    }
+  };
+
   return (
     <section className="py-16 px-4 w-full md:px-6 bg-[#1AAEBC] text-gray-800 flex justify-center items-center">
       <div className="max-w-[1200px] w-full flex flex-col max-lg:flex-col-reverse lg:flex-row gap-10">
@@ -92,42 +135,66 @@ export default function ConsultationSection() {
           <p className="text-base md:text-lg mb-6 text-white">
             At Tvameva, we tailor every consultation to your unique goals—offering expert care with honesty and compassion. Let’s take the first step together.
           </p>
-          <form className="space-y-4">
+
+          <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid md:grid-cols-2 gap-4">
               <input
+                name="name"
                 type="text"
                 placeholder="Your Name"
                 className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                value={formData.name}
+                onChange={handleChange}
+                required
               />
               <input
+                name="email"
                 type="email"
                 placeholder="Your Email"
                 className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                value={formData.email}
+                onChange={handleChange}
+                required
               />
               <input
+                name="phone"
                 type="tel"
                 placeholder="Phone Number"
                 className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                value={formData.phone}
+                onChange={handleChange}
+                required
               />
-              
- <select className="border border-gray-300 p-3 rounded-lg w-full bg-white">
-  <option>Choose an Option</option>
-  {submenus.map((menu, idx) => (
-    <optgroup key={idx} label={menu.title}>
-      {menu.items.map((item, itemIdx) => (
-        <option key={itemIdx} value={item}>
-          {item}
-        </option>
-      ))}
-    </optgroup>
-  ))}
-</select>
+
+              <select
+                name="service"
+                className="border border-gray-300 p-3 rounded-lg w-full bg-white"
+                value={formData.service}
+                onChange={handleChange}
+                required
+              >
+                <option value="">Choose an Option</option>
+                {submenus.map((menu, idx) => (
+                  <optgroup key={idx} label={menu.title}>
+                    {menu.items.map((item, itemIdx) => (
+                      <option key={itemIdx} value={item}>
+                        {item}
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
+              </select>
             </div>
+
             <textarea
+              name="message"
               rows="4"
               placeholder="Your Message"
               className="border border-gray-300 p-3 rounded w-full bg-white"
+              value={formData.message}
+              onChange={handleChange}
             ></textarea>
+
             <button
               type="submit"
               className="bg-yellow-300 w-full text-black px-6 py-3 rounded-lg hover:bg-yellow-500 transition"
@@ -135,6 +202,16 @@ export default function ConsultationSection() {
               Book Consultation
             </button>
           </form>
+
+          {status && (
+            <p
+              className={`mt-4 font-semibold ${
+                status.type === "success" ? "text-green-500" : "text-red-500"
+              }`}
+            >
+              {status.message}
+            </p>
+          )}
         </div>
 
         {/* Right Content */}
@@ -151,4 +228,3 @@ export default function ConsultationSection() {
     </section>
   );
 }
-
