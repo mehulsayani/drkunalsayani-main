@@ -16,16 +16,12 @@ export default function ClientLayout({ children }) {
 
   return (
     <Provider store={store}>
-      <meta property="og:image" content="https://drkunalsayani.com/favicon.ico" />
-              <meta property="og:url" content={`https://drkunalsayani.com${pathname}`} />
-              <meta property="og:type" content="website" />
-              <meta property="og:locale" content="en_IN" />
+      <head>
+        <link rel="canonical" href={canonicalUrl} />
+      </head>
       <BookAppointment />
       <Navbar />
       <SecondNavbar />
-       <head>
-        <link rel="canonical" href={canonicalUrl} />
-      </head>
       <main>{children}</main>
       <ScrollTop />
       <Footer />

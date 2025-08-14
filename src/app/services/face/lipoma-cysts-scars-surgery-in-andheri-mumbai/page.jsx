@@ -5,6 +5,23 @@ export const metadata = {
   title: "",
   description: ``,
   keywords: ``,
+    metadataBase: new URL("https://www.drkunalsayani.com"),
+    openGraph: {
+    title: "",
+    description: "",
+    url: "/services/face/lipoma-cysts-scars-surgery-in-andheri-mumbai",
+    siteName: "Dr. Kunal Sayani",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+
+    locale: "en_IN", // Your requested locale.
+    type: "website",
+  },
 };
 
 export default function page() {

@@ -24,102 +24,92 @@ export const metadata = {
   verification: {
     google: "TRM5uN2AbAEpuMZ-oECmvatuvFw9rdvoKtm-UK8NCsI",
   },
+  metadataBase: new URL("https://www.drkunalsayani.com"),
+  openGraph: {
+    title: "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
+    description:
+      "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
+    url: "/", // Base URL for the site. Child pages can override this.
+    siteName: "Dr. Kunal Sayani",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+
+    locale: "en_IN", // Your requested locale.
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        name: "Dr. Kunal Sayani",
+        url: "https://www.drkunalsayani.com/",
+        potentialAction: {
+          "@type": "SearchAction",
+          target: "https://www.drkunalsayani.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "MedicalClinic",
+        name: "Dr. Kunal Sayani - Plastic and Cosmetic Surgeon",
+        image:
+          "https://www.drkunalsayani.com/images/your-main-clinic-photo.jpg", // ✅ CORRECTED: Use a direct, absolute URL to a high-quality source image.
+        url: "https://www.drkunalsayani.com/",
+        logo: "https://www.drkunalsayani.com/images/your-logo.png", // ✅ CORRECTED: Use a direct URL to a proper logo file, not a favicon.
+        telephone: "+919967267567",
+        priceRange: "$$$", // Optional: Indicate price range (e.g., $, $$, $$$)
+        address: {
+          "@type": "PostalAddress",
+          streetAddress:
+            "501/502 Sapphire Plaza, Dadabhai Road, Swami Vivekananda Rd, Vile Parle West",
+          addressLocality: "Mumbai", // ✅ CORRECTED: City
+          addressRegion: "MH", // ✅ CORRECTED: State (abbreviation is common)
+          postalCode: "400056",
+          addressCountry: "IN",
+        },
+        openingHoursSpecification: [
+          // Highly recommended for local businesses
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+            ],
+            opens: "10:00",
+            closes: "19:00",
+          },
+        ],
+        sameAs: [
+          // Social media and other official profiles
+          "https://www.facebook.com/drkunalsayani.plasticsurgeon",
+          "https://www.instagram.com/drkunalsayani",
+          "https://www.youtube.com/@drkunalsayani",
+        ],
+        medicalSpecialty: "PlasticSurgery", // ✅ CORRECTED: Uses the valid 'medicalSpecialty' property
+        founder: {
+          "@type": "Person",
+          name: "Dr. Kunal Sayani",
+        },
+      },
+    ],
+  };
+
   return (
     <html lang="en" className={`${roboto.variable} ${notoSans.variable}`}>
       <head>
-       
-
-        {/* ✅ Website Schema */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
-          {
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "name": "Dr. Kunal Sayani",
-            "url": "https://www.drkunalsayani.com/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://www.drkunalsayani.com/search/{search_term_string}/1",
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}} />
-
-        {/* ✅ Searchbox Schema */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://www.drkunalsayani.com/"
-          }
-        `}} />
-
-        {/* ✅ Organization Schema */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Dr. Kunal Sayani",
-            "legalName": "TVAMEVA AESTHETICS",
-            "url": "https://www.drkunalsayani.com/",
-            "logo": "https://www.drkunalsayani.com/favicon.ico",
-            "foundingDate": "",
-            "founders": [
-              {
-                "@type": "Person",
-                "name": "Dr. Kunal Sayani"
-              }
-            ],
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "501/502 Sapphire Plaza Dadabhai road, Swami Vivekananda Rd, Vile Parle West",
-              "addressLocality": "Dadabhai road, Swami Vivekananda Rd, Vile Parle West",
-              "addressRegion": "Mumbai Maharashtra",
-              "postalCode": "400056",
-              "addressCountry": "India"
-            },
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "contactType": "Office",
-              "telephone": "+91-9967267567, 02246056767",
-              "email": "contact@drkunalsayani.com"
-            },
-            "sameAs": [
-              "https://www.facebook.com/drkunalsayani.plasticsurgeon",
-              "https://www.instagram.com/drkunalsayani",
-              "https://www.youtube.com/@drkunalsayani"
-            ]
-          }
-        `}} />
-
-        {/* ✅ Logo & Medical Clinic Schema */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "MedicalClinic",
-            "name": "Dr.KUNAL SAYANI- Plastic and Cosmetic Surgeon in Andheri, Mumbai",
-            "image": "https://www.drkunalsayani.com/_next/image?url=%2Fimages%2Fhomepage%2Faboutdoctor%2Fkunal_sayani1.png&w=384&q=75",
-            "@id": "https://www.drkunalsayani.com/",
-            "url": "https://www.drkunalsayani.com/",
-            "telephone": "+91-9967267567, 02246056767",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "501/502 Sapphire Plaza, Dadabhai Road, Swami Vivekananda Rd, Vile Parle West",
-              "addressLocality": "Mumbai",
-              "postalCode": "400056",
-              "addressCountry": "IN"
-            },
-            "department": {
-              "@type": "PlasticSurgery",
-              "name": "Dr.KUNAL SAYANI- Plastic and Cosmetic Surgeon in Andheri, Mumbai",
-              "image": "https://www.drkunalsayani.com/_next/image?url=%2Fimages%2Fhomepage%2Fgallery%2Fgallery3.png&w=1080&q=75",
-              "telephone": "+91-9967267567, 02246056767"
-            }
-          }
-        `}} />
-
         {/* ✅ Google Tag Manager */}
         <Script id="gtm-init" strategy="afterInteractive">
           {`
@@ -130,6 +120,11 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-KP58PKB7');
           `}
         </Script>
+        {/* ✅ Single, Combined, and Corrected JSON-LD Schema Script */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+        />
       </head>
 
       <body className="antialiased">
@@ -144,7 +139,10 @@ export default function RootLayout({ children }) {
         </noscript>
 
         {/* ✅ Google Analytics */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-2VGL1KMKTY" />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-2VGL1KMKTY"
+        />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];

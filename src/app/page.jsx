@@ -30,16 +30,7 @@ export default function page() {
   };
 
   return (
-    <div className="">
-      <head>
-         {/* ✅ OG & Twitter Meta Tags */}
-        <meta property="og:title" content="#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai" />
-        <meta
-          property="og:description"
-          content="Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H."
-        />
-        
-      </head>
+    <div>
       <Hero />
       <AboutDoctor />
       <Aesthetics />
