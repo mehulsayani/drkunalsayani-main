@@ -132,11 +132,36 @@ export default function About() {
 
           <p className="text-base max-lg:w-[90%] max-md:text-base max-lg:text-sm text-gray-800 max-lg:text-center leading-relaxed mb-3">
             With a comprehensive range of procedures offered — including{" "}
-            <strong>Liposuction</strong>, <strong>Tummy Tuck</strong>,{" "}
-            <strong>Breast Reduction and Implants</strong>,{" "}
-            <strong>Rhinoplasty</strong>, <strong>Neck Lift</strong>,{" "}
-            <strong>Face Lift (Rhytidectomy)</strong>,{" "}
-            <strong>Mastopexy</strong>, and{" "}
+            <strong>
+              <a href="https://www.drkunalsayani.com/services/body/liposuction-surgeon-in-andheri-mumbai">
+                Liposuction
+              </a>
+            </strong>
+            ,{" "}
+            <strong>
+              <a href="https://www.drkunalsayani.com/services/body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai">
+                Tummy Tuck
+              </a>
+            </strong>
+            ,{" "}
+            <strong>
+              <a href="https://www.drkunalsayani.com/services/breast/breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai">
+                Breast Reduction and Implants
+              </a>
+            </strong>
+            ,{" "}
+            <strong>
+              <a href="https://www.drkunalsayani.com/services/men/rhinoplasty-nose-job-surgery-in-mumbai">
+                Rhinoplasty
+              </a>
+            </strong>
+            , <strong>Neck Lift</strong>,{" "}
+            <strong>
+              <a href="https://www.drkunalsayani.com/services/face/facelift-surgery-in-andheri-mumbai">
+                Face Lift (Rhytidectomy)
+              </a>
+            </strong>
+            , <strong>Mastopexy</strong>, and{" "}
             <strong>Facial Plastic Surgery</strong>{" "}
             <p className="max-xl:hidden max-lg:block">
               Dr. Kunal is known for delivering personalized outcomes that
@@ -199,8 +224,10 @@ export default function About() {
             <Slider {...settings}>
               {images.map((img, i) => (
                 <div key={i} className="px-2">
-                  <div className="bg-white p-2 rounded-lg shadow-md w-34 h-34 
-                   max-xl:w-24 max-lg:w-20  max-xl:h-24 max-lg:h-20 mx-auto">
+                  <div
+                    className="bg-white p-2 rounded-lg shadow-md w-34 h-34 
+                   max-xl:w-24 max-lg:w-20  max-xl:h-24 max-lg:h-20 mx-auto"
+                  >
                     <Image
                       src={`/images/homepage/aboutdoctor/${img}.png`}
                       alt={`Membership ${i + 1}`}
@@ -215,7 +242,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      
     </section>
   );
 }
