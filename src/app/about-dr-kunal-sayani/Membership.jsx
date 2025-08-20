@@ -59,7 +59,7 @@ export default function Membership() {
         <p className="text-gray-600 mb-3 leading-relaxed">
           With a comprehensive range of procedures offered — including
           Liposuction, Tummy Tuck, Breast Reduction and Implants, Rhinoplasty,
-          Neck Liti, Face Liti (Rhytidectomy), Mastopexy, and Facial Plastic
+          Neck Liti, Face Lift (Rhytidectomy), Mastopexy, and Facial Plastic
           Surgery
         </p>
         <p className="text-gray-600 mb-3 leading-relaxed">
