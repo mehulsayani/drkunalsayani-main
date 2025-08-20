@@ -126,7 +126,7 @@ export default function Navbar() {
                 {/* <CallForm /> */}
                 <button
                        onClick={() => dispatch(openModal())}
-                  className="bg-[#1aaebc] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"
+                  className="book-appointment-link-click bg-[#1aaebc] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"
                 >
                   Book Appointment
                 </button>
