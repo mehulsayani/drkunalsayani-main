@@ -6,20 +6,20 @@ import Link from "next/link";
 
 export default function ServicesSection() {
   const services = [
-    { name: "Breast Augmentation", slug: "breast/breast-augmentation" },
+    { name: "Breast Augmentation", slug: "breast/breast-augmentation-surgery-in-andheri-mumbai" },
     {
       name: "Breast Reduction",
-      slug: "breast/breast-reduction-&-axillary-breasts-excision",
+      slug: "breast/breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai",
     },
-    { name: "Gynecomastia", slug: "men/gynaecomastia" },
-    { name: "Liposuction", slug: "body/liposuction" },
-    { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty" },
-    { name: "Face Lift", slug: "face/facelift" },
+    { name: "Gynecomastia", slug: "men/gynaecomastia-surgery-in-andheri-mumbai" },
+    { name: "Liposuction", slug: "body/liposuction-surgeon-in-andheri-mumbai" },
+    { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai" },
+    { name: "Face Lift", slug: "face/facelift-surgery-in-andheri-mumbai" },
     {
       name: "Botox / Derma Fillers",
-      slug: "non-surgical/botox-wrinkles-anti-ageing",
+      slug: "non-surgical/botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai",
     },
-    { name: "Hair Transplant", slug: "hair/hair-transplant" },
+    { name: "Hair Transplant", slug: "hair/hair-transplant-in-andheri-mumbai" },
   ];
 
   // 👇 Default selected is first service
