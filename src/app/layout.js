@@ -29,7 +29,7 @@ export const metadata = {
     title: "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
     description:
       "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
-    url: "/", // Base URL for the site. Child pages can override this.
+    url: "/",
     siteName: "Dr. Kunal Sayani",
     images: [
       {
@@ -38,8 +38,7 @@ export const metadata = {
         height: 630,
       },
     ],
-
-    locale: "en_IN", // Your requested locale.
+    locale: "en_IN",
     type: "website",
   },
 };
@@ -62,22 +61,21 @@ export default function RootLayout({ children }) {
         "@type": "MedicalClinic",
         name: "Dr. Kunal Sayani - Plastic and Cosmetic Surgeon",
         image:
-          "https://www.drkunalsayani.com/images/your-main-clinic-photo.jpg", // ✅ CORRECTED: Use a direct, absolute URL to a high-quality source image.
+          "https://www.drkunalsayani.com/images/your-main-clinic-photo.jpg",
         url: "https://www.drkunalsayani.com/",
-        logo: "https://www.drkunalsayani.com/images/your-logo.png", // ✅ CORRECTED: Use a direct URL to a proper logo file, not a favicon.
+        logo: "https://www.drkunalsayani.com/images/your-logo.png",
         telephone: "+919967267567",
-        priceRange: "$$$", // Optional: Indicate price range (e.g., $, $$, $$$)
+        priceRange: "$$$",
         address: {
           "@type": "PostalAddress",
           streetAddress:
             "501/502 Sapphire Plaza, Dadabhai Road, Swami Vivekananda Rd, Vile Parle West",
-          addressLocality: "Mumbai", // ✅ CORRECTED: City
-          addressRegion: "MH", // ✅ CORRECTED: State (abbreviation is common)
+          addressLocality: "Mumbai",
+          addressRegion: "MH",
           postalCode: "400056",
           addressCountry: "IN",
         },
         openingHoursSpecification: [
-          // Highly recommended for local businesses
           {
             "@type": "OpeningHoursSpecification",
             dayOfWeek: [
@@ -93,16 +91,78 @@ export default function RootLayout({ children }) {
           },
         ],
         sameAs: [
-          // Social media and other official profiles
           "https://www.facebook.com/drkunalsayani.plasticsurgeon",
           "https://www.instagram.com/drkunalsayani",
           "https://www.youtube.com/@drkunalsayani",
         ],
-        medicalSpecialty: "PlasticSurgery", // ✅ CORRECTED: Uses the valid 'medicalSpecialty' property
+        medicalSpecialty: "PlasticSurgery",
         founder: {
           "@type": "Person",
           name: "Dr. Kunal Sayani",
         },
+      },
+    ],
+  };
+
+  const siteNavigationSchema = {
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    itemListElement: [
+      {
+        "@type": "SiteNavigationElement",
+        position: 1,
+        name: "Home",
+        description: "Homes Desc...",
+        url: "https://www.drkunalsayani.com/",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 2,
+        name: "About Dr Kunal Sayani",
+        description: "About Dr kunal sayani desc...",
+        url: "https://www.drkunalsayani.com/about-dr-kunal-sayani",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 3,
+        name: "About Tvameva Clinic",
+        description: "About Tvameva clinic desc...",
+        url: "https://www.drkunalsayani.com/about-tvameva-clinic",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 4,
+        name: "Reviews",
+        description: "Reviews desc...",
+        url: "https://www.drkunalsayani.com/reviews",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 5,
+        name: "Gallery",
+        description: "Gallery desc...",
+        url: "https://www.drkunalsayani.com/gallery",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 6,
+        name: "Pricing",
+        description: "Pricing desc...",
+        url: "https://www.drkunalsayani.com/pricing",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 7,
+        name: "Blog",
+        description: "Blog desc...",
+        url: "https://www.drkunalsayani.com/blog",
+      },
+      {
+        "@type": "SiteNavigationElement",
+        position: 8,
+        name: "Book Appointment",
+        description: "Book Appointment desc...",
+        url: "https://www.drkunalsayani.com/book-appointment",
       },
     ],
   };
@@ -120,10 +180,17 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-KP58PKB7');
           `}
         </Script>
-        {/* ✅ Single, Combined, and Corrected JSON-LD Schema Script */}
+
+        {/* ✅ Combined Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+        />
+
+        {/* ✅ Site Navigation Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationSchema) }}
         />
       </head>
 
