@@ -190,7 +190,9 @@ export default function RootLayout({ children }) {
         {/* ✅ Site Navigation Schema */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationSchema) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(siteNavigationSchema),
+          }}
         />
       </head>
 
