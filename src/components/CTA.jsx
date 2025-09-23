@@ -92,7 +92,7 @@ export default function CTA() {
               <FaInstagram />
             </a>
             <a
-              href="https://www.facebook.com/sharer/sharer.php?u="
+              href="https://www.facebook.com/share/17dUmNUn2y/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#1877F2] hover:scale-110 focus:scale-110 active:scale-110 transition text-xl max-lg:text-3xl"
@@ -101,7 +101,7 @@ export default function CTA() {
               <FaFacebookF />
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://youtube.com/@drkunalsayani?si=tdwXB74-5OayGnp5"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#FF0000] hover:scale-110 focus:scale-110 active:scale-110 transition text-xl max-lg:text-3xl"
@@ -110,7 +110,7 @@ export default function CTA() {
               <BsYoutube />
             </a>
             <a
-              href="https://www.linkedin.com/shareArticle?mini=true&url="
+              href="https://www.linkedin.com/in/kunal-sayani-180b9722b/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#0077B5] hover:scale-110 focus:scale-110 active:scale-110 transition text-xl max-lg:text-3xl"
