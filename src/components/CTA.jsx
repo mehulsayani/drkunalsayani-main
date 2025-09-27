@@ -26,7 +26,7 @@ export default function CTA() {
       >
         {/* Phone Button */}
         <a
-          href="tel:919967267567"
+          href="tel:9967267567"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-800 text-white p-3 shadow-md rounded-tl-lg max-lg:rounded-tl-none 
