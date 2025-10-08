@@ -9,7 +9,7 @@ export const metadata = {
     openGraph: {
     title: "",
     description: "",
-    url: "/services/face/eyelid-surgery-blepharoplasty-in-andheri-mumbai",
+    url: "/services/face/eyelid-surgery-blepharoplasty-in-mumbai",
     siteName: "Dr. Kunal Sayani",
     images: [
       {

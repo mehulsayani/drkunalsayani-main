@@ -9,7 +9,7 @@ export const metadata = {
     openGraph: {
     title: "",
     description: "",
-    url: "/services/face/chin-augmentation-surgery-in-andheri-mumbai",
+    url: "/services/face/chin-augmentation-surgery-in-mumbai",
     siteName: "Dr. Kunal Sayani",
     images: [
       {
