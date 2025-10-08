@@ -49,13 +49,6 @@ const specializations = [
     image: "/images/homepage/specialization/face-lift.jpg",
     link: "/services/face/facelift-surgery-in-mumbai",
   },
-  // {
-  //   title: "Botox | Derma Fillers",
-  //   description1:
-  //     "Smooth fine lines, enhance facial volume, and restore youthful contours non-surgically.",
-  //   image: "/images/homepage/specialization/botox.jpg",
-  //   link: "/services/non-surgical/botox-wrinkles-anti-ageing-treatment-in-mumbai",
-  // },
   {
     title: "Hair Transplant",
     description1:

@@ -121,11 +121,6 @@ const faqs = [
     answer:
       "Fact: This is a dangerous myth. Dermal filler injections are a medical procedure that requires a deep understanding of facial anatomy, sterile technique, and the ability to manage potential complications. They should only be administered by highly qualified and experienced medical professionals like an aesthetic surgeon such as Dr. Kunal Sayani, in a clinical setting. Receiving fillers from untrained individuals or in non-medical environments significantly increases the risk of complications.",
   },
-  {
-    question: "Myth: Dermal fillers and Botox are the same.",
-    answer:
-      "Fact: This is a common misconception. Both are injectables but work differently. Botox relaxes muscles to smooth dynamic wrinkles (wrinkles formed by muscle movement). Dermal fillers add volume to fill static lines (wrinkles present at rest), plump features, and restore facial contours. Dr. Kunal Sayani often uses both in combination for a comprehensive rejuvenation.",
-  },
 ];
 
 export default function FAQSection() {

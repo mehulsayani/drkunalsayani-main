@@ -57,7 +57,7 @@ export default function Overview() {
             </p>
 
             <p className="mb-4">
-              At our <strong>Andheri, Mumbai clinic</strong>, Dr. Kunal Sayani,
+              At our state-of-the-art surgery center in <strong>Andheri, Mumbai</strong>, Dr. Kunal Sayani,
               a board-certified aesthetic surgeon with extensive experience in
               body contouring, approaches each BBL with a deep understanding of
               human anatomy and aesthetic ideals. He is committed to delivering

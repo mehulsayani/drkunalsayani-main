@@ -54,11 +54,6 @@ const faqs = [
       "While any surgery that involves an incision will result in a scar, Dr. Kunal Sayani is an expert at minimizing their appearance. He meticulously places incisions in natural creases and hidden areas (like within the hairline or around the ear for a facelift). He also uses advanced suturing techniques and provides detailed aftercare instructions to help your scars heal and fade to be as inconspicuous as possible over time.",
   },
   {
-    question: "Are non-surgical treatments like Botox® and fillers effective?",
-    answer:
-      "Yes, non-surgical treatments are excellent for addressing specific concerns like dynamic wrinkles (Botox®) and volume loss (dermal fillers). They offer great results with minimal to no downtime. However, their effects are temporary. For more significant concerns like sagging skin and jowls, a surgical procedure like a facelift often provides a more dramatic and long-lasting solution. Dr. Sayani can help you decide which approach is best for you.",
-  },
-  {
     question: "What is the recovery process like?",
     answer:
       "Recovery varies significantly depending on the procedure. For non-surgical treatments, you can often return to daily activities immediately. For surgical procedures, you will have a specific recovery timeline. This typically involves a period of rest, managing swelling and bruising, and wearing compression garments. Dr. Sayani and his team will provide you with detailed post-operative instructions and will be available to support you throughout your recovery.",

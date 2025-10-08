@@ -5,12 +5,6 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Botox (wrinkles-anti-ageing)",
-    link: "/services/mommy-makeover/mommy-makeover-package-custom-combination-of-procedures-mumbai",
-    description: "Advanced treatments for hair restoration and growth.",
-    image: "/images/services/nonsurgical/Botox (wrinkles-anti-ageing).jpg",
-  },
-  {
     title: "Dermal Fillers",
     link: "/services/non-surgical/dermal-fillers-treatment-mumbai",
     description: "Enhance your facial features with expert surgical care.",
@@ -23,13 +17,6 @@ const services = [
       "Customized breast augmentation, reduction, or lift procedures.",
     image: "/images/services/nonsurgical/Laser Skin Rejuvenation.jpg",
   },
-  // {
-  //   title: "Microneedling & PRP for Skin Rejuvenation",
-  //   link: "/services/non-surgical/microneedling-&-prp-for-skin-rejuvenation-surgery-in-mumbai",
-  //   description: "Contouring procedures to sculpt your ideal body shape.",
-  //   image:
-  //     "/images/services/nonsurgical/Microneedling & PRP for Skin Rejuvenation.jpg",
-  // },
   {
     title: "Skin Tightening",
     link: "/services/non-surgical/skin-tightening-surgery-in-mumbai",

@@ -7,16 +7,6 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What are PRP, GFC, and Nanofat SVC for hair restoration?",
-    answer:
-      "PRP (Platelet-Rich Plasma) and GFC (Growth Factor Concentrate) are non-surgical treatments that use your blood to stimulate hair follicles. Nanofat SVC (Stem Cell-Based Therapy) uses stem cells from your fat tissue to regenerate damaged follicles. These treatments promote hair growth and improve hair density.",
-  },
-  {
-    question: "What is the difference between PRP and GFC?",
-    answer:
-      "GFC is considered an advancement over PRP. While both use your blood, GFC is processed to deliver a higher concentration of pure growth factors without other blood cells, potentially leading to better results with less inflammation.",
-  },
-  {
     question: "What makes Nanofat SVC so special?",
     answer:
       "Nanofat SVC therapy goes beyond just growth factors; it delivers a payload of your body's own stem cells directly to the scalp. These stem cells have a powerful regenerative capacity to repair and rejuvenate damaged follicles, making it a very potent treatment for hair thinning.",

@@ -85,14 +85,6 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="/services/non-surgical/botox-wrinkles-anti-ageing-treatment-in-mumbai"
-                className="hover:text-white"
-              >
-                Botox
-              </a>
-            </li>
-            <li>
               <a href="/services/body/liposuction-surgeon-in-mumbai" className="hover:text-white">
                 Liposuction
               </a>
