@@ -9,7 +9,7 @@ import ConsultationSection from "../about-tvameva-clinic/ConsultationSection";
 
 export const metadata = {
   title: "Dr. Kunal Sayani | Leading Cosmetic & Plastic Surgeon in Mumbai ",
-  description: "Dr. Kunal Sayani is a trusted cosmetic and Aesthetic Plastic surgeon in Andheri. Mumbai, known for advanced treatments, personalized care, and natural results.",
+  description: "Dr. Kunal Sayani is a trusted cosmetic and Aesthetic Plastic surgeon in Mumbai, known for advanced treatments, personalized care, and natural results.",
   keywords: ``,
 };
 
@@ -20,7 +20,7 @@ export default function DrKunalSayani() {
         <meta property="og:title" content="Dr. Kunal Sayani | Leading Cosmetic & Plastic Surgeon in Mumbai" />
         <meta
           property="og:description"
-          content="Dr. Kunal Sayani is a trusted cosmetic and Aesthetic Plastic surgeon in Andheri. Mumbai, known for advanced treatments, personalized care, and natural results."
+          content="Dr. Kunal Sayani is a trusted cosmetic and Aesthetic Plastic surgeon in Mumbai, known for advanced treatments, personalized care, and natural results."
         />
       <section className=" px-4 bg-[#E5F4F6] max-lg:pb-10 ">
         <div className="max-w-[1100px] mx-auto flex flex-col lg:flex-row items-center gap-8 max-lg:flex-col-reverse justify-center">
@@ -34,7 +34,7 @@ export default function DrKunalSayani() {
             </p>
             <p className="text-md mb-4 text-[#000000] max-w-2xl">
               Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
-              based in Andheri, Mumbai, with over 8 years of experience in
+              based in Andheri, Mumbai, with over 10 years of experience in
               aesthetic and reconstructive surgery. Known for his
               patient-centric approach and surgical precision, he blends
               advanced medical expertise with a refined aesthetic sense —

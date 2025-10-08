@@ -45,7 +45,7 @@ export default function ServiceCandidate() {
             {[
               `We conduct detailed scalp and hair analysis to identify the root cause of your hair loss before recommending treatment`,
               `Every scalp is unique — we create custom regimens tailored to your hair type, loss pattern, and lifestyle.`,
-              `From PRP/GFC/Exosome therapy to modern hair transplant techniques, we offer a full spectrum of cutting-edge solutions.`,
+              `From GFC/Exosome therapy to modern hair transplant techniques, we offer a full spectrum of cutting-edge solutions.`,
               `Our team includes renowned dermatologists and surgeons with years of expertise in treating male and female hair loss.
 
 `,

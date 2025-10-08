@@ -25,7 +25,7 @@ const Knowledge = () => {
               </p>
 
               <h2 className="text-2xl font-semibold mt-4">
-                Your In-Depth Consultation in Andheri
+                Your In-Depth Consultation
               </h2>
               <p>
                 The process begins with a comprehensive, private consultation with Dr. Kunal Sayani. This is the most critical step, where your specific needs and aesthetic goals are discussed in detail. During this session:
@@ -107,7 +107,7 @@ const Knowledge = () => {
                 Weeks 2 to 6: Gradual Return to Normalcy
               </h3>
               <ul className="list-disc ml-6 space-y-2">
-                <li>Follow-Up: You will have follow-up appointments at our Andheri, Mumbai clinic to check your healing progress.</li>
+                <li>Follow-Up: You will have follow-up appointments at our Andheri, Mumbai surgical center to check your healing progress.</li>
                 <li>Light Activity: You can gradually resume light activities. Most women can return to a non-strenuous job within 2 weeks.</li>
                 <li>Driving: You can resume driving once you are off all prescription pain medication and can perform emergency maneuvers comfortably.</li>
                 <li>Continued Restrictions: Continue to avoid strenuous exercise, heavy lifting, and any activity that puts strain on your chest. You may be able to resume carrying older toddlers at the end of this period, as advised by Dr. Sayani.</li>

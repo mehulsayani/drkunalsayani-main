@@ -2,14 +2,14 @@ import React from 'react'
 import ClientComponent from './ClientComponent';
 
 export const metadata = {
-  title: "Best Genital Cosmetic Surgeon in Andheri Mumbai | Dr. Kunal Sayani",
-  description: `Dr. Kunal Sayani offers genital cosmetic surgery in Andheri, Mumbai to restore feminine wellness, improve appearance, and boost confidence post-pregnancy.`,
+  title: "Best Genital Cosmetic Surgeon in Mumbai | Dr. Kunal Sayani",
+  description: `Dr. Kunal Sayani offers genital cosmetic surgery in Mumbai to restore feminine wellness, improve appearance, and boost confidence post-pregnancy.`,
   keywords: ``,
     metadataBase: new URL("https://www.drkunalsayani.com"),
     openGraph: {
-    title: "Best Genital Cosmetic Surgeon in Andheri Mumbai | Dr. Kunal Sayani",
-    description: "Dr. Kunal Sayani offers genital cosmetic surgery in Andheri, Mumbai to restore feminine wellness, improve appearance, and boost confidence post-pregnancy.",
-    url: "/services/mommy-makeover/genital-cosmetic-surgeries-in-andheri-mumbai",
+    title: "Best Genital Cosmetic Surgeon in Mumbai | Dr. Kunal Sayani",
+    description: "Dr. Kunal Sayani offers genital cosmetic surgery in Mumbai to restore feminine wellness, improve appearance, and boost confidence post-pregnancy.",
+    url: "/services/mommy-makeover/genital-cosmetic-surgeries-in-mumbai",
     siteName: "Dr. Kunal Sayani",
     images: [
       {

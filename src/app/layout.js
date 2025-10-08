@@ -17,18 +17,18 @@ const notoSans = Noto_Sans({
 });
 
 export const metadata = {
-  title: "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
+  title: "#1 Best Plastic & Cosmetic Surgeon in Mumbai",
   description:
-    "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
-  keywords: `Best Plastic Surgeon in Mumbai, Best Cosmetic Surgeon in Mumbai, Plastic Surgery in Mumbai, Cosmetic Surgery in Mumbai, Cosmetic Surgery in Andheri, Best Cosmetic Surgery in Andheri, Cosmetic surgeon in Mumbai, Best Cosmetic surgeon in Mumbai, Plastic Surgery Clinic in Mumbai, Best Plastic Surgeon in Andheri Mumbai, Plastic Surgeon in Andheri Mumbai, Best Plastic Surgeon in Andheri, Plastic Surgeon in Andheri, plastic surgery cost, cosmetic surgeon near me, cosmetic surgeries near me `,
+    "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
+  keywords: `Best Plastic Surgeon in Mumbai, Best Cosmetic Surgeon in Mumbai, Plastic Surgery in Mumbai, Cosmetic Surgery in Mumbai, Best Cosmetic Surgeon in Mumbai, Cosmetic surgeon in Mumbai, Plastic Surgery Clinic in Mumbai, Plastic Surgeon in Mumbai, Best Plastic Surgeon in Mumbai, plastic surgery cost, cosmetic surgeon near me, cosmetic surgeries near me `,
   verification: {
     google: "TRM5uN2AbAEpuMZ-oECmvatuvFw9rdvoKtm-UK8NCsI",
   },
   metadataBase: new URL("https://www.drkunalsayani.com"),
   openGraph: {
-    title: "#1 Best Plastic & Cosmetic Surgeon in Andheri, Mumbai",
+    title: "#1 Best Plastic & Cosmetic Surgeon in Mumbai",
     description:
-      "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Andheri, Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
+      "Consult Dr. Kunal Sayani, top rated plastic & cosmetic surgeon in Mumbai. Specializing in advanced procedures at a leading cosmetic surgery clinic in Mumbai M.H.",
     url: "/",
     siteName: "Dr. Kunal Sayani",
     images: [

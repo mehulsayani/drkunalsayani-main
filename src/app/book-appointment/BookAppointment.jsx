@@ -25,7 +25,6 @@ const BookAppointment = () => {
       items: [
         "Select Your Purpose",
         "Hair Transplant",
-        "Hair Restoration PRP GFC Exosomes",
         "Nano fat injection (SVC) for Hair Growth",
       ],
     },
@@ -72,10 +71,8 @@ const BookAppointment = () => {
     {
       title: "Non Surgical",
       items: [
-        "Botox (wrinkles-anti-ageing)",
         "Dermal Fillers",
         "Laser Skin Rejuvenation",
-        "Microneedling & PRP for Skin Rejuvenation",
         "Skin Tightening",
       ],
     },

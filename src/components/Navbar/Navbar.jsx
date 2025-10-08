@@ -2,21 +2,16 @@
 
 import Image from "next/image";
 
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import Dropdown from "./Dropdown";
-import { FiPhoneCall, FiMenu, FiX } from "react-icons/fi";
-import CallForm from "./CallForm";
+import { FiMenu, FiX } from "react-icons/fi";
 import ToggleSubMenu from "./ToggleSubMenu";
 import Link from "next/link";
-import SecondNavbar from "./SecondNavbar";
 import { openModal } from "@/redux/bookAppointmentSlice";
 import { useDispatch } from "react-redux";
 
 
 export default function Navbar() {
  const dispatch = useDispatch();
-  const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -123,7 +118,6 @@ export default function Navbar() {
             {/* Right-side controls */}
             <div className="flex items-center gap-2 sm:gap-4">
               <div className="flex items-center gap-2 sm:gap-4 ">
-                {/* <CallForm /> */}
                 <button
                        onClick={() => dispatch(openModal())}
                   className="book-appointment-link-click bg-[#1aaebc] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"

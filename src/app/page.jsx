@@ -2,11 +2,8 @@
 
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
-import Image from "next/image";
 
 import Hero from "@/app/homepage/hero/Hero";
-import Navbar from "@/components/Navbar/Navbar";
 import AboutDoctor from "./homepage/AboutDoctor";
 import AboutCompany from "./homepage/AboutCompany";
 import Testimonials from "./homepage/Testimonials";

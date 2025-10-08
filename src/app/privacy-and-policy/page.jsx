@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
         <li>
           <strong>Individual Results Will Vary:</strong> Each person’s anatomy, healing ability,
           and aesthetic goals are different. Therefore, outcomes from procedures like rhinoplasty,
-          liposuction, breast augmentation, PRP/GFC, or facial aesthetics will vary between individuals.
+          liposuction, breast augmentation,  or facial aesthetics will vary between individuals.
           No guarantees of specific results are made.
         </li>
         <li>

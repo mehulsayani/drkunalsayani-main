@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Affiliations() {
   const affiliations = [
-    "Criticare Hospital Juhu & Andheri East",
+    "Criticare Hospital Juhu & Andheri",
     "Sujay Hospital, Juhu",
     "KLS Hospital, Irla, Vile Parle",
     "Irla Nursing Home",

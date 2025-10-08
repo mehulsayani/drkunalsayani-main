@@ -65,7 +65,7 @@ const faqs = [
   {
     question: "Why choose Dr. Kunal Sayani for gynecomastia surgery?",
     answer:
-      "Dr. Kunal Sayani is a highly experienced aesthetic and plastic surgeon with over 8 years of expertise in gynecomastia treatment. He uses advanced, minimally invasive techniques that ensure effective, safe, and natural-looking results, along with compassionate patient care throughout the treatment journey.",
+      "Dr. Kunal Sayani is a highly experienced aesthetic and plastic surgeon with over 10 years of expertise in gynecomastia treatment. He uses advanced, minimally invasive techniques that ensure effective, safe, and natural-looking results, along with compassionate patient care throughout the treatment journey.",
   },
   {
     question: "What are common myths about gynecomastia?",

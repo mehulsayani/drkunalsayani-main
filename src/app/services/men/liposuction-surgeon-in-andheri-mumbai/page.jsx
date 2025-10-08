@@ -9,7 +9,7 @@ export const metadata = {
     openGraph: {
     title: "",
     description: "",
-    url: "/services/men/liposuction-surgeon-in-andheri-mumbai",
+    url: "/services/men/liposuction-surgeon-in-mumbai",
     siteName: "Dr. Kunal Sayani",
     images: [
       {

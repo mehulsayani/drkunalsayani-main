@@ -6,20 +6,20 @@ import Link from "next/link";
 
 export default function ServicesSection() {
   const services = [
-    { name: "Breast Augmentation", slug: "breast/breast-augmentation-surgery-in-andheri-mumbai" },
+    { name: "Breast Augmentation", slug: "breast/breast-augmentation-surgery-in-mumbai" },
     {
       name: "Breast Reduction",
-      slug: "breast/breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai",
+      slug: "breast/breast-reduction-&-axillary-breasts-excision-surgery-in-mumbai",
     },
-    { name: "Gynecomastia", slug: "men/gynaecomastia-surgery-in-andheri-mumbai" },
-    { name: "Liposuction", slug: "body/liposuction-surgeon-in-andheri-mumbai" },
-    { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai" },
-    { name: "Face Lift", slug: "face/facelift-surgery-in-andheri-mumbai" },
-    {
-      name: "Botox / Derma Fillers",
-      slug: "non-surgical/botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai",
-    },
-    { name: "Hair Transplant", slug: "hair/hair-transplant-in-andheri-mumbai" },
+    { name: "Gynecomastia", slug: "men/gynaecomastia-surgery-in-mumbai" },
+    { name: "Liposuction", slug: "body/liposuction-surgeon-in-mumbai" },
+    { name: "Tummy Tuck", slug: "body/tummy-tuck-abdominoplasty-surgery-in-mumbai" },
+    { name: "Face Lift", slug: "face/facelift-surgery-in-mumbai" },
+    // {
+    //   name: "Botox / Derma Fillers",
+    //   slug: "non-surgical/botox-wrinkles-anti-ageing-treatment-in-mumbai",
+    // },
+    { name: "Hair Transplant", slug: "hair/hair-transplant-in-mumbai" },
   ];
 
   // 👇 Default selected is first service

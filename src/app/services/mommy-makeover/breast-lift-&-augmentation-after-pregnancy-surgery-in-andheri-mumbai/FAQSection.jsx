@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "I live outside of Mumbai. How can I manage the consultation and follow-ups?",
     answer:
-      "We welcome patients from all over India and abroad to our clinic in Andheri, Mumbai. We can facilitate an initial virtual consultation to discuss your goals. For the procedure and essential post-operative checks, you will need to plan a stay in Mumbai. Our team can assist with logistical advice.",
+      "We welcome patients from all over India and abroad to our state of the art cosmetic surgery center in Andheri, Mumbai. We can facilitate an initial virtual consultation to discuss your goals. For the procedure and essential post-operative checks, you will need to plan a stay in Mumbai. Our team can assist with logistical advice.",
   },
   {
     question: "Can I have more children after this surgery?",

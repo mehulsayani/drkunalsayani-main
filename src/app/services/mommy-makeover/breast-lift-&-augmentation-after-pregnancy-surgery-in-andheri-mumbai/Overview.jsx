@@ -30,7 +30,7 @@ export default function Overview() {
             A Breast Lift with Augmentation, a cornerstone of the "Mommy
             Makeover," is a powerful combination procedure specifically designed
             to address these post-partum changes. Performed by expert aesthetic
-            surgeon Dr. Kunal Sayani at his state-of-the-art clinic in Andheri,
+            surgeon Dr. Kunal Sayani at his state-of-the-art surgical center in Andheri,
             Mumbai, this surgery is tailored to restore both the volume and the
             youthful position of your breasts in a single operation. The breast
             lift (mastopexy) corrects the sagging by removing excess skin and

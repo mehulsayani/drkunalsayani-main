@@ -113,7 +113,7 @@ export default function About() {
 
           <p className="text-base max-lg:w-[90%] max-lg:text-sm max-md:text-base max-lg:text-center text-gray-800 leading-relaxed mb-2">
             Dr. Kunal Sayani is a distinguished Plastic & Aesthetic Surgeon
-            based in Andheri, Mumbai, with over 8 years of dedicated experience
+            based in Andheri, Mumbai, with over 10 years of dedicated experience
             in the field of aesthetic and reconstructive surgery. Known for his
             patient-centric approach and surgical precision, Dr. Sayani
             seamlessly blends advanced medical knowledge with a refined
@@ -133,19 +133,19 @@ export default function About() {
           <p className="text-base max-lg:w-[90%] max-md:text-base max-lg:text-sm text-gray-800 max-lg:text-center leading-relaxed mb-3">
             With a comprehensive range of procedures offered — including{" "}
             <strong>
-              <a href="https://www.drkunalsayani.com/services/body/liposuction-surgeon-in-andheri-mumbai">
+              <a href="https://www.drkunalsayani.com/services/body/liposuction-surgeon-in-mumbai">
                 Liposuction
               </a>
             </strong>
             ,{" "}
             <strong>
-              <a href="https://www.drkunalsayani.com/services/body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai">
+              <a href="https://www.drkunalsayani.com/services/body/tummy-tuck-abdominoplasty-surgery-in-mumbai">
                 Tummy Tuck
               </a>
             </strong>
             ,{" "}
             <strong>
-              <a href="https://www.drkunalsayani.com/services/breast/breast-reduction-&-axillary-breasts-excision-surgery-in-andheri-mumbai">
+              <a href="https://www.drkunalsayani.com/services/breast/breast-reduction-&-axillary-breasts-excision-surgery-in-mumbai">
                 Breast Reduction and Implants
               </a>
             </strong>
@@ -157,7 +157,7 @@ export default function About() {
             </strong>
             , <strong>Neck Lift</strong>,{" "}
             <strong>
-              <a href="https://www.drkunalsayani.com/services/face/facelift-surgery-in-andheri-mumbai">
+              <a href="https://www.drkunalsayani.com/services/face/facelift-surgery-in-mumbai">
                 Face Lift (Rhytidectomy)
               </a>
             </strong>

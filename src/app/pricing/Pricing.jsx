@@ -28,8 +28,8 @@ const pricingData = [
   { sr: 23, procedure: "Dimple Creation", charges: "₹30,000 - ₹60,000" },
   { sr: 24, procedure: "Threadlift (Includes cost of threads)", charges: "₹30,000 - ₹1,25,000" },
   { sr: 25, procedure: "Jawline Enhancement (Non-surgical)", charges: "₹25,000 - ₹85,000" },
-  { sr: 26, procedure: "Hair Transplant (per graft)", charges: "₹45 - ₹75" },
-  { sr: 27, procedure: "PRP / GCF / Exosomes / SVF for Hair Growth", charges: "₹7,500 - ₹35,000" },
+  { sr: 26, procedure: "Hair Transplant (per graft)", charges: "₹45 - ₹125" },
+  // { sr: 27, procedure: "PRP / GCF / Exosomes / SVF for Hair Growth", charges: "₹7,500 - ₹35,000" },
   { sr: 28, procedure: "Consultation / Tele Consult Fees", charges: "₹2,000" },
 ];
 

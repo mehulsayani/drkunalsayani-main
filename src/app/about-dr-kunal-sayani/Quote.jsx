@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import { Quote as QuoteIcon } from "lucide-react";
 import { openModal } from "@/redux/bookAppointmentSlice";
 import { useDispatch } from "react-redux";
@@ -22,7 +21,6 @@ export default function Quote() {
           restored confidence and improved quality of life.”
         </p>
         <div className="flex items-center gap-2 sm:gap-4 max-lg:hidden">
-          {/* <CallForm /> */}
           <button
             onClick={() => dispatch(openModal())}
             className="bg-[#1aaebcaf] text-white px-3 py-2 sm:px-4 sm:py-2 rounded-lg text-sm font-medium hover:bg-[#148d98] transition-colors duration-200"

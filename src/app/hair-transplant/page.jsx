@@ -14,7 +14,7 @@ import {
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FAQSection from "../services/hair/hair-transplant-in-andheri-mumbai/FAQSection";
+import FAQSection from "../services/hair/hair-transplant-in-mumbai/FAQSection";
 import Testimonials from "../homepage/Testimonials";
 import { IoIosHappy } from "react-icons/io";
 
@@ -192,7 +192,7 @@ export default function Page() {
             <ul className="space-y-4 text-left">
               {[
                 "Dr. Kunal Sayani is a Board-Certified Plastic & Aesthetic Surgeon based in Andheri, Mumbai.",
-                "Over 8 years of experience in aesthetic and reconstructive surgery.",
+                "Over 10 years of experience in aesthetic and reconstructive surgery.",
                 "Completed MCh and MS from Grant Medical College & Sir J.J. Hospital, Mumbai.",
                 "Specializes in Liposuction, Tummy Tuck, Rhinoplasty, and Facial Aesthetic Surgeries.",
                 "Known for delivering natural results with a patient-focused and safety-first approach.",

@@ -99,7 +99,7 @@ const Knowledge = () => {
               <ul className="list-disc ml-6 space-y-1 mb-4">
                 <li><strong>Activity:</strong> Light walking is encouraged to promote circulation, but all strenuous activities, heavy lifting, and intense exercise are strictly prohibited.</li>
                 <li><strong>Diet & Hydration:</strong> Maintain a healthy diet and stay well-hydrated to support the healing process.</li>
-                <li><strong>Follow-ups:</strong> Attend all your scheduled follow-up appointments at our Andheri clinic to allow Dr. Sayani to monitor your healing progress.</li>
+                <li><strong>Follow-ups:</strong> Attend all your scheduled follow-up appointments at our Andheri surgical center to allow Dr. Sayani to monitor your healing progress.</li>
               </ul>
 
               <h3 className="font-semibold mt-4">

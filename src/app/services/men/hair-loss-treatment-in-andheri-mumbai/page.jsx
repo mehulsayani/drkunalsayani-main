@@ -9,7 +9,7 @@ export const metadata = {
     openGraph: {
     title: "",
     description: "",
-    url: "/services/men/hair-loss-treatment-in-andheri-mumbai",
+    url: "/services/men/hair-loss-treatment-in-mumbai",
     siteName: "Dr. Kunal Sayani",
     images: [
       {

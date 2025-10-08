@@ -3,12 +3,11 @@ import Image from "next/image";
 import {
   FaInstagram,
   FaFacebook,
-  FaTwitter,
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { MdPhone, MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
+import { MdPhone, MdEmail, MdAccessTime } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -55,7 +54,7 @@ export default function Footer() {
           <ul className="space-y-2 ">
             <li>
               <a
-                href="/services/body/tummy-tuck-abdominoplasty-surgery-in-andheri-mumbai"
+                href="/services/body/tummy-tuck-abdominoplasty-surgery-in-mumbai"
                 className="hover:text-white"
               >
                 Tummy Tuck Abdominoplasty
@@ -63,7 +62,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/breast/breast-augmentation-surgery-in-andheri-mumbai"
+                href="/services/breast/breast-augmentation-surgery-in-mumbai"
                 className="hover:text-white"
               >
                 Breast Augmentation
@@ -71,7 +70,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/hair/hair-transplant-in-andheri-mumbai"
+                href="/services/hair/hair-transplant-in-mumbai"
                 className="hover:text-white"
               >
                 Hair Transplant
@@ -79,7 +78,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/body/buttock-augmentation-bbl-surgery-in-andheri-mumbai"
+                href="/services/body/buttock-augmentation-bbl-surgery-in-mumbai"
                 className="hover:text-white"
               >
                 Buttock Augmentation
@@ -87,14 +86,14 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/services/non-surgical/botox-wrinkles-anti-ageing-treatment-in-andheri-mumbai"
+                href="/services/non-surgical/botox-wrinkles-anti-ageing-treatment-in-mumbai"
                 className="hover:text-white"
               >
                 Botox
               </a>
             </li>
             <li>
-              <a href="/services/body/liposuction-surgeon-in-andheri-mumbai" className="hover:text-white">
+              <a href="/services/body/liposuction-surgeon-in-mumbai" className="hover:text-white">
                 Liposuction
               </a>
             </li>

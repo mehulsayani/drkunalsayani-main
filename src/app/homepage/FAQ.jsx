@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "Is the consultation confidential?",
     answer:
-      "Absolutely. Patient privacy is of the utmost importance to us. Your consultation and all subsequent records are handled with the strictest confidentiality in our Andheri, Mumbai clinic.",
+      "Absolutely. Patient privacy is of the utmost importance to us. Your consultation and all subsequent records are handled with the strictest confidentiality in our Mumbai clinic.",
   },
   {
     question: "Is there a fee for the initial consultation?",

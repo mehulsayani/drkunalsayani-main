@@ -12,27 +12,27 @@ const services = [
   },
   {
     title: "Dermal Fillers",
-    link: "/services/non-surgical/dermal-fillers-treatment-andheri-mumbai",
+    link: "/services/non-surgical/dermal-fillers-treatment-mumbai",
     description: "Enhance your facial features with expert surgical care.",
     image: "/images/services/nonsurgical/Dermal Fillers.jpg",
   },
   {
     title: "Laser Skin Rejuvenation",
-    link: "/services/non-surgical/laser-skin-rejuvenation-treatment-in-andheri-mumbai",
+    link: "/services/non-surgical/laser-skin-rejuvenation-treatment-in-mumbai",
     description:
       "Customized breast augmentation, reduction, or lift procedures.",
     image: "/images/services/nonsurgical/Laser Skin Rejuvenation.jpg",
   },
-  {
-    title: "Microneedling & PRP for Skin Rejuvenation",
-    link: "/services/non-surgical/microneedling-&-prp-for-skin-rejuvenation-surgery-in-andheri-mumbai",
-    description: "Contouring procedures to sculpt your ideal body shape.",
-    image:
-      "/images/services/nonsurgical/Microneedling & PRP for Skin Rejuvenation.jpg",
-  },
+  // {
+  //   title: "Microneedling & PRP for Skin Rejuvenation",
+  //   link: "/services/non-surgical/microneedling-&-prp-for-skin-rejuvenation-surgery-in-mumbai",
+  //   description: "Contouring procedures to sculpt your ideal body shape.",
+  //   image:
+  //     "/images/services/nonsurgical/Microneedling & PRP for Skin Rejuvenation.jpg",
+  // },
   {
     title: "Skin Tightening",
-    link: "/services/non-surgical/skin-tightening-surgery-in-andheri-mumbai",
+    link: "/services/non-surgical/skin-tightening-surgery-in-mumbai",
     description: "Restore your pre-pregnancy body with combined procedures.",
     image: "/images/services/nonsurgical/Skin Tightening.jpg",
   },

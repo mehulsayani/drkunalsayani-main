@@ -42,7 +42,7 @@ const Knowledge = () => {
                 Designing Your Mommy Makeover: The Consultation
               </h2>
               <p>
-                Your journey begins at our welcoming clinic in Andheri, Mumbai, with a comprehensive and compassionate consultation with Dr. Kunal Sayani. This is a collaborative process where you will:
+                Your journey begins at our state of the art cosmetic surgery center in Andheri, Mumbai, with a comprehensive and compassionate consultation with Dr. Kunal Sayani. This is a collaborative process where you will:
               </p>
               <ul className="list-disc ml-6 space-y-2">
                 <li><strong>Share Your Vision:</strong> You'll have an open discussion about the specific areas of your body you wish to improve and the aesthetic results you hope to achieve.</li>

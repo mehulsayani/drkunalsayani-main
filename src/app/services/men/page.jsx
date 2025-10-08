@@ -6,22 +6,22 @@ import Image from "next/image";
 const services = [
   {
     title: "Gynaecomastia",
-    link: "/services/men/gynaecomastia-surgery-in-andheri-mumbai",
+    link: "/services/men/gynaecomastia-surgery-in-mumbai",
     description: "Surgical correction of enlarged male breasts for a more defined chest.",
     image: "/images/services/men/Gynaecomastia.jpeg",
   },
   {
     title: "Liposuction",
-    link: "/services/men/liposuction-surgeon-in-andheri-mumbai",
+    link: "/services/men/liposuction-surgeon-in-mumbai",
     description: "Removes localized fat deposits to sculpt and contour the male physique.",
     image: "/images/services/body/liposuction/liposuction-min.jpg",
   },
-  {
-    title: "Hair Loss Treatment",
-    link: "/services/men/liposuction-surgeon-in-andheri-mumbai",
-    description: "Non-surgical solutions like PRP and medications to combat hair thinning.",
-    image: "/images/services/men/hair-loss-treatment.jpg",
-  },
+  // {
+  //   title: "Hair Loss Treatment",
+  //   link: "/services/men/liposuction-surgeon-in-mumbai",
+  //   description: "Non-surgical solutions like PRP and medications to combat hair thinning.",
+  //   image: "/images/services/men/hair-loss-treatment.jpg",
+  // },
   {
     title: "Hair Transplant",
     link: "/services/men/hair-transplant-in-mumbai",

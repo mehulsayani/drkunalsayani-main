@@ -94,10 +94,10 @@ export default function Overview() {
                     The next generation of growth factor therapies for potent
                     hair follicle stimulation.
                   </li>
-                  <li>
+                  {/* <li>
                     <strong>Platelet-Rich Plasma (PRP) Therapy:</strong> A
                     trusted method for boosting hair density and thickness.
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>

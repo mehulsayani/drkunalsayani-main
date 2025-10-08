@@ -20,7 +20,6 @@ export default function ConsultationSection() {
     title: "Hair",
     items: [
       "Hair Transplant",
-      "Hair Restoration PRP GFC Exosomes",
       "Nano fat injection (SVC) for Hair Growth",
     ],
   },
@@ -67,10 +66,8 @@ export default function ConsultationSection() {
   {
     title: "Non Surgical",
     items: [
-      "Botox (wrinkles-anti-ageing)",
       "Dermal Fillers",
       "Laser Skin Rejuvenation",
-      "Microneedling & PRP for Skin Rejuvenation",
       "Skin Tightening",
     ],
   },

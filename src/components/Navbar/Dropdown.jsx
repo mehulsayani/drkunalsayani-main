@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { FaHeartbeat, FaMicroscope, FaBrain, FaTint } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 export default function Dropdown() {
@@ -39,17 +38,6 @@ export default function Dropdown() {
       {
         icon: (
           <Image alt="" 
-            src={"/images/homepage/navbar/dropdown/men/hair/prp.png"}
-            width={40}
-            height={40}
-          />
-        ),
-        label: "PRP Hair Growth Treatment",
-        link: "/",
-      },
-      {
-        icon: (
-          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/men/hair/syringe.png"}
             width={40}
             height={40}
@@ -60,17 +48,6 @@ export default function Dropdown() {
       },
     ],
     Skin: [
-      {
-        icon: (
-          <Image alt="" 
-            src={"/images/homepage/navbar/dropdown/men/skin/botox.png"}
-            width={40}
-            height={40}
-          />
-        ),
-        label: "Botox for Men",
-        link: "/",
-      },
       {
         icon: (
           <Image alt="" 
@@ -217,17 +194,6 @@ export default function Dropdown() {
       {
         icon: (
           <Image alt="" 
-            src={"/images/homepage/navbar/dropdown/women/hair/prp.png"}
-            width={40}
-            height={40}
-          />
-        ),
-        label: "PRP Hair Growth Treatment",
-        link: "/",
-      },
-      {
-        icon: (
-          <Image alt="" 
             src={"/images/homepage/navbar/dropdown/women/hair/syringe.png"}
             width={40}
             height={40}
@@ -238,17 +204,6 @@ export default function Dropdown() {
       },
     ],
     Skin: [
-      {
-        icon: (
-          <Image alt="" 
-            src={"/images/homepage/navbar/dropdown/women/skin/botox.png"}
-            width={40}
-            height={40}
-          />
-        ),
-        label: "Botox for Women",
-        link: "/",
-      },
       {
         icon: (
           <Image alt="" 

@@ -6,19 +6,13 @@ import Image from "next/image";
 const services = [
   {
     title: "Hair Transplant",
-    link: "/services/hair/hair-transplant-in-andheri-mumbai",
+    link: "/services/hair/hair-transplant-in-mumbai",
     description: "Permanent hair restoration using advanced transplant techniques.",
     image: "/images/homepage/specialization/hair-transplant.jpg",
   },
   {
-    title: "Hair Restoration PRP GFC Exosomes",
-    link: "/services/hair/hair-restoration-prp-gfc-exosomes-in-andheri-mumbai",
-    description: "Stimulate natural hair growth using PRP, GFC, and Exosome therapy.",
-    image: "/images/services/hair/2149152753.jpg",
-  },
-  {
     title: "Nano fat injection (SVF) for Hair Growth",
-    link: "/services/hair/nano-fat-injection-svf-for-hair-growth-in-andheri-mumbai",
+    link: "/services/hair/nano-fat-injection-svf-for-hair-growth-in-mumbai",
     description: "Boost hair regrowth using stem-cell-rich nano fat injections.",
     image: "/images/services/hair/2149404688.jpg",
   },

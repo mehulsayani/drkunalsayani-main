@@ -93,7 +93,7 @@ const Knowledge = () => {
                 <li><strong>Exosomes:</strong> Exosomes are nanoscale vesicles derived from regenerative cells that act as powerful messengers, carrying proteins and genetic information to other cells. In hair restoration, lab-purified exosomes are applied to the scalp. They instruct the hair follicle cells to regenerate, repair damaged tissue, and promote active growth phases, offering a powerful tool against hair loss at a cellular level.</li>
               </ul>
 
-              <h3 className="font-semibold mt-4">
+              {/* <h3 className="font-semibold mt-4">
                 3. Platelet-Rich Plasma (PRP) Therapy
               </h3>
               <p className="ml-4">
@@ -114,7 +114,7 @@ const Knowledge = () => {
                     <li>Can be used as a standalone treatment or in conjunction with a hair transplant.</li>
                   </ul>
                 </li>
-              </ul>
+              </ul> */}
 
               <h2
                 id="recovery"
@@ -137,12 +137,12 @@ const Knowledge = () => {
               </ul>
 
               <h3 className="font-semibold mt-4">
-                For Injection-Based Therapies (Nanofat, GFC, PRP):
+                For Injection-Based Therapies (Nanofat, GFC):
               </h3>
               <ul className="list-disc ml-6 space-y-1 mb-4">
                 <li><strong>Immediate Post-Procedure:</strong> The scalp may feel tender with mild redness or swelling, which typically subsides within a few hours to a day.</li>
                 <li><strong>First 24-48 Hours:</strong> Avoid washing your hair, strenuous activity, and excessive sweating.</li>
-                <li><strong>Aftercare:</strong> You can typically resume normal activities the next day. A series of sessions may be recommended for GFC and PRP, usually spaced 4-6 weeks apart, to achieve the best results.</li>
+                <li><strong>Aftercare:</strong> You can typically resume normal activities the next day. A series of sessions may be recommended for GFC, usually spaced 4-6 weeks apart, to achieve the best results.</li>
               </ul>
 
               <h2
@@ -156,7 +156,7 @@ const Knowledge = () => {
               </p>
               <ul className="list-disc ml-6 space-y-1 mb-4">
                 <li><strong>Surgical Risks:</strong> As with any surgery, risks are minimal but can include infection, bleeding, swelling, and temporary numbness. The risk of visible scarring is significantly minimized by Dr. Sayani’s advanced surgical techniques (micro-incisions in FUE and Trichophytic closure in FUT).</li>
-                <li><strong>Regenerative Therapy Risks:</strong> Because treatments like Nanofat, GFC, and PRP use your body's own cells/tissue, the risk of allergic reaction or rejection is virtually eliminated. The primary risks are minor and related to the injection process, such as temporary pain, pinpoint bleeding, swelling, or bruising at the injection sites.</li>
+                <li><strong>Regenerative Therapy Risks:</strong> Because treatments like Nanofat, and GFC use your body's own cells/tissue, the risk of allergic reaction or rejection is virtually eliminated. The primary risks are minor and related to the injection process, such as temporary pain, pinpoint bleeding, swelling, or bruising at the injection sites.</li>
                 <li><strong>Choosing the Right Surgeon:</strong> The most significant factor in ensuring both safety and a natural-looking outcome is the skill and experience of your surgeon. Dr. Kunal Sayani's extensive training and artistic eye are your best assurance of a safe and successful procedure.</li>
               </ul>
 

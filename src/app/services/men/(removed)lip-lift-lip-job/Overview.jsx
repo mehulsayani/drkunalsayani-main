@@ -27,8 +27,8 @@ export default function Overview() {
           </p>
           <p className="mb-3">
             A Lip Lift is a highly sophisticated and precise surgical procedure
-            designed to permanently address this concern. At his premier
-            aesthetic clinic in Andheri, Mumbai, expert aesthetic surgeon Dr.
+            designed to permanently address this concern. At our premier
+            aesthetic surgical center in Andheri, Mumbai, expert aesthetic surgeon Dr.
             Kunal Sayani performs this delicate "lip job" to shorten the
             philtrum, evert (roll out) the upper lip, and increase the amount of
             visible pink lip tissue. This creates a fuller, more defined, and

@@ -28,7 +28,7 @@ const Knowledge = () => {
                 Your Personalized Consultation in Mumbai
               </h2>
               <p className="mb-4">
-                Your journey begins with an in-depth, one-on-one consultation with Dr. Kunal Sayani at his clinic in Andheri, Mumbai. This crucial meeting will involve:
+                Your journey begins with an in-depth, one-on-one consultation with Dr. Kunal Sayani at our surgical center in Andheri, Mumbai. This crucial meeting will involve:
               </p>
               <ul className="list-disc ml-6 space-y-2 mb-4">
                 <li><strong>A Detailed Facial Analysis:</strong> Dr. Sayani will assess your complete facial anatomy, not just your lips. He will measure the length of your philtrum, evaluate your lip shape, volume, symmetry, and note how much of your upper teeth show when your face is at rest and when you smile.</li>
@@ -92,7 +92,7 @@ const Knowledge = () => {
                 <li><strong>Diet:</strong> Eat soft foods that do not require excessive chewing. Drink through a straw if it's more comfortable, but avoid puckering your lips.</li>
                 <li><strong>Oral Hygiene:</strong> Be very gentle when brushing your teeth. Use a smaller toothbrush and avoid opening your mouth too wide.</li>
                 <li><strong>Incision Care:</strong> You will be instructed on how to gently clean the incision line with a prescribed solution to prevent crusting and infection. An antibiotic ointment may be recommended.</li>
-                <li><strong>Suture Removal:</strong> You will return to our Andheri, Mumbai clinic about 5-7 days after surgery for Dr. Sayani to remove the superficial sutures.</li>
+                <li><strong>Suture Removal:</strong> You will return to our Mumbai surgical center about 5-7 days after surgery for Dr. Sayani to remove the superficial sutures.</li>
               </ul>
 
               <h3 className="font-semibold mt-4">
